@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net45;netcoreapp2.1;netcoreapp3.1</TargetFrameworks>
+    <RootNamespace>Worldline.Connect.Sdk</RootNamespace>
+    <AssemblyVersion>4.0.0</AssemblyVersion>
+    <Version>4.0.0</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Company>Worldline Global Collect</Company>
+    <Product>Worldline Connect .NET SDK unit tests</Product>
+    <Description>Unit tests for the Worldline Connect .NET SDK</Description>
+    <PackageTags>Worldline Global Collect Connect SDK</PackageTags>
+    <Copyright>Copyright (c) 2016 Global Collect Services B.V.</Copyright>
+    <Authors>Worldline Global Collect</Authors>
+    <PackageProjectUrl>https://docs.connect.worldline-solutions.com/documentation/sdk/server/dotnet/</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageIcon>packageIcon.png</PackageIcon>
+    <PackageIconUrl>https://github.com/Worldline-Global-Collect/connect-sdk-dotnet/blob/master/packageIcon.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/Worldline-Global-Collect/connect-sdk-dotnet</RepositoryUrl>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Worldline.Connect.Sdk\Worldline.Connect.Sdk.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AP.MockHttpServer" Version="1.5.0.1061" />
+    <PackageReference Include="Moq" Version="4.13.1" />
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
+    <PackageReference Include="NunitXml.TestLogger" Version="2.1.41" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net45'">
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\packageIcon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

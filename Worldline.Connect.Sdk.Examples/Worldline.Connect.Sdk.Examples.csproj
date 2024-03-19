@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net45;netstandard2.0;netstandard2.1</TargetFrameworks>
+    <RootNamespace>Worldline.Connect.Sdk</RootNamespace>
+    <AssemblyVersion>4.0.0</AssemblyVersion>
+    <Version>4.0.0</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Company>Worldline Global Collect</Company>
+    <Product>Worldline Connect .NET SDK examples</Product>
+    <Description>Examples for the Worldline Connect .NET SDK</Description>
+    <PackageTags>Worldline Global Collect Connect SDK</PackageTags>
+    <Copyright>Copyright (c) 2016 Global Collect Services B.V.</Copyright>
+    <Authors>Worldline Global Collect</Authors>
+    <PackageProjectUrl>https://docs.connect.worldline-solutions.com/documentation/sdk/server/dotnet/</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageIcon>packageIcon.png</PackageIcon>
+    <PackageIconUrl>https://github.com/Worldline-Global-Collect/connect-sdk-dotnet/blob/master/packageIcon.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/Worldline-Global-Collect/connect-sdk-dotnet</RepositoryUrl>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Worldline.Connect.Sdk\Worldline.Connect.Sdk.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\packageIcon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
