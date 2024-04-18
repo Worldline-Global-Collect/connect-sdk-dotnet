@@ -13,7 +13,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false</description></item>
         /// </list>
         /// </summary>
-        public bool? IsAuthorized { get; set; } = null;
+        public bool? IsAuthorized { get; set; }
 
         /// <summary>
         /// Flag indicating if the payment can be refunded 
@@ -22,7 +22,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false</description></item>
         /// </list>
         /// </summary>
-        public bool? IsRefundable { get; set; } = null;
+        public bool? IsRefundable { get; set; }
 
         /// <summary>
         /// The 3D Secure status, with the following possible values: 
@@ -35,6 +35,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>NOT_PARTICIPATING: the cardholder has not set up their card for 2-step 3D Secure.</description></item>
         /// </list>Note that this status will only be set for payments that make use of 2-step 3D Secure.
         /// </summary>
-        public string ThreeDSecureStatus { get; set; } = null;
+        public string ThreeDSecureStatus { get; set; }
     }
 }

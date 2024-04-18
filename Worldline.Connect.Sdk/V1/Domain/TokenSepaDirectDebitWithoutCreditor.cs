@@ -9,11 +9,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing the details of the customer
         /// </summary>
-        public CustomerTokenWithContactDetails Customer { get; set; } = null;
+        public CustomerTokenWithContactDetails Customer { get; set; }
 
         /// <summary>
         /// Object containing the mandate details
         /// </summary>
-        public MandateSepaDirectDebitWithoutCreditor Mandate { get; set; } = null;
+        public MandateSepaDirectDebitWithoutCreditor Mandate { get; set; }
     }
 }

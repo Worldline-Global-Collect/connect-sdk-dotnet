@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Contains the regular expression that the value of the field needs to be validated against
         /// </summary>
-        public string RegularExpression { get; set; } = null;
+        public string RegularExpression { get; set; }
     }
 }

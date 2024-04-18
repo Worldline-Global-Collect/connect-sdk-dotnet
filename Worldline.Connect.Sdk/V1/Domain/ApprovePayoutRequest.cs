@@ -10,6 +10,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// The desired date for the payout
         /// <br />Format: YYYYMMDD
         /// </summary>
-        public string DatePayout { get; set; } = null;
+        public string DatePayout { get; set; }
     }
 }

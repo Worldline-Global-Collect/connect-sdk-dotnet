@@ -16,7 +16,7 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Disputes
         /// <summary>
         /// The file that you will upload as evidence to support a dispute.
         /// </summary>
-        public UploadableFile File { get; set; } = null;
+        public UploadableFile File { get; set; }
 
         public MultipartFormDataObject ToMultipartFormDataObject()
         {

@@ -9,37 +9,37 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing the seller address details
         /// </summary>
-        public Address Address { get; set; } = null;
+        public Address Address { get; set; }
 
         /// <summary>
         /// This property is specific to Visa Argentina. Channelcode according to Prisma. Please contact the acquirer to get the full list you need to use.
         /// </summary>
-        public string ChannelCode { get; set; } = null;
+        public string ChannelCode { get; set; }
 
         /// <summary>
         /// Description of the seller
         /// </summary>
-        public string Description { get; set; } = null;
+        public string Description { get; set; }
 
         /// <summary>
         /// Seller ID assigned by the Merchant Aggregator
         /// </summary>
-        public string ExternalReferenceId { get; set; } = null;
+        public string ExternalReferenceId { get; set; }
 
         /// <summary>
         /// The sellers geocode
         /// </summary>
-        public string Geocode { get; set; } = null;
+        public string Geocode { get; set; }
 
         /// <summary>
         /// The sellers identifier
         /// </summary>
-        public string Id { get; set; } = null;
+        public string Id { get; set; }
 
         /// <summary>
         /// Invoice number of the payment
         /// </summary>
-        public string InvoiceNumber { get; set; } = null;
+        public string InvoiceNumber { get; set; }
 
         /// <summary>
         /// Indicates if the retailer is considered foreign or domestic when compared to the location of the marketplace. Possible values: 
@@ -48,22 +48,22 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - The retailer is considered domestic because they are located in the same country as the marketplace. For marketplaces located in the European Economic Area (EEA) and UK (and Gibraltar), this includes transactions where the retailer is also located within the EEA and UK (and Gibraltar).</description></item>
         /// </list>
         /// </summary>
-        public bool? IsForeignRetailer { get; set; } = null;
+        public bool? IsForeignRetailer { get; set; }
 
         /// <summary>
         /// Merchant category code
         /// </summary>
-        public string Mcc { get; set; } = null;
+        public string Mcc { get; set; }
 
         /// <summary>
         /// Name of the seller
         /// </summary>
-        public string Name { get; set; } = null;
+        public string Name { get; set; }
 
         /// <summary>
         /// Main Phone Number
         /// </summary>
-        public string PhoneNumber { get; set; } = null;
+        public string PhoneNumber { get; set; }
 
         /// <summary>
         /// Seller type. Possible values: 
@@ -85,6 +85,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>alien-registration</description></item>
         /// </list>
         /// </summary>
-        public string Type { get; set; } = null;
+        public string Type { get; set; }
     }
 }

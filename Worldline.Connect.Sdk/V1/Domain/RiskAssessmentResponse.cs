@@ -11,6 +11,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object that contains the results of the performed fraudchecks
         /// </summary>
-        public IList<ResultDoRiskAssessment> Results { get; set; } = null;
+        public IList<ResultDoRiskAssessment> Results { get; set; }
     }
 }

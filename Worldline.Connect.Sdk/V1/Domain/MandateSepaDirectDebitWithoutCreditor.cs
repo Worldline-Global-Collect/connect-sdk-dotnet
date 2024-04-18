@@ -9,17 +9,17 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing Account holder and IBAN information
         /// </summary>
-        public BankAccountIban BankAccountIban { get; set; } = null;
+        public BankAccountIban BankAccountIban { get; set; }
 
         /// <summary>
         /// Identifies the contract between customer and merchant
         /// </summary>
-        public string CustomerContractIdentifier { get; set; } = null;
+        public string CustomerContractIdentifier { get; set; }
 
         /// <summary>
         /// Object containing information on the debtor
         /// </summary>
-        public Debtor Debtor { get; set; } = null;
+        public Debtor Debtor { get; set; }
 
         /// <summary>
         /// <list type="bullet">
@@ -27,12 +27,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false</description></item>
         /// </list>
         /// </summary>
-        public bool? IsRecurring { get; set; } = null;
+        public bool? IsRecurring { get; set; }
 
         /// <summary>
         /// Object containing the details of the mandate approval
         /// </summary>
-        public MandateApproval MandateApproval { get; set; } = null;
+        public MandateApproval MandateApproval { get; set; }
 
         /// <summary>
         /// Indicates whether a pre-notification should be sent to the customer.
@@ -42,6 +42,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>send-on-first-collection - Send a pre-notification</description></item>
         /// </list>
         /// </summary>
-        public string PreNotification { get; set; } = null;
+        public string PreNotification { get; set; }
     }
 }

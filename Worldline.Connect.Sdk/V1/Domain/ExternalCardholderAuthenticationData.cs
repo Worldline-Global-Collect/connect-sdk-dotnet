@@ -11,27 +11,27 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Identifier of the authenticated transaction at the ACS/Issuer.
         /// </summary>
-        public string AcsTransactionId { get; set; } = null;
+        public string AcsTransactionId { get; set; }
 
         /// <summary>
         /// Exemption code from Carte Bancaire (130) (unknown possible values so far -free format).
         /// </summary>
-        public string AppliedExemption { get; set; } = null;
+        public string AppliedExemption { get; set; }
 
         /// <summary>
         /// The CAVV (cardholder authentication verification value) or AAV (accountholder authentication value) provides an authentication validation value.
         /// </summary>
-        public string Cavv { get; set; } = null;
+        public string Cavv { get; set; }
 
         /// <summary>
         /// The algorithm, from your 3D Secure provider, used to generate the authentication CAVV.
         /// </summary>
-        public string CavvAlgorithm { get; set; } = null;
+        public string CavvAlgorithm { get; set; }
 
         /// <summary>
         /// The 3-D Secure Directory Server transaction ID that is used for the 3D Authentication
         /// </summary>
-        public string DirectoryServerTransactionId { get; set; } = null;
+        public string DirectoryServerTransactionId { get; set; }
 
         /// <summary>
         /// Electronic Commerce Indicator provides authentication validation results returned after AUTHENTICATIONVALIDATION 
@@ -45,12 +45,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>(empty) = Not checked or not enrolled</description></item>
         /// </list>
         /// </summary>
-        public int? Eci { get; set; } = null;
+        public int? Eci { get; set; }
 
         /// <summary>
         /// Global score calculated by the Carte Bancaire (130) Scoring platform. Possible values from 0 to 99.
         /// </summary>
-        public int? SchemeRiskScore { get; set; } = null;
+        public int? SchemeRiskScore { get; set; }
 
         /// <summary>
         /// The 3-D Secure version used for the authentication. Possible values: 
@@ -62,22 +62,22 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>2.2.0</description></item>
         /// </list>
         /// </summary>
-        public string ThreeDSecureVersion { get; set; } = null;
+        public string ThreeDSecureVersion { get; set; }
 
         /// <summary>
         /// The 3-D Secure Server transaction ID that is used for the 3-D Secure version 2 Authentication.
         /// </summary>
         [Obsolete("No replacement")]
-        public string ThreeDServerTransactionId { get; set; } = null;
+        public string ThreeDServerTransactionId { get; set; }
 
         /// <summary>
         /// The 3D Secure authentication result from your 3D Secure provider.
         /// </summary>
-        public string ValidationResult { get; set; } = null;
+        public string ValidationResult { get; set; }
 
         /// <summary>
         /// The transaction ID that is used for the 3D Authentication
         /// </summary>
-        public string Xid { get; set; } = null;
+        public string Xid { get; set; }
     }
 }

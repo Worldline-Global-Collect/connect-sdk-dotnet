@@ -11,24 +11,24 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object that holds lodging related charges
         /// </summary>
-        public IList<LodgingCharge> Charges { get; set; } = null;
+        public IList<LodgingCharge> Charges { get; set; }
 
         /// <summary>
         /// The date the guest checks into (or plans to check in to) the facility. 
         /// <br />Format: YYYYMMDD
         /// </summary>
-        public string CheckInDate { get; set; } = null;
+        public string CheckInDate { get; set; }
 
         /// <summary>
         /// The date the guest checks out of (or plans to check out of) the facility. 
         /// <br />Format: YYYYMMDD
         /// </summary>
-        public string CheckOutDate { get; set; } = null;
+        public string CheckOutDate { get; set; }
 
         /// <summary>
         /// The Lodging Folio Number assigned to the itemized statement of charges and credits associated with this lodging stay, which can be any combination of characters and numerals defined by the Merchant or authorized Third Party Processor.
         /// </summary>
-        public string FolioNumber { get; set; } = null;
+        public string FolioNumber { get; set; }
 
         /// <summary>
         /// Indicates whether the room reservation is confirmed. 
@@ -37,7 +37,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - The room reservation is not confirmed</description></item>
         /// </list>
         /// </summary>
-        public bool? IsConfirmedReservation { get; set; } = null;
+        public bool? IsConfirmedReservation { get; set; }
 
         /// <summary>
         /// Defines whether or not the facility conforms to the requirements of the Hotel and Motel Fire Safety Act of 1990, or similar legislation. 
@@ -46,7 +46,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - The facility doesn't conform to the requirements</description></item>
         /// </list>
         /// </summary>
-        public bool? IsFacilityFireSafetyConform { get; set; } = null;
+        public bool? IsFacilityFireSafetyConform { get; set; }
 
         /// <summary>
         /// Indicate if this the customer is a no show case. In such case, the lodging property can charge a no show fee. 
@@ -55,7 +55,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - Not applicable</description></item>
         /// </list>
         /// </summary>
-        public bool? IsNoShow { get; set; } = null;
+        public bool? IsNoShow { get; set; }
 
         /// <summary>
         /// Indicated the preference of the customer for a smoking or non-smoking room. 
@@ -64,22 +64,22 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - A non-smoking room is preferred</description></item>
         /// </list>
         /// </summary>
-        public bool? IsPreferenceSmokingRoom { get; set; } = null;
+        public bool? IsPreferenceSmokingRoom { get; set; }
 
         /// <summary>
         /// The total number of adult guests staying (or planning to stay) at the facility (i.e., all booked rooms)
         /// </summary>
-        public int? NumberOfAdults { get; set; } = null;
+        public int? NumberOfAdults { get; set; }
 
         /// <summary>
         /// The number of nights for the lodging stay
         /// </summary>
-        public int? NumberOfNights { get; set; } = null;
+        public int? NumberOfNights { get; set; }
 
         /// <summary>
         /// The number of rooms rented for the lodging stay
         /// </summary>
-        public int? NumberOfRooms { get; set; } = null;
+        public int? NumberOfRooms { get; set; }
 
         /// <summary>
         /// Code that corresponds to the category of lodging charges detailed in this message. Allowed values: 
@@ -89,26 +89,26 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>advancedDeposit - Submitted charges are for an Advanced Deposit to reserve one or more rooms</description></item>
         /// </list>If no value is submitted the default value lodging is used.
         /// </summary>
-        public string ProgramCode { get; set; } = null;
+        public string ProgramCode { get; set; }
 
         /// <summary>
         /// The international customer service phone number of the facility
         /// </summary>
-        public string PropertyCustomerServicePhoneNumber { get; set; } = null;
+        public string PropertyCustomerServicePhoneNumber { get; set; }
 
         /// <summary>
         /// The local phone number of the facility in an international phone number format
         /// </summary>
-        public string PropertyPhoneNumber { get; set; } = null;
+        public string PropertyPhoneNumber { get; set; }
 
         /// <summary>
         /// Name of the person or business entity charged for the reservation and/or lodging stay
         /// </summary>
-        public string RenterName { get; set; } = null;
+        public string RenterName { get; set; }
 
         /// <summary>
         /// Object that holds lodging related room data
         /// </summary>
-        public IList<LodgingRoom> Rooms { get; set; } = null;
+        public IList<LodgingRoom> Rooms { get; set; }
     }
 }

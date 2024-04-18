@@ -9,24 +9,24 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing the card details.
         /// </summary>
-        public Card Card { get; set; } = null;
+        public Card Card { get; set; }
 
         /// <summary>
         /// Payment product identifier
         /// <br />Please see 
         /// <a href="https://apireference.connect.worldline-solutions.com/s2sapi/v1/en_US/dotnet/paymentproducts.html">payment products</a> for a full overview of possible values.
         /// </summary>
-        public int? PaymentProductId { get; set; } = null;
+        public int? PaymentProductId { get; set; }
 
         /// <summary>
         /// Object containing the details of the recipient of the payout
         /// </summary>
-        public PayoutRecipient Recipient { get; set; } = null;
+        public PayoutRecipient Recipient { get; set; }
 
         /// <summary>
         /// ID of the token that holds previously stored card data.
         /// <br /> If both the token and card are provided, then the card takes precedence over the token.
         /// </summary>
-        public string Token { get; set; } = null;
+        public string Token { get; set; }
     }
 }

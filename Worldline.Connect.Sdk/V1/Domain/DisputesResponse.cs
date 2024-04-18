@@ -11,6 +11,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Array containing disputes and their characteristics.
         /// </summary>
-        public IList<Dispute> Disputes { get; set; } = null;
+        public IList<Dispute> Disputes { get; set; }
     }
 }

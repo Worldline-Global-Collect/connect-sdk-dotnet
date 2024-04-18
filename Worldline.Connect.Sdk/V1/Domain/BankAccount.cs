@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Name in which the account is held.
         /// </summary>
-        public string AccountHolderName { get; set; } = null;
+        public string AccountHolderName { get; set; }
     }
 }

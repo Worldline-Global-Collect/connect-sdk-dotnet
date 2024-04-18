@@ -13,6 +13,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <a href="https://developer.apple.com/reference/passkit/pkpaymentnetwork" target="_blank">Apple Pay</a>, and "VISA" for 
         /// <a href="https://developers.google.com/pay/api/android/reference/object#CardParameters" target="_blank">Google Pay</a>.
         /// </summary>
-        public IList<string> Networks { get; set; } = null;
+        public IList<string> Networks { get; set; }
     }
 }

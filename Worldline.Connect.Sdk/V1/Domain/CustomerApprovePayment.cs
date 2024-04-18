@@ -14,6 +14,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>existing - The customer account was an already existing account prior to this transaction</description></item>
         /// </list>
         /// </summary>
-        public string AccountType { get; set; } = null;
+        public string AccountType { get; set; }
     }
 }

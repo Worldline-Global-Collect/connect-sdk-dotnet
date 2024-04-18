@@ -11,22 +11,22 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object that contains the action, including the needed data, that you should perform next, like showing instruction, showing the transaction results or redirect to a third party to complete the payment
         /// </summary>
-        public DisplayedData DisplayedData { get; set; } = null;
+        public DisplayedData DisplayedData { get; set; }
 
         /// <summary>
         /// Indicates whether the customer ticked the "Remember my details for future purchases" checkbox on the MyCheckout hosted payment pages
         /// </summary>
-        public bool? IsCheckedRememberMe { get; set; } = null;
+        public bool? IsCheckedRememberMe { get; set; }
 
         /// <summary>
         /// Object that holds the payment data
         /// </summary>
-        public Payment Payment { get; set; } = null;
+        public Payment Payment { get; set; }
 
         /// <summary>
         /// Object containing the created references
         /// </summary>
-        public PaymentCreationReferences PaymentCreationReferences { get; set; } = null;
+        public PaymentCreationReferences PaymentCreationReferences { get; set; }
 
         /// <summary>
         /// Highlevel indication of the payment status with the following possible values: 
@@ -68,16 +68,16 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <a href="https://apireference.connect.worldline-solutions.com/s2sapi/v1/en_US/dotnet/statuses.html">Statuses</a> for a full overview of possible values.
         /// </summary>
         [Obsolete("Use Payment.statusOutput.statusCategory instead")]
-        public string PaymentStatusCategory { get; set; } = null;
+        public string PaymentStatusCategory { get; set; }
 
         /// <summary>
         /// If the payment was attempted to be tokenized, indicates if tokenization was successful or not.
         /// </summary>
-        public bool? TokenizationSucceeded { get; set; } = null;
+        public bool? TokenizationSucceeded { get; set; }
 
         /// <summary>
         /// This property contains the tokens that are associated with the hosted checkout session/customer. You can use the tokens listed in this list for a future checkout of the same customer.
         /// </summary>
-        public string Tokens { get; set; } = null;
+        public string Tokens { get; set; }
     }
 }

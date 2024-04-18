@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Email address of the customer
         /// </summary>
-        public string EmailAddress { get; set; } = null;
+        public string EmailAddress { get; set; }
     }
 }

@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing the name details of the customer
         /// </summary>
-        public PersonalNameRiskAssessment Name { get; set; } = null;
+        public PersonalNameRiskAssessment Name { get; set; }
     }
 }

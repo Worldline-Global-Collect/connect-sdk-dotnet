@@ -13,7 +13,6 @@ namespace Worldline.Connect.Sdk.V1
     /// </summary>
     public class ValidationException : ApiException
     {
-
         public ValidationException(HttpStatusCode statusCode, string responseBody, string errorId, IList<APIError> errors)
             : base("the Worldline Global Collect platform returned an incorrect request error response", statusCode, responseBody, errorId, errors)
         {

@@ -2,6 +2,7 @@
  * This class was auto-generated from the API references found at
  * https://apireference.connect.worldline-solutions.com/
  */
+using System.Net;
 using Worldline.Connect.Sdk.V1.Domain;
 
 namespace Worldline.Connect.Sdk.V1
@@ -14,22 +15,22 @@ namespace Worldline.Connect.Sdk.V1
         /// <summary>
         /// Gets the result of creating a refund if available, otherwise <c>null</c>.
         /// </summary>
-        public RefundResult RefundResult => _errors?.RefundResult;
+        public RefundResult RefundResult => _response?.RefundResult;
 
-        public DeclinedRefundException(System.Net.HttpStatusCode statusCode, string responseBody, RefundErrorResponse errors)
-            : base(BuildMessage(errors), statusCode, responseBody, errors?.ErrorId, errors?.Errors)
+        public DeclinedRefundException(HttpStatusCode statusCode, string responseBody, RefundErrorResponse response)
+            : base(BuildMessage(response), statusCode, responseBody, response?.ErrorId, response?.Errors)
         {
-            _errors = errors;
+            _response = response;
         }
 
-        private readonly RefundErrorResponse _errors;
+        private readonly RefundErrorResponse _response;
 
-        private static string BuildMessage(RefundErrorResponse errors)
+        private static string BuildMessage(RefundErrorResponse response)
         {
-            var refund = errors?.RefundResult;
-            if (refund != null)
+            var refundResult = response?.RefundResult;
+            if (refundResult != null)
             {
-                return "declined refund '" + refund.Id + "' with status '" + refund.Status + "'";
+                return "declined refund '" + refundResult.Id + "' with status '" + refundResult.Status + "'";
             }
             return "the Worldline Global Collect platform returned a declined refund response";
         }

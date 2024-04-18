@@ -15,6 +15,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// Array containing payment products and their characteristics
         /// </summary>
         [JsonProperty(PropertyName = "paymentProducts")]
-        public IList<PaymentProduct> ListOfPaymentProducts { get; set; } = null;
+        public IList<PaymentProduct> ListOfPaymentProducts { get; set; }
     }
 }

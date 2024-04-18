@@ -15,6 +15,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>COMPLETED - The customer has completed the payment at the third party</description></item>
         /// </list>
         /// </summary>
-        public string ThirdPartyStatus { get; set; } = null;
+        public string ThirdPartyStatus { get; set; }
     }
 }

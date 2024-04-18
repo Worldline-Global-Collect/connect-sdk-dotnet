@@ -9,11 +9,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Given name(s) or first name(s) of the recipient of an account funding transaction.
         /// </summary>
-        public string FirstName { get; set; } = null;
+        public string FirstName { get; set; }
 
         /// <summary>
         /// Surname(s) or last name(s) of the customer
         /// </summary>
-        public string Surname { get; set; } = null;
+        public string Surname { get; set; }
     }
 }

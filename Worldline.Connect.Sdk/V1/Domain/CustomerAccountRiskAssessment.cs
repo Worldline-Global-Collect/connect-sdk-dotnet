@@ -13,7 +13,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - The customer has not forgotten their password</description></item>
         /// </list>
         /// </summary>
-        public bool? HasForgottenPassword { get; set; } = null;
+        public bool? HasForgottenPassword { get; set; }
 
         /// <summary>
         /// Specifies if the customer entered a password to gain access to an account registered with the you 
@@ -22,6 +22,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - The customer has not used a password to gain access</description></item>
         /// </list>
         /// </summary>
-        public bool? HasPassword { get; set; } = null;
+        public bool? HasPassword { get; set; }
     }
 }

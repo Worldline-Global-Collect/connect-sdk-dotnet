@@ -9,16 +9,16 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object that holds specific information on cancelled card payments
         /// </summary>
-        public CancelPaymentCardPaymentMethodSpecificOutput CardPaymentMethodSpecificOutput { get; set; } = null;
+        public CancelPaymentCardPaymentMethodSpecificOutput CardPaymentMethodSpecificOutput { get; set; }
 
         /// <summary>
         /// Object that holds specific information on cancelled mobile payments
         /// </summary>
-        public CancelPaymentMobilePaymentMethodSpecificOutput MobilePaymentMethodSpecificOutput { get; set; } = null;
+        public CancelPaymentMobilePaymentMethodSpecificOutput MobilePaymentMethodSpecificOutput { get; set; }
 
         /// <summary>
         /// Object that holds the payment related properties
         /// </summary>
-        public Payment Payment { get; set; } = null;
+        public Payment Payment { get; set; }
     }
 }

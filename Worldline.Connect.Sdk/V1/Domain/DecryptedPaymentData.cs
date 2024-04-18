@@ -15,7 +15,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// </list>.
         /// </summary>
         [Obsolete("Use decryptedPaymentData.paymentMethod instead")]
-        public string AuthMethod { get; set; } = null;
+        public string AuthMethod { get; set; }
 
         /// <summary>
         /// Card holder's name on the card. 
@@ -24,7 +24,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>For Google Pay this is not available in the encrypted payment data, and can be omitted.</description></item>
         /// </list>
         /// </summary>
-        public string CardholderName { get; set; } = null;
+        public string CardholderName { get; set; }
 
         /// <summary>
         /// The 3D secure online payment cryptogram. 
@@ -33,7 +33,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>For Google Pay, maps to the paymentMethodDetails.cryptogram property in the encrypted payment data.</description></item>
         /// </list>Not allowed for Google Pay if the authMethod in the response of Google is PAN_ONLY.
         /// </summary>
-        public string Cryptogram { get; set; } = null;
+        public string Cryptogram { get; set; }
 
         /// <summary>
         /// The device specific PAN. 
@@ -42,7 +42,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>For Google Pay, maps to the paymentMethodDetails.dpan property in the encrypted payment data.</description></item>
         /// </list>Not allowed for Google Pay if the authMethod in the response of Google is PAN_ONLY.
         /// </summary>
-        public string Dpan { get; set; } = null;
+        public string Dpan { get; set; }
 
         /// <summary>
         /// The eci is Electronic Commerce Indicator. 
@@ -51,7 +51,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>For Google Pay, maps to the paymentMethodDetails.eciIndicator property in the encrypted payment data.</description></item>
         /// </list>
         /// </summary>
-        public int? Eci { get; set; } = null;
+        public int? Eci { get; set; }
 
         /// <summary>
         /// Expiry date of the card
@@ -61,7 +61,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>For Google Pay, maps to the paymentMethodDetails.expirationMonth and paymentMethodDetails.expirationYear properties in the encrypted payment data. These need to be combined to get a correctly formatted expiry date.</description></item>
         /// </list>
         /// </summary>
-        public string ExpiryDate { get; set; } = null;
+        public string ExpiryDate { get; set; }
 
         /// <summary>
         /// The non-device specific complete credit/debit card number (also know as the PAN). 
@@ -70,7 +70,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>For Google Pay, maps to the paymentMethodDetails.pan property in the encrypted payment data.</description></item>
         /// </list>Not allowed for Google Pay if the authMethod in the response of Google is CRYPTOGRAM_3DS.
         /// </summary>
-        public string Pan { get; set; } = null;
+        public string Pan { get; set; }
 
         /// <summary>
         /// <list type="bullet">
@@ -78,6 +78,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>In case Google provides in the response as authMethod: PAN_ONLY send in as value of this property CARD.</description></item>
         /// </list>For Apple Pay this is not available in the encrypted payment data, and must be omitted.
         /// </summary>
-        public string PaymentMethod { get; set; } = null;
+        public string PaymentMethod { get; set; }
     }
 }

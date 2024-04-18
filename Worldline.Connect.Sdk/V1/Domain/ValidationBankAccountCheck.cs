@@ -9,12 +9,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Code of the bank account validation check
         /// </summary>
-        public string Code { get; set; } = null;
+        public string Code { get; set; }
 
         /// <summary>
         /// Description of check performed
         /// </summary>
-        public string Description { get; set; } = null;
+        public string Description { get; set; }
 
         /// <summary>
         /// Result of the bank account validation check performed, with the following possible results: 
@@ -25,6 +25,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>NOTCHECKED - This check was not performed, usually because one of the earlier checks already caused an error response to be triggered</description></item>
         /// </list>
         /// </summary>
-        public string Result { get; set; } = null;
+        public string Result { get; set; }
     }
 }

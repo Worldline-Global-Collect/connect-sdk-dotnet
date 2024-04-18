@@ -13,6 +13,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>1 - You can ship the goods. In case the transaction is not reported as paid you can initiate a claims process with SofortBank.</description></item>
         /// </list>
         /// </summary>
-        public string SecurityIndicator { get; set; } = null;
+        public string SecurityIndicator { get; set; }
     }
 }

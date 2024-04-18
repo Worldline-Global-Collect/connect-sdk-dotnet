@@ -12,43 +12,43 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing additional input on the order
         /// </summary>
-        public AdditionalOrderInput AdditionalInput { get; set; } = null;
+        public AdditionalOrderInput AdditionalInput { get; set; }
 
         /// <summary>
         /// Object containing amount and ISO currency code attributes
         /// </summary>
-        public AmountOfMoney AmountOfMoney { get; set; } = null;
+        public AmountOfMoney AmountOfMoney { get; set; }
 
         /// <summary>
         /// Object containing the details of the customer
         /// </summary>
-        public Customer Customer { get; set; } = null;
+        public Customer Customer { get; set; }
 
         /// <summary>
         /// Shopping cart data
         /// </summary>
         [Obsolete("Use shoppingCart.items instead")]
-        public IList<LineItem> Items { get; set; } = null;
+        public IList<LineItem> Items { get; set; }
 
         /// <summary>
         /// Object that holds all reference properties that are linked to this transaction
         /// </summary>
-        public OrderReferences References { get; set; } = null;
+        public OrderReferences References { get; set; }
 
         /// <summary>
         /// Object containing seller details
         /// </summary>
         [Obsolete("Use Merchant.seller instead")]
-        public Seller Seller { get; set; } = null;
+        public Seller Seller { get; set; }
 
         /// <summary>
         /// Object containing information regarding shipping / delivery
         /// </summary>
-        public Shipping Shipping { get; set; } = null;
+        public Shipping Shipping { get; set; }
 
         /// <summary>
         /// Shopping cart data, including items and specific amounts.
         /// </summary>
-        public ShoppingCart ShoppingCart { get; set; } = null;
+        public ShoppingCart ShoppingCart { get; set; }
     }
 }

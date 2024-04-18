@@ -1192,7 +1192,7 @@ namespace Worldline.Connect.Sdk.Communication
             // logging is enabled after the request is logged but before the error is logged
 
             var logger = new TestLogger();
-            using (var client = CreateClient(1, 100))
+            using (var client = CreateClient(100, 100))
             using (var _ = new MockServer(Port, "/v1/1234/services/testconnection", (request, response, arg3) =>
                    {
                        AssignResponse((HttpStatusCode)200, new Dictionary<string, string>(), response);

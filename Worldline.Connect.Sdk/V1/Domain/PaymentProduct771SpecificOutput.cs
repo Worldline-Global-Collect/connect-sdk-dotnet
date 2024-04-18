@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Unique reference to a Mandate
         /// </summary>
-        public string MandateReference { get; set; } = null;
+        public string MandateReference { get; set; }
     }
 }

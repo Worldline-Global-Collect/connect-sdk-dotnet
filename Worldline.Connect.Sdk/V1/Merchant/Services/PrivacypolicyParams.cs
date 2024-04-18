@@ -16,12 +16,12 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Services
         /// <summary>
         /// Locale in which the privacy policy should be returned. Uses your default locale when none is provided.
         /// </summary>
-        public string Locale { get; set; } = null;
+        public string Locale { get; set; }
 
         /// <summary>
         /// ID of the payment product for which you wish to retrieve the privacy policy. When no ID is provided you will receive all privacy policies for your payment products.
         /// </summary>
-        public int? PaymentProductId { get; set; } = null;
+        public int? PaymentProductId { get; set; }
 
         public override IEnumerable<RequestParam> ToRequestParameters()
         {

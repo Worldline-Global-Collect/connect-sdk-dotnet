@@ -14,7 +14,7 @@ namespace Worldline.Connect.Sdk.V1
     public class ReferenceException : ApiException
     {
         public ReferenceException(HttpStatusCode statusCode, string responseBody, string errorId, IList<APIError> errors)
-            : base("the Worldline Global Collect platform returned an incorrect request error response", statusCode, responseBody, errorId, errors)
+            : base("the Worldline Global Collect platform returned a reference error response", statusCode, responseBody, errorId, errors)
         {
 
         }

@@ -9,26 +9,26 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing address details
         /// </summary>
-        public Address Address { get; set; } = null;
+        public Address Address { get; set; }
 
         /// <summary>
         /// Object containing company information
         /// </summary>
-        public CompanyInformation CompanyInformation { get; set; } = null;
+        public CompanyInformation CompanyInformation { get; set; }
 
         /// <summary>
         /// Object containing contact details like email address and phone number
         /// </summary>
-        public ContactDetailsBase ContactDetails { get; set; } = null;
+        public ContactDetailsBase ContactDetails { get; set; }
 
         /// <summary>
         /// Your identifier for the customer. It can be used as a search criteria in the GlobalCollect Payment Console and is also included in the GlobalCollect report files. It is used in the fraud-screening process for payments on the Ogone Payment Platform.
         /// </summary>
-        public string MerchantCustomerId { get; set; } = null;
+        public string MerchantCustomerId { get; set; }
 
         /// <summary>
         /// Object containing PersonalName object
         /// </summary>
-        public PersonalName Name { get; set; } = null;
+        public PersonalName Name { get; set; }
     }
 }

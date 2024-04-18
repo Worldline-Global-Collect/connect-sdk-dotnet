@@ -9,11 +9,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing specific data for Direct Debit UK
         /// </summary>
-        public TokenNonSepaDirectDebitPaymentProduct705SpecificData PaymentProduct705SpecificData { get; set; } = null;
+        public TokenNonSepaDirectDebitPaymentProduct705SpecificData PaymentProduct705SpecificData { get; set; }
 
         /// <summary>
         /// Object containing specific data for ACH
         /// </summary>
-        public TokenNonSepaDirectDebitPaymentProduct730SpecificData PaymentProduct730SpecificData { get; set; } = null;
+        public TokenNonSepaDirectDebitPaymentProduct730SpecificData PaymentProduct730SpecificData { get; set; }
     }
 }

@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Refund amount to be approved
         /// </summary>
-        public long? Amount { get; set; } = null;
+        public long? Amount { get; set; }
     }
 }

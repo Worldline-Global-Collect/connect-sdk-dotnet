@@ -9,17 +9,17 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing the card details (without CVV)
         /// </summary>
-        public CardWithoutCvv CardWithoutCvv { get; set; } = null;
+        public CardWithoutCvv CardWithoutCvv { get; set; }
 
         /// <summary>
         /// Date of the first transaction (for ATOS)
         /// <br />Format: YYYYMMDD
         /// </summary>
-        public string FirstTransactionDate { get; set; } = null;
+        public string FirstTransactionDate { get; set; }
 
         /// <summary>
         /// Reference of the provider (of the first transaction) - used to store the ATOS Transaction Certificate
         /// </summary>
-        public string ProviderReference { get; set; } = null;
+        public string ProviderReference { get; set; }
     }
 }

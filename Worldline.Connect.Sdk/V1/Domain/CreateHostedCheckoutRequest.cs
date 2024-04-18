@@ -9,56 +9,56 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing the specific input details for bank transfer payments
         /// </summary>
-        public BankTransferPaymentMethodSpecificInputBase BankTransferPaymentMethodSpecificInput { get; set; } = null;
+        public BankTransferPaymentMethodSpecificInputBase BankTransferPaymentMethodSpecificInput { get; set; }
 
         /// <summary>
         /// Object containing the specific input details for card payments
         /// </summary>
-        public CardPaymentMethodSpecificInputBase CardPaymentMethodSpecificInput { get; set; } = null;
+        public CardPaymentMethodSpecificInputBase CardPaymentMethodSpecificInput { get; set; }
 
         /// <summary>
         /// Object containing the specific input details for cash payments
         /// </summary>
-        public CashPaymentMethodSpecificInputBase CashPaymentMethodSpecificInput { get; set; } = null;
+        public CashPaymentMethodSpecificInputBase CashPaymentMethodSpecificInput { get; set; }
 
         /// <summary>
         /// Object containing the specific input details for eInvoice payments
         /// </summary>
-        public EInvoicePaymentMethodSpecificInputBase EInvoicePaymentMethodSpecificInput { get; set; } = null;
+        public EInvoicePaymentMethodSpecificInputBase EInvoicePaymentMethodSpecificInput { get; set; }
 
         /// <summary>
         /// Object containing additional data that will be used to assess the risk of fraud
         /// </summary>
-        public FraudFields FraudFields { get; set; } = null;
+        public FraudFields FraudFields { get; set; }
 
         /// <summary>
         /// Object containing hosted checkout specific data
         /// </summary>
-        public HostedCheckoutSpecificInput HostedCheckoutSpecificInput { get; set; } = null;
+        public HostedCheckoutSpecificInput HostedCheckoutSpecificInput { get; set; }
 
         /// <summary>
         /// Object containing information on you, the merchant
         /// </summary>
-        public Merchant Merchant { get; set; } = null;
+        public Merchant Merchant { get; set; }
 
         /// <summary>
         /// Object containing reference data for Google Pay (paymentProductId 320) and Apple Pay (paymentProductID 302).
         /// </summary>
-        public MobilePaymentMethodSpecificInputHostedCheckout MobilePaymentMethodSpecificInput { get; set; } = null;
+        public MobilePaymentMethodSpecificInputHostedCheckout MobilePaymentMethodSpecificInput { get; set; }
 
         /// <summary>
         /// Order object containing order related data
         /// </summary>
-        public Order Order { get; set; } = null;
+        public Order Order { get; set; }
 
         /// <summary>
         /// Object containing the specific input details for payments that involve redirects to 3rd parties to complete, like iDeal and PayPal
         /// </summary>
-        public RedirectPaymentMethodSpecificInputBase RedirectPaymentMethodSpecificInput { get; set; } = null;
+        public RedirectPaymentMethodSpecificInputBase RedirectPaymentMethodSpecificInput { get; set; }
 
         /// <summary>
         /// Object containing the specific input details for SEPA direct debit payments
         /// </summary>
-        public SepaDirectDebitPaymentMethodSpecificInputBase SepaDirectDebitPaymentMethodSpecificInput { get; set; } = null;
+        public SepaDirectDebitPaymentMethodSpecificInputBase SepaDirectDebitPaymentMethodSpecificInput { get; set; }
     }
 }

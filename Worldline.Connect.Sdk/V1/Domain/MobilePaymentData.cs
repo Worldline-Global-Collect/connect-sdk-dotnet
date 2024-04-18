@@ -9,12 +9,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// The obfuscated DPAN. Only the last four digits are visible.
         /// </summary>
-        public string Dpan { get; set; } = null;
+        public string Dpan { get; set; }
 
         /// <summary>
         /// Expiry date of the tokenized card
         /// <br />Format: MMYY
         /// </summary>
-        public string ExpiryDate { get; set; } = null;
+        public string ExpiryDate { get; set; }
     }
 }

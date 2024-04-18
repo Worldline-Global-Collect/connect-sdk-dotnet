@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing information specific to SEPA Direct Debit
         /// </summary>
-        public SepaDirectDebitPaymentProduct771SpecificInputBase PaymentProduct771SpecificInput { get; set; } = null;
+        public SepaDirectDebitPaymentProduct771SpecificInputBase PaymentProduct771SpecificInput { get; set; }
     }
 }

@@ -9,11 +9,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Card Authorization code as returned by the acquirer
         /// </summary>
-        public string AuthorisationCode { get; set; } = null;
+        public string AuthorisationCode { get; set; }
 
         /// <summary>
         /// Object containing card details
         /// </summary>
-        public CardEssentials Card { get; set; } = null;
+        public CardEssentials Card { get; set; }
     }
 }

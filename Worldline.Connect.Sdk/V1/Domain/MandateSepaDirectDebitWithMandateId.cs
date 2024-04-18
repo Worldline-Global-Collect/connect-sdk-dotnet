@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Unique mandate identifier
         /// </summary>
-        public string MandateId { get; set; } = null;
+        public string MandateId { get; set; }
     }
 }

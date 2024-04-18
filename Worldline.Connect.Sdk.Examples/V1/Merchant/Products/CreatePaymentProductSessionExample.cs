@@ -28,8 +28,8 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Products
 
         private static Client GetClient()
         {
-            var apiKeyId = "someKey";
-            var secretApiKey = "someSecret";
+            const string apiKeyId = "someKey";
+            const string secretApiKey = "someSecret";
 
             var configuration = Factory.CreateConfiguration(apiKeyId, secretApiKey);
             return Factory.CreateClient(configuration);

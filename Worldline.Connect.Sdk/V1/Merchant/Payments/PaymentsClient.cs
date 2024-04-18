@@ -27,14 +27,14 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// <param name="context">CallContext</param>
         /// <returns>CreatePaymentResponse</returns>
         /// <exception cref="DeclinedPaymentException">if the Worldline Global Collect platform declined / rejected the payment. The payment result will be available from the exception.</exception>
-        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code BadRequest)</exception>
-        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code Forbidden)</exception>
-        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code Conflict)</exception>
+        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code 409)</exception>
+        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code 400)</exception>
+        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code 403)</exception>
         /// <exception cref="ReferenceException">if an object was attempted to be referenced that doesn't exist or has been removed,
-        ///            or there was a conflict (HTTP status code NotFound, Conflict or Gone)</exception>
+        ///            or there was a conflict (HTTP status code 404, 409 or 410)</exception>
         /// <exception cref="PlatformException">if something went wrong at the Worldline Global Collect platform,
         ///            the Worldline Global Collect platform was unable to process a message from a downstream partner/acquirer,
-        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code InternalServerError, BadGateway or ServiceUnavailable)</exception>
+        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code 500, 502 or 503)</exception>
         /// <exception cref="ApiException">if the Worldline Global Collect platform returned any other error</exception>
         public async Task<CreatePaymentResponse> Create(CreatePaymentRequest body, CallContext context = null)
         {
@@ -62,14 +62,14 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// <param name="query">FindPaymentsParams</param>
         /// <param name="context">CallContext</param>
         /// <returns>FindPaymentsResponse</returns>
-        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code BadRequest)</exception>
-        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code Forbidden)</exception>
-        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code Conflict)</exception>
+        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code 409)</exception>
+        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code 400)</exception>
+        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code 403)</exception>
         /// <exception cref="ReferenceException">if an object was attempted to be referenced that doesn't exist or has been removed,
-        ///            or there was a conflict (HTTP status code NotFound, Conflict or Gone)</exception>
+        ///            or there was a conflict (HTTP status code 404, 409 or 410)</exception>
         /// <exception cref="PlatformException">if something went wrong at the Worldline Global Collect platform,
         ///            the Worldline Global Collect platform was unable to process a message from a downstream partner/acquirer,
-        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code InternalServerError, BadGateway or ServiceUnavailable)</exception>
+        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code 500, 502 or 503)</exception>
         /// <exception cref="ApiException">if the Worldline Global Collect platform returned any other error</exception>
         public async Task<FindPaymentsResponse> Find(FindPaymentsParams query, CallContext context = null)
         {
@@ -96,14 +96,14 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// <param name="paymentId">string</param>
         /// <param name="context">CallContext</param>
         /// <returns>PaymentResponse</returns>
-        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code BadRequest)</exception>
-        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code Forbidden)</exception>
-        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code Conflict)</exception>
+        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code 409)</exception>
+        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code 400)</exception>
+        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code 403)</exception>
         /// <exception cref="ReferenceException">if an object was attempted to be referenced that doesn't exist or has been removed,
-        ///            or there was a conflict (HTTP status code NotFound, Conflict or Gone)</exception>
+        ///            or there was a conflict (HTTP status code 404, 409 or 410)</exception>
         /// <exception cref="PlatformException">if something went wrong at the Worldline Global Collect platform,
         ///            the Worldline Global Collect platform was unable to process a message from a downstream partner/acquirer,
-        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code InternalServerError, BadGateway or ServiceUnavailable)</exception>
+        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code 500, 502 or 503)</exception>
         /// <exception cref="ApiException">if the Worldline Global Collect platform returned any other error</exception>
         public async Task<PaymentResponse> Get(string paymentId, CallContext context = null)
         {
@@ -135,14 +135,14 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// <param name="body">CompletePaymentRequest</param>
         /// <param name="context">CallContext</param>
         /// <returns>CompletePaymentResponse</returns>
-        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code BadRequest)</exception>
-        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code Forbidden)</exception>
-        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code Conflict)</exception>
+        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code 409)</exception>
+        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code 400)</exception>
+        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code 403)</exception>
         /// <exception cref="ReferenceException">if an object was attempted to be referenced that doesn't exist or has been removed,
-        ///            or there was a conflict (HTTP status code NotFound, Conflict or Gone)</exception>
+        ///            or there was a conflict (HTTP status code 404, 409 or 410)</exception>
         /// <exception cref="PlatformException">if something went wrong at the Worldline Global Collect platform,
         ///            the Worldline Global Collect platform was unable to process a message from a downstream partner/acquirer,
-        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code InternalServerError, BadGateway or ServiceUnavailable)</exception>
+        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code 500, 502 or 503)</exception>
         /// <exception cref="ApiException">if the Worldline Global Collect platform returned any other error</exception>
         public async Task<CompletePaymentResponse> Complete(string paymentId, CompletePaymentRequest body, CallContext context = null)
         {
@@ -174,14 +174,14 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// <param name="paymentId">string</param>
         /// <param name="context">CallContext</param>
         /// <returns>ThirdPartyStatusResponse</returns>
-        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code BadRequest)</exception>
-        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code Forbidden)</exception>
-        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code Conflict)</exception>
+        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code 409)</exception>
+        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code 400)</exception>
+        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code 403)</exception>
         /// <exception cref="ReferenceException">if an object was attempted to be referenced that doesn't exist or has been removed,
-        ///            or there was a conflict (HTTP status code NotFound, Conflict or Gone)</exception>
+        ///            or there was a conflict (HTTP status code 404, 409 or 410)</exception>
         /// <exception cref="PlatformException">if something went wrong at the Worldline Global Collect platform,
         ///            the Worldline Global Collect platform was unable to process a message from a downstream partner/acquirer,
-        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code InternalServerError, BadGateway or ServiceUnavailable)</exception>
+        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code 500, 502 or 503)</exception>
         /// <exception cref="ApiException">if the Worldline Global Collect platform returned any other error</exception>
         public async Task<ThirdPartyStatusResponse> ThirdPartyStatus(string paymentId, CallContext context = null)
         {
@@ -213,14 +213,14 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// <param name="body">TokenizePaymentRequest</param>
         /// <param name="context">CallContext</param>
         /// <returns>CreateTokenResponse</returns>
-        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code BadRequest)</exception>
-        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code Forbidden)</exception>
-        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code Conflict)</exception>
+        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code 409)</exception>
+        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code 400)</exception>
+        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code 403)</exception>
         /// <exception cref="ReferenceException">if an object was attempted to be referenced that doesn't exist or has been removed,
-        ///            or there was a conflict (HTTP status code NotFound, Conflict or Gone)</exception>
+        ///            or there was a conflict (HTTP status code 404, 409 or 410)</exception>
         /// <exception cref="PlatformException">if something went wrong at the Worldline Global Collect platform,
         ///            the Worldline Global Collect platform was unable to process a message from a downstream partner/acquirer,
-        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code InternalServerError, BadGateway or ServiceUnavailable)</exception>
+        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code 500, 502 or 503)</exception>
         /// <exception cref="ApiException">if the Worldline Global Collect platform returned any other error</exception>
         public async Task<CreateTokenResponse> Tokenize(string paymentId, TokenizePaymentRequest body, CallContext context = null)
         {
@@ -252,14 +252,14 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// <param name="paymentId">string</param>
         /// <param name="context">CallContext</param>
         /// <returns>PaymentResponse</returns>
-        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code BadRequest)</exception>
-        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code Forbidden)</exception>
-        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code Conflict)</exception>
+        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code 409)</exception>
+        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code 400)</exception>
+        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code 403)</exception>
         /// <exception cref="ReferenceException">if an object was attempted to be referenced that doesn't exist or has been removed,
-        ///            or there was a conflict (HTTP status code NotFound, Conflict or Gone)</exception>
+        ///            or there was a conflict (HTTP status code 404, 409 or 410)</exception>
         /// <exception cref="PlatformException">if something went wrong at the Worldline Global Collect platform,
         ///            the Worldline Global Collect platform was unable to process a message from a downstream partner/acquirer,
-        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code InternalServerError, BadGateway or ServiceUnavailable)</exception>
+        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code 500, 502 or 503)</exception>
         /// <exception cref="ApiException">if the Worldline Global Collect platform returned any other error</exception>
         public async Task<PaymentResponse> Processchallenged(string paymentId, CallContext context = null)
         {
@@ -292,14 +292,14 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// <param name="body">ApprovePaymentRequest</param>
         /// <param name="context">CallContext</param>
         /// <returns>PaymentApprovalResponse</returns>
-        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code BadRequest)</exception>
-        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code Forbidden)</exception>
-        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code Conflict)</exception>
+        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code 409)</exception>
+        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code 400)</exception>
+        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code 403)</exception>
         /// <exception cref="ReferenceException">if an object was attempted to be referenced that doesn't exist or has been removed,
-        ///            or there was a conflict (HTTP status code NotFound, Conflict or Gone)</exception>
+        ///            or there was a conflict (HTTP status code 404, 409 or 410)</exception>
         /// <exception cref="PlatformException">if something went wrong at the Worldline Global Collect platform,
         ///            the Worldline Global Collect platform was unable to process a message from a downstream partner/acquirer,
-        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code InternalServerError, BadGateway or ServiceUnavailable)</exception>
+        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code 500, 502 or 503)</exception>
         /// <exception cref="ApiException">if the Worldline Global Collect platform returned any other error</exception>
         public async Task<PaymentApprovalResponse> Approve(string paymentId, ApprovePaymentRequest body, CallContext context = null)
         {
@@ -332,14 +332,14 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// <param name="body">CapturePaymentRequest</param>
         /// <param name="context">CallContext</param>
         /// <returns>CaptureResponse</returns>
-        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code BadRequest)</exception>
-        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code Forbidden)</exception>
-        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code Conflict)</exception>
+        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code 409)</exception>
+        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code 400)</exception>
+        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code 403)</exception>
         /// <exception cref="ReferenceException">if an object was attempted to be referenced that doesn't exist or has been removed,
-        ///            or there was a conflict (HTTP status code NotFound, Conflict or Gone)</exception>
+        ///            or there was a conflict (HTTP status code 404, 409 or 410)</exception>
         /// <exception cref="PlatformException">if something went wrong at the Worldline Global Collect platform,
         ///            the Worldline Global Collect platform was unable to process a message from a downstream partner/acquirer,
-        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code InternalServerError, BadGateway or ServiceUnavailable)</exception>
+        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code 500, 502 or 503)</exception>
         /// <exception cref="ApiException">if the Worldline Global Collect platform returned any other error</exception>
         public async Task<CaptureResponse> Capture(string paymentId, CapturePaymentRequest body, CallContext context = null)
         {
@@ -371,14 +371,14 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// <param name="paymentId">string</param>
         /// <param name="context">CallContext</param>
         /// <returns>CancelApprovalPaymentResponse</returns>
-        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code BadRequest)</exception>
-        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code Forbidden)</exception>
-        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code Conflict)</exception>
+        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code 409)</exception>
+        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code 400)</exception>
+        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code 403)</exception>
         /// <exception cref="ReferenceException">if an object was attempted to be referenced that doesn't exist or has been removed,
-        ///            or there was a conflict (HTTP status code NotFound, Conflict or Gone)</exception>
+        ///            or there was a conflict (HTTP status code 404, 409 or 410)</exception>
         /// <exception cref="PlatformException">if something went wrong at the Worldline Global Collect platform,
         ///            the Worldline Global Collect platform was unable to process a message from a downstream partner/acquirer,
-        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code InternalServerError, BadGateway or ServiceUnavailable)</exception>
+        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code 500, 502 or 503)</exception>
         /// <exception cref="ApiException">if the Worldline Global Collect platform returned any other error</exception>
         public async Task<CancelApprovalPaymentResponse> Cancelapproval(string paymentId, CallContext context = null)
         {
@@ -410,14 +410,14 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// <param name="paymentId">string</param>
         /// <param name="context">CallContext</param>
         /// <returns>CapturesResponse</returns>
-        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code BadRequest)</exception>
-        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code Forbidden)</exception>
-        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code Conflict)</exception>
+        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code 409)</exception>
+        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code 400)</exception>
+        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code 403)</exception>
         /// <exception cref="ReferenceException">if an object was attempted to be referenced that doesn't exist or has been removed,
-        ///            or there was a conflict (HTTP status code NotFound, Conflict or Gone)</exception>
+        ///            or there was a conflict (HTTP status code 404, 409 or 410)</exception>
         /// <exception cref="PlatformException">if something went wrong at the Worldline Global Collect platform,
         ///            the Worldline Global Collect platform was unable to process a message from a downstream partner/acquirer,
-        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code InternalServerError, BadGateway or ServiceUnavailable)</exception>
+        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code 500, 502 or 503)</exception>
         /// <exception cref="ApiException">if the Worldline Global Collect platform returned any other error</exception>
         public async Task<CapturesResponse> Captures(string paymentId, CallContext context = null)
         {
@@ -450,14 +450,14 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// <param name="context">CallContext</param>
         /// <returns>RefundResponse</returns>
         /// <exception cref="DeclinedRefundException">if the Worldline Global Collect platform declined / rejected the refund. The refund result will be available from the exception.</exception>
-        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code BadRequest)</exception>
-        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code Forbidden)</exception>
-        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code Conflict)</exception>
+        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code 409)</exception>
+        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code 400)</exception>
+        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code 403)</exception>
         /// <exception cref="ReferenceException">if an object was attempted to be referenced that doesn't exist or has been removed,
-        ///            or there was a conflict (HTTP status code NotFound, Conflict or Gone)</exception>
+        ///            or there was a conflict (HTTP status code 404, 409 or 410)</exception>
         /// <exception cref="PlatformException">if something went wrong at the Worldline Global Collect platform,
         ///            the Worldline Global Collect platform was unable to process a message from a downstream partner/acquirer,
-        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code InternalServerError, BadGateway or ServiceUnavailable)</exception>
+        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code 500, 502 or 503)</exception>
         /// <exception cref="ApiException">if the Worldline Global Collect platform returned any other error</exception>
         public async Task<RefundResponse> Refund(string paymentId, RefundRequest body, CallContext context = null)
         {
@@ -489,14 +489,14 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// <param name="paymentId">string</param>
         /// <param name="context">CallContext</param>
         /// <returns>RefundsResponse</returns>
-        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code BadRequest)</exception>
-        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code Forbidden)</exception>
-        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code Conflict)</exception>
+        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code 409)</exception>
+        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code 400)</exception>
+        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code 403)</exception>
         /// <exception cref="ReferenceException">if an object was attempted to be referenced that doesn't exist or has been removed,
-        ///            or there was a conflict (HTTP status code NotFound, Conflict or Gone)</exception>
+        ///            or there was a conflict (HTTP status code 404, 409 or 410)</exception>
         /// <exception cref="PlatformException">if something went wrong at the Worldline Global Collect platform,
         ///            the Worldline Global Collect platform was unable to process a message from a downstream partner/acquirer,
-        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code InternalServerError, BadGateway or ServiceUnavailable)</exception>
+        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code 500, 502 or 503)</exception>
         /// <exception cref="ApiException">if the Worldline Global Collect platform returned any other error</exception>
         public async Task<RefundsResponse> Refunds(string paymentId, CallContext context = null)
         {
@@ -527,14 +527,14 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// <param name="paymentId">string</param>
         /// <param name="context">CallContext</param>
         /// <returns>CancelPaymentResponse</returns>
-        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code BadRequest)</exception>
-        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code Forbidden)</exception>
-        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code Conflict)</exception>
+        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code 409)</exception>
+        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code 400)</exception>
+        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code 403)</exception>
         /// <exception cref="ReferenceException">if an object was attempted to be referenced that doesn't exist or has been removed,
-        ///            or there was a conflict (HTTP status code NotFound, Conflict or Gone)</exception>
+        ///            or there was a conflict (HTTP status code 404, 409 or 410)</exception>
         /// <exception cref="PlatformException">if something went wrong at the Worldline Global Collect platform,
         ///            the Worldline Global Collect platform was unable to process a message from a downstream partner/acquirer,
-        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code InternalServerError, BadGateway or ServiceUnavailable)</exception>
+        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code 500, 502 or 503)</exception>
         /// <exception cref="ApiException">if the Worldline Global Collect platform returned any other error</exception>
         public async Task<CancelPaymentResponse> Cancel(string paymentId, CallContext context = null)
         {
@@ -567,14 +567,14 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// <param name="body">CreateDisputeRequest</param>
         /// <param name="context">CallContext</param>
         /// <returns>DisputeResponse</returns>
-        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code BadRequest)</exception>
-        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code Forbidden)</exception>
-        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code Conflict)</exception>
+        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code 409)</exception>
+        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code 400)</exception>
+        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code 403)</exception>
         /// <exception cref="ReferenceException">if an object was attempted to be referenced that doesn't exist or has been removed,
-        ///            or there was a conflict (HTTP status code NotFound, Conflict or Gone)</exception>
+        ///            or there was a conflict (HTTP status code 404, 409 or 410)</exception>
         /// <exception cref="PlatformException">if something went wrong at the Worldline Global Collect platform,
         ///            the Worldline Global Collect platform was unable to process a message from a downstream partner/acquirer,
-        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code InternalServerError, BadGateway or ServiceUnavailable)</exception>
+        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code 500, 502 or 503)</exception>
         /// <exception cref="ApiException">if the Worldline Global Collect platform returned any other error</exception>
         public async Task<DisputeResponse> Dispute(string paymentId, CreateDisputeRequest body, CallContext context = null)
         {
@@ -606,14 +606,14 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// <param name="paymentId">string</param>
         /// <param name="context">CallContext</param>
         /// <returns>DisputesResponse</returns>
-        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code BadRequest)</exception>
-        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code Forbidden)</exception>
-        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code Conflict)</exception>
+        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code 409)</exception>
+        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code 400)</exception>
+        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code 403)</exception>
         /// <exception cref="ReferenceException">if an object was attempted to be referenced that doesn't exist or has been removed,
-        ///            or there was a conflict (HTTP status code NotFound, Conflict or Gone)</exception>
+        ///            or there was a conflict (HTTP status code 404, 409 or 410)</exception>
         /// <exception cref="PlatformException">if something went wrong at the Worldline Global Collect platform,
         ///            the Worldline Global Collect platform was unable to process a message from a downstream partner/acquirer,
-        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code InternalServerError, BadGateway or ServiceUnavailable)</exception>
+        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code 500, 502 or 503)</exception>
         /// <exception cref="ApiException">if the Worldline Global Collect platform returned any other error</exception>
         public async Task<DisputesResponse> Disputes(string paymentId, CallContext context = null)
         {
@@ -644,14 +644,14 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// <param name="paymentId">string</param>
         /// <param name="context">CallContext</param>
         /// <returns>DeviceFingerprintDetails</returns>
-        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code BadRequest)</exception>
-        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code Forbidden)</exception>
-        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code Conflict)</exception>
+        /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code 409)</exception>
+        /// <exception cref="ValidationException">if the request was not correct and couldn't be processed (HTTP status code 400)</exception>
+        /// <exception cref="AuthorizationException">if the request was not allowed (HTTP status code 403)</exception>
         /// <exception cref="ReferenceException">if an object was attempted to be referenced that doesn't exist or has been removed,
-        ///            or there was a conflict (HTTP status code NotFound, Conflict or Gone)</exception>
+        ///            or there was a conflict (HTTP status code 404, 409 or 410)</exception>
         /// <exception cref="PlatformException">if something went wrong at the Worldline Global Collect platform,
         ///            the Worldline Global Collect platform was unable to process a message from a downstream partner/acquirer,
-        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code InternalServerError, BadGateway or ServiceUnavailable)</exception>
+        ///            or the service that you're trying to reach is temporary unavailable (HTTP status code 500, 502 or 503)</exception>
         /// <exception cref="ApiException">if the Worldline Global Collect platform returned any other error</exception>
         public async Task<DeviceFingerprintDetails> Devicefingerprint(string paymentId, CallContext context = null)
         {

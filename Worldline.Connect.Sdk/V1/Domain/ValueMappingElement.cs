@@ -12,17 +12,17 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// List of extra data of the value.
         /// </summary>
-        public IList<PaymentProductFieldDisplayElement> DisplayElements { get; set; } = null;
+        public IList<PaymentProductFieldDisplayElement> DisplayElements { get; set; }
 
         /// <summary>
         /// Key name
         /// </summary>
         [Obsolete("Use displayElements instead with ID 'displayName'")]
-        public string DisplayName { get; set; } = null;
+        public string DisplayName { get; set; }
 
         /// <summary>
         /// Value corresponding to the key
         /// </summary>
-        public string Value { get; set; } = null;
+        public string Value { get; set; }
     }
 }

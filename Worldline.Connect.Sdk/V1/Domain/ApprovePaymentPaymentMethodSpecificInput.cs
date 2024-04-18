@@ -10,11 +10,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// The desired date for the collection
         /// <br />Format: YYYYMMDD
         /// </summary>
-        public string DateCollect { get; set; } = null;
+        public string DateCollect { get; set; }
 
         /// <summary>
         /// Token containing tokenized bank account details
         /// </summary>
-        public string Token { get; set; } = null;
+        public string Token { get; set; }
     }
 }

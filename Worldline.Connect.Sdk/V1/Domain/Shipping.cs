@@ -9,7 +9,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing address information
         /// </summary>
-        public AddressPersonal Address { get; set; } = null;
+        public AddressPersonal Address { get; set; }
 
         /// <summary>
         /// Indicates shipping method chosen for the transaction. Possible values: 
@@ -23,34 +23,34 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>other = other means of delivery</description></item>
         /// </list>
         /// </summary>
-        public string AddressIndicator { get; set; } = null;
+        public string AddressIndicator { get; set; }
 
         /// <summary>
         /// Comments included during shipping
         /// </summary>
-        public string Comments { get; set; } = null;
+        public string Comments { get; set; }
 
         /// <summary>
         /// Email address linked to the shipping
         /// </summary>
-        public string EmailAddress { get; set; } = null;
+        public string EmailAddress { get; set; }
 
         /// <summary>
         /// Date (YYYYMMDD) when the shipping details for this transaction were first used.
         /// </summary>
-        public string FirstUsageDate { get; set; } = null;
+        public string FirstUsageDate { get; set; }
 
         /// <summary>
         /// Indicator if this shipping address is used for the first time to ship an order 
         /// <p>true = the shipping details are used for the first time with this transaction</p>
         /// <p>false = the shipping details have been used for other transactions in the past</p>
         /// </summary>
-        public bool? IsFirstUsage { get; set; } = null;
+        public bool? IsFirstUsage { get; set; }
 
         /// <summary>
         /// Shipment tracking number
         /// </summary>
-        public string TrackingNumber { get; set; } = null;
+        public string TrackingNumber { get; set; }
 
         /// <summary>
         /// Indicates the merchandise delivery timeframe. Possible values: 
@@ -65,6 +65,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>to-store = For deliveries to a store for payments that are processed by the WL Online Payment Acceptance platform</description></item>
         /// </list>
         /// </summary>
-        public string Type { get; set; } = null;
+        public string Type { get; set; }
     }
 }

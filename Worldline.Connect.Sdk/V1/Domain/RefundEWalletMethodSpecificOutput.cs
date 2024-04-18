@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// PayPal (payment product 840) specific details
         /// </summary>
-        public RefundPaymentProduct840SpecificOutput PaymentProduct840SpecificOutput { get; set; } = null;
+        public RefundPaymentProduct840SpecificOutput PaymentProduct840SpecificOutput { get; set; }
     }
 }

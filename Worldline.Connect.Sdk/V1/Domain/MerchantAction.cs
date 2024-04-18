@@ -27,23 +27,23 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>CALL_THIRD_PARTY - The merchant needs to call a third party using the data found in thirdPartyData</description></item>
         /// </list>
         /// </summary>
-        public string ActionType { get; set; } = null;
+        public string ActionType { get; set; }
 
         /// <summary>
         /// Populated only when the actionType of the merchantAction is SHOW_FORM. In this case, this property contains the list of fields to render, in the format that is also used in the response of 
         /// <a href="https://apireference.connect.worldline-solutions.com/s2sapi/v1/en_US/dotnet/products/get.html">Get payment product</a>.
         /// </summary>
-        public IList<PaymentProductField> FormFields { get; set; } = null;
+        public IList<PaymentProductField> FormFields { get; set; }
 
         /// <summary>
         /// Populated only when the actionType of the merchantAction is MOBILE_THREEDS_CHALLENGE. In this case, this object contains the list of properties to provide to the EMVco certified Mobile SDK as a challengeParameters object.
         /// </summary>
-        public MobileThreeDSecureChallengeParameters MobileThreeDSecureChallengeParameters { get; set; } = null;
+        public MobileThreeDSecureChallengeParameters MobileThreeDSecureChallengeParameters { get; set; }
 
         /// <summary>
         /// Object containing all data needed to redirect the customer
         /// </summary>
-        public RedirectData RedirectData { get; set; } = null;
+        public RedirectData RedirectData { get; set; }
 
         /// <summary>
         /// This property contains the blob with data for the instructions rendering service. 
@@ -57,7 +57,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// </list>You can offer a link to a customer to see an instructions page for a payment done earlier. Because of the size of the instructionsRenderingData this will need to be set in a web form as a value of a hidden field. Before presenting the link you need to obtain a clientSessionId by creating a session using the S2S API. You will need to use the MyCheckout hosted payment pages domain hosted in the same region as the API domain used for the createClientSession call. 
         /// <p>The instructionsRenderingData is a String blob that is presented to you via the Server API as part of the merchantAction (if available, and non-redirect) in the JSON return values for the createPayment call or the getHostedCheckoutStatus call (merchantAction inside createdPaymentOutput when available). You are responsible to store the instructionsRenderingData blob in order to be able to present the instructions page at a later time, when this information might no longer be available through Server API calls.</p>
         /// </summary>
-        public string RenderingData { get; set; } = null;
+        public string RenderingData { get; set; }
 
         /// <summary>
         /// This is returned for the SHOW_INSTRUCTION, the SHOW_TRANSACTION_RESULTS and the SHOW_FORM actionType.
@@ -73,12 +73,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>urlIntent - contains a URL intent that can be used to complete the payment in the WeChat app. In this case, the key URLINTENT contains a URL intent that can be used as the link of an 'open the app' button on a mobile device.</description></item>
         /// </list>
         /// </summary>
-        public IList<KeyValuePair> ShowData { get; set; } = null;
+        public IList<KeyValuePair> ShowData { get; set; }
 
         /// <summary>
         /// This is returned for the CALL_THIRD_PARTY actionType.
         /// <br />The payment product specific field of the payment product used for the payment will be populated with the third party data that should be used when calling the third party.
         /// </summary>
-        public ThirdPartyData ThirdPartyData { get; set; } = null;
+        public ThirdPartyData ThirdPartyData { get; set; }
     }
 }

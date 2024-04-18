@@ -9,12 +9,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// The ID of the display element.
         /// </summary>
-        public string Id { get; set; } = null;
+        public string Id { get; set; }
 
         /// <summary>
         /// The label of the display element.
         /// </summary>
-        public string Label { get; set; } = null;
+        public string Label { get; set; }
 
         /// <summary>
         /// The type of the display element. Indicates how the value should be presented. Possible values are: 
@@ -26,11 +26,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>URI - as a link</description></item>
         /// </list>
         /// </summary>
-        public string Type { get; set; } = null;
+        public string Type { get; set; }
 
         /// <summary>
         /// the value of the display element.
         /// </summary>
-        public string Value { get; set; } = null;
+        public string Value { get; set; }
     }
 }

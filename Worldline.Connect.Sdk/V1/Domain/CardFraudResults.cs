@@ -35,7 +35,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>0 - No service available</description></item>
         /// </list>
         /// </summary>
-        public string AvsResult { get; set; } = null;
+        public string AvsResult { get; set; }
 
         /// <summary>
         /// Result of the Card Verification Value checks. Possible values are: 
@@ -49,16 +49,16 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>0 - No service available</description></item>
         /// </list>
         /// </summary>
-        public string CvvResult { get; set; } = null;
+        public string CvvResult { get; set; }
 
         /// <summary>
         /// Results of Fraugster fraud prevention check. Fraugster collects transaction data points such as name, email address, billing, etc. to analyze whether or not the transaction is fraudulent.
         /// </summary>
-        public FraugsterResults Fraugster { get; set; } = null;
+        public FraugsterResults Fraugster { get; set; }
 
         /// <summary>
         /// Additional response data returned by RetailDecisions
         /// </summary>
-        public FraudResultsRetailDecisions RetailDecisions { get; set; } = null;
+        public FraudResultsRetailDecisions RetailDecisions { get; set; }
     }
 }

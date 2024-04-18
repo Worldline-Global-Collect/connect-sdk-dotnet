@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing Card object
         /// </summary>
-        public Card Card { get; set; } = null;
+        public Card Card { get; set; }
     }
 }

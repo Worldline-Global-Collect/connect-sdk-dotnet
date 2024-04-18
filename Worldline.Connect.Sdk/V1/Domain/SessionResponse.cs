@@ -11,27 +11,27 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// The datacenter-specific base url for assets. This value needs to be passed to the Client SDK to make sure that the client software connects to the right datacenter.
         /// </summary>
-        public string AssetUrl { get; set; } = null;
+        public string AssetUrl { get; set; }
 
         /// <summary>
         /// The datacenter-specific base url for client requests. This value needs to be passed to the Client SDK to make sure that the client software connects to the right datacenter.
         /// </summary>
-        public string ClientApiUrl { get; set; } = null;
+        public string ClientApiUrl { get; set; }
 
         /// <summary>
         /// The identifier of the session that has been created.
         /// </summary>
-        public string ClientSessionId { get; set; } = null;
+        public string ClientSessionId { get; set; }
 
         /// <summary>
         /// The session is build up around the customer in the form of the customerId. All of the Client APIs use this customerId in the URI to identify the customer.
         /// </summary>
-        public string CustomerId { get; set; } = null;
+        public string CustomerId { get; set; }
 
         /// <summary>
         /// Tokens that are submitted in the request are validated. In case any of the tokens can't be used anymore they are returned in this array. You should most likely remove those tokens from your system.
         /// </summary>
-        public IList<string> InvalidTokens { get; set; } = null;
+        public IList<string> InvalidTokens { get; set; }
 
         /// <summary>
         /// Possible values: 
@@ -48,6 +48,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>Android Client SDK v3.10.0</description></item>
         /// </list>In case of the iOS and Android SDKs the version of the SDK used will be tightly coupled with the versions of your app that is still in active use. You are advised to pass this value to your clients in case you are unsure of the version used in your clients.
         /// </summary>
-        public string Region { get; set; } = null;
+        public string Region { get; set; }
     }
 }

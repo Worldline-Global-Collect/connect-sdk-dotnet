@@ -11,16 +11,16 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing information for the client on how best to display the installment options
         /// </summary>
-        public InstallmentDisplayHints DisplayHints { get; set; } = null;
+        public InstallmentDisplayHints DisplayHints { get; set; }
 
         /// <summary>
         /// The ID of the installment option in our system
         /// </summary>
-        public string Id { get; set; } = null;
+        public string Id { get; set; }
 
         /// <summary>
         /// Object containing information about installment plans
         /// </summary>
-        public IList<Installments> InstallmentPlans { get; set; } = null;
+        public IList<Installments> InstallmentPlans { get; set; }
     }
 }

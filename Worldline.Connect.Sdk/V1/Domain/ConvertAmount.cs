@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Converted amount in cents and having 2 decimal
         /// </summary>
-        public long? ConvertedAmount { get; set; } = null;
+        public long? ConvertedAmount { get; set; }
     }
 }

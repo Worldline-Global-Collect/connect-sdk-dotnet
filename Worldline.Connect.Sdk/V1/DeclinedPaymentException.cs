@@ -2,6 +2,7 @@
  * This class was auto-generated from the API references found at
  * https://apireference.connect.worldline-solutions.com/
  */
+using System.Net;
 using Worldline.Connect.Sdk.V1.Domain;
 
 namespace Worldline.Connect.Sdk.V1
@@ -14,19 +15,19 @@ namespace Worldline.Connect.Sdk.V1
         /// <summary>
         /// Gets the result of creating a payment if available, otherwise <c>null</c>.
         /// </summary>
-        public CreatePaymentResult CreatePaymentResult => _errors?.PaymentResult;
+        public CreatePaymentResult CreatePaymentResult => _response?.PaymentResult;
 
-        public DeclinedPaymentException(System.Net.HttpStatusCode statusCode, string responseBody, PaymentErrorResponse errors)
-            : base(BuildMessage(errors), statusCode, responseBody, errors?.ErrorId, errors?.Errors)
+        public DeclinedPaymentException(HttpStatusCode statusCode, string responseBody, PaymentErrorResponse response)
+            : base(BuildMessage(response), statusCode, responseBody, response?.ErrorId, response?.Errors)
         {
-            _errors = errors;
+            _response = response;
         }
 
-        private readonly PaymentErrorResponse _errors;
+        private readonly PaymentErrorResponse _response;
 
-        private static string BuildMessage(PaymentErrorResponse errors)
+        private static string BuildMessage(PaymentErrorResponse response)
         {
-            var payment = errors?.PaymentResult?.Payment;
+            var payment = response?.PaymentResult?.Payment;
             if (payment != null)
             {
                 return "declined payment '" + payment.Id + "' with status '" + payment.Status + "'";

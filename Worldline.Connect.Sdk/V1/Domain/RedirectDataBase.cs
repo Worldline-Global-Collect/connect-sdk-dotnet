@@ -9,8 +9,8 @@ namespace Worldline.Connect.Sdk.V1.Domain
     public class RedirectDataBase
     {
         [JsonProperty(PropertyName = "RETURNMAC")]
-        public string RETURNMAC { get; set; } = null;
+        public string RETURNMAC { get; set; }
 
-        public string RedirectURL { get; set; } = null;
+        public string RedirectURL { get; set; }
     }
 }

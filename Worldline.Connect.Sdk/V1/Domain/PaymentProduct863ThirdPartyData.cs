@@ -9,36 +9,36 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// The appId to use in third party calls to WeChat.
         /// </summary>
-        public string AppId { get; set; } = null;
+        public string AppId { get; set; }
 
         /// <summary>
         /// The nonceStr to use in third party calls to WeChat
         /// </summary>
-        public string NonceStr { get; set; } = null;
+        public string NonceStr { get; set; }
 
         /// <summary>
         /// The packageSign to use in third party calls to WeChat
         /// </summary>
-        public string PackageSign { get; set; } = null;
+        public string PackageSign { get; set; }
 
         /// <summary>
         /// The paySign to use in third party calls to WeChat
         /// </summary>
-        public string PaySign { get; set; } = null;
+        public string PaySign { get; set; }
 
         /// <summary>
         /// The prepayId to use in third party calls to WeChat.
         /// </summary>
-        public string PrepayId { get; set; } = null;
+        public string PrepayId { get; set; }
 
         /// <summary>
         /// The signType to use in third party calls to WeChat
         /// </summary>
-        public string SignType { get; set; } = null;
+        public string SignType { get; set; }
 
         /// <summary>
         /// The timeStamp to use in third party calls to WeChat
         /// </summary>
-        public string TimeStamp { get; set; } = null;
+        public string TimeStamp { get; set; }
     }
 }

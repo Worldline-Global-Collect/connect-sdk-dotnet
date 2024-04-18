@@ -9,7 +9,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Should be populated with the value of the corresponding accountNumberType of the recipient.
         /// </summary>
-        public string AccountNumber { get; set; } = null;
+        public string AccountNumber { get; set; }
 
         /// <summary>
         /// Defines the account number type of the recipient. Possible values are: 
@@ -22,27 +22,27 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>giftCard = Gift card is a type of prepaid card that contains a specific amount of money that can be used at participating stores and marketplaces.</description></item>
         /// </list>
         /// </summary>
-        public string AccountNumberType { get; set; } = null;
+        public string AccountNumberType { get; set; }
 
         /// <summary>
         /// Object containing the address details of the recipient of an account funding transaction.
         /// </summary>
-        public Address Address { get; set; } = null;
+        public Address Address { get; set; }
 
         /// <summary>
         /// The date of birth of the recipient
         /// <br />Format: YYYYMMDD
         /// </summary>
-        public string DateOfBirth { get; set; } = null;
+        public string DateOfBirth { get; set; }
 
         /// <summary>
         /// Object containing the name details of the recipient of an account funding transaction.
         /// </summary>
-        public AfrName Name { get; set; } = null;
+        public AfrName Name { get; set; }
 
         /// <summary>
         /// Either partialPan or accountnumber is required for merchants that use Merchant Category Code (MCC) 6012 for transactions involving UK costumers.
         /// </summary>
-        public string PartialPan { get; set; } = null;
+        public string PartialPan { get; set; }
     }
 }

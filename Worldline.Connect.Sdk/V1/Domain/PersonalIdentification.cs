@@ -9,7 +9,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// ISO 3166-1 alpha-2 country code of the country that issued the identification document
         /// </summary>
-        public string IdIssuingCountryCode { get; set; } = null;
+        public string IdIssuingCountryCode { get; set; }
 
         /// <summary>
         /// Indicates the type of identification 
@@ -24,11 +24,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>militaryIdentification = The provided idValue is an identification issued to military personnel of a country.</description></item>
         /// </list>
         /// </summary>
-        public string IdType { get; set; } = null;
+        public string IdType { get; set; }
 
         /// <summary>
         /// The value of the identification
         /// </summary>
-        public string IdValue { get; set; } = null;
+        public string IdValue { get; set; }
     }
 }

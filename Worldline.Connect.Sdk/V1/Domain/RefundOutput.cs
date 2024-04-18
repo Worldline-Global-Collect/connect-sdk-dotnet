@@ -9,37 +9,37 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Amount paid
         /// </summary>
-        public long? AmountPaid { get; set; } = null;
+        public long? AmountPaid { get; set; }
 
         /// <summary>
         /// Object containing specific bank refund details
         /// </summary>
-        public RefundBankMethodSpecificOutput BankRefundMethodSpecificOutput { get; set; } = null;
+        public RefundBankMethodSpecificOutput BankRefundMethodSpecificOutput { get; set; }
 
         /// <summary>
         /// Object containing specific card refund details
         /// </summary>
-        public RefundCardMethodSpecificOutput CardRefundMethodSpecificOutput { get; set; } = null;
+        public RefundCardMethodSpecificOutput CardRefundMethodSpecificOutput { get; set; }
 
         /// <summary>
         /// Object containing specific cash refund details
         /// </summary>
-        public RefundCashMethodSpecificOutput CashRefundMethodSpecificOutput { get; set; } = null;
+        public RefundCashMethodSpecificOutput CashRefundMethodSpecificOutput { get; set; }
 
         /// <summary>
         /// Object containing specific e-invoice refund details
         /// </summary>
-        public RefundEInvoiceMethodSpecificOutput EInvoiceRefundMethodSpecificOutput { get; set; } = null;
+        public RefundEInvoiceMethodSpecificOutput EInvoiceRefundMethodSpecificOutput { get; set; }
 
         /// <summary>
         /// Object containing specific eWallet refund details
         /// </summary>
-        public RefundEWalletMethodSpecificOutput EWalletRefundMethodSpecificOutput { get; set; } = null;
+        public RefundEWalletMethodSpecificOutput EWalletRefundMethodSpecificOutput { get; set; }
 
         /// <summary>
         /// Object containing specific mobile refund details
         /// </summary>
-        public RefundMobileMethodSpecificOutput MobileRefundMethodSpecificOutput { get; set; } = null;
+        public RefundMobileMethodSpecificOutput MobileRefundMethodSpecificOutput { get; set; }
 
         /// <summary>
         /// Payment method identifier used by the our payment engine with the following possible values: 
@@ -54,6 +54,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>redirect</description></item>
         /// </list>
         /// </summary>
-        public string PaymentMethod { get; set; } = null;
+        public string PaymentMethod { get; set; }
     }
 }

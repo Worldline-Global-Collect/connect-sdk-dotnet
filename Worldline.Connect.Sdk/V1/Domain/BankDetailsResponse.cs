@@ -9,21 +9,21 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object that holds the Basic Bank Account Number (BBAN) data
         /// </summary>
-        public BankAccountBban BankAccountBban { get; set; } = null;
+        public BankAccountBban BankAccountBban { get; set; }
 
         /// <summary>
         /// Object that holds the International Bank Account Number (IBAN) data
         /// </summary>
-        public BankAccountIban BankAccountIban { get; set; } = null;
+        public BankAccountIban BankAccountIban { get; set; }
 
         /// <summary>
         /// Object that holds the reformatted bank account data
         /// </summary>
-        public BankData BankData { get; set; } = null;
+        public BankData BankData { get; set; }
 
         /// <summary>
         /// Object that holds all the SWIFT routing information
         /// </summary>
-        public Swift Swift { get; set; } = null;
+        public Swift Swift { get; set; }
     }
 }

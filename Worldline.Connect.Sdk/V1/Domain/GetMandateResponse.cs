@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing information on a mandate.
         /// </summary>
-        public MandateResponse Mandate { get; set; } = null;
+        public MandateResponse Mandate { get; set; }
     }
 }

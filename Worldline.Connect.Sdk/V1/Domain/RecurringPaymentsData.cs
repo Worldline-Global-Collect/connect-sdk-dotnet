@@ -9,11 +9,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// The object containing the frequency and interval between recurring payments.
         /// </summary>
-        public Frequency RecurringInterval { get; set; } = null;
+        public Frequency RecurringInterval { get; set; }
 
         /// <summary>
         /// The object containing data of the trial period: no-cost or discounted time-constrained trial subscription period.
         /// </summary>
-        public TrialInformation TrialInformation { get; set; } = null;
+        public TrialInformation TrialInformation { get; set; }
     }
 }

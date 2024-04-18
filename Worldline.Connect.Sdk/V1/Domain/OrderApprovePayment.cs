@@ -9,16 +9,16 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing additional input on the order
         /// </summary>
-        public AdditionalOrderInputAirlineData AdditionalInput { get; set; } = null;
+        public AdditionalOrderInputAirlineData AdditionalInput { get; set; }
 
         /// <summary>
         /// Object containing data related to the customer
         /// </summary>
-        public CustomerApprovePayment Customer { get; set; } = null;
+        public CustomerApprovePayment Customer { get; set; }
 
         /// <summary>
         /// Object that holds all reference properties that are linked to this transaction
         /// </summary>
-        public OrderReferencesApprovePayment References { get; set; } = null;
+        public OrderReferencesApprovePayment References { get; set; }
     }
 }

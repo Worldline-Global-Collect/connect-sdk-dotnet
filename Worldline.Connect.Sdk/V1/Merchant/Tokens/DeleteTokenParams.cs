@@ -17,7 +17,7 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Tokens
         /// Date of the mandate cancellation
         /// <br />Format: YYYYMMDD
         /// </summary>
-        public string MandateCancelDate { get; set; } = null;
+        public string MandateCancelDate { get; set; }
 
         public override IEnumerable<RequestParam> ToRequestParameters()
         {

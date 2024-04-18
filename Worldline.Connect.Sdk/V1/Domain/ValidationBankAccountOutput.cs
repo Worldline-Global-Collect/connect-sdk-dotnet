@@ -11,26 +11,26 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Array of checks performed with the results of each check
         /// </summary>
-        public IList<ValidationBankAccountCheck> Checks { get; set; } = null;
+        public IList<ValidationBankAccountCheck> Checks { get; set; }
 
         /// <summary>
         /// Bank name, matching the bank code of the request
         /// </summary>
-        public string NewBankName { get; set; } = null;
+        public string NewBankName { get; set; }
 
         /// <summary>
         /// Reformatted account number according to local clearing rules
         /// </summary>
-        public string ReformattedAccountNumber { get; set; } = null;
+        public string ReformattedAccountNumber { get; set; }
 
         /// <summary>
         /// Reformatted bank code according to local clearing rules
         /// </summary>
-        public string ReformattedBankCode { get; set; } = null;
+        public string ReformattedBankCode { get; set; }
 
         /// <summary>
         /// Reformatted branch code according to local clearing rules
         /// </summary>
-        public string ReformattedBranchCode { get; set; } = null;
+        public string ReformattedBranchCode { get; set; }
     }
 }

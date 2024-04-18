@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// The website from which the purchase was made
         /// </summary>
-        public string WebsiteUrl { get; set; } = null;
+        public string WebsiteUrl { get; set; }
     }
 }

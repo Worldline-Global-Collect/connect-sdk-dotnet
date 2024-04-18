@@ -16,7 +16,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>src-assurance-data, then this element can carry the SRC assurance data</description></item>
         /// </list>
         /// </summary>
-        public string Data { get; set; } = null;
+        public string Data { get; set; }
 
         /// <summary>
         /// Authentication used by the customer on your website or app 
@@ -32,11 +32,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>src-assurance-data = the customer authenticated themselves during a Secure Remote Commerce session</description></item>
         /// </list>
         /// </summary>
-        public string Method { get; set; } = null;
+        public string Method { get; set; }
 
         /// <summary>
         /// Timestamp (YYYYMMDDHHmm) of the authentication of the customer to their account with you
         /// </summary>
-        public string UtcTimestamp { get; set; } = null;
+        public string UtcTimestamp { get; set; }
     }
 }

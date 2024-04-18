@@ -11,6 +11,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Array containing installment options their details and characteristics
         /// </summary>
-        public IList<InstallmentOptions> InstallmentOptions { get; set; } = null;
+        public IList<InstallmentOptions> InstallmentOptions { get; set; }
     }
 }

@@ -6,6 +6,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
 {
     public class AbstractRedirectPaymentProduct840SpecificInput
     {
-        public bool? AddressSelectionAtPayPal { get; set; } = null;
+        public bool? AddressSelectionAtPayPal { get; set; }
     }
 }

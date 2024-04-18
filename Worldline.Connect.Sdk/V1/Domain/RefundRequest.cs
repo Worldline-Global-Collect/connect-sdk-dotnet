@@ -9,27 +9,27 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing amount and ISO currency code attributes
         /// </summary>
-        public AmountOfMoney AmountOfMoney { get; set; } = null;
+        public AmountOfMoney AmountOfMoney { get; set; }
 
         /// <summary>
         /// Object containing the specific input details for a bank refund
         /// </summary>
-        public BankRefundMethodSpecificInput BankRefundMethodSpecificInput { get; set; } = null;
+        public BankRefundMethodSpecificInput BankRefundMethodSpecificInput { get; set; }
 
         /// <summary>
         /// Object containing the details of the customer
         /// </summary>
-        public RefundCustomer Customer { get; set; } = null;
+        public RefundCustomer Customer { get; set; }
 
         /// <summary>
         /// Refund date
         /// <br />Format: YYYYMMDD
         /// </summary>
-        public string RefundDate { get; set; } = null;
+        public string RefundDate { get; set; }
 
         /// <summary>
         /// Object that holds all reference properties that are linked to this refund
         /// </summary>
-        public RefundReferences RefundReferences { get; set; } = null;
+        public RefundReferences RefundReferences { get; set; }
     }
 }

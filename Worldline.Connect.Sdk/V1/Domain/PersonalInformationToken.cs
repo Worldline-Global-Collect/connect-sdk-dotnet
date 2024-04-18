@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Given name(s) or first name(s) of the customer
         /// </summary>
-        public PersonalNameToken Name { get; set; } = null;
+        public PersonalNameToken Name { get; set; }
     }
 }

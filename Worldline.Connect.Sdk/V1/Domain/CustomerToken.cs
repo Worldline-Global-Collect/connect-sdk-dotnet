@@ -9,11 +9,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing the billing address details
         /// </summary>
-        public Address BillingAddress { get; set; } = null;
+        public Address BillingAddress { get; set; }
 
         /// <summary>
         /// Object containing personal information of the customer
         /// </summary>
-        public PersonalInformationToken PersonalInformation { get; set; } = null;
+        public PersonalInformationToken PersonalInformation { get; set; }
     }
 }

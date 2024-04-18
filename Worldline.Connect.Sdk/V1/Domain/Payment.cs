@@ -9,12 +9,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Hosted Checkout specific information. Populated if the payment was created on the GlobalCollect platform through a Hosted Checkout.
         /// </summary>
-        public HostedCheckoutSpecificOutput HostedCheckoutSpecificOutput { get; set; } = null;
+        public HostedCheckoutSpecificOutput HostedCheckoutSpecificOutput { get; set; }
 
         /// <summary>
         /// Object containing payment details
         /// </summary>
-        public PaymentOutput PaymentOutput { get; set; } = null;
+        public PaymentOutput PaymentOutput { get; set; }
 
         /// <summary>
         /// Current high-level status of the payment in a human-readable form. Possible values are : 
@@ -42,11 +42,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />Please see 
         /// <a href="https://apireference.connect.worldline-solutions.com/s2sapi/v1/en_US/dotnet/statuses.html">Statuses</a> for a full overview of possible values.
         /// </summary>
-        public string Status { get; set; } = null;
+        public string Status { get; set; }
 
         /// <summary>
         /// This object has the numeric representation of the current payment status, timestamp of last status change and performable action on the current payment resource. In case of failed payments and negative scenarios, detailed error information is listed.
         /// </summary>
-        public PaymentStatusOutput StatusOutput { get; set; } = null;
+        public PaymentStatusOutput StatusOutput { get; set; }
     }
 }

@@ -9,7 +9,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing refund details
         /// </summary>
-        public RefundOutput RefundOutput { get; set; } = null;
+        public RefundOutput RefundOutput { get; set; }
 
         /// <summary>
         /// Current high-level status of the refund in a human-readable form. Possible values are: 
@@ -25,12 +25,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />Please see 
         /// <a href="https://apireference.connect.worldline-solutions.com/s2sapi/v1/en_US/dotnet/statuses.html">Statuses</a> for a full overview of possible values.
         /// </summary>
-        public string Status { get; set; } = null;
+        public string Status { get; set; }
 
         /// <summary>
         /// This object has the numeric representation of the current refund status, timestamp of last status change and performable action on the current refund resource.
         /// <br />In case of a rejected refund, detailed error information is listed.
         /// </summary>
-        public OrderStatusOutput StatusOutput { get; set; } = null;
+        public OrderStatusOutput StatusOutput { get; set; }
     }
 }

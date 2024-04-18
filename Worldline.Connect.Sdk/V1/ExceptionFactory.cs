@@ -71,11 +71,11 @@ namespace Worldline.Connect.Sdk.V1
             }
         }
 
-        private static bool IsIdempotenceError(IEnumerable<APIError> errors, CallContext context)
+        private static bool IsIdempotenceError(IList<APIError> errors, CallContext context)
         {
             return context?.IdempotenceKey != null
-                    && errors.Count() == 1
-                    && "1409".Equals(errors.ElementAt(0).Code);
+                   && errors?.Count == 1
+                   && "1409".Equals(errors.ElementAt(0)?.Code);
         }
     }
 }

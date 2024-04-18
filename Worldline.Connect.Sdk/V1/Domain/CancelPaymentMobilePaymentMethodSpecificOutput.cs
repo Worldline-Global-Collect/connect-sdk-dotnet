@@ -16,6 +16,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>empty or 98 - The provider did not provide a response</description></item>
         /// </list>
         /// </summary>
-        public string VoidResponseId { get; set; } = null;
+        public string VoidResponseId { get; set; }
     }
 }

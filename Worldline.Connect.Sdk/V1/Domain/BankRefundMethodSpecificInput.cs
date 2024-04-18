@@ -9,16 +9,16 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object that holds the Basic Bank Account Number (BBAN) data
         /// </summary>
-        public BankAccountBbanRefund BankAccountBban { get; set; } = null;
+        public BankAccountBbanRefund BankAccountBban { get; set; }
 
         /// <summary>
         /// Object that holds the International Bank Account Number (IBAN) data
         /// </summary>
-        public BankAccountIban BankAccountIban { get; set; } = null;
+        public BankAccountIban BankAccountIban { get; set; }
 
         /// <summary>
         /// ISO 3166-1 alpha-2 country code of the country where money will be refunded to
         /// </summary>
-        public string CountryCode { get; set; } = null;
+        public string CountryCode { get; set; }
     }
 }

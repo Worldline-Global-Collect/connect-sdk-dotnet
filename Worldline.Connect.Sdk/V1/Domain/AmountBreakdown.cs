@@ -9,7 +9,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Amount in cents and always having 2 decimals
         /// </summary>
-        public long? Amount { get; set; } = null;
+        public long? Amount { get; set; }
 
         /// <summary>
         /// Type of the amount. Each type is only allowed to be provided once. Allowed values: 
@@ -25,6 +25,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>BASE_AMOUNT - Order amount excluding all taxes, discount &amp; shipping costs, with the last 2 digits implied as decimal places. Note: BASE_AMOUNT is only supported by the GlobalCollect and Ogone Payment Platforms.</description></item>
         /// </list>
         /// </summary>
-        public string Type { get; set; } = null;
+        public string Type { get; set; }
     }
 }

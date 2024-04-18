@@ -14,27 +14,27 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>IO_ERROR - indicating that a technical error has occurred within the Connect platform or between Connect and any of the payment platforms or third party systems.</description></item>
         /// </list>
         /// </summary>
-        public string Category { get; set; } = null;
+        public string Category { get; set; }
 
         /// <summary>
         /// Error code
         /// </summary>
-        public string Code { get; set; } = null;
+        public string Code { get; set; }
 
         /// <summary>
         /// HTTP status code for this error that can be used to determine the type of error
         /// </summary>
-        public int? HttpStatusCode { get; set; } = null;
+        public int? HttpStatusCode { get; set; }
 
         /// <summary>
         /// ID of the error. This is a short human-readable message that briefly describes the error.
         /// </summary>
-        public string Id { get; set; } = null;
+        public string Id { get; set; }
 
         /// <summary>
         /// Human-readable error message that is not meant to be relayed to customer as it might tip off people who are trying to commit fraud
         /// </summary>
-        public string Message { get; set; } = null;
+        public string Message { get; set; }
 
         /// <summary>
         /// Returned only if the error relates to a value that was missing or incorrect.
@@ -47,11 +47,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>a[b='some value'] selects all elements of the array in root property a that have a property b with value 'some value'.</description></item>
         /// </list>
         /// </summary>
-        public string PropertyName { get; set; } = null;
+        public string PropertyName { get; set; }
 
         /// <summary>
         /// ID of the request that can be used for debugging purposes
         /// </summary>
-        public string RequestId { get; set; } = null;
+        public string RequestId { get; set; }
     }
 }

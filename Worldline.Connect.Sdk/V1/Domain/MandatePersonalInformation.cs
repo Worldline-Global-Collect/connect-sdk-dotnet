@@ -9,11 +9,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing the name details of the customer
         /// </summary>
-        public MandatePersonalName Name { get; set; } = null;
+        public MandatePersonalName Name { get; set; }
 
         /// <summary>
         /// Object containing the title of the customer (Mr, Miss or Mrs)
         /// </summary>
-        public string Title { get; set; } = null;
+        public string Title { get; set; }
     }
 }

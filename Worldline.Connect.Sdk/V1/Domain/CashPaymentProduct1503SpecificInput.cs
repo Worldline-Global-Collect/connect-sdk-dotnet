@@ -16,6 +16,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />URLs without a protocol will be rejected.
         /// </summary>
         [Obsolete("No replacement, since Boleto Bancario no longer needs a return URL")]
-        public string ReturnUrl { get; set; } = null;
+        public string ReturnUrl { get; set; }
     }
 }

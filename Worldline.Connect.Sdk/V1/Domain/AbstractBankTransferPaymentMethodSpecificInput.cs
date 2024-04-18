@@ -6,6 +6,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
 {
     public class AbstractBankTransferPaymentMethodSpecificInput : AbstractPaymentMethodSpecificInput
     {
-        public string AdditionalReference { get; set; } = null;
+        public string AdditionalReference { get; set; }
     }
 }

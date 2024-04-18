@@ -9,11 +9,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// The number of days, weeks, months, or years before the trial period ends.
         /// </summary>
-        public int? Duration { get; set; } = null;
+        public int? Duration { get; set; }
 
         /// <summary>
         /// The interval for the trial period to finish specified as days, weeks, months, quarters, or years.
         /// </summary>
-        public string Interval { get; set; } = null;
+        public string Interval { get; set; }
     }
 }

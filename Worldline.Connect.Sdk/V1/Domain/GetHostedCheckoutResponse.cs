@@ -9,7 +9,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// When a payment has been created during the hosted checkout session this object will return the details.
         /// </summary>
-        public CreatedPaymentOutput CreatedPaymentOutput { get; set; } = null;
+        public CreatedPaymentOutput CreatedPaymentOutput { get; set; }
 
         /// <summary>
         /// This is the status of the hosted checkout. Possible values are: 
@@ -23,6 +23,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />Please see 
         /// <a href="https://apireference.connect.worldline-solutions.com/s2sapi/v1/en_US/dotnet/statuses.html">Statuses</a> for a full overview of possible values.
         /// </summary>
-        public string Status { get; set; } = null;
+        public string Status { get; set; }
     }
 }

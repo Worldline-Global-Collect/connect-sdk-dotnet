@@ -10,12 +10,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// The date when the mandate was signed
         /// <br />Format: YYYYMMDD
         /// </summary>
-        public string MandateSignatureDate { get; set; } = null;
+        public string MandateSignatureDate { get; set; }
 
         /// <summary>
         /// The city where the mandate was signed
         /// </summary>
-        public string MandateSignaturePlace { get; set; } = null;
+        public string MandateSignaturePlace { get; set; }
 
         /// <summary>
         /// <list type="bullet">
@@ -23,6 +23,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false = Mandate is not signed</description></item>
         /// </list>
         /// </summary>
-        public bool? MandateSigned { get; set; } = null;
+        public bool? MandateSigned { get; set; }
     }
 }

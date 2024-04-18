@@ -12,11 +12,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />If left empty, the full amount will be captured and the request will be final.
         /// <br />If the full amount is captured, the request will also be final.
         /// </summary>
-        public long? Amount { get; set; } = null;
+        public long? Amount { get; set; }
 
         /// <summary>
         /// This property indicates whether this will be the final capture of this transaction. The default value for this property is false.
         /// </summary>
-        public bool? IsFinal { get; set; } = null;
+        public bool? IsFinal { get; set; }
     }
 }

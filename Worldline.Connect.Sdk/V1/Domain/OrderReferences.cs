@@ -42,33 +42,33 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>1504 Konbini - 80 characters</description></item>
         /// </list>All other payment products don't support a descriptor.
         /// </summary>
-        public string Descriptor { get; set; } = null;
+        public string Descriptor { get; set; }
 
         /// <summary>
         /// Object containing additional invoice data
         /// </summary>
-        public OrderInvoiceData InvoiceData { get; set; } = null;
+        public OrderInvoiceData InvoiceData { get; set; }
 
         /// <summary>
         /// Your order identifier
         /// <br />Note: This does not need to have a unique value for each transaction. This allows your to link multiple transactions to the same logical order in your system.
         /// </summary>
-        public long? MerchantOrderId { get; set; } = null;
+        public long? MerchantOrderId { get; set; }
 
         /// <summary>
         /// <div class="alert alert-info">Note that the maximum length of this field for transactions processed on the GlobalCollect platform is 30.</div>
         /// <div class="alert alert-info">Note that the maximum length of this field for transactions processed on the WL Online Payment Acceptance Platform platform is 50.</div>Your unique reference of the transaction that is also returned in our report files. This is almost always used for your reconciliation of our report files.
         /// </summary>
-        public string MerchantReference { get; set; } = null;
+        public string MerchantReference { get; set; }
 
         /// <summary>
         /// Provides an additional means of reconciliation for Gateway merchants
         /// </summary>
-        public string ProviderId { get; set; } = null;
+        public string ProviderId { get; set; }
 
         /// <summary>
         /// Provides an additional means of reconciliation, this is the MerchantId used at the provider
         /// </summary>
-        public string ProviderMerchantId { get; set; } = null;
+        public string ProviderMerchantId { get; set; }
     }
 }

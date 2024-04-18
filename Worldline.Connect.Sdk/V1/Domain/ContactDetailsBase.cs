@@ -9,7 +9,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Email address of the customer
         /// </summary>
-        public string EmailAddress { get; set; } = null;
+        public string EmailAddress { get; set; }
 
         /// <summary>
         /// Preference for the type of email message markup 
@@ -18,6 +18,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>html</description></item>
         /// </list>
         /// </summary>
-        public string EmailMessageType { get; set; } = null;
+        public string EmailMessageType { get; set; }
     }
 }

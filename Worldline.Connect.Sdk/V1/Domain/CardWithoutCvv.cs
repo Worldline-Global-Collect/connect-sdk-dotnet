@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Issue number on the card (if applicable)
         /// </summary>
-        public string IssueNumber { get; set; } = null;
+        public string IssueNumber { get; set; }
     }
 }

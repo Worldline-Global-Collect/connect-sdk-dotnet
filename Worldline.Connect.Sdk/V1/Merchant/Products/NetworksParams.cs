@@ -16,17 +16,17 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Products
         /// <summary>
         /// ISO 3166-1 alpha-2 country code
         /// </summary>
-        public string CountryCode { get; set; } = null;
+        public string CountryCode { get; set; }
 
         /// <summary>
         /// Three-letter ISO currency code representing the currency for the amount
         /// </summary>
-        public string CurrencyCode { get; set; } = null;
+        public string CurrencyCode { get; set; }
 
         /// <summary>
         /// Amount in cents and always having 2 decimals
         /// </summary>
-        public long? Amount { get; set; } = null;
+        public long? Amount { get; set; }
 
         /// <summary>
         /// This allows you to filter networks based on their support for recurring or not 
@@ -35,7 +35,7 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Products
         ///   <item><description>false</description></item>
         /// </list>
         /// </summary>
-        public bool? IsRecurring { get; set; } = null;
+        public bool? IsRecurring { get; set; }
 
         public override IEnumerable<RequestParam> ToRequestParameters()
         {

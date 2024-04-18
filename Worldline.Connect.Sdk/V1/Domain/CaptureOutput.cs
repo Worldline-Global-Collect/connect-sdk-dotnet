@@ -9,47 +9,47 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Amount that has been paid
         /// </summary>
-        public long? AmountPaid { get; set; } = null;
+        public long? AmountPaid { get; set; }
 
         /// <summary>
         /// Amount that has been reversed
         /// </summary>
-        public long? AmountReversed { get; set; } = null;
+        public long? AmountReversed { get; set; }
 
         /// <summary>
         /// Object containing the bank transfer payment method details
         /// </summary>
-        public BankTransferPaymentMethodSpecificOutput BankTransferPaymentMethodSpecificOutput { get; set; } = null;
+        public BankTransferPaymentMethodSpecificOutput BankTransferPaymentMethodSpecificOutput { get; set; }
 
         /// <summary>
         /// Object containing the card payment method details
         /// </summary>
-        public CardPaymentMethodSpecificOutput CardPaymentMethodSpecificOutput { get; set; } = null;
+        public CardPaymentMethodSpecificOutput CardPaymentMethodSpecificOutput { get; set; }
 
         /// <summary>
         /// Object containing the cash payment method details
         /// </summary>
-        public CashPaymentMethodSpecificOutput CashPaymentMethodSpecificOutput { get; set; } = null;
+        public CashPaymentMethodSpecificOutput CashPaymentMethodSpecificOutput { get; set; }
 
         /// <summary>
         /// Object containing the non SEPA direct debit payment method details
         /// </summary>
-        public NonSepaDirectDebitPaymentMethodSpecificOutput DirectDebitPaymentMethodSpecificOutput { get; set; } = null;
+        public NonSepaDirectDebitPaymentMethodSpecificOutput DirectDebitPaymentMethodSpecificOutput { get; set; }
 
         /// <summary>
         /// Object containing the e-invoice payment method details
         /// </summary>
-        public EInvoicePaymentMethodSpecificOutput EInvoicePaymentMethodSpecificOutput { get; set; } = null;
+        public EInvoicePaymentMethodSpecificOutput EInvoicePaymentMethodSpecificOutput { get; set; }
 
         /// <summary>
         /// Object containing the invoice payment method details
         /// </summary>
-        public InvoicePaymentMethodSpecificOutput InvoicePaymentMethodSpecificOutput { get; set; } = null;
+        public InvoicePaymentMethodSpecificOutput InvoicePaymentMethodSpecificOutput { get; set; }
 
         /// <summary>
         /// Object containing the mobile payment method details
         /// </summary>
-        public MobilePaymentMethodSpecificOutput MobilePaymentMethodSpecificOutput { get; set; } = null;
+        public MobilePaymentMethodSpecificOutput MobilePaymentMethodSpecificOutput { get; set; }
 
         /// <summary>
         /// Payment method identifier used by the our payment engine with the following possible values: 
@@ -64,21 +64,21 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>redirect</description></item>
         /// </list>
         /// </summary>
-        public string PaymentMethod { get; set; } = null;
+        public string PaymentMethod { get; set; }
 
         /// <summary>
         /// Object containing the redirect payment product details
         /// </summary>
-        public RedirectPaymentMethodSpecificOutput RedirectPaymentMethodSpecificOutput { get; set; } = null;
+        public RedirectPaymentMethodSpecificOutput RedirectPaymentMethodSpecificOutput { get; set; }
 
         /// <summary>
         /// The reason description given for the reversedAmount property.
         /// </summary>
-        public string ReversalReason { get; set; } = null;
+        public string ReversalReason { get; set; }
 
         /// <summary>
         /// Object containing the SEPA direct debit details
         /// </summary>
-        public SepaDirectDebitPaymentMethodSpecificOutput SepaDirectDebitPaymentMethodSpecificOutput { get; set; } = null;
+        public SepaDirectDebitPaymentMethodSpecificOutput SepaDirectDebitPaymentMethodSpecificOutput { get; set; }
     }
 }

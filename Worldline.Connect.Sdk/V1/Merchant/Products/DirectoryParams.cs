@@ -16,12 +16,12 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Products
         /// <summary>
         /// ISO 3166-1 alpha-2 country code
         /// </summary>
-        public string CountryCode { get; set; } = null;
+        public string CountryCode { get; set; }
 
         /// <summary>
         /// Three-letter ISO currency code representing the currency of the transaction
         /// </summary>
-        public string CurrencyCode { get; set; } = null;
+        public string CurrencyCode { get; set; }
 
         public override IEnumerable<RequestParam> ToRequestParameters()
         {

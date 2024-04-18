@@ -18,7 +18,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>full-screen</description></item>
         /// </list>.
         /// </summary>
-        public string ChallengeCanvasSize { get; set; } = null;
+        public string ChallengeCanvasSize { get; set; }
 
         /// <summary>
         /// Allows you to indicate if you want the customer to be challenged for extra security on this transaction. Possible values: 
@@ -29,7 +29,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>challenge-required - you require the customer to be challenged</description></item>
         /// </list>
         /// </summary>
-        public string ChallengeIndicator { get; set; } = null;
+        public string ChallengeIndicator { get; set; }
 
         /// <summary>
         /// Type of strong customer authentication (SCA) exemption requested for this transaction. Possible values:
@@ -41,12 +41,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>whitelist - You have been whitelisted by the customer at the issuer.</description></item>
         /// </list>
         /// </summary>
-        public string ExemptionRequest { get; set; } = null;
+        public string ExemptionRequest { get; set; }
 
         /// <summary>
         /// Object containing browser specific redirection related data
         /// </summary>
-        public RedirectionData RedirectionData { get; set; } = null;
+        public RedirectionData RedirectionData { get; set; }
 
         /// <summary>
         /// <list type="bullet">
@@ -54,6 +54,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false = 3D Secure authentication will not be skipped for this transaction.</description></item>
         /// </list>Note: This is only possible if your account in our system is setup for 3D Secure authentication and if your configuration in our system allows you to override it per transaction.
         /// </summary>
-        public bool? SkipAuthentication { get; set; } = null;
+        public bool? SkipAuthentication { get; set; }
     }
 }

@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing card details
         /// </summary>
-        public CardEssentials Card { get; set; } = null;
+        public CardEssentials Card { get; set; }
     }
 }

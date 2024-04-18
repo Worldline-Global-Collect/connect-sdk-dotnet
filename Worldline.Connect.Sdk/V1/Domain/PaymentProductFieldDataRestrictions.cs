@@ -12,11 +12,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - Indicates that this field is optional</description></item>
         /// </list>
         /// </summary>
-        public bool? IsRequired { get; set; } = null;
+        public bool? IsRequired { get; set; }
 
         /// <summary>
         /// Object containing the details of the validations on the field
         /// </summary>
-        public PaymentProductFieldValidators Validators { get; set; } = null;
+        public PaymentProductFieldValidators Validators { get; set; }
     }
 }

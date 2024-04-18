@@ -9,16 +9,16 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Type of strong customer authentication (SCA) exemption that was raised towards the acquirer for this transaction.
         /// </summary>
-        public string ExemptionRaised { get; set; } = null;
+        public string ExemptionRaised { get; set; }
 
         /// <summary>
         /// The request exemption could not be granted. The reason why is returned in this property.
         /// </summary>
-        public string ExemptionRejectionReason { get; set; } = null;
+        public string ExemptionRejectionReason { get; set; }
 
         /// <summary>
         /// Type of strong customer authentication (SCA) exemption requested by you for this transaction.
         /// </summary>
-        public string ExemptionRequest { get; set; } = null;
+        public string ExemptionRequest { get; set; }
     }
 }

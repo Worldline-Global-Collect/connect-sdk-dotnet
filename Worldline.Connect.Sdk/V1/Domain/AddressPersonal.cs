@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object that holds the name elements
         /// </summary>
-        public PersonalName Name { get; set; } = null;
+        public PersonalName Name { get; set; }
     }
 }

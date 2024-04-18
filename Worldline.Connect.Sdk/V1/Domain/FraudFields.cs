@@ -13,23 +13,23 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// Indicates that invoice and shipping addresses are equal.
         /// </summary>
         [Obsolete("For risk assessments there is no replacement. For other calls, use Order.shipping.addressIndicator instead")]
-        public bool? AddressesAreIdentical { get; set; } = null;
+        public bool? AddressesAreIdentical { get; set; }
 
         /// <summary>
         /// Additional black list input
         /// </summary>
-        public string BlackListData { get; set; } = null;
+        public string BlackListData { get; set; }
 
         /// <summary>
         /// The address that belongs to the owner of the card
         /// </summary>
         [Obsolete("This should be the same as Order.customer.billingAddress")]
-        public Address CardOwnerAddress { get; set; } = null;
+        public Address CardOwnerAddress { get; set; }
 
         /// <summary>
         /// The IP Address of the customer that is making the payment. The '+' character is not allowed in this property for transactions that are processed by TechProcess Payment Platform.
         /// </summary>
-        public string CustomerIpAddress { get; set; } = null;
+        public string CustomerIpAddress { get; set; }
 
         /// <summary>
         /// Degree of default form fill, with the following possible values: 
@@ -40,19 +40,19 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// </list>
         /// </summary>
         [Obsolete("Use Order.customer.device.defaultFormFill instead")]
-        public string DefaultFormFill { get; set; } = null;
+        public string DefaultFormFill { get; set; }
 
         /// <summary>
         /// Indicates that the device fingerprint has been used while processing the order.
         /// </summary>
         [Obsolete("No replacement")]
-        public bool? DeviceFingerprintActivated { get; set; } = null;
+        public bool? DeviceFingerprintActivated { get; set; }
 
         /// <summary>
         /// One must set the deviceFingerprintTransactionId received by the response of the endpoint /{merchant}/products/{paymentProductId}/deviceFingerprint
         /// </summary>
         [Obsolete("Use Order.customer.device.deviceFingerprintTransactionId instead")]
-        public string DeviceFingerprintTransactionId { get; set; } = null;
+        public string DeviceFingerprintTransactionId { get; set; }
 
         /// <summary>
         /// One of the following gift card types: 
@@ -88,12 +88,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>hanukkah - Hanukkah</description></item>
         /// </list>
         /// </summary>
-        public string GiftCardType { get; set; } = null;
+        public string GiftCardType { get; set; }
 
         /// <summary>
         /// Gift message
         /// </summary>
-        public string GiftMessage { get; set; } = null;
+        public string GiftMessage { get; set; }
 
         /// <summary>
         /// Specifies if the customer (initially) had forgotten their password 
@@ -103,7 +103,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// </list>
         /// </summary>
         [Obsolete("Use Order.customer.account.hasForgottenPassword instead")]
-        public bool? HasForgottenPwd { get; set; } = null;
+        public bool? HasForgottenPwd { get; set; }
 
         /// <summary>
         /// Specifies if the customer entered a password to gain access to an account registered with the you 
@@ -113,7 +113,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// </list>
         /// </summary>
         [Obsolete("Use Order.customer.account.hasPassword instead")]
-        public bool? HasPassword { get; set; } = null;
+        public bool? HasPassword { get; set; }
 
         /// <summary>
         /// Specifies if the customer has a history of online shopping with the merchant 
@@ -123,40 +123,40 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// </list>
         /// </summary>
         [Obsolete("Use Order.customer.isPreviousCustomer instead")]
-        public bool? IsPreviousCustomer { get; set; } = null;
+        public bool? IsPreviousCustomer { get; set; }
 
         /// <summary>
         /// Timezone in which the order was placed. The '+' character is not allowed in this property for transactions that are processed by TechProcess Payment Platform.
         /// </summary>
-        public string OrderTimezone { get; set; } = null;
+        public string OrderTimezone { get; set; }
 
         /// <summary>
         /// Comments included during shipping
         /// </summary>
         [Obsolete("Use Order.shipping.comments instead")]
-        public string ShipComments { get; set; } = null;
+        public string ShipComments { get; set; }
 
         /// <summary>
         /// Shipment tracking number
         /// </summary>
         [Obsolete("Use Order.shipping.trackingNumber instead")]
-        public string ShipmentTrackingNumber { get; set; } = null;
+        public string ShipmentTrackingNumber { get; set; }
 
         /// <summary>
         /// Details on how the order is shipped to the customer
         /// </summary>
         [Obsolete("No replacement")]
-        public FraudFieldsShippingDetails ShippingDetails { get; set; } = null;
+        public FraudFieldsShippingDetails ShippingDetails { get; set; }
 
         /// <summary>
         /// Array of up to 16 userData properties, each with a max length of 256 characters, that can be used for fraudscreening
         /// </summary>
-        public IList<string> UserData { get; set; } = null;
+        public IList<string> UserData { get; set; }
 
         /// <summary>
         /// The website from which the purchase was made
         /// </summary>
         [Obsolete("Use Merchant.websiteUrl instead")]
-        public string Website { get; set; } = null;
+        public string Website { get; set; }
     }
 }

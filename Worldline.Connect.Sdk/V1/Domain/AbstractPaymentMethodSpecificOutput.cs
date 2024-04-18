@@ -11,6 +11,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />Please see 
         /// <a href="https://apireference.connect.worldline-solutions.com/s2sapi/v1/en_US/dotnet/paymentproducts.html">payment products</a> for a full overview of possible values.
         /// </summary>
-        public int? PaymentProductId { get; set; } = null;
+        public int? PaymentProductId { get; set; }
     }
 }

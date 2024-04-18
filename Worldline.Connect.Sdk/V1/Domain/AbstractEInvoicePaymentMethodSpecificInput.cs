@@ -6,6 +6,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
 {
     public class AbstractEInvoicePaymentMethodSpecificInput : AbstractPaymentMethodSpecificInput
     {
-        public bool? RequiresApproval { get; set; } = null;
+        public bool? RequiresApproval { get; set; }
     }
 }

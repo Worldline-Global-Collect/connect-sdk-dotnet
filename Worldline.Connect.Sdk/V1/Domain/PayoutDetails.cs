@@ -9,16 +9,16 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing amount and ISO currency code attributes
         /// </summary>
-        public AmountOfMoney AmountOfMoney { get; set; } = null;
+        public AmountOfMoney AmountOfMoney { get; set; }
 
         /// <summary>
         /// Object containing the details of the customer.
         /// </summary>
-        public PayoutCustomer Customer { get; set; } = null;
+        public PayoutCustomer Customer { get; set; }
 
         /// <summary>
         /// Object that holds all reference properties that are linked to this transaction
         /// </summary>
-        public PayoutReferences References { get; set; } = null;
+        public PayoutReferences References { get; set; }
     }
 }

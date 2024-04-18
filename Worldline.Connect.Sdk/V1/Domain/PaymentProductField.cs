@@ -9,17 +9,17 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing data restrictions that apply to this field, like minimum and/or maximum length
         /// </summary>
-        public PaymentProductFieldDataRestrictions DataRestrictions { get; set; } = null;
+        public PaymentProductFieldDataRestrictions DataRestrictions { get; set; }
 
         /// <summary>
         /// Object containing display hints for this field, like the order, mask, preferred keyboard
         /// </summary>
-        public PaymentProductFieldDisplayHints DisplayHints { get; set; } = null;
+        public PaymentProductFieldDisplayHints DisplayHints { get; set; }
 
         /// <summary>
         /// The ID of the field
         /// </summary>
-        public string Id { get; set; } = null;
+        public string Id { get; set; }
 
         /// <summary>
         /// The type of field, possible values are: 
@@ -32,12 +32,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>boolean - A boolean</description></item>
         /// </list>
         /// </summary>
-        public string Type { get; set; } = null;
+        public string Type { get; set; }
 
         /// <summary>
         /// Indicates that the product can be used in a 
         /// <a href="https://apireference.connect.worldline-solutions.com/s2sapi/v1/en_US/dotnet/products/customerDetails.html">get customer details</a> call and that when that call is done the field should be supplied as (one of the) key(s) with a valid value.
         /// </summary>
-        public bool? UsedForLookup { get; set; } = null;
+        public bool? UsedForLookup { get; set; }
     }
 }

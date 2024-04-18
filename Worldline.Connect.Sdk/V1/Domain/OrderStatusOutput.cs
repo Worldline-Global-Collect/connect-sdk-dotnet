@@ -12,7 +12,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Custom object contains the set of errors
         /// </summary>
-        public IList<APIError> Errors { get; set; } = null;
+        public IList<APIError> Errors { get; set; }
 
         /// <summary>
         /// Flag indicating if the payment can be cancelled 
@@ -21,7 +21,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false</description></item>
         /// </list>
         /// </summary>
-        public bool? IsCancellable { get; set; } = null;
+        public bool? IsCancellable { get; set; }
 
         /// <summary>
         /// Flag indicating whether a rejected payment may be retried by the merchant without incurring a fee 
@@ -30,12 +30,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false</description></item>
         /// </list>
         /// </summary>
-        public bool? IsRetriable { get; set; } = null;
+        public bool? IsRetriable { get; set; }
 
         /// <summary>
         /// This is the raw response returned by the acquirer. This property contains unprocessed data directly returned by the acquirer. It's recommended for data analysis only due to its dynamic nature, which may undergo future changes.
         /// </summary>
-        public IList<KeyValuePair> ProviderRawOutput { get; set; } = null;
+        public IList<KeyValuePair> ProviderRawOutput { get; set; }
 
         /// <summary>
         /// Highlevel status of the payment, payout or refund with the following possible values: 
@@ -94,17 +94,17 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />Please see 
         /// <a href="https://apireference.connect.worldline-solutions.com/s2sapi/v1/en_US/dotnet/statuses.html">Statuses</a> for a full overview of possible values.
         /// </summary>
-        public string StatusCategory { get; set; } = null;
+        public string StatusCategory { get; set; }
 
         /// <summary>
         /// Numeric status code of the legacy API. It is returned to ease the migration from the legacy APIs to Worldline Connect. You should not write new business logic based on this property as it will be deprecated in a future version of the API. The value can also be found in the GlobalCollect Payment Console, in the Ogone BackOffice and in report files.
         /// </summary>
-        public int? StatusCode { get; set; } = null;
+        public int? StatusCode { get; set; }
 
         /// <summary>
         /// Date and time of payment
         /// <br />Format: YYYYMMDDHH24MISS
         /// </summary>
-        public string StatusCodeChangeDateTime { get; set; } = null;
+        public string StatusCodeChangeDateTime { get; set; }
     }
 }

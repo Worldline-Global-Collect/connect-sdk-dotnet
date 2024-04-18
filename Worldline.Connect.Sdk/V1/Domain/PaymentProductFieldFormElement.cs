@@ -18,11 +18,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>date - let the customer pick a date.</description></item>
         /// </list>
         /// </summary>
-        public string Type { get; set; } = null;
+        public string Type { get; set; }
 
         /// <summary>
         /// An array of values and displayNames that should be used to populate the list object in the GUI
         /// </summary>
-        public IList<ValueMappingElement> ValueMapping { get; set; } = null;
+        public IList<ValueMappingElement> ValueMapping { get; set; }
     }
 }

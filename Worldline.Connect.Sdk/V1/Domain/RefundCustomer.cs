@@ -9,17 +9,17 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing address details
         /// </summary>
-        public AddressPersonal Address { get; set; } = null;
+        public AddressPersonal Address { get; set; }
 
         /// <summary>
         /// Object containing company information
         /// </summary>
-        public CompanyInformation CompanyInformation { get; set; } = null;
+        public CompanyInformation CompanyInformation { get; set; }
 
         /// <summary>
         /// Object containing contact details like email address and phone number
         /// </summary>
-        public ContactDetailsBase ContactDetails { get; set; } = null;
+        public ContactDetailsBase ContactDetails { get; set; }
 
         /// <summary>
         /// The fiscal registration number of the customer or the tax registration number of the company in case of a business customer. Please find below specifics per country: 
@@ -44,6 +44,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>Uruguay - Company (RUT) with a length of 12 digits</description></item>
         /// </list>
         /// </summary>
-        public string FiscalNumber { get; set; } = null;
+        public string FiscalNumber { get; set; }
     }
 }

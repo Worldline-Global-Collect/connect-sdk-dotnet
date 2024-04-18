@@ -16,17 +16,17 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Services
         /// <summary>
         /// Three-letter ISO currency code representing the source currency
         /// </summary>
-        public string Source { get; set; } = null;
+        public string Source { get; set; }
 
         /// <summary>
         /// Three-letter ISO currency code representing the target currency
         /// </summary>
-        public string Target { get; set; } = null;
+        public string Target { get; set; }
 
         /// <summary>
         /// Amount to be converted in cents and always having 2 decimals
         /// </summary>
-        public long? Amount { get; set; } = null;
+        public long? Amount { get; set; }
 
         public override IEnumerable<RequestParam> ToRequestParameters()
         {

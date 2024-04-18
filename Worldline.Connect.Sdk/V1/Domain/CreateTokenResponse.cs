@@ -13,16 +13,16 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - A token with the same card number already exists and is returned. Please note that the existing token has not been updated. When you want to update other data then the card number, you need to use the update API call, as data is never updated during the creation of a token.</description></item>
         /// </list>
         /// </summary>
-        public bool? IsNewToken { get; set; } = null;
+        public bool? IsNewToken { get; set; }
 
         /// <summary>
         /// The initial Payment ID of the transaction from which the token has been created
         /// </summary>
-        public string OriginalPaymentId { get; set; } = null;
+        public string OriginalPaymentId { get; set; }
 
         /// <summary>
         /// ID of the token
         /// </summary>
-        public string Token { get; set; } = null;
+        public string Token { get; set; }
     }
 }

@@ -9,16 +9,16 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing address information
         /// </summary>
-        public AddressPersonal Address { get; set; } = null;
+        public AddressPersonal Address { get; set; }
 
         /// <summary>
         /// Comments included during shipping
         /// </summary>
-        public string Comments { get; set; } = null;
+        public string Comments { get; set; }
 
         /// <summary>
         /// Shipment tracking number
         /// </summary>
-        public string TrackingNumber { get; set; } = null;
+        public string TrackingNumber { get; set; }
     }
 }

@@ -19,7 +19,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>fundingGiftCardForSomeoneElse = When funding a gift card for someone else.</description></item>
         /// </list>
         /// </summary>
-        public string FundingType { get; set; } = null;
+        public string FundingType { get; set; }
 
         /// <summary>
         /// Possible values are:
@@ -28,7 +28,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>digital</description></item>
         /// </list>
         /// </summary>
-        public string PurchaseType { get; set; } = null;
+        public string PurchaseType { get; set; }
 
         /// <summary>
         /// Identifies the type of transaction being authenticated. Possible values are:
@@ -40,7 +40,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>prepaid-activation-or-load = The purpose of the transaction is to activate or load a prepaid card</description></item>
         /// </list>
         /// </summary>
-        public string TransactionType { get; set; } = null;
+        public string TransactionType { get; set; }
 
         /// <summary>
         /// Possible values are:
@@ -49,6 +49,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>commercial</description></item>
         /// </list>
         /// </summary>
-        public string UsageType { get; set; } = null;
+        public string UsageType { get; set; }
     }
 }

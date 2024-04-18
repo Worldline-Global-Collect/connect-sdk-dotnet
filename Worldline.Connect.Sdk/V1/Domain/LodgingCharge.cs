@@ -10,12 +10,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// Amount of additional charges associated with the stay of the guest.
         /// <br />Note: The currencyCode is presumed to be identical to the order.amountOfMoney.currencyCode.
         /// </summary>
-        public long? ChargeAmount { get; set; } = null;
+        public long? ChargeAmount { get; set; }
 
         /// <summary>
         /// Currency for Charge amount. The code should be in 3 letter ISO format.
         /// </summary>
-        public string ChargeAmountCurrencyCode { get; set; } = null;
+        public string ChargeAmountCurrencyCode { get; set; }
 
         /// <summary>
         /// Type of additional charges associated with the stay of the guest. Allowed values: 
@@ -38,6 +38,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>other</description></item>
         /// </list>
         /// </summary>
-        public string ChargeType { get; set; } = null;
+        public string ChargeType { get; set; }
     }
 }

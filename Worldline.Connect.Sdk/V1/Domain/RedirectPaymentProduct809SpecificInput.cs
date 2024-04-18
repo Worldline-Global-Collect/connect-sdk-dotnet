@@ -13,11 +13,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />You can set this value in minutes with a maximum value of 60 minutes. If no input is provided the default value of 60 is used for the transaction.
         /// </summary>
         [Obsolete("Use RedirectPaymentMethodSpecificInput.expirationPeriod instead")]
-        public string ExpirationPeriod { get; set; } = null;
+        public string ExpirationPeriod { get; set; }
 
         /// <summary>
         /// ID of the issuing bank of the customer. A list of available issuerIDs can be obtained by using the retrieve payment product directory API.
         /// </summary>
-        public string IssuerId { get; set; } = null;
+        public string IssuerId { get; set; }
     }
 }

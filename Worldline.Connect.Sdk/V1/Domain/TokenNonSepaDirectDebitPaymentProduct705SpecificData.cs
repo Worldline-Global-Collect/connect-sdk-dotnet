@@ -9,11 +9,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Core reference number for the direct debit instruction in UK
         /// </summary>
-        public string AuthorisationId { get; set; } = null;
+        public string AuthorisationId { get; set; }
 
         /// <summary>
         /// Object containing account holder name and bank account information
         /// </summary>
-        public BankAccountBban BankAccountBban { get; set; } = null;
+        public BankAccountBban BankAccountBban { get; set; }
     }
 }

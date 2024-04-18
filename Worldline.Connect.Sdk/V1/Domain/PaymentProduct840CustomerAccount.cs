@@ -9,27 +9,27 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Username with which the PayPal account holder has registered at PayPal
         /// </summary>
-        public string AccountId { get; set; } = null;
+        public string AccountId { get; set; }
 
         /// <summary>
         /// Identification of the PayPal recurring billing agreement
         /// </summary>
-        public string BillingAgreementId { get; set; } = null;
+        public string BillingAgreementId { get; set; }
 
         /// <summary>
         /// Name of the company in case the PayPal account is owned by a business
         /// </summary>
-        public string CompanyName { get; set; } = null;
+        public string CompanyName { get; set; }
 
         /// <summary>
         /// The phone number of the PayPal account holder
         /// </summary>
-        public string ContactPhone { get; set; } = null;
+        public string ContactPhone { get; set; }
 
         /// <summary>
         /// Country where the PayPal account is located
         /// </summary>
-        public string CountryCode { get; set; } = null;
+        public string CountryCode { get; set; }
 
         /// <summary>
         /// Status of the PayPal account.
@@ -39,7 +39,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>unverified - PayPal has not verified the funding means for this account</description></item>
         /// </list>
         /// </summary>
-        public string CustomerAccountStatus { get; set; } = null;
+        public string CustomerAccountStatus { get; set; }
 
         /// <summary>
         /// Status of the customer's shipping address as registered by PayPal
@@ -50,21 +50,21 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>unconfirmed - The address has not been confirmed</description></item>
         /// </list>
         /// </summary>
-        public string CustomerAddressStatus { get; set; } = null;
+        public string CustomerAddressStatus { get; set; }
 
         /// <summary>
         /// First name of the PayPal account holder
         /// </summary>
-        public string FirstName { get; set; } = null;
+        public string FirstName { get; set; }
 
         /// <summary>
         /// The unique identifier of a PayPal account and will never change in the life cycle of a PayPal account
         /// </summary>
-        public string PayerId { get; set; } = null;
+        public string PayerId { get; set; }
 
         /// <summary>
         /// Surname of the PayPal account holder
         /// </summary>
-        public string Surname { get; set; } = null;
+        public string Surname { get; set; }
     }
 }

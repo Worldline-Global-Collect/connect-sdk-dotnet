@@ -8,37 +8,37 @@ namespace Worldline.Connect.Sdk.V1.Domain
 {
     public class AbstractCardPaymentMethodSpecificInput : AbstractPaymentMethodSpecificInput
     {
-        public string AcquirerPromotionCode { get; set; } = null;
+        public string AcquirerPromotionCode { get; set; }
 
-        public string AuthorizationMode { get; set; } = null;
+        public string AuthorizationMode { get; set; }
 
-        public string CustomerReference { get; set; } = null;
+        public string CustomerReference { get; set; }
 
-        public string InitialSchemeTransactionId { get; set; } = null;
+        public string InitialSchemeTransactionId { get; set; }
 
-        public CardRecurrenceDetails Recurring { get; set; } = null;
+        public CardRecurrenceDetails Recurring { get; set; }
 
         [Obsolete("Use recurring.recurringPaymentSequenceIndicator instead")]
-        public string RecurringPaymentSequenceIndicator { get; set; } = null;
+        public string RecurringPaymentSequenceIndicator { get; set; }
 
-        public bool? RequiresApproval { get; set; } = null;
+        public bool? RequiresApproval { get; set; }
 
         [Obsolete("Use threeDSecure.skipAuthentication instead")]
-        public bool? SkipAuthentication { get; set; } = null;
+        public bool? SkipAuthentication { get; set; }
 
-        public bool? SkipFraudService { get; set; } = null;
+        public bool? SkipFraudService { get; set; }
 
-        public string Token { get; set; } = null;
+        public string Token { get; set; }
 
-        public bool? Tokenize { get; set; } = null;
+        public bool? Tokenize { get; set; }
 
-        public string TransactionChannel { get; set; } = null;
+        public string TransactionChannel { get; set; }
 
         [Obsolete("Use unscheduledCardOnFileSequenceIndicator instead")]
-        public string UnscheduledCardOnFileIndicator { get; set; } = null;
+        public string UnscheduledCardOnFileIndicator { get; set; }
 
-        public string UnscheduledCardOnFileRequestor { get; set; } = null;
+        public string UnscheduledCardOnFileRequestor { get; set; }
 
-        public string UnscheduledCardOnFileSequenceIndicator { get; set; } = null;
+        public string UnscheduledCardOnFileSequenceIndicator { get; set; }
     }
 }

@@ -11,14 +11,14 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// List of tokens for that payment product
         /// </summary>
-        public IList<AccountOnFile> AccountsOnFile { get; set; } = null;
+        public IList<AccountOnFile> AccountsOnFile { get; set; }
 
         /// <summary>
         /// ISO 3166-1 alpha-2 country code which indicates the most likely country code of the acquirer that will process the transaction. For Google Pay (paymentProductId 320) transactions this acquirerCountry is should be provided in the 
         /// <a href="https://developers.google.com/pay/api/web/reference/request-objects#TransactionInfo">transactionInfo.countryCode</a> for merchants that use an acquirer that is based in one of the European Economic Area (EEA) countries to make sure the transaction is compliant with the PSD2 Strong Customer Authentication (SCA) requirements. More information on Strong Customer Authentication compliance for Google Pay can be found at 
         /// <a href="https://developers.google.com/pay/api/web/guides/resources/sca">https://developers.google.com/pay/api/web/guides/resources/sca</a>
         /// </summary>
-        public string AcquirerCountry { get; set; } = null;
+        public string AcquirerCountry { get; set; }
 
         /// <summary>
         /// Indicates if the product supports installments 
@@ -27,7 +27,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - This payment does not support installments</description></item>
         /// </list>
         /// </summary>
-        public bool? AllowsInstallments { get; set; } = null;
+        public bool? AllowsInstallments { get; set; }
 
         /// <summary>
         /// Indicates if the product supports recurring payments 
@@ -36,7 +36,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - This payment product does not support recurring transactions and can only be used for one-off payments</description></item>
         /// </list>
         /// </summary>
-        public bool? AllowsRecurring { get; set; } = null;
+        public bool? AllowsRecurring { get; set; }
 
         /// <summary>
         /// Indicates if the payment details can be tokenized for future re-use 
@@ -45,12 +45,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - Payment details from payments done with this payment product can not be tokenized</description></item>
         /// </list>
         /// </summary>
-        public bool? AllowsTokenization { get; set; } = null;
+        public bool? AllowsTokenization { get; set; }
 
         /// <summary>
         /// Indicates if the payment product supports 3D Security (mandatory, optional or not needed).
         /// </summary>
-        public AuthenticationIndicator AuthenticationIndicator { get; set; } = null;
+        public AuthenticationIndicator AuthenticationIndicator { get; set; }
 
         /// <summary>
         /// Indicates if the payment details can be automatically tokenized for future re-use 
@@ -59,7 +59,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - Payment details from payments done with this payment product can not be automatically tokenized</description></item>
         /// </list>
         /// </summary>
-        public bool? AutoTokenized { get; set; } = null;
+        public bool? AutoTokenized { get; set; }
 
         /// <summary>
         /// This property is only relevant for payment products that use third party redirects. This property indicates if the third party disallows their payment pages to be embedded in an iframe using the X-Frame-Options header. 
@@ -68,7 +68,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - the third party disallows their payment pages to be embedded in an iframe.</description></item>
         /// </list>
         /// </summary>
-        public bool? CanBeIframed { get; set; } = null;
+        public bool? CanBeIframed { get; set; }
 
         /// <summary>
         /// Indicates if device fingerprint is enabled for the product 
@@ -77,32 +77,32 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false</description></item>
         /// </list>
         /// </summary>
-        public bool? DeviceFingerprintEnabled { get; set; } = null;
+        public bool? DeviceFingerprintEnabled { get; set; }
 
         /// <summary>
         /// Object containing display hints like the order in which the product should be shown, the name of the product and the logo
         /// </summary>
-        public PaymentProductDisplayHints DisplayHints { get; set; } = null;
+        public PaymentProductDisplayHints DisplayHints { get; set; }
 
         /// <summary>
         /// Object containing all the fields and their details that are associated with this payment product. If you are not interested in the data in the fields you should have us filter them out (using filter=fields in the query-string)
         /// </summary>
-        public IList<PaymentProductField> Fields { get; set; } = null;
+        public IList<PaymentProductField> Fields { get; set; }
 
         /// <summary>
         /// If one or more of the payment product fields could not be constructed, no payment product fields will be returned and a message will be present in this property stating why.
         /// </summary>
-        public string FieldsWarning { get; set; } = null;
+        public string FieldsWarning { get; set; }
 
         /// <summary>
         /// The ID of the payment product in our system
         /// </summary>
-        public int? Id { get; set; } = null;
+        public int? Id { get; set; }
 
         /// <summary>
         /// Indicates if the payment product supports 3D-Secure.
         /// </summary>
-        public bool? IsAuthenticationSupported { get; set; } = null;
+        public bool? IsAuthenticationSupported { get; set; }
 
         /// <summary>
         /// This property indicates if the payment product requires JavaScript to be enabled on the customer's browser. This is usually only true if the payment product depends on a third party JavaScript integration. 
@@ -111,17 +111,17 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - the payment product does not require JavaScript to be enabled. This is the default value if the property is not present.</description></item>
         /// </list>
         /// </summary>
-        public bool? IsJavaScriptRequired { get; set; } = null;
+        public bool? IsJavaScriptRequired { get; set; }
 
         /// <summary>
         /// Maximum amount in cents (using 2 decimals, so 1 EUR becomes 100 cents) for transactions done with this payment product
         /// </summary>
-        public long? MaxAmount { get; set; } = null;
+        public long? MaxAmount { get; set; }
 
         /// <summary>
         /// Minimum amount in cents (using 2 decimals, so 1 EUR becomes 100 cents) for transactions done with this payment product
         /// </summary>
-        public long? MinAmount { get; set; } = null;
+        public long? MinAmount { get; set; }
 
         /// <summary>
         /// This provides insight into the level of support for payments using a device with a smaller screen size. You can for instance use this to rank payment products differently on devices with a smaller screen. Possible values are: 
@@ -131,7 +131,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>OPTIMISED_SUPPORT - The payment product offers a user experience that has been optimized for devices with smaller screens</description></item>
         /// </list>
         /// </summary>
-        public string MobileIntegrationLevel { get; set; } = null;
+        public string MobileIntegrationLevel { get; set; }
 
         /// <summary>
         /// Indicates which payment method will be used for this payment product. Payment method is one of: 
@@ -145,22 +145,22 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>redirect</description></item>
         /// </list>
         /// </summary>
-        public string PaymentMethod { get; set; } = null;
+        public string PaymentMethod { get; set; }
 
         /// <summary>
         /// Apple Pay (payment product 302) specific details.
         /// </summary>
-        public PaymentProduct302SpecificData PaymentProduct302SpecificData { get; set; } = null;
+        public PaymentProduct302SpecificData PaymentProduct302SpecificData { get; set; }
 
         /// <summary>
         /// Google Pay (payment product 320) specific details.
         /// </summary>
-        public PaymentProduct320SpecificData PaymentProduct320SpecificData { get; set; } = null;
+        public PaymentProduct320SpecificData PaymentProduct320SpecificData { get; set; }
 
         /// <summary>
         /// WeChat Pay (payment product 863) specific details.
         /// </summary>
-        public PaymentProduct863SpecificData PaymentProduct863SpecificData { get; set; } = null;
+        public PaymentProduct863SpecificData PaymentProduct863SpecificData { get; set; }
 
         /// <summary>
         /// The payment product group that has this payment product, if there is any. Not populated otherwise. Currently only one payment product group is supported: 
@@ -168,12 +168,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>cards</description></item>
         /// </list>
         /// </summary>
-        public string PaymentProductGroup { get; set; } = null;
+        public string PaymentProductGroup { get; set; }
 
         /// <summary>
         /// Indicates whether the payment product supports mandates.
         /// </summary>
-        public bool? SupportsMandates { get; set; } = null;
+        public bool? SupportsMandates { get; set; }
 
         /// <summary>
         /// Indicates whether the payment product requires redirection to a third party to complete the payment. You can use this to filter out products that require a redirect if you don't want to support that. 
@@ -182,6 +182,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - No redirection is required</description></item>
         /// </list>
         /// </summary>
-        public bool? UsesRedirectionTo3rdParty { get; set; } = null;
+        public bool? UsesRedirectionTo3rdParty { get; set; }
     }
 }

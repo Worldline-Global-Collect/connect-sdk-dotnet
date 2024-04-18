@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Return URL to use if the mandate signing requires redirection.
         /// </summary>
-        public string ReturnUrl { get; set; } = null;
+        public string ReturnUrl { get; set; }
     }
 }

@@ -9,26 +9,26 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing IBAN information
         /// </summary>
-        public BankAccountIban BankAccountIban { get; set; } = null;
+        public BankAccountIban BankAccountIban { get; set; }
 
         /// <summary>
         /// Name of company, as a customer
         /// </summary>
-        public string CompanyName { get; set; } = null;
+        public string CompanyName { get; set; }
 
         /// <summary>
         /// Object containing contact details like email address and phone number
         /// </summary>
-        public MandateContactDetails ContactDetails { get; set; } = null;
+        public MandateContactDetails ContactDetails { get; set; }
 
         /// <summary>
         /// Object containing billing address details
         /// </summary>
-        public MandateAddress MandateAddress { get; set; } = null;
+        public MandateAddress MandateAddress { get; set; }
 
         /// <summary>
         /// Object containing personal information of the customer
         /// </summary>
-        public MandatePersonalInformation PersonalInformation { get; set; } = null;
+        public MandatePersonalInformation PersonalInformation { get; set; }
     }
 }

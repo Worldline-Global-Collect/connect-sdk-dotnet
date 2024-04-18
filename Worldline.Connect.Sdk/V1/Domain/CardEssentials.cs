@@ -9,17 +9,17 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// The complete credit/debit card number
         /// </summary>
-        public string CardNumber { get; set; } = null;
+        public string CardNumber { get; set; }
 
         /// <summary>
         /// The card holder's name on the card.
         /// </summary>
-        public string CardholderName { get; set; } = null;
+        public string CardholderName { get; set; }
 
         /// <summary>
         /// Expiry date of the card
         /// <br />Format: MMYY
         /// </summary>
-        public string ExpiryDate { get; set; } = null;
+        public string ExpiryDate { get; set; }
     }
 }

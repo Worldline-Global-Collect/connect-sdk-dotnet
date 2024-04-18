@@ -11,17 +11,17 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />Do not include any unobfuscated sensitive data in the alias.
         /// <br />Default value if not provided is the obfuscated IBAN of the customer.
         /// </summary>
-        public string Alias { get; set; } = null;
+        public string Alias { get; set; }
 
         /// <summary>
         /// Customer object containing customer specific inputs
         /// </summary>
-        public MandateCustomer Customer { get; set; } = null;
+        public MandateCustomer Customer { get; set; }
 
         /// <summary>
         /// The unique identifier of a customer
         /// </summary>
-        public string CustomerReference { get; set; } = null;
+        public string CustomerReference { get; set; }
 
         /// <summary>
         /// Specifies whether the mandate is for one-off or recurring payments. Possible values are:
@@ -31,7 +31,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>RECURRING</description></item>
         /// </list>
         /// </summary>
-        public string RecurrenceType { get; set; } = null;
+        public string RecurrenceType { get; set; }
 
         /// <summary>
         /// Specifies whether the mandate is unsigned or singed by SMS. Possible values are:
@@ -41,11 +41,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>SMS</description></item>
         /// </list>
         /// </summary>
-        public string SignatureType { get; set; } = null;
+        public string SignatureType { get; set; }
 
         /// <summary>
         /// The unique identifier of the mandate
         /// </summary>
-        public string UniqueMandateReference { get; set; } = null;
+        public string UniqueMandateReference { get; set; }
     }
 }

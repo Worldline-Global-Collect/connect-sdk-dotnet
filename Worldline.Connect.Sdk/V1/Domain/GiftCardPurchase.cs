@@ -9,11 +9,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing information on an amount of money
         /// </summary>
-        public AmountOfMoney AmountOfMoney { get; set; } = null;
+        public AmountOfMoney AmountOfMoney { get; set; }
 
         /// <summary>
         /// Number of gift cards that are purchased through this transaction
         /// </summary>
-        public int? NumberOfGiftCards { get; set; } = null;
+        public int? NumberOfGiftCards { get; set; }
     }
 }

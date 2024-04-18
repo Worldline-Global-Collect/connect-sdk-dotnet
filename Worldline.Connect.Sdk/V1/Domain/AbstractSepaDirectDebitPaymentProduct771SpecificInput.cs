@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
     public class AbstractSepaDirectDebitPaymentProduct771SpecificInput
     {
         [Obsolete("Use existingUniqueMandateReference or mandate.uniqueMandateReference instead")]
-        public string MandateReference { get; set; } = null;
+        public string MandateReference { get; set; }
     }
 }

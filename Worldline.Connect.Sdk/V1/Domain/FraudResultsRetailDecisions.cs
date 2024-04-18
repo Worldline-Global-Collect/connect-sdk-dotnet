@@ -9,16 +9,16 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Result of the fraud service. Provides additional information about the fraud result
         /// </summary>
-        public string FraudCode { get; set; } = null;
+        public string FraudCode { get; set; }
 
         /// <summary>
         /// Returns the raw score of the neural
         /// </summary>
-        public string FraudNeural { get; set; } = null;
+        public string FraudNeural { get; set; }
 
         /// <summary>
         /// Result of the fraud service Represent sets of fraud rules returned during the evaluation of the transaction
         /// </summary>
-        public string FraudRCF { get; set; } = null;
+        public string FraudRCF { get; set; }
     }
 }

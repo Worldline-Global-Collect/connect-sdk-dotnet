@@ -9,7 +9,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// When a mandate has been created during the hosted mandate management session this object will return the details.
         /// </summary>
-        public MandateResponse Mandate { get; set; } = null;
+        public MandateResponse Mandate { get; set; }
 
         /// <summary>
         /// This is the status of the hosted mandate management. Possible values are: 
@@ -20,6 +20,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>CANCELLED_BY_CONSUMER - The session was cancelled before a mandate was created</description></item>
         /// </list>.
         /// </summary>
-        public string Status { get; set; } = null;
+        public string Status { get; set; }
     }
 }

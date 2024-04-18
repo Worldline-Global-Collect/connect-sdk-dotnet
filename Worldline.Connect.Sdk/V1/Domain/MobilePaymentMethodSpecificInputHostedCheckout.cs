@@ -14,22 +14,22 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>SALE - The payment creation results in an authorization that is already captured at the moment of approval.</description></item>
         /// </list>Only used with some acquirers, ingnored for acquirers that don't support this. In case the acquirer doesn't allow this to be specified the authorizationMode is 'unspecified', which behaves similar to a final authorization.
         /// </summary>
-        public string AuthorizationMode { get; set; } = null;
+        public string AuthorizationMode { get; set; }
 
         /// <summary>
         /// Reference of the customer for the payment (purchase order #, etc.). Only used with some acquirers.
         /// </summary>
-        public string CustomerReference { get; set; } = null;
+        public string CustomerReference { get; set; }
 
         /// <summary>
         /// Object containing information specific to Apple Pay
         /// </summary>
-        public MobilePaymentProduct302SpecificInputHostedCheckout PaymentProduct302SpecificInput { get; set; } = null;
+        public MobilePaymentProduct302SpecificInputHostedCheckout PaymentProduct302SpecificInput { get; set; }
 
         /// <summary>
         /// Object containing information specific to Google Pay (paymentProductId 320)
         /// </summary>
-        public MobilePaymentProduct320SpecificInputHostedCheckout PaymentProduct320SpecificInput { get; set; } = null;
+        public MobilePaymentProduct320SpecificInputHostedCheckout PaymentProduct320SpecificInput { get; set; }
 
         /// <summary>
         /// <list type="bullet">
@@ -39,7 +39,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false = the payment does not require approval, and the funds will be captured automatically</description></item>
         /// </list>
         /// </summary>
-        public bool? RequiresApproval { get; set; } = null;
+        public bool? RequiresApproval { get; set; }
 
         /// <summary>
         /// <list type="bullet">
@@ -47,6 +47,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false = Fraud scoring will not be skipped for this transaction</description></item>
         /// </list>Note: This is only possible if your account in our system is setup for Fraud scoring and if your configuration in our system allows you to override it per transaction.
         /// </summary>
-        public bool? SkipFraudService { get; set; } = null;
+        public bool? SkipFraudService { get; set; }
     }
 }

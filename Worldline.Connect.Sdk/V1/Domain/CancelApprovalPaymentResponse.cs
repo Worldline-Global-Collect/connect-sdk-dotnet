@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object that holds the payment related properties
         /// </summary>
-        public Payment Payment { get; set; } = null;
+        public Payment Payment { get; set; }
     }
 }

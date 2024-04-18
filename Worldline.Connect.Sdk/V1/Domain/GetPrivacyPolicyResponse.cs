@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// HTML content to be displayed to the user
         /// </summary>
-        public string HtmlContent { get; set; } = null;
+        public string HtmlContent { get; set; }
     }
 }

@@ -13,24 +13,24 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />
         /// <br />The property order.amountOfMoney should be populated with the amount to be paid during or for the trial period (no-cost or discounted time-constrained trial subscription period).
         /// </summary>
-        public AmountOfMoney AmountOfMoneyAfterTrial { get; set; } = null;
+        public AmountOfMoney AmountOfMoneyAfterTrial { get; set; }
 
         /// <summary>
         /// The date that the trial period ends in YYYYMMDD format.
         /// </summary>
-        public string EndDate { get; set; } = null;
+        public string EndDate { get; set; }
 
         /// <summary>
         /// The property specifying if there will be recurring charges throughout the trial period (when the trial period involves a temporary discounted rate).
         /// <br />True = there will be recurring charges during the trial period
         /// <br />False = there will not be recurring charges during the trial period
         /// </summary>
-        public bool? IsRecurring { get; set; } = null;
+        public bool? IsRecurring { get; set; }
 
         /// <summary>
         /// The object containing information on the trial period duration and the interval between payments during that period.
         /// </summary>
-        public TrialPeriod TrialPeriod { get; set; } = null;
+        public TrialPeriod TrialPeriod { get; set; }
 
         /// <summary>
         /// The object containing the frequency and interval between recurring payments.
@@ -41,6 +41,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />
         /// <br />If you do not populated this object, then the same interval frequency and interval of recurringPaymentsData.recurringInterval will be used
         /// </summary>
-        public Frequency TrialPeriodRecurring { get; set; } = null;
+        public Frequency TrialPeriodRecurring { get; set; }
     }
 }

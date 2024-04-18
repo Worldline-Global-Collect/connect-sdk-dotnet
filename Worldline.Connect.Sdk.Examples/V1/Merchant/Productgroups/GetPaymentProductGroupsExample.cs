@@ -2,8 +2,6 @@
  * This class was auto-generated from the API references found at
  * https://apireference.connect.worldline-solutions.com/
  */
-using Worldline.Connect.Sdk.V1.Domain;
-
 namespace Worldline.Connect.Sdk.V1.Merchant.Productgroups
 {
     public class GetPaymentProductGroupsExample
@@ -29,8 +27,8 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Productgroups
 
         private static Client GetClient()
         {
-            var apiKeyId = "someKey";
-            var secretApiKey = "someSecret";
+            const string apiKeyId = "someKey";
+            const string secretApiKey = "someSecret";
 
             var configuration = Factory.CreateConfiguration(apiKeyId, secretApiKey);
             return Factory.CreateClient(configuration);

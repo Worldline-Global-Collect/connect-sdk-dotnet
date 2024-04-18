@@ -14,52 +14,52 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false</description></item>
         /// </list>
         /// </summary>
-        public bool? IsRecurring { get; set; } = null;
+        public bool? IsRecurring { get; set; }
 
         /// <summary>
         /// Object containing specific input required for UPI (Payment product ID 4101)
         /// </summary>
-        public RedirectPaymentProduct4101SpecificInput PaymentProduct4101SpecificInput { get; set; } = null;
+        public RedirectPaymentProduct4101SpecificInput PaymentProduct4101SpecificInput { get; set; }
 
         /// <summary>
         /// Object containing specific input required for Dutch iDeal payments (Payment product ID 809)
         /// </summary>
-        public RedirectPaymentProduct809SpecificInput PaymentProduct809SpecificInput { get; set; } = null;
+        public RedirectPaymentProduct809SpecificInput PaymentProduct809SpecificInput { get; set; }
 
         /// <summary>
         /// Object containing specific input required for German giropay payments (Payment product ID 816)
         /// </summary>
-        public RedirectPaymentProduct816SpecificInput PaymentProduct816SpecificInput { get; set; } = null;
+        public RedirectPaymentProduct816SpecificInput PaymentProduct816SpecificInput { get; set; }
 
         /// <summary>
         /// Object containing specific input required for PayPal payments (Payment product ID 840)
         /// </summary>
-        public RedirectPaymentProduct840SpecificInput PaymentProduct840SpecificInput { get; set; } = null;
+        public RedirectPaymentProduct840SpecificInput PaymentProduct840SpecificInput { get; set; }
 
         /// <summary>
         /// Object containing specific input required for AliPay payments (Payment product ID 861)
         /// </summary>
-        public RedirectPaymentProduct861SpecificInput PaymentProduct861SpecificInput { get; set; } = null;
+        public RedirectPaymentProduct861SpecificInput PaymentProduct861SpecificInput { get; set; }
 
         /// <summary>
         /// Object containing specific input required for We Chat Pay payments (Payment product ID 863)
         /// </summary>
-        public RedirectPaymentProduct863SpecificInput PaymentProduct863SpecificInput { get; set; } = null;
+        public RedirectPaymentProduct863SpecificInput PaymentProduct863SpecificInput { get; set; }
 
         /// <summary>
         /// Object containing specific input required for China UnionPay payments (Payment product ID 869)
         /// </summary>
-        public RedirectPaymentProduct869SpecificInput PaymentProduct869SpecificInput { get; set; } = null;
+        public RedirectPaymentProduct869SpecificInput PaymentProduct869SpecificInput { get; set; }
 
         /// <summary>
         /// Object containing specific input required for Indian Net Banking payments (Payment product ID 882)
         /// </summary>
-        public RedirectPaymentProduct882SpecificInput PaymentProduct882SpecificInput { get; set; } = null;
+        public RedirectPaymentProduct882SpecificInput PaymentProduct882SpecificInput { get; set; }
 
         /// <summary>
         /// Object containing browser specific redirection related data
         /// </summary>
-        public RedirectionData RedirectionData { get; set; } = null;
+        public RedirectionData RedirectionData { get; set; }
 
         /// <summary>
         /// The URL that the customer is redirect to after the payment flow has finished. You can add any number of key value pairs in the query string that, for instance help you to identify the customer when they return to your site. Please note that we will also append some additional key value pairs that will also help you with this identification process.
@@ -68,6 +68,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />URLs without a protocol will be rejected.
         /// </summary>
         [Obsolete("Use redirectionData.returnUrl instead")]
-        public string ReturnUrl { get; set; } = null;
+        public string ReturnUrl { get; set; }
     }
 }

@@ -9,11 +9,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Name of company, as a customer
         /// </summary>
-        public string Name { get; set; } = null;
+        public string Name { get; set; }
 
         /// <summary>
         /// Local VAT number of the company
         /// </summary>
-        public string VatNumber { get; set; } = null;
+        public string VatNumber { get; set; }
     }
 }

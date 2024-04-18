@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing contact details like email address and phone number
         /// </summary>
-        public ContactDetailsToken ContactDetails { get; set; } = null;
+        public ContactDetailsToken ContactDetails { get; set; }
     }
 }

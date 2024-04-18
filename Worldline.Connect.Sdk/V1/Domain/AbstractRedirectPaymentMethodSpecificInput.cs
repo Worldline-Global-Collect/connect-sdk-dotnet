@@ -6,14 +6,14 @@ namespace Worldline.Connect.Sdk.V1.Domain
 {
     public class AbstractRedirectPaymentMethodSpecificInput : AbstractPaymentMethodSpecificInput
     {
-        public int? ExpirationPeriod { get; set; } = null;
+        public int? ExpirationPeriod { get; set; }
 
-        public string RecurringPaymentSequenceIndicator { get; set; } = null;
+        public string RecurringPaymentSequenceIndicator { get; set; }
 
-        public bool? RequiresApproval { get; set; } = null;
+        public bool? RequiresApproval { get; set; }
 
-        public string Token { get; set; } = null;
+        public string Token { get; set; }
 
-        public bool? Tokenize { get; set; } = null;
+        public bool? Tokenize { get; set; }
     }
 }

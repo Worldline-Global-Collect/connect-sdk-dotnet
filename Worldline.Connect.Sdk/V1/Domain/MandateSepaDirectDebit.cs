@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing information on the creditor
         /// </summary>
-        public Creditor Creditor { get; set; } = null;
+        public Creditor Creditor { get; set; }
     }
 }

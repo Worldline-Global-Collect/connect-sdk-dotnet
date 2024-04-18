@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Universally unique transaction identifier assigned by the 3-D Secure SDK to identify this transaction.
         /// </summary>
-        public string SdkTransactionId { get; set; } = null;
+        public string SdkTransactionId { get; set; }
     }
 }

@@ -9,7 +9,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing payout details
         /// </summary>
-        public OrderOutput PayoutOutput { get; set; } = null;
+        public OrderOutput PayoutOutput { get; set; }
 
         /// <summary>
         /// Current high-level status of the payouts in a human-readable form. Possible values are : 
@@ -26,12 +26,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />Please see 
         /// <a href="https://apireference.connect.worldline-solutions.com/s2sapi/v1/en_US/dotnet/statuses.html">Statuses</a> for a full overview of possible values.
         /// </summary>
-        public string Status { get; set; } = null;
+        public string Status { get; set; }
 
         /// <summary>
         /// This object has the numeric representation of the current payout status, timestamp of last status change and performable action on the current payout resource.
         /// <br />In case of a rejected payout, detailed error information is listed.
         /// </summary>
-        public OrderStatusOutput StatusOutput { get; set; } = null;
+        public OrderStatusOutput StatusOutput { get; set; }
     }
 }

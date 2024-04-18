@@ -9,12 +9,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Name of the attribute that is shown to the customer on selection pages or screens
         /// </summary>
-        public string AttributeKey { get; set; } = null;
+        public string AttributeKey { get; set; }
 
         /// <summary>
         /// Regular mask for the attributeKey
         /// <br />Note: The mask is optional as not every field has a mask
         /// </summary>
-        public string Mask { get; set; } = null;
+        public string Mask { get; set; }
     }
 }

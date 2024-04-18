@@ -12,22 +12,22 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// Object containing amount and ISO currency code attributes
         /// <br />Note: make sure you submit the amount and currency code for each line item
         /// </summary>
-        public AmountOfMoney AmountOfMoney { get; set; } = null;
+        public AmountOfMoney AmountOfMoney { get; set; }
 
         /// <summary>
         /// Object containing the line items of the invoice or shopping cart. The '+' character is not allowed in this property for transactions that are processed by TechProcess Payment Platform.
         /// </summary>
-        public LineItemInvoiceData InvoiceData { get; set; } = null;
+        public LineItemInvoiceData InvoiceData { get; set; }
 
         /// <summary>
         /// Object containing additional information that when supplied can have a beneficial effect on the discountrates
         /// </summary>
         [Obsolete("Use orderLineDetails instead")]
-        public LineItemLevel3InterchangeInformation Level3InterchangeInformation { get; set; } = null;
+        public LineItemLevel3InterchangeInformation Level3InterchangeInformation { get; set; }
 
         /// <summary>
         /// Object containing additional information that when supplied can have a beneficial effect on the discountrates
         /// </summary>
-        public OrderLineDetails OrderLineDetails { get; set; } = null;
+        public OrderLineDetails OrderLineDetails { get; set; }
     }
 }

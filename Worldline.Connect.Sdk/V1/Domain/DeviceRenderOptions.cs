@@ -17,7 +17,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>both = Both Native and HTML user interfaces are supported by the app</description></item>
         /// </list>
         /// </summary>
-        public string SdkInterface { get; set; } = null;
+        public string SdkInterface { get; set; }
 
         /// <summary>
         /// Lists all UI types that the device supports for displaying specific challenge user interfaces within the SDK.
@@ -30,7 +30,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// </list>
         /// </summary>
         [Obsolete("Use deviceRenderOptions.sdkUiTypes instead")]
-        public string SdkUiType { get; set; } = null;
+        public string SdkUiType { get; set; }
 
         /// <summary>
         /// Lists all UI types that the device supports for displaying specific challenge user interfaces within the SDK.
@@ -42,6 +42,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>html-other = HTML Other (only valid when cardPaymentMethodSpecificInput.threeDSecure.sdkData.deviceRenderOptions.sdkInterface is set to html)</description></item>
         /// </list>
         /// </summary>
-        public IList<string> SdkUiTypes { get; set; } = null;
+        public IList<string> SdkUiTypes { get; set; }
     }
 }

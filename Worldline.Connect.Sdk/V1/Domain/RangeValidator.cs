@@ -9,11 +9,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Upper value of the range that is still valid
         /// </summary>
-        public int? MaxValue { get; set; } = null;
+        public int? MaxValue { get; set; }
 
         /// <summary>
         /// Lower value of the range that is still valid
         /// </summary>
-        public int? MinValue { get; set; } = null;
+        public int? MinValue { get; set; }
     }
 }

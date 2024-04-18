@@ -36,7 +36,7 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Captures
                 }
                 catch (ApiException e)
                 {
-                    HandleApiErrors(e.Errors);
+                    HandleErrorResponse(e.ErrorId, e.Errors);
                 }
             }
 #pragma warning restore 0168
@@ -44,8 +44,8 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Captures
 
         private static Client GetClient()
         {
-            var apiKeyId = "someKey";
-            var secretApiKey = "someSecret";
+            const string apiKeyId = "someKey";
+            const string secretApiKey = "someSecret";
 
             var configuration = Factory.CreateConfiguration(apiKeyId, secretApiKey);
             return Factory.CreateClient(configuration);
@@ -56,9 +56,9 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Captures
             // handle the result here
         }
 
-        private static void HandleApiErrors(IList<APIError> errors)
+        private static void HandleErrorResponse(string errorId, IList<APIError> errors)
         {
-            // handle the errors here
+            // handle the error response here
         }
     }
 }

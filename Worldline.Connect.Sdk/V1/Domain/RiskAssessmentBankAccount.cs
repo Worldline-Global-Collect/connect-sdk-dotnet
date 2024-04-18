@@ -9,11 +9,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing account holder name and bank account information
         /// </summary>
-        public BankAccountBban BankAccountBban { get; set; } = null;
+        public BankAccountBban BankAccountBban { get; set; }
 
         /// <summary>
         /// Object containing account holder name and IBAN information
         /// </summary>
-        public BankAccountIban BankAccountIban { get; set; } = null;
+        public BankAccountIban BankAccountIban { get; set; }
     }
 }

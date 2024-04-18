@@ -16,6 +16,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>nativeInApp - used in mobile apps that use the WeChat Pay SDK.</description></item>
         /// </list>
         /// </summary>
-        public IList<string> IntegrationTypes { get; set; } = null;
+        public IList<string> IntegrationTypes { get; set; }
     }
 }

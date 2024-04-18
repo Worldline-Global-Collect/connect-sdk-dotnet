@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Contains the third party data for payment product 863 (WeChat Pay).
         /// </summary>
-        public PaymentProduct863ThirdPartyData PaymentProduct863 { get; set; } = null;
+        public PaymentProduct863ThirdPartyData PaymentProduct863 { get; set; }
     }
 }

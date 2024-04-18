@@ -14,12 +14,13 @@ namespace Worldline.Connect.Sdk.V1
     public class AuthorizationException : ApiException
     {
         public AuthorizationException(HttpStatusCode statusCode, string responseBody, string errorId, IList<APIError> errors)
-            : base("The Worldline Global Collect platform returned an incorrect request error response", statusCode, responseBody, errorId, errors)
+            : base("the Worldline Global Collect platform returned an authorization error response", statusCode, responseBody, errorId, errors)
         {
 
         }
 
-        public AuthorizationException(string message, HttpStatusCode statusCode, string responseBody, string errorId, IList<APIError> errors) : base(message, statusCode, responseBody, errorId, errors)
+        public AuthorizationException(string message, HttpStatusCode statusCode, string responseBody, string errorId, IList<APIError> errors)
+            : base(message, statusCode, responseBody, errorId, errors)
         {
 
         }

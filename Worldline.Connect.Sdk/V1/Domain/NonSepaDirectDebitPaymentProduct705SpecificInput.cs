@@ -9,12 +9,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Core reference number for the direct debit instruction in UK
         /// </summary>
-        public string AuthorisationId { get; set; } = null;
+        public string AuthorisationId { get; set; }
 
         /// <summary>
         /// Object containing account holder name and bank account information
         /// </summary>
-        public BankAccountBban BankAccountBban { get; set; } = null;
+        public BankAccountBban BankAccountBban { get; set; }
 
         /// <summary>
         /// <list type="bullet">
@@ -27,6 +27,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>conversion-of-paper-DDI-to-electronic-DDI - (zero S) Conversion of paper DDI to electronic DDI (only used once, when migrating from traditional direct debit to AUDDIS</description></item>
         /// </list>
         /// </summary>
-        public string TransactionType { get; set; } = null;
+        public string TransactionType { get; set; }
     }
 }

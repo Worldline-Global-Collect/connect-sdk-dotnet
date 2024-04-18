@@ -9,48 +9,48 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing the specific input details for bank transfer payments
         /// </summary>
-        public BankTransferPaymentMethodSpecificInput BankTransferPaymentMethodSpecificInput { get; set; } = null;
+        public BankTransferPaymentMethodSpecificInput BankTransferPaymentMethodSpecificInput { get; set; }
 
         /// <summary>
         /// Object containing the specific input details for card payments
         /// </summary>
-        public CardPaymentMethodSpecificInput CardPaymentMethodSpecificInput { get; set; } = null;
+        public CardPaymentMethodSpecificInput CardPaymentMethodSpecificInput { get; set; }
 
         /// <summary>
         /// Object containing the specific input details for cash payments
         /// </summary>
-        public CashPaymentMethodSpecificInput CashPaymentMethodSpecificInput { get; set; } = null;
+        public CashPaymentMethodSpecificInput CashPaymentMethodSpecificInput { get; set; }
 
         /// <summary>
         /// Object containing the specific input details for direct debit payments
         /// </summary>
-        public NonSepaDirectDebitPaymentMethodSpecificInput DirectDebitPaymentMethodSpecificInput { get; set; } = null;
+        public NonSepaDirectDebitPaymentMethodSpecificInput DirectDebitPaymentMethodSpecificInput { get; set; }
 
         /// <summary>
         /// Object containing the specific input details for e-invoice payments.
         /// </summary>
-        public EInvoicePaymentMethodSpecificInput EInvoicePaymentMethodSpecificInput { get; set; } = null;
+        public EInvoicePaymentMethodSpecificInput EInvoicePaymentMethodSpecificInput { get; set; }
 
         /// <summary>
         /// Data that was encrypted client side containing all customer entered data elements like card data.
         /// <br />Note: Because this data can only be submitted once to our system and contains encrypted card data you should not store it. As the data was captured within the context of a client session you also need to submit it to us before the session has expired.
         /// </summary>
-        public string EncryptedCustomerInput { get; set; } = null;
+        public string EncryptedCustomerInput { get; set; }
 
         /// <summary>
         /// Object containing additional data that will be used to assess the risk of fraud
         /// </summary>
-        public FraudFields FraudFields { get; set; } = null;
+        public FraudFields FraudFields { get; set; }
 
         /// <summary>
         /// Object containing the specific input details for invoice payments
         /// </summary>
-        public InvoicePaymentMethodSpecificInput InvoicePaymentMethodSpecificInput { get; set; } = null;
+        public InvoicePaymentMethodSpecificInput InvoicePaymentMethodSpecificInput { get; set; }
 
         /// <summary>
         /// Object containing information on you, the merchant
         /// </summary>
-        public Merchant Merchant { get; set; } = null;
+        public Merchant Merchant { get; set; }
 
         /// <summary>
         /// Object containing the specific input details for mobile payments. 
@@ -64,22 +64,22 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <a href="https://developers.google.com/android/reference/com/google/android/gms/wallet/PaymentData" target="_blank">PaymentData</a>.toJson()</nobr> result.</description></item>
         /// </list>
         /// </summary>
-        public MobilePaymentMethodSpecificInput MobilePaymentMethodSpecificInput { get; set; } = null;
+        public MobilePaymentMethodSpecificInput MobilePaymentMethodSpecificInput { get; set; }
 
         /// <summary>
         /// Order object containing order related data
         /// <br />Please note that this object is required to be able to submit the amount.
         /// </summary>
-        public Order Order { get; set; } = null;
+        public Order Order { get; set; }
 
         /// <summary>
         /// Object containing the specific input details for payments that involve redirects to 3rd parties to complete, like iDeal and PayPal
         /// </summary>
-        public RedirectPaymentMethodSpecificInput RedirectPaymentMethodSpecificInput { get; set; } = null;
+        public RedirectPaymentMethodSpecificInput RedirectPaymentMethodSpecificInput { get; set; }
 
         /// <summary>
         /// Object containing the specific input details for SEPA direct debit payments
         /// </summary>
-        public SepaDirectDebitPaymentMethodSpecificInput SepaDirectDebitPaymentMethodSpecificInput { get; set; } = null;
+        public SepaDirectDebitPaymentMethodSpecificInput SepaDirectDebitPaymentMethodSpecificInput { get; set; }
     }
 }

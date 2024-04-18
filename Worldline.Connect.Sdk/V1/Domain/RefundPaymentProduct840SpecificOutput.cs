@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing the PayPal account details
         /// </summary>
-        public RefundPaymentProduct840CustomerAccount CustomerAccount { get; set; } = null;
+        public RefundPaymentProduct840CustomerAccount CustomerAccount { get; set; }
     }
 }

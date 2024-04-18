@@ -14,7 +14,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>Ineligible</description></item>
         /// </list>
         /// </summary>
-        public string Eligibility { get; set; } = null;
+        public string Eligibility { get; set; }
 
         /// <summary>
         /// Possible values: 
@@ -24,6 +24,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>Ineligible</description></item>
         /// </list>
         /// </summary>
-        public string Type { get; set; } = null;
+        public string Type { get; set; }
     }
 }

@@ -14,11 +14,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>manually - All fields were entered manually</description></item>
         /// </list>
         /// </summary>
-        public string DefaultFormFill { get; set; } = null;
+        public string DefaultFormFill { get; set; }
 
         /// <summary>
         /// One must set the deviceFingerprintTransactionId received by the response of the endpoint /{merchant}/products/{paymentProductId}/deviceFingerprint
         /// </summary>
-        public string DeviceFingerprintTransactionId { get; set; } = null;
+        public string DeviceFingerprintTransactionId { get; set; }
     }
 }

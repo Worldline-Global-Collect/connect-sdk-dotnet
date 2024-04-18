@@ -9,11 +9,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing 3D secure details.
         /// </summary>
-        public ExternalCardholderAuthenticationData ExternalCardholderAuthenticationData { get; set; } = null;
+        public ExternalCardholderAuthenticationData ExternalCardholderAuthenticationData { get; set; }
 
         /// <summary>
         /// Object containing browser specific redirection related data
         /// </summary>
-        public RedirectionData RedirectionData { get; set; } = null;
+        public RedirectionData RedirectionData { get; set; }
     }
 }

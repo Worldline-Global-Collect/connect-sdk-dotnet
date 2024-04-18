@@ -9,11 +9,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Amount in cents and always having 2 decimals
         /// </summary>
-        public long? Amount { get; set; } = null;
+        public long? Amount { get; set; }
 
         /// <summary>
         /// Three-letter ISO currency code representing the currency for the amount
         /// </summary>
-        public string CurrencyCode { get; set; } = null;
+        public string CurrencyCode { get; set; }
     }
 }

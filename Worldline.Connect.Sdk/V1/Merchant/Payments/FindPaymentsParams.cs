@@ -16,27 +16,27 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// <summary>
         /// Your hosted checkout identifier to filter on.
         /// </summary>
-        public string HostedCheckoutId { get; set; } = null;
+        public string HostedCheckoutId { get; set; }
 
         /// <summary>
         /// Your unique transaction reference to filter on. The maximum length is 52 characters for payments that are processed by WL Online Payment Acceptance platform.
         /// </summary>
-        public string MerchantReference { get; set; } = null;
+        public string MerchantReference { get; set; }
 
         /// <summary>
         /// Your order identifier to filter on.
         /// </summary>
-        public long? MerchantOrderId { get; set; } = null;
+        public long? MerchantOrderId { get; set; }
 
         /// <summary>
         /// The zero-based index of the first payment in the result. If omitted, the offset will be 0.
         /// </summary>
-        public int? Offset { get; set; } = null;
+        public int? Offset { get; set; }
 
         /// <summary>
         /// The maximum number of payments to return, with a maximum of 100. If omitted, the limit will be 10.
         /// </summary>
-        public int? Limit { get; set; } = null;
+        public int? Limit { get; set; }
 
         public override IEnumerable<RequestParam> ToRequestParameters()
         {

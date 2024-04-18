@@ -17,7 +17,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>globalcollectBlacklistCheckDD - Checked against the blacklist on the GlobalCollect platform</description></item>
         /// </list>
         /// </summary>
-        public string Category { get; set; } = null;
+        public string Category { get; set; }
 
         /// <summary>
         /// Risk service result with the following possible results: 
@@ -29,16 +29,16 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>error - The fraud check resulted in an error and the fraud check was thus not performed</description></item>
         /// </list>
         /// </summary>
-        public string Result { get; set; } = null;
+        public string Result { get; set; }
 
         /// <summary>
         /// Object containing the results of the fraud checks performed by Retail Decisions
         /// </summary>
-        public RetailDecisionsCCFraudCheckOutput RetaildecisionsCCFraudCheckOutput { get; set; } = null;
+        public RetailDecisionsCCFraudCheckOutput RetaildecisionsCCFraudCheckOutput { get; set; }
 
         /// <summary>
         /// Object containing the results of the fraud checks performed on the bank account data
         /// </summary>
-        public ValidationBankAccountOutput ValidationBankAccountOutput { get; set; } = null;
+        public ValidationBankAccountOutput ValidationBankAccountOutput { get; set; }
     }
 }

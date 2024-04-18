@@ -16,22 +16,22 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Products
         /// <summary>
         /// ISO 3166-1 alpha-2 country code
         /// </summary>
-        public string CountryCode { get; set; } = null;
+        public string CountryCode { get; set; }
 
         /// <summary>
         /// Three-letter ISO currency code representing the currency for the amount
         /// </summary>
-        public string CurrencyCode { get; set; } = null;
+        public string CurrencyCode { get; set; }
 
         /// <summary>
         /// Locale used in the GUI towards the consumer. Please make sure that a language pack is configured for the locale you are submitting. If you submit a locale that is not setup on your account we will use the default language pack for your account. You can easily upload additional language packs and set the default language pack in the Configuration Center.
         /// </summary>
-        public string Locale { get; set; } = null;
+        public string Locale { get; set; }
 
         /// <summary>
         /// Amount in cents and always having 2 decimals
         /// </summary>
-        public long? Amount { get; set; } = null;
+        public long? Amount { get; set; }
 
         /// <summary>
         /// This allows you to filter payment products based on their support for recurring or not 
@@ -40,7 +40,7 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Products
         ///   <item><description>false</description></item>
         /// </list>If this is omitted all payment products are returned.
         /// </summary>
-        public bool? IsRecurring { get; set; } = null;
+        public bool? IsRecurring { get; set; }
 
         /// <summary>
         /// This allows you to filter payment products based on their support for installments or not 
@@ -49,7 +49,7 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Products
         ///   <item><description>false</description></item>
         /// </list>If this is omitted all payment products are returned.
         /// </summary>
-        public bool? IsInstallments { get; set; } = null;
+        public bool? IsInstallments { get; set; }
 
         /// <summary>
         /// Allows you to hide elements from the response, reducing the amount of data that needs to be returned to your client. Possible options are: 
@@ -62,7 +62,7 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Products
         ///   <item><description>productsWithRedirects - Don't return products that require a redirect to a 3rd party. Note that products that involve potential redirects related to 3D Secure authentication are not hidden</description></item>
         /// </list>
         /// </summary>
-        public IList<string> Hide { get; set; } = null;
+        public IList<string> Hide { get; set; }
 
         public void AddHide(string value)
         {

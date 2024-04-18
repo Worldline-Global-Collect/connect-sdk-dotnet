@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Title of customer
         /// </summary>
-        public string Title { get; set; } = null;
+        public string Title { get; set; }
     }
 }

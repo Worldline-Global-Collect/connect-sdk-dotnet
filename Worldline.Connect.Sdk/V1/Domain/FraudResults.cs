@@ -16,16 +16,16 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>error - The fraud check resulted in an error and the fraud check was thus not performed</description></item>
         /// </list>
         /// </summary>
-        public string FraudServiceResult { get; set; } = null;
+        public string FraudServiceResult { get; set; }
 
         /// <summary>
         /// Object containing device fingerprinting details from InAuth
         /// </summary>
-        public InAuth InAuth { get; set; } = null;
+        public InAuth InAuth { get; set; }
 
         /// <summary>
         /// This object contains the results of Microsoft Fraud Protection risk assessment. Microsoft collects transaction data points and uses Adaptive AI that continuously learns to protect you against payment fraud, and the device fingerprinting details from the Microsoft Device Fingerprinting service.
         /// </summary>
-        public MicrosoftFraudResults MicrosoftFraudProtection { get; set; } = null;
+        public MicrosoftFraudResults MicrosoftFraudProtection { get; set; }
     }
 }

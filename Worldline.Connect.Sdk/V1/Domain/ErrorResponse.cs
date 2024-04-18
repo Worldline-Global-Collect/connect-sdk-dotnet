@@ -11,11 +11,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Unique reference, for debugging purposes, of this error response
         /// </summary>
-        public string ErrorId { get; set; } = null;
+        public string ErrorId { get; set; }
 
         /// <summary>
         /// List of one or more errors
         /// </summary>
-        public IList<APIError> Errors { get; set; } = null;
+        public IList<APIError> Errors { get; set; }
     }
 }

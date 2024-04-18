@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing the Apple Pay session object.
         /// </summary>
-        public MobilePaymentProductSession302SpecificOutput PaymentProductSession302SpecificOutput { get; set; } = null;
+        public MobilePaymentProductSession302SpecificOutput PaymentProductSession302SpecificOutput { get; set; }
     }
 }

@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Every payment entity resource has an identifier or pointer associated with it. This id can be used to uniquely reach the resource.
         /// </summary>
-        public string Id { get; set; } = null;
+        public string Id { get; set; }
     }
 }

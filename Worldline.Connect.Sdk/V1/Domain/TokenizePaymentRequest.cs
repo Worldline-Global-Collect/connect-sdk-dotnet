@@ -11,6 +11,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />If no alias is given, a payment product specific default is used, e.g. the obfuscated card number for card payment products.
         /// <br />Do not include any unobfuscated sensitive data in the alias.
         /// </summary>
-        public string Alias { get; set; } = null;
+        public string Alias { get; set; }
     }
 }

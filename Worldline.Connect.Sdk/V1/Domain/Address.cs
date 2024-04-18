@@ -9,28 +9,28 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Additional address information. The additionalInfo is truncated after 10 characters for payments, refunds or payouts that are processed by the WL Online Payment Acceptance platform
         /// </summary>
-        public string AdditionalInfo { get; set; } = null;
+        public string AdditionalInfo { get; set; }
 
         /// <summary>
         /// City
         /// <br />Note: For payments with product 1503 the maximum length is not 40 but 20.
         /// </summary>
-        public string City { get; set; } = null;
+        public string City { get; set; }
 
         /// <summary>
         /// ISO 3166-1 alpha-2 country code
         /// </summary>
-        public string CountryCode { get; set; } = null;
+        public string CountryCode { get; set; }
 
         /// <summary>
         /// House number. The houseNumber is truncated after 10 characters for payments, refunds or payouts that are processed by the WL Online Payment Acceptance platform
         /// </summary>
-        public string HouseNumber { get; set; } = null;
+        public string HouseNumber { get; set; }
 
         /// <summary>
         /// Full name of the state or province
         /// </summary>
-        public string State { get; set; } = null;
+        public string State { get; set; }
 
         /// <summary>
         /// ISO 3166-2 alpha-3 state code
@@ -42,17 +42,17 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>The maximum length is 3 for payments that are processed by the WL Online Payment Acceptance platform</description></item>
         /// </list>
         /// </summary>
-        public string StateCode { get; set; } = null;
+        public string StateCode { get; set; }
 
         /// <summary>
         /// Streetname
         /// </summary>
-        public string Street { get; set; } = null;
+        public string Street { get; set; }
 
         /// <summary>
         /// Zip code
         /// <br />Note: For payments with product 1503 the maximum length is not 10 but 8.
         /// </summary>
-        public string Zip { get; set; } = null;
+        public string Zip { get; set; }
     }
 }

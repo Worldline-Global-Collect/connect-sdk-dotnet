@@ -12,7 +12,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// A free text string that you can send to PayPal. With a special agreement between PayPal and you, PayPal uses the data in that property, for custom services they offer to you.
         /// </summary>
         [Obsolete("Use Order.references.descriptor instead")]
-        public string Custom { get; set; } = null;
+        public string Custom { get; set; }
 
         /// <summary>
         /// <div class="deprecated-wrapper depends-wrapper">Deprecated: If your PayPal payments are processed by Worldline's Ogone Payment Platform, please use the property addressSelectionAtPayPal instead.</div>
@@ -22,6 +22,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false = Regular PayPal payment</description></item>
         /// </list>For payments processed by Worldline's Ogone Payment Platform, please see the addressSelectionAtPayPal property for more information.
         /// </summary>
-        public bool? IsShortcut { get; set; } = null;
+        public bool? IsShortcut { get; set; }
     }
 }

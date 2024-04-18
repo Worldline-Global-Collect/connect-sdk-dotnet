@@ -12,27 +12,27 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - Indicates that this field is not to be shown unless it is a required field.</description></item>
         /// </list>
         /// </summary>
-        public bool? AlwaysShow { get; set; } = null;
+        public bool? AlwaysShow { get; set; }
 
         /// <summary>
         /// The order in which the fields should be shown (ascending)
         /// </summary>
-        public int? DisplayOrder { get; set; } = null;
+        public int? DisplayOrder { get; set; }
 
         /// <summary>
         /// Object detailing the type of form element that should be used to present the field
         /// </summary>
-        public PaymentProductFieldFormElement FormElement { get; set; } = null;
+        public PaymentProductFieldFormElement FormElement { get; set; }
 
         /// <summary>
         /// Label/Name of the field to be used in the user interface
         /// </summary>
-        public string Label { get; set; } = null;
+        public string Label { get; set; }
 
         /// <summary>
         /// Link that should be used to replace the '{link}' variable in the label.
         /// </summary>
-        public string Link { get; set; } = null;
+        public string Link { get; set; }
 
         /// <summary>
         /// A mask that can be used in the input field. You can use it to inject additional characters to provide a better user experience and to restrict the accepted character set (illegal characters to be ignored during typing).
@@ -40,7 +40,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />9 is used for numbers
         /// <br />Everything outside {{ and }} is used as-is.
         /// </summary>
-        public string Mask { get; set; } = null;
+        public string Mask { get; set; }
 
         /// <summary>
         /// <list type="bullet">
@@ -48,12 +48,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - The data in this field does not need to be obfuscated</description></item>
         /// </list>
         /// </summary>
-        public bool? Obfuscate { get; set; } = null;
+        public bool? Obfuscate { get; set; }
 
         /// <summary>
         /// A placeholder value for the form element
         /// </summary>
-        public string PlaceholderLabel { get; set; } = null;
+        public string PlaceholderLabel { get; set; }
 
         /// <summary>
         /// The type of keyboard that can best be used to fill out the value of this field. Possible values are: 
@@ -64,11 +64,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>EmailAddressKeyboard - Keyboard that allows easier entry of email addresses</description></item>
         /// </list>
         /// </summary>
-        public string PreferredInputType { get; set; } = null;
+        public string PreferredInputType { get; set; }
 
         /// <summary>
         /// Object that contains an optional tooltip to assist the customer
         /// </summary>
-        public PaymentProductFieldTooltip Tooltip { get; set; } = null;
+        public PaymentProductFieldTooltip Tooltip { get; set; }
     }
 }

@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// OK result on the connection to the payment engine.
         /// </summary>
-        public string Result { get; set; } = null;
+        public string Result { get; set; }
     }
 }

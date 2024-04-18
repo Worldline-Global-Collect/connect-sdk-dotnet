@@ -9,16 +9,16 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing the specific input details for card payments
         /// </summary>
-        public CompletePaymentCardPaymentMethodSpecificInput CardPaymentMethodSpecificInput { get; set; } = null;
+        public CompletePaymentCardPaymentMethodSpecificInput CardPaymentMethodSpecificInput { get; set; }
 
         /// <summary>
         /// Object containing information on you, the merchant
         /// </summary>
-        public Merchant Merchant { get; set; } = null;
+        public Merchant Merchant { get; set; }
 
         /// <summary>
         /// Order object containing order related data
         /// </summary>
-        public Order Order { get; set; } = null;
+        public Order Order { get; set; }
     }
 }

@@ -11,11 +11,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />The encrypted payment data can be found in property paymentMethodData.tokenizationData.info.billingAddress.name of the 
         /// <a href="https://developers.google.com/android/reference/com/google/android/gms/wallet/PaymentData">PaymentData</a>.toJson() result.
         /// </summary>
-        public string CardholderName { get; set; } = null;
+        public string CardholderName { get; set; }
 
         /// <summary>
         /// Object containing specific data regarding 3-D Secure
         /// </summary>
-        public GPayThreeDSecure ThreeDSecure { get; set; } = null;
+        public GPayThreeDSecure ThreeDSecure { get; set; }
     }
 }

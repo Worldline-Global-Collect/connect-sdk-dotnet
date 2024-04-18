@@ -16,11 +16,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>miniProgram - used for Mini Programs.</description></item>
         /// </list>
         /// </summary>
-        public string IntegrationType { get; set; } = null;
+        public string IntegrationType { get; set; }
 
         /// <summary>
         /// An openId of a customer.
         /// </summary>
-        public string OpenId { get; set; } = null;
+        public string OpenId { get; set; }
     }
 }

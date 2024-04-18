@@ -11,7 +11,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing data related to the account the customer has with you
         /// </summary>
-        public CustomerAccount Account { get; set; } = null;
+        public CustomerAccount Account { get; set; }
 
         /// <summary>
         /// Type of the customer account that is used to place this order. Can have one of the following values: 
@@ -21,22 +21,22 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>existing - The customer account was an already existing account prior to this transaction</description></item>
         /// </list>
         /// </summary>
-        public string AccountType { get; set; } = null;
+        public string AccountType { get; set; }
 
         /// <summary>
         /// Object containing billing address details
         /// </summary>
-        public Address BillingAddress { get; set; } = null;
+        public Address BillingAddress { get; set; }
 
         /// <summary>
         /// Object containing contact details like email address and phone number
         /// </summary>
-        public ContactDetails ContactDetails { get; set; } = null;
+        public ContactDetails ContactDetails { get; set; }
 
         /// <summary>
         /// Object containing information on the device and browser of the customer
         /// </summary>
-        public CustomerDevice Device { get; set; } = null;
+        public CustomerDevice Device { get; set; }
 
         /// <summary>
         /// The fiscal registration number of the customer or the tax registration number of the company in case of a business customer. Please find below specifics per country: 
@@ -61,7 +61,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>Uruguay - Company (RUT) with a length of 12 digits</description></item>
         /// </list>
         /// </summary>
-        public string FiscalNumber { get; set; } = null;
+        public string FiscalNumber { get; set; }
 
         /// <summary>
         /// Indicates if the payer is a company or an individual 
@@ -70,7 +70,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false = This is an individual</description></item>
         /// </list>
         /// </summary>
-        public bool? IsCompany { get; set; } = null;
+        public bool? IsCompany { get; set; }
 
         /// <summary>
         /// Specifies if the customer has a history of online shopping with the merchant 
@@ -79,22 +79,22 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - The customer is new/unknown customer</description></item>
         /// </list>
         /// </summary>
-        public bool? IsPreviousCustomer { get; set; } = null;
+        public bool? IsPreviousCustomer { get; set; }
 
         /// <summary>
         /// The locale that the customer should be addressed in (for 3rd parties). Note that some 3rd party providers only support the languageCode part of the locale, in those cases we will only use part of the locale provided.
         /// </summary>
-        public string Locale { get; set; } = null;
+        public string Locale { get; set; }
 
         /// <summary>
         /// Object containing personal information like name, date of birth and gender.
         /// </summary>
-        public PersonalInformation PersonalInformation { get; set; } = null;
+        public PersonalInformation PersonalInformation { get; set; }
 
         /// <summary>
         /// Object containing shipping address details
         /// </summary>
         [Obsolete("Use Order.shipping.address instead")]
-        public AddressPersonal ShippingAddress { get; set; } = null;
+        public AddressPersonal ShippingAddress { get; set; }
     }
 }

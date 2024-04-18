@@ -14,17 +14,17 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>SALE - The payment creation results in an authorization that is already captured at the moment of approval.</description></item>
         /// </list>Only used with some acquirers, ingnored for acquirers that don't support this. In case the acquirer doesn't allow this to be specified the authorizationMode is 'unspecified', which behaves similar to a final authorization.
         /// </summary>
-        public string AuthorizationMode { get; set; } = null;
+        public string AuthorizationMode { get; set; }
 
         /// <summary>
         /// Reference of the customer for the payment (purchase order #, etc.). Only used with some acquirers.
         /// </summary>
-        public string CustomerReference { get; set; } = null;
+        public string CustomerReference { get; set; }
 
         /// <summary>
         /// The payment data if you do the decryption of the encrypted payment data yourself.
         /// </summary>
-        public DecryptedPaymentData DecryptedPaymentData { get; set; } = null;
+        public DecryptedPaymentData DecryptedPaymentData { get; set; }
 
         /// <summary>
         /// The payment data if we will do the decryption of the encrypted payment data.
@@ -39,12 +39,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <a href="https://developers.google.com/android/reference/com/google/android/gms/wallet/PaymentData" target="_blank">PaymentData</a>.toJson()</nobr> result.</description></item>
         /// </list>
         /// </summary>
-        public string EncryptedPaymentData { get; set; } = null;
+        public string EncryptedPaymentData { get; set; }
 
         /// <summary>
         /// Object containing information specific to Google Pay
         /// </summary>
-        public MobilePaymentProduct320SpecificInput PaymentProduct320SpecificInput { get; set; } = null;
+        public MobilePaymentProduct320SpecificInput PaymentProduct320SpecificInput { get; set; }
 
         /// <summary>
         /// <list type="bullet">
@@ -54,7 +54,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false = the payment does not require approval, and the funds will be captured automatically</description></item>
         /// </list>
         /// </summary>
-        public bool? RequiresApproval { get; set; } = null;
+        public bool? RequiresApproval { get; set; }
 
         /// <summary>
         /// <list type="bullet">
@@ -62,6 +62,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false = Fraud scoring will not be skipped for this transaction</description></item>
         /// </list>Note: This is only possible if your account in our system is setup for Fraud scoring and if your configuration in our system allows you to override it per transaction.
         /// </summary>
-        public bool? SkipFraudService { get; set; } = null;
+        public bool? SkipFraudService { get; set; }
     }
 }

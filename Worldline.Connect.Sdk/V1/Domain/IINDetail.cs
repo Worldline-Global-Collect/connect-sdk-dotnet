@@ -13,13 +13,13 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - The payment product is not allowed in the submitted context. Note that in this case, none of the brands of the card will be allowed in the submitted context.</description></item>
         /// </list>
         /// </summary>
-        public bool? IsAllowedInContext { get; set; } = null;
+        public bool? IsAllowedInContext { get; set; }
 
         /// <summary>
         /// Payment product identifier
         /// <br />Please see 
         /// <a href="https://apireference.connect.worldline-solutions.com/s2sapi/v1/en_US/dotnet/paymentproducts.html">payment products</a> for a full overview of possible values.
         /// </summary>
-        public int? PaymentProductId { get; set; } = null;
+        public int? PaymentProductId { get; set; }
     }
 }

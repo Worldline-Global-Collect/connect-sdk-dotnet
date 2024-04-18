@@ -13,18 +13,18 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// Details regarding the shipping method
         /// </summary>
         [Obsolete("No replacement")]
-        public string MethodDetails { get; set; } = null;
+        public string MethodDetails { get; set; }
 
         /// <summary>
         /// Shipping method speed indicator
         /// </summary>
         [Obsolete("No replacement")]
-        public int? MethodSpeed { get; set; } = null;
+        public int? MethodSpeed { get; set; }
 
         /// <summary>
         /// Shipping method type indicator
         /// </summary>
         [Obsolete("No replacement")]
-        public int? MethodType { get; set; } = null;
+        public int? MethodType { get; set; }
     }
 }

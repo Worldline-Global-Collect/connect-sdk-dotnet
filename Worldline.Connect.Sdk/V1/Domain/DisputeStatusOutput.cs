@@ -13,7 +13,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false</description></item>
         /// </list>
         /// </summary>
-        public bool? IsCancellable { get; set; } = null;
+        public bool? IsCancellable { get; set; }
 
         /// <summary>
         /// Highlevel status of the payment, payout or refund with the following possible values: 
@@ -72,17 +72,17 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />Please see 
         /// <a href="https://apireference.connect.worldline-solutions.com/s2sapi/v1/en_US/dotnet/statuses.html">Statuses</a> for a full overview of possible values.
         /// </summary>
-        public string StatusCategory { get; set; } = null;
+        public string StatusCategory { get; set; }
 
         /// <summary>
         /// Numeric status code of the legacy API. It is returned to ease the migration from the legacy APIs to Worldline Connect. You should not write new business logic based on this property as it will be deprecated in a future version of the API. The value can also be found in the GlobalCollect Payment Console, in the Ogone BackOffice and in report files.
         /// </summary>
-        public int? StatusCode { get; set; } = null;
+        public int? StatusCode { get; set; }
 
         /// <summary>
         /// Date and time of payment
         /// <br />Format: YYYYMMDDHH24MISS
         /// </summary>
-        public string StatusCodeChangeDateTime { get; set; } = null;
+        public string StatusCodeChangeDateTime { get; set; }
     }
 }

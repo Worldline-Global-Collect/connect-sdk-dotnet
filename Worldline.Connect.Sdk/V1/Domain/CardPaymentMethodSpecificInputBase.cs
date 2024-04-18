@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing specific data regarding 3-D Secure
         /// </summary>
-        public ThreeDSecureBase ThreeDSecure { get; set; } = null;
+        public ThreeDSecureBase ThreeDSecure { get; set; }
     }
 }

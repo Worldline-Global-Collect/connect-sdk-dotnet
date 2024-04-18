@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// The ID of the installment plan used for the payment.
         /// </summary>
-        public string InstallmentId { get; set; } = null;
+        public string InstallmentId { get; set; }
     }
 }

@@ -11,6 +11,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// List of entries in the directory
         /// </summary>
-        public IList<DirectoryEntry> Entries { get; set; } = null;
+        public IList<DirectoryEntry> Entries { get; set; }
     }
 }

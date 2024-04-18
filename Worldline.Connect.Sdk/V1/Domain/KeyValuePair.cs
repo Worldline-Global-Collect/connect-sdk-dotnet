@@ -9,11 +9,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Name of the key or property
         /// </summary>
-        public string Key { get; set; } = null;
+        public string Key { get; set; }
 
         /// <summary>
         /// Value of the key or property
         /// </summary>
-        public string Value { get; set; } = null;
+        public string Value { get; set; }
     }
 }

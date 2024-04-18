@@ -12,17 +12,17 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - Only payment products that support one-off payments will be shown.</description></item>
         /// </list>The default value for this property is false.
         /// </summary>
-        public bool? IsRecurring { get; set; } = null;
+        public bool? IsRecurring { get; set; }
 
         /// <summary>
         /// Locale to use to present the MyCheckout payment pages to the customer. Please make sure that a language pack is configured for the locale you are submitting. If you submit a locale that is not setup on your account we will use the default language pack for your account. You can easily upload additional language packs and set the default language pack in the Configuration Center.
         /// </summary>
-        public string Locale { get; set; } = null;
+        public string Locale { get; set; }
 
         /// <summary>
         /// Contains the payment product ids and payment product groups that will be used for manipulating the payment products available for the payment to the customer.
         /// </summary>
-        public PaymentProductFiltersHostedCheckout PaymentProductFilters { get; set; } = null;
+        public PaymentProductFiltersHostedCheckout PaymentProductFilters { get; set; }
 
         /// <summary>
         /// The object containing reference data for the text that can be displayed on MyCheckout hosted payment page with subscription information.
@@ -32,14 +32,14 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />The data in this object is only meant for displaying recurring payments-related data on your checkout page.
         /// <br />You still need to submit all the recurring payment-related data in the corresponding payment product-specific input. (example: cardPaymentMethodSpecificInput.recurring and cardPaymentMethodSpecificInput.isRecurring)
         /// </summary>
-        public RecurringPaymentsData RecurringPaymentsData { get; set; } = null;
+        public RecurringPaymentsData RecurringPaymentsData { get; set; }
 
         /// <summary>
         /// This flag affects the status of a Hosted Checkout when a customer presses the cancel button and is returned to you as a result.
         /// <br />If set to true, then the status will be CANCELLED_BY_CONSUMER. If set to false, then the status will be IN_PROGRESS.
         /// <br />The default value is false. This flag was added to introduce the additional CANCELLED_BY_CONSUMER state as a non-breaking change.
         /// </summary>
-        public bool? ReturnCancelState { get; set; } = null;
+        public bool? ReturnCancelState { get; set; }
 
         /// <summary>
         /// The URL that the customer is redirect to after the payment flow has finished. You can add any number of key value pairs in the query string that, for instance help you to identify the customer when they return to your site. Please note that we will also append some additional key value pairs that will also help you with this identification process.
@@ -47,7 +47,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <i>protocol</i>://. This protocol must be registered on the device first.
         /// <br />URLs without a protocol will be rejected.
         /// </summary>
-        public string ReturnUrl { get; set; } = null;
+        public string ReturnUrl { get; set; }
 
         /// <summary>
         /// <list type="bullet">
@@ -55,21 +55,21 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>false - MyCheckout will redirect the customer back to the provided returnUrl when this is possible.</description></item>
         /// </list>The default value for this property is true.
         /// </summary>
-        public bool? ShowResultPage { get; set; } = null;
+        public bool? ShowResultPage { get; set; }
 
         /// <summary>
         /// String containing comma separated tokens (no spaces) associated with the customer of this hosted checkout. Valid tokens will be used to present the customer the option to re-use previously used payment details. This means the customer for instance does not have to re-enter their card details again, which a big plus when the customer is using their mobile phone to complete the checkout.
         /// </summary>
-        public string Tokens { get; set; } = null;
+        public string Tokens { get; set; }
 
         /// <summary>
         /// By default, validation is done for all the information required to display the shopping cart. Set this value to false if you would like to turn that feature off for a hosted checkout on the Ogone Payment Platform, in which case the rendering of the shopping cart will be skipped if any required information is missing. Use this when you want fraud-checks to be performed on the shopping cart, but do not want to suply all data needed for displaying it in the hosted checkout. The default value for this property is true.
         /// </summary>
-        public bool? ValidateShoppingCart { get; set; } = null;
+        public bool? ValidateShoppingCart { get; set; }
 
         /// <summary>
         /// Using the Configuration Center it is possible to create multiple variations of your MyCheckout payment pages. By specifying a specific variant you can force the use of another variant then the default. This allows you to test out the effect of certain changes to your MyCheckout payment pages in a controlled manner. Please note that you need to specify the ID of the variant.
         /// </summary>
-        public string Variant { get; set; } = null;
+        public string Variant { get; set; }
     }
 }

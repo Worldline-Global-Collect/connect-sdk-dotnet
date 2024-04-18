@@ -9,11 +9,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing the details of the customer
         /// </summary>
-        public CustomerToken Customer { get; set; } = null;
+        public CustomerToken Customer { get; set; }
 
         /// <summary>
         /// Object containing the eWallet tokenizable data
         /// </summary>
-        public TokenEWalletData Data { get; set; } = null;
+        public TokenEWalletData Data { get; set; }
     }
 }

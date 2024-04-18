@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Your (unique) reference for the transaction that you can use to reconcile our report files
         /// </summary>
-        public string MerchantReference { get; set; } = null;
+        public string MerchantReference { get; set; }
     }
 }

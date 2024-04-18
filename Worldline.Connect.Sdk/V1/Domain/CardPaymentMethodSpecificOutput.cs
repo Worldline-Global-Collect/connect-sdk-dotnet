@@ -9,38 +9,38 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Card Authorization code as returned by the acquirer
         /// </summary>
-        public string AuthorisationCode { get; set; } = null;
+        public string AuthorisationCode { get; set; }
 
         /// <summary>
         /// Object containing card details
         /// </summary>
-        public CardEssentials Card { get; set; } = null;
+        public CardEssentials Card { get; set; }
 
         /// <summary>
         /// Fraud results contained in the CardFraudResults object
         /// </summary>
-        public CardFraudResults FraudResults { get; set; } = null;
+        public CardFraudResults FraudResults { get; set; }
 
         /// <summary>
         /// The unique scheme transactionId of the initial transaction that was performed with SCA.
         /// <br />Should be stored by the merchant to allow it to be submitted in future transactions.
         /// </summary>
-        public string InitialSchemeTransactionId { get; set; } = null;
+        public string InitialSchemeTransactionId { get; set; }
 
         /// <summary>
         /// The unique scheme transactionId of this transaction.
         /// <br />Should be stored by the merchant to allow it to be submitted in future transactions. Use this value in case the initialSchemeTransactionId property is empty.
         /// </summary>
-        public string SchemeTransactionId { get; set; } = null;
+        public string SchemeTransactionId { get; set; }
 
         /// <summary>
         /// 3D Secure results object
         /// </summary>
-        public ThreeDSecureResults ThreeDSecureResults { get; set; } = null;
+        public ThreeDSecureResults ThreeDSecureResults { get; set; }
 
         /// <summary>
         /// If a token was used for or created during the payment, then the ID of that token.
         /// </summary>
-        public string Token { get; set; } = null;
+        public string Token { get; set; }
     }
 }

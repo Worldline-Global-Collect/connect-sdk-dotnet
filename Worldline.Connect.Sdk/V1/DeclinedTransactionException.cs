@@ -3,6 +3,7 @@
  * https://apireference.connect.worldline-solutions.com/
  */
 using System.Collections.Generic;
+using System.Net;
 using Worldline.Connect.Sdk.V1.Domain;
 
 namespace Worldline.Connect.Sdk.V1
@@ -12,13 +13,13 @@ namespace Worldline.Connect.Sdk.V1
     /// </summary>
     public class DeclinedTransactionException : ApiException
     {
-        public DeclinedTransactionException(System.Net.HttpStatusCode statusCode, string responseBody, string errorId, IList<APIError> errors)
+        public DeclinedTransactionException(HttpStatusCode statusCode, string responseBody, string errorId, IList<APIError> errors)
             : base(statusCode, responseBody, errorId, errors)
         {
 
         }
 
-        public DeclinedTransactionException(string message, System.Net.HttpStatusCode statusCode, string responseBody, string errorId, IList<APIError> errors)
+        public DeclinedTransactionException(string message, HttpStatusCode statusCode, string responseBody, string errorId, IList<APIError> errors)
             : base(message, statusCode, responseBody, errorId, errors)
         {
 

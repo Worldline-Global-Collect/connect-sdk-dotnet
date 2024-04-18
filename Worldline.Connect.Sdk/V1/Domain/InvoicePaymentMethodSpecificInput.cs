@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Your (additional) reference identifier for this transaction. Data supplied in this property will also be returned in our report files, allowing you to reconcile the incoming funds.
         /// </summary>
-        public string AdditionalReference { get; set; } = null;
+        public string AdditionalReference { get; set; }
     }
 }

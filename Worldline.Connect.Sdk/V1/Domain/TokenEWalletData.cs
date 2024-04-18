@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Identification of the PayPal recurring billing agreement
         /// </summary>
-        public string BillingAgreementId { get; set; } = null;
+        public string BillingAgreementId { get; set; }
     }
 }

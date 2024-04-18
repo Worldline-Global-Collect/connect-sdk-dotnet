@@ -9,6 +9,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing an opaque merchant session object.
         /// </summary>
-        public string SessionObject { get; set; } = null;
+        public string SessionObject { get; set; }
     }
 }

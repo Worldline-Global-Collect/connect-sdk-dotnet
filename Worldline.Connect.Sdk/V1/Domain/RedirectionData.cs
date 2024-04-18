@@ -12,7 +12,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <i>protocol</i>://. This protocol must be registered on the device first.
         /// <br />URLs without a protocol will be rejected.
         /// </summary>
-        public string ReturnUrl { get; set; } = null;
+        public string ReturnUrl { get; set; }
 
         /// <summary>
         /// Using the Configuration Center it is possible to create multiple variations of your MyCheckout payment pages. The redirection flow for 3-D Secure uses the MyCheckout payment pages to display the following types of pages: 
@@ -22,6 +22,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// </list>By specifying a specific variant you can force the use of another variant than the default. This allows you to test out the effect of certain changes to your MyCheckout payment pages in a controlled manner. Please note that you need to specify the ID instead of the name of the variant.
         /// <br />Note: In case you have defined a Dynamic 3D Secure rule that takes the variant into account this will only work if you explicitly specify the ID using this property.
         /// </summary>
-        public string Variant { get; set; } = null;
+        public string Variant { get; set; }
     }
 }
