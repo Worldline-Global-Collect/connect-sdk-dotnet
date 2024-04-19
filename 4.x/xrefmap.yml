@@ -450,6 +450,15 @@ references:
   fullName.vb: Worldline.Connect.Sdk.Communication.DefaultConnection.New(System.Func(Of System.Net.Http.HttpClient), System.Action)
   nameWithType: DefaultConnection.DefaultConnection(Func<HttpClient>, Action)
   nameWithType.vb: DefaultConnection.New(Func(Of HttpClient), Action)
+- uid: Worldline.Connect.Sdk.Communication.DefaultConnection.#ctor(System.Func{System.Net.Http.HttpClient},System.Action{System.Net.Http.HttpClient},System.Action)
+  name: DefaultConnection(Func<HttpClient>, Action<HttpClient>, Action)
+  href: api/Worldline.Connect.Sdk.Communication.DefaultConnection.html#Worldline_Connect_Sdk_Communication_DefaultConnection__ctor_System_Func_System_Net_Http_HttpClient__System_Action_System_Net_Http_HttpClient__System_Action_
+  commentId: M:Worldline.Connect.Sdk.Communication.DefaultConnection.#ctor(System.Func{System.Net.Http.HttpClient},System.Action{System.Net.Http.HttpClient},System.Action)
+  name.vb: New(Func(Of HttpClient), Action(Of HttpClient), Action)
+  fullName: Worldline.Connect.Sdk.Communication.DefaultConnection.DefaultConnection(System.Func<System.Net.Http.HttpClient>, System.Action<System.Net.Http.HttpClient>, System.Action)
+  fullName.vb: Worldline.Connect.Sdk.Communication.DefaultConnection.New(System.Func(Of System.Net.Http.HttpClient), System.Action(Of System.Net.Http.HttpClient), System.Action)
+  nameWithType: DefaultConnection.DefaultConnection(Func<HttpClient>, Action<HttpClient>, Action)
+  nameWithType.vb: DefaultConnection.New(Func(Of HttpClient), Action(Of HttpClient), Action)
 - uid: Worldline.Connect.Sdk.Communication.DefaultConnection.#ctor(System.Nullable{System.TimeSpan},System.Int32,Worldline.Connect.Sdk.Proxy,System.Net.Http.HttpClientHandler)
   name: DefaultConnection(TimeSpan?, int, Proxy, HttpClientHandler)
   href: api/Worldline.Connect.Sdk.Communication.DefaultConnection.html#Worldline_Connect_Sdk_Communication_DefaultConnection__ctor_System_Nullable_System_TimeSpan__System_Int32_Worldline_Connect_Sdk_Proxy_System_Net_Http_HttpClientHandler_
