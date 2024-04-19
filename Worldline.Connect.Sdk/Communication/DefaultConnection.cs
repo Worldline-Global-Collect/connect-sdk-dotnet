@@ -36,9 +36,24 @@ namespace Worldline.Connect.Sdk.Communication
                 httpClient.Timeout = socketTimeout.Value;
             }
 
-            // Always return the same HttpClient instance
+            // Always return the same HttpClient instance. Don't close it after each request but only when Dispose() is called
             _httpClientProvider = () => httpClient;
+            _postRequestAction = client => { };
             _disposeAction = httpClient.Dispose;
+        }
+
+        /// <summary>
+        /// Creates a new <c>DefaultConnection</c> with a custom provider for <see cref="HttpClient"/> instances to use for each request.
+        /// This could be based on <c>IHttpClientFactor</c> or something completely different.
+        /// <p>This constructor will dispose provided <c>HttpClient</c> instances after each request.</p>
+        /// </summary>
+        /// <param name="httpClientProvider">The custom provider for <c>HttpClient</c> instances</param>
+        /// <param name="disposeAction">An optional action to call from the <c>Dispose</c> method</param>
+        /// <seealso cref="DefaultConnection(Func{HttpClient}, Action{HttpClient}, Action)"/>
+        public DefaultConnection(Func<HttpClient> httpClientProvider, Action disposeAction = null)
+            : this(httpClientProvider, client => client.Dispose(), disposeAction)
+        {
+
         }
 
         /// <summary>
@@ -46,10 +61,12 @@ namespace Worldline.Connect.Sdk.Communication
         /// This could be based on <c>IHttpClientFactor</c> or something completely different.
         /// </summary>
         /// <param name="httpClientProvider">The custom provider for <c>HttpClient</c> instances</param>
+        /// <param name="postRequestAction">A mandatory action to call after each request, e.g. to dispose provided <c>HttpClient</c> instances</param>
         /// <param name="disposeAction">An optional action to call from the <c>Dispose</c> method</param>
-        public DefaultConnection(Func<HttpClient> httpClientProvider, Action disposeAction = null)
+        public DefaultConnection(Func<HttpClient> httpClientProvider, Action<HttpClient> postRequestAction, Action disposeAction = null)
         {
             _httpClientProvider = httpClientProvider ?? throw new ArgumentException("httpClientProvider is required");
+            _postRequestAction = postRequestAction ?? throw new ArgumentException("postRequestAction is required");
             _disposeAction = disposeAction ?? (() => { });
         }
 
@@ -114,26 +131,38 @@ namespace Worldline.Connect.Sdk.Communication
                             message.Headers.Add(a.Name, a.Value);
                         }
                     }
+
                     var startTime = DateTime.Now;
+
                     LogRequest(guid, message, content, contentString);
+
                     var httpClient = _httpClientProvider();
-                    var httpResponseTask = httpClient.SendAsync(message);
-
-                    using (var httpResponse = await httpResponseTask.ConfigureAwait(false))
+                    try
                     {
-                        var responseBodyTask = httpResponse.Content?.ReadAsStreamAsync() ?? Task.FromResult<Stream>(new MemoryStream());
-                        var headers = from header in httpResponse.Headers
-                                      from value in header.Value
-                                      select new ResponseHeader(header.Key, value);
+                        using (var httpResponse = await httpClient.SendAsync(message).ConfigureAwait(false))
+                        {
+                            var headers = from header in httpResponse.Headers
+                                          from value in header.Value
+                                          select new ResponseHeader(header.Key, value);
 
-                        var responseBody = await responseBodyTask.ConfigureAwait(false);
-                        var endTime = DateTime.Now;
-                        var duration = endTime - startTime;
-                        responseBody = LogResponse(guid, httpResponse, httpResponse.Content?.Headers, responseBody, duration);
-                        var responseBodyHeaders = from header in httpResponse.Content?.Headers
-                                                  from aValue in header.Value
-                                                  select new EntityHeader(header.Key, aValue);
-                        return responseHandler(httpResponse.StatusCode, responseBody, headers.Cast<IResponseHeader>().Union(responseBodyHeaders));
+                            var responseBodyTask = httpResponse.Content?.ReadAsStreamAsync() ?? Task.FromResult<Stream>(new MemoryStream());
+                            var responseBody = await responseBodyTask.ConfigureAwait(false);
+
+                            var endTime = DateTime.Now;
+                            var duration = endTime - startTime;
+
+                            responseBody = LogResponse(guid, httpResponse, httpResponse.Content?.Headers, responseBody, duration);
+
+                            var responseBodyHeaders = from header in httpResponse.Content?.Headers
+                                                      from value in header.Value
+                                                      select new EntityHeader(header.Key, value);
+
+                            return responseHandler(httpResponse.StatusCode, responseBody, headers.Cast<IResponseHeader>().Union(responseBodyHeaders));
+                        }
+                    }
+                    finally
+                    {
+                        _postRequestAction(httpClient);
                     }
                 }
             }
@@ -322,6 +351,7 @@ namespace Worldline.Connect.Sdk.Communication
         #endregion
 
         private readonly Func<HttpClient> _httpClientProvider;
+        private readonly Action<HttpClient> _postRequestAction;
         private readonly Action _disposeAction;
 
         private BodyObfuscator _bodyObfuscator = BodyObfuscator.DefaultObfuscator;
