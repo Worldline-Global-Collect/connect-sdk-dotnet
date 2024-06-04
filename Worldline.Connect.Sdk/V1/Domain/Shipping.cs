@@ -48,6 +48,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public bool? IsFirstUsage { get; set; }
 
         /// <summary>
+        /// The zip/postal code of the location from which the goods were shipped.
+        /// </summary>
+        public string ShippedFromZip { get; set; }
+
+        /// <summary>
         /// Shipment tracking number
         /// </summary>
         public string TrackingNumber { get; set; }

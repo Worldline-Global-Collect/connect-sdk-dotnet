@@ -22,6 +22,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public long? LineAmountTotal { get; set; }
 
         /// <summary>
+        /// The UNSPC commodity code of the item.
+        /// </summary>
+        public string NaicsCommodityCode { get; set; }
+
+        /// <summary>
         /// The category of the product (i.e. home appliance). This property can be used for fraud screening on the Ogone Platform.
         /// </summary>
         public string ProductCategory { get; set; }

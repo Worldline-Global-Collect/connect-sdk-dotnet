@@ -28,6 +28,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public string InitialSchemeTransactionId { get; set; }
 
         /// <summary>
+        /// Indicates if a network token was used during the payment.
+        /// </summary>
+        public bool? NetworkTokenUsed { get; set; }
+
+        /// <summary>
         /// The unique scheme transactionId of this transaction.
         /// <br />Should be stored by the merchant to allow it to be submitted in future transactions. Use this value in case the initialSchemeTransactionId property is empty.
         /// </summary>
