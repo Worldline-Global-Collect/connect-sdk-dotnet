@@ -7519,6 +7519,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.InitialSchemeTransactionId
   nameWithType: CardPaymentMethodSpecificOutput.InitialSchemeTransactionId
+- uid: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.NetworkTokenUsed
+  name: NetworkTokenUsed
+  href: api/Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificOutput_NetworkTokenUsed
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.NetworkTokenUsed
+  fullName: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.NetworkTokenUsed
+  nameWithType: CardPaymentMethodSpecificOutput.NetworkTokenUsed
+- uid: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.NetworkTokenUsed*
+  name: NetworkTokenUsed
+  href: api/Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificOutput_NetworkTokenUsed_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.NetworkTokenUsed
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.NetworkTokenUsed
+  nameWithType: CardPaymentMethodSpecificOutput.NetworkTokenUsed
 - uid: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.SchemeTransactionId
   name: SchemeTransactionId
   href: api/Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificOutput_SchemeTransactionId
@@ -15974,6 +15987,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.OrderLineDetails.LineAmountTotal
   nameWithType: OrderLineDetails.LineAmountTotal
+- uid: Worldline.Connect.Sdk.V1.Domain.OrderLineDetails.NaicsCommodityCode
+  name: NaicsCommodityCode
+  href: api/Worldline.Connect.Sdk.V1.Domain.OrderLineDetails.html#Worldline_Connect_Sdk_V1_Domain_OrderLineDetails_NaicsCommodityCode
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.OrderLineDetails.NaicsCommodityCode
+  fullName: Worldline.Connect.Sdk.V1.Domain.OrderLineDetails.NaicsCommodityCode
+  nameWithType: OrderLineDetails.NaicsCommodityCode
+- uid: Worldline.Connect.Sdk.V1.Domain.OrderLineDetails.NaicsCommodityCode*
+  name: NaicsCommodityCode
+  href: api/Worldline.Connect.Sdk.V1.Domain.OrderLineDetails.html#Worldline_Connect_Sdk_V1_Domain_OrderLineDetails_NaicsCommodityCode_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.OrderLineDetails.NaicsCommodityCode
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.OrderLineDetails.NaicsCommodityCode
+  nameWithType: OrderLineDetails.NaicsCommodityCode
 - uid: Worldline.Connect.Sdk.V1.Domain.OrderLineDetails.ProductCategory
   name: ProductCategory
   href: api/Worldline.Connect.Sdk.V1.Domain.OrderLineDetails.html#Worldline_Connect_Sdk_V1_Domain_OrderLineDetails_ProductCategory
@@ -21584,6 +21610,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.Shipping.IsFirstUsage
   nameWithType: Shipping.IsFirstUsage
+- uid: Worldline.Connect.Sdk.V1.Domain.Shipping.ShippedFromZip
+  name: ShippedFromZip
+  href: api/Worldline.Connect.Sdk.V1.Domain.Shipping.html#Worldline_Connect_Sdk_V1_Domain_Shipping_ShippedFromZip
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.Shipping.ShippedFromZip
+  fullName: Worldline.Connect.Sdk.V1.Domain.Shipping.ShippedFromZip
+  nameWithType: Shipping.ShippedFromZip
+- uid: Worldline.Connect.Sdk.V1.Domain.Shipping.ShippedFromZip*
+  name: ShippedFromZip
+  href: api/Worldline.Connect.Sdk.V1.Domain.Shipping.html#Worldline_Connect_Sdk_V1_Domain_Shipping_ShippedFromZip_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.Shipping.ShippedFromZip
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.Shipping.ShippedFromZip
+  nameWithType: Shipping.ShippedFromZip
 - uid: Worldline.Connect.Sdk.V1.Domain.Shipping.TrackingNumber
   name: TrackingNumber
   href: api/Worldline.Connect.Sdk.V1.Domain.Shipping.html#Worldline_Connect_Sdk_V1_Domain_Shipping_TrackingNumber
