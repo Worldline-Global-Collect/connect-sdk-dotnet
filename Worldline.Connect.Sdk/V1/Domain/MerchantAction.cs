@@ -24,6 +24,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>SHOW_INSTRUCTIONS - The customer needs to be shown payment instruction using the details found in showData. Alternatively the instructions can be rendered by us using the instructionsRenderingData</description></item>
         ///   <item><description>SHOW_TRANSACTION_RESULTS - The customer needs to be shown the transaction results using the details found in showData</description></item>
         ///   <item><description>MOBILE_THREEDS_CHALLENGE - The customer needs to complete a challenge as part of the 3D Secure authentication inside your mobile app. The details contained in mobileThreeDSecureChallengeParameters need to be provided to the EMVco certified Mobile SDK as a challengeParameters object.</description></item>
+        ///   <item><description>INITIALIZE_INAPP_THREED_SECURE_SDK - You need to initialize the 3D in app SDK using the returned parameters. The details contained in mobileThreeDSecureChallengeParameters need to be provided to the EMVco certified Mobile SDK as an initializationParameters object.</description></item>
         ///   <item><description>CALL_THIRD_PARTY - The merchant needs to call a third party using the data found in thirdPartyData</description></item>
         /// </list>
         /// </summary>
@@ -71,7 +72,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <list type="bullet">
         ///   <item><description>desktopQRCode - contains a QR code that can be used to complete the payment in the WeChat app. In this case, the key QRCODE contains a base64 encoded PNG image. By prepending 'data:image/png;base64,' this value can be used as the source of an HTML inline image on a desktop or tablet (intended to be scanned by a mobile device with the WeChat app).</description></item>
         ///   <item><description>urlIntent - contains a URL intent that can be used to complete the payment in the WeChat app. In this case, the key URLINTENT contains a URL intent that can be used as the link of an 'open the app' button on a mobile device.</description></item>
-        /// </list>
+        /// </list>For SHOW_FORM, for payment product 740 (PromptPay), this contains a QR code image URL and a timestamp with the expiration date-time of the QR code. In this case, the key QRCODE_IMAGE_URL contains a URL that can be used as the source of an HTML inline image on a desktop. For tablets and mobile devices, it is advised to use the &lt;a&gt; download attribute, so the user can download the image on their device and upload it in their banking mobile application. The key COUNTDOWN_DATETIME, contains a date-time that the QR code will expire. The date-time is in UTC with format: YYYYMMDDHH24MISS. You are advised to show a countdown timer.
         /// </summary>
         public IList<KeyValuePair> ShowData { get; set; }
 

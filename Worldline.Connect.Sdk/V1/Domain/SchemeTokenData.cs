@@ -7,7 +7,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
     public class SchemeTokenData
     {
         /// <summary>
-        /// The cardholder's name on the card
+        /// The card holder's name on the card. Minimum length of 2, maximum length of 51 characters.
         /// </summary>
         public string CardholderName { get; set; }
 

@@ -7,7 +7,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
     public class MobilePaymentProduct320SpecificInput
     {
         /// <summary>
-        /// The card holder's name on the card.
+        /// The card holder's name on the card. Minimum length of 2, maximum length of 51 characters.
         /// <br />The encrypted payment data can be found in property paymentMethodData.tokenizationData.info.billingAddress.name of the 
         /// <a href="https://developers.google.com/android/reference/com/google/android/gms/wallet/PaymentData">PaymentData</a>.toJson() result.
         /// </summary>
