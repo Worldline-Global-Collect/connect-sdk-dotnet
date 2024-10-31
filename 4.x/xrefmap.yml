@@ -7895,6 +7895,19 @@ references:
   commentId: T:Worldline.Connect.Sdk.V1.Domain.CompanyInformation
   fullName: Worldline.Connect.Sdk.V1.Domain.CompanyInformation
   nameWithType: CompanyInformation
+- uid: Worldline.Connect.Sdk.V1.Domain.CompanyInformation.DateOfIncorporation
+  name: DateOfIncorporation
+  href: api/Worldline.Connect.Sdk.V1.Domain.CompanyInformation.html#Worldline_Connect_Sdk_V1_Domain_CompanyInformation_DateOfIncorporation
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CompanyInformation.DateOfIncorporation
+  fullName: Worldline.Connect.Sdk.V1.Domain.CompanyInformation.DateOfIncorporation
+  nameWithType: CompanyInformation.DateOfIncorporation
+- uid: Worldline.Connect.Sdk.V1.Domain.CompanyInformation.DateOfIncorporation*
+  name: DateOfIncorporation
+  href: api/Worldline.Connect.Sdk.V1.Domain.CompanyInformation.html#Worldline_Connect_Sdk_V1_Domain_CompanyInformation_DateOfIncorporation_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CompanyInformation.DateOfIncorporation
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CompanyInformation.DateOfIncorporation
+  nameWithType: CompanyInformation.DateOfIncorporation
 - uid: Worldline.Connect.Sdk.V1.Domain.CompanyInformation.Name
   name: Name
   href: api/Worldline.Connect.Sdk.V1.Domain.CompanyInformation.html#Worldline_Connect_Sdk_V1_Domain_CompanyInformation_Name
@@ -16426,6 +16439,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.OrderTypeInformation.FundingType
   nameWithType: OrderTypeInformation.FundingType
+- uid: Worldline.Connect.Sdk.V1.Domain.OrderTypeInformation.PaymentCode
+  name: PaymentCode
+  href: api/Worldline.Connect.Sdk.V1.Domain.OrderTypeInformation.html#Worldline_Connect_Sdk_V1_Domain_OrderTypeInformation_PaymentCode
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.OrderTypeInformation.PaymentCode
+  fullName: Worldline.Connect.Sdk.V1.Domain.OrderTypeInformation.PaymentCode
+  nameWithType: OrderTypeInformation.PaymentCode
+- uid: Worldline.Connect.Sdk.V1.Domain.OrderTypeInformation.PaymentCode*
+  name: PaymentCode
+  href: api/Worldline.Connect.Sdk.V1.Domain.OrderTypeInformation.html#Worldline_Connect_Sdk_V1_Domain_OrderTypeInformation_PaymentCode_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.OrderTypeInformation.PaymentCode
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.OrderTypeInformation.PaymentCode
+  nameWithType: OrderTypeInformation.PaymentCode
 - uid: Worldline.Connect.Sdk.V1.Domain.OrderTypeInformation.PurchaseType
   name: PurchaseType
   href: api/Worldline.Connect.Sdk.V1.Domain.OrderTypeInformation.html#Worldline_Connect_Sdk_V1_Domain_OrderTypeInformation_PurchaseType
@@ -19476,19 +19502,6 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificInput.PaymentProduct809SpecificInput
   nameWithType: RedirectPaymentMethodSpecificInput.PaymentProduct809SpecificInput
-- uid: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificInput.PaymentProduct816SpecificInput
-  name: PaymentProduct816SpecificInput
-  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_RedirectPaymentMethodSpecificInput_PaymentProduct816SpecificInput
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificInput.PaymentProduct816SpecificInput
-  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificInput.PaymentProduct816SpecificInput
-  nameWithType: RedirectPaymentMethodSpecificInput.PaymentProduct816SpecificInput
-- uid: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificInput.PaymentProduct816SpecificInput*
-  name: PaymentProduct816SpecificInput
-  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_RedirectPaymentMethodSpecificInput_PaymentProduct816SpecificInput_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificInput.PaymentProduct816SpecificInput
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificInput.PaymentProduct816SpecificInput
-  nameWithType: RedirectPaymentMethodSpecificInput.PaymentProduct816SpecificInput
 - uid: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificInput.PaymentProduct840SpecificInput
   name: PaymentProduct840SpecificInput
   href: api/Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_RedirectPaymentMethodSpecificInput_PaymentProduct840SpecificInput
@@ -19831,25 +19844,6 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct809SpecificInput.IssuerId
   nameWithType: RedirectPaymentProduct809SpecificInput.IssuerId
-- uid: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct816SpecificInput
-  name: RedirectPaymentProduct816SpecificInput
-  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct816SpecificInput.html
-  commentId: T:Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct816SpecificInput
-  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct816SpecificInput
-  nameWithType: RedirectPaymentProduct816SpecificInput
-- uid: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct816SpecificInput.BankAccountIban
-  name: BankAccountIban
-  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct816SpecificInput.html#Worldline_Connect_Sdk_V1_Domain_RedirectPaymentProduct816SpecificInput_BankAccountIban
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct816SpecificInput.BankAccountIban
-  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct816SpecificInput.BankAccountIban
-  nameWithType: RedirectPaymentProduct816SpecificInput.BankAccountIban
-- uid: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct816SpecificInput.BankAccountIban*
-  name: BankAccountIban
-  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct816SpecificInput.html#Worldline_Connect_Sdk_V1_Domain_RedirectPaymentProduct816SpecificInput_BankAccountIban_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct816SpecificInput.BankAccountIban
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct816SpecificInput.BankAccountIban
-  nameWithType: RedirectPaymentProduct816SpecificInput.BankAccountIban
 - uid: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct840SpecificInput
   name: RedirectPaymentProduct840SpecificInput
   href: api/Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct840SpecificInput.html
