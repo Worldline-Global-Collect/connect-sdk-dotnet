@@ -7,6 +7,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
     public class FraudResults
     {
         /// <summary>
+        /// This object contains the results of the Cybersource Decision Manager assessment. Cybersource is a fraud detection tool leveraging data networks, configurable rules, intelligence, and device fingerprinting to identify risky transactions.
+        /// </summary>
+        public CybersourceDecisionManager CybersourceDecisionManager { get; set; }
+
+        /// <summary>
         /// Results from the fraud prevention check. Possible values are: 
         /// <list type="bullet">
         ///   <item><description>accepted - Based on the checks performed the transaction can be accepted</description></item>

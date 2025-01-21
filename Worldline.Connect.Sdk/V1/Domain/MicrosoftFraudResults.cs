@@ -2,6 +2,8 @@
  * This class was auto-generated from the API references found at
  * https://apireference.connect.worldline-solutions.com/
  */
+using System.Collections.Generic;
+
 namespace Worldline.Connect.Sdk.V1.Domain
 {
     public class MicrosoftFraudResults
@@ -30,6 +32,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// Name of the policy that was applied on during the evaluation of this transaction.
         /// </summary>
         public string PolicyApplied { get; set; }
+
+        /// <summary>
+        /// List of one or more reason codes.
+        /// </summary>
+        public IList<string> ReasonCodes { get; set; }
 
         /// <summary>
         /// The true IP address as determined by Microsoft Device Fingerprinting.
