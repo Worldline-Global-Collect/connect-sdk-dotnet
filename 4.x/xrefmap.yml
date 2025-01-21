@@ -10274,6 +10274,64 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.CustomerTokenWithContactDetails.ContactDetails
   nameWithType: CustomerTokenWithContactDetails.ContactDetails
+- uid: Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager
+  name: CybersourceDecisionManager
+  href: api/Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager
+  fullName: Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager
+  nameWithType: CybersourceDecisionManager
+- uid: Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.ClauseName
+  name: ClauseName
+  href: api/Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.html#Worldline_Connect_Sdk_V1_Domain_CybersourceDecisionManager_ClauseName
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.ClauseName
+  fullName: Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.ClauseName
+  nameWithType: CybersourceDecisionManager.ClauseName
+- uid: Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.ClauseName*
+  name: ClauseName
+  href: api/Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.html#Worldline_Connect_Sdk_V1_Domain_CybersourceDecisionManager_ClauseName_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.ClauseName
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.ClauseName
+  nameWithType: CybersourceDecisionManager.ClauseName
+- uid: Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.FraudScore
+  name: FraudScore
+  href: api/Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.html#Worldline_Connect_Sdk_V1_Domain_CybersourceDecisionManager_FraudScore
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.FraudScore
+  fullName: Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.FraudScore
+  nameWithType: CybersourceDecisionManager.FraudScore
+- uid: Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.FraudScore*
+  name: FraudScore
+  href: api/Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.html#Worldline_Connect_Sdk_V1_Domain_CybersourceDecisionManager_FraudScore_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.FraudScore
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.FraudScore
+  nameWithType: CybersourceDecisionManager.FraudScore
+- uid: Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.PolicyApplied
+  name: PolicyApplied
+  href: api/Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.html#Worldline_Connect_Sdk_V1_Domain_CybersourceDecisionManager_PolicyApplied
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.PolicyApplied
+  fullName: Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.PolicyApplied
+  nameWithType: CybersourceDecisionManager.PolicyApplied
+- uid: Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.PolicyApplied*
+  name: PolicyApplied
+  href: api/Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.html#Worldline_Connect_Sdk_V1_Domain_CybersourceDecisionManager_PolicyApplied_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.PolicyApplied
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.PolicyApplied
+  nameWithType: CybersourceDecisionManager.PolicyApplied
+- uid: Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.ReasonCodes
+  name: ReasonCodes
+  href: api/Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.html#Worldline_Connect_Sdk_V1_Domain_CybersourceDecisionManager_ReasonCodes
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.ReasonCodes
+  fullName: Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.ReasonCodes
+  nameWithType: CybersourceDecisionManager.ReasonCodes
+- uid: Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.ReasonCodes*
+  name: ReasonCodes
+  href: api/Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.html#Worldline_Connect_Sdk_V1_Domain_CybersourceDecisionManager_ReasonCodes_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.ReasonCodes
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.ReasonCodes
+  nameWithType: CybersourceDecisionManager.ReasonCodes
 - uid: Worldline.Connect.Sdk.V1.Domain.Debtor
   name: Debtor
   href: api/Worldline.Connect.Sdk.V1.Domain.Debtor.html
@@ -12013,6 +12071,19 @@ references:
   commentId: T:Worldline.Connect.Sdk.V1.Domain.FraudResults
   fullName: Worldline.Connect.Sdk.V1.Domain.FraudResults
   nameWithType: FraudResults
+- uid: Worldline.Connect.Sdk.V1.Domain.FraudResults.CybersourceDecisionManager
+  name: CybersourceDecisionManager
+  href: api/Worldline.Connect.Sdk.V1.Domain.FraudResults.html#Worldline_Connect_Sdk_V1_Domain_FraudResults_CybersourceDecisionManager
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.FraudResults.CybersourceDecisionManager
+  fullName: Worldline.Connect.Sdk.V1.Domain.FraudResults.CybersourceDecisionManager
+  nameWithType: FraudResults.CybersourceDecisionManager
+- uid: Worldline.Connect.Sdk.V1.Domain.FraudResults.CybersourceDecisionManager*
+  name: CybersourceDecisionManager
+  href: api/Worldline.Connect.Sdk.V1.Domain.FraudResults.html#Worldline_Connect_Sdk_V1_Domain_FraudResults_CybersourceDecisionManager_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.FraudResults.CybersourceDecisionManager
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.FraudResults.CybersourceDecisionManager
+  nameWithType: FraudResults.CybersourceDecisionManager
 - uid: Worldline.Connect.Sdk.V1.Domain.FraudResults.FraudServiceResult
   name: FraudServiceResult
   href: api/Worldline.Connect.Sdk.V1.Domain.FraudResults.html#Worldline_Connect_Sdk_V1_Domain_FraudResults_FraudServiceResult
@@ -15008,6 +15079,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.MicrosoftFraudResults.PolicyApplied
   nameWithType: MicrosoftFraudResults.PolicyApplied
+- uid: Worldline.Connect.Sdk.V1.Domain.MicrosoftFraudResults.ReasonCodes
+  name: ReasonCodes
+  href: api/Worldline.Connect.Sdk.V1.Domain.MicrosoftFraudResults.html#Worldline_Connect_Sdk_V1_Domain_MicrosoftFraudResults_ReasonCodes
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.MicrosoftFraudResults.ReasonCodes
+  fullName: Worldline.Connect.Sdk.V1.Domain.MicrosoftFraudResults.ReasonCodes
+  nameWithType: MicrosoftFraudResults.ReasonCodes
+- uid: Worldline.Connect.Sdk.V1.Domain.MicrosoftFraudResults.ReasonCodes*
+  name: ReasonCodes
+  href: api/Worldline.Connect.Sdk.V1.Domain.MicrosoftFraudResults.html#Worldline_Connect_Sdk_V1_Domain_MicrosoftFraudResults_ReasonCodes_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.MicrosoftFraudResults.ReasonCodes
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.MicrosoftFraudResults.ReasonCodes
+  nameWithType: MicrosoftFraudResults.ReasonCodes
 - uid: Worldline.Connect.Sdk.V1.Domain.MicrosoftFraudResults.TrueIpAddress
   name: TrueIpAddress
   href: api/Worldline.Connect.Sdk.V1.Domain.MicrosoftFraudResults.html#Worldline_Connect_Sdk_V1_Domain_MicrosoftFraudResults_TrueIpAddress

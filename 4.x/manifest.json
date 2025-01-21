@@ -1863,6 +1863,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.CybersourceDecisionManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.Debtor.yml",
       "output": {
         ".html": {
