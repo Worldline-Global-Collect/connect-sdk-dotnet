@@ -19,7 +19,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '3.1'
+          dotnet-version: '8.0'
       - name: Install docfx
         # Versions after 2.65.1 generate broken links to parent namespaces that don't exist
         run: dotnet tool update -g docfx --version 2.65.1

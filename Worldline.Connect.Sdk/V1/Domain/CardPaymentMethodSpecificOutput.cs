@@ -28,9 +28,19 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public string InitialSchemeTransactionId { get; set; }
 
         /// <summary>
+        /// Object holding data that describes a network token.
+        /// </summary>
+        public NetworkTokenData NetworkTokenData { get; set; }
+
+        /// <summary>
         /// Indicates if a network token was used during the payment.
         /// </summary>
         public bool? NetworkTokenUsed { get; set; }
+
+        /// <summary>
+        /// A unique reference to the primary account number. Payment Account Reference provides a consolidated view of transactions associated with a PAN and its affiliated tokens, making it easier to identify customers and their associated transactions across payment channels.
+        /// </summary>
+        public string PaymentAccountReference { get; set; }
 
         /// <summary>
         /// The unique scheme transactionId of this transaction.
