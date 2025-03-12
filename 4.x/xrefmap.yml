@@ -7519,6 +7519,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.InitialSchemeTransactionId
   nameWithType: CardPaymentMethodSpecificOutput.InitialSchemeTransactionId
+- uid: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.NetworkTokenData
+  name: NetworkTokenData
+  href: api/Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificOutput_NetworkTokenData
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.NetworkTokenData
+  fullName: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.NetworkTokenData
+  nameWithType: CardPaymentMethodSpecificOutput.NetworkTokenData
+- uid: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.NetworkTokenData*
+  name: NetworkTokenData
+  href: api/Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificOutput_NetworkTokenData_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.NetworkTokenData
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.NetworkTokenData
+  nameWithType: CardPaymentMethodSpecificOutput.NetworkTokenData
 - uid: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.NetworkTokenUsed
   name: NetworkTokenUsed
   href: api/Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificOutput_NetworkTokenUsed
@@ -7532,6 +7545,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.NetworkTokenUsed
   nameWithType: CardPaymentMethodSpecificOutput.NetworkTokenUsed
+- uid: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.PaymentAccountReference
+  name: PaymentAccountReference
+  href: api/Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificOutput_PaymentAccountReference
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.PaymentAccountReference
+  fullName: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.PaymentAccountReference
+  nameWithType: CardPaymentMethodSpecificOutput.PaymentAccountReference
+- uid: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.PaymentAccountReference*
+  name: PaymentAccountReference
+  href: api/Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificOutput_PaymentAccountReference_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.PaymentAccountReference
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.PaymentAccountReference
+  nameWithType: CardPaymentMethodSpecificOutput.PaymentAccountReference
 - uid: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.SchemeTransactionId
   name: SchemeTransactionId
   href: api/Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificOutput_SchemeTransactionId
@@ -15620,6 +15646,51 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.MobileThreeDSecureChallengeParameters.ThreeDServerTransactionId
   nameWithType: MobileThreeDSecureChallengeParameters.ThreeDServerTransactionId
+- uid: Worldline.Connect.Sdk.V1.Domain.NetworkTokenData
+  name: NetworkTokenData
+  href: api/Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.NetworkTokenData
+  fullName: Worldline.Connect.Sdk.V1.Domain.NetworkTokenData
+  nameWithType: NetworkTokenData
+- uid: Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.NetworkToken
+  name: NetworkToken
+  href: api/Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.html#Worldline_Connect_Sdk_V1_Domain_NetworkTokenData_NetworkToken
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.NetworkToken
+  fullName: Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.NetworkToken
+  nameWithType: NetworkTokenData.NetworkToken
+- uid: Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.NetworkToken*
+  name: NetworkToken
+  href: api/Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.html#Worldline_Connect_Sdk_V1_Domain_NetworkTokenData_NetworkToken_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.NetworkToken
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.NetworkToken
+  nameWithType: NetworkTokenData.NetworkToken
+- uid: Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.TokenExpiryDate
+  name: TokenExpiryDate
+  href: api/Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.html#Worldline_Connect_Sdk_V1_Domain_NetworkTokenData_TokenExpiryDate
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.TokenExpiryDate
+  fullName: Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.TokenExpiryDate
+  nameWithType: NetworkTokenData.TokenExpiryDate
+- uid: Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.TokenExpiryDate*
+  name: TokenExpiryDate
+  href: api/Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.html#Worldline_Connect_Sdk_V1_Domain_NetworkTokenData_TokenExpiryDate_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.TokenExpiryDate
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.TokenExpiryDate
+  nameWithType: NetworkTokenData.TokenExpiryDate
+- uid: Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.TokenReferenceId
+  name: TokenReferenceId
+  href: api/Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.html#Worldline_Connect_Sdk_V1_Domain_NetworkTokenData_TokenReferenceId
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.TokenReferenceId
+  fullName: Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.TokenReferenceId
+  nameWithType: NetworkTokenData.TokenReferenceId
+- uid: Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.TokenReferenceId*
+  name: TokenReferenceId
+  href: api/Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.html#Worldline_Connect_Sdk_V1_Domain_NetworkTokenData_TokenReferenceId_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.TokenReferenceId
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.NetworkTokenData.TokenReferenceId
+  nameWithType: NetworkTokenData.TokenReferenceId
 - uid: Worldline.Connect.Sdk.V1.Domain.NonSepaDirectDebitPaymentMethodSpecificInput
   name: NonSepaDirectDebitPaymentMethodSpecificInput
   href: api/Worldline.Connect.Sdk.V1.Domain.NonSepaDirectDebitPaymentMethodSpecificInput.html
