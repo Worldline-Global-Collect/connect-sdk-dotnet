@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class Capture
+      <title>Class CapturePaymentOrderAdditionalInput
  | Worldline Connect .NET SDK </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class Capture
+      <meta name="title" content="Class CapturePaymentOrderAdditionalInput
  | Worldline Connect .NET SDK ">
     
       <link rel="shortcut icon" href="../favicon.ico">
@@ -77,26 +77,21 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Worldline.Connect.Sdk.V1.Domain.Capture">
+            <article class="content wrap" id="_content" data-uid="Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrderAdditionalInput">
 
 
 
-  <h1 id="Worldline_Connect_Sdk_V1_Domain_Capture" data-uid="Worldline.Connect.Sdk.V1.Domain.Capture" class="text-break">Class Capture
+  <h1 id="Worldline_Connect_Sdk_V1_Domain_CapturePaymentOrderAdditionalInput" data-uid="Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrderAdditionalInput" class="text-break">Class CapturePaymentOrderAdditionalInput
 </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><a class="xref" href="Worldline.Connect.Sdk.V1.Domain.AbstractOrderStatus.html">AbstractOrderStatus</a></div>
-    <div class="level2"><span class="xref">Capture</span></div>
-      <div class="level3"><a class="xref" href="Worldline.Connect.Sdk.V1.Domain.CaptureResponse.html">CaptureResponse</a></div>
+    <div class="level1"><span class="xref">CapturePaymentOrderAdditionalInput</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Worldline.Connect.Sdk.V1.Domain.AbstractOrderStatus.html#Worldline_Connect_Sdk_V1_Domain_AbstractOrderStatus_Id">AbstractOrderStatus.Id</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
@@ -121,20 +116,20 @@
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">Worldline</span>.<span class="xref">Connect</span>.<a class="xref" href="Worldline.Connect.Sdk.html">Sdk</a>.<a class="xref" href="Worldline.Connect.Sdk.V1.html">V1</a>.<a class="xref" href="Worldline.Connect.Sdk.V1.Domain.html">Domain</a></h6>
   <h6><strong>Assembly</strong>: Worldline.Connect.Sdk.dll</h6>
-  <h5 id="Worldline_Connect_Sdk_V1_Domain_Capture_syntax">Syntax</h5>
+  <h5 id="Worldline_Connect_Sdk_V1_Domain_CapturePaymentOrderAdditionalInput_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Capture : AbstractOrderStatus</code></pre>
+    <pre><code class="lang-csharp hljs">public class CapturePaymentOrderAdditionalInput</code></pre>
   </div>
   <h3 id="properties">Properties
 </h3>
-  <a id="Worldline_Connect_Sdk_V1_Domain_Capture_CaptureOutput_" data-uid="Worldline.Connect.Sdk.V1.Domain.Capture.CaptureOutput*"></a>
-  <h4 id="Worldline_Connect_Sdk_V1_Domain_Capture_CaptureOutput" data-uid="Worldline.Connect.Sdk.V1.Domain.Capture.CaptureOutput">CaptureOutput</h4>
-  <div class="markdown level1 summary"><p>Object containing capture details</p>
+  <a id="Worldline_Connect_Sdk_V1_Domain_CapturePaymentOrderAdditionalInput_AirlineData_" data-uid="Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrderAdditionalInput.AirlineData*"></a>
+  <h4 id="Worldline_Connect_Sdk_V1_Domain_CapturePaymentOrderAdditionalInput_AirlineData" data-uid="Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrderAdditionalInput.AirlineData">AirlineData</h4>
+  <div class="markdown level1 summary"><p>Object that holds airline specific data</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CaptureOutput CaptureOutput { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public AirlineData AirlineData { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -146,22 +141,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Worldline.Connect.Sdk.V1.Domain.CaptureOutput.html">CaptureOutput</a></td>
+        <td><a class="xref" href="Worldline.Connect.Sdk.V1.Domain.AirlineData.html">AirlineData</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="Worldline_Connect_Sdk_V1_Domain_Capture_Status_" data-uid="Worldline.Connect.Sdk.V1.Domain.Capture.Status*"></a>
-  <h4 id="Worldline_Connect_Sdk_V1_Domain_Capture_Status" data-uid="Worldline.Connect.Sdk.V1.Domain.Capture.Status">Status</h4>
-  <div class="markdown level1 summary"><p>Current high-level status of the captures in a human-readable form. Possible values are:</p>
-<ul><li>CREATED - The capture has been created on our side</li><li>CAPTURE_REQUESTED - The transaction is in the queue to be captured</li><li>CAPTURED - The transaction has been captured and we have received online confirmation</li><li>PAID - We have matched the incoming funds to the transaction</li><li>CANCELLED - You have cancelled the capture</li><li>REJECTED_CAPTURE - The capture has been rejected</li><li>REVERSED - The capture has been reversed</li><li>CHARGEBACK_NOTIFICATION - We have received a notification of chargeback and this status informs you that your account will be debited for a particular transaction</li><li>CHARGEBACKED - The transaction has been chargebacked</li></ul>
-<br>Please see 
-<a href="https://apireference.connect.worldline-solutions.com/s2sapi/v1/en_US/dotnet/statuses.html">Statuses</a> for a full overview of possible values.
+  <a id="Worldline_Connect_Sdk_V1_Domain_CapturePaymentOrderAdditionalInput_LodgingData_" data-uid="Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrderAdditionalInput.LodgingData*"></a>
+  <h4 id="Worldline_Connect_Sdk_V1_Domain_CapturePaymentOrderAdditionalInput_LodgingData" data-uid="Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrderAdditionalInput.LodgingData">LodgingData</h4>
+  <div class="markdown level1 summary"><p>Object that holds lodging specific data</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Status { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public LodgingData LodgingData { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -173,31 +165,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Worldline_Connect_Sdk_V1_Domain_Capture_StatusOutput_" data-uid="Worldline.Connect.Sdk.V1.Domain.Capture.StatusOutput*"></a>
-  <h4 id="Worldline_Connect_Sdk_V1_Domain_Capture_StatusOutput" data-uid="Worldline.Connect.Sdk.V1.Domain.Capture.StatusOutput">StatusOutput</h4>
-  <div class="markdown level1 summary"><p>This object has the numeric representation of the current capture status, timestamp of last status change and performable action on the current capture resource. In case of failed captures and negative scenarios, detailed error information is listed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CaptureStatusOutput StatusOutput { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Worldline.Connect.Sdk.V1.Domain.CaptureStatusOutput.html">CaptureStatusOutput</a></td>
+        <td><a class="xref" href="Worldline.Connect.Sdk.V1.Domain.LodgingData.html">LodgingData</a></td>
         <td></td>
       </tr>
     </tbody>

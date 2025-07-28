@@ -713,6 +713,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.AbstractRedirectPaymentProduct838SpecificInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.AbstractRedirectPaymentProduct838SpecificInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.AbstractRedirectPaymentProduct840SpecificInput.yml",
       "output": {
         ".html": {
@@ -1217,6 +1227,36 @@
       "output": {
         ".html": {
           "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.CaptureOutput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrderAdditionalInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrderAdditionalInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrderReferences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrderReferences.html"
         }
       },
       "version": ""
@@ -3647,6 +3687,26 @@
       "output": {
         ".html": {
           "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct809SpecificInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct838SpecificInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct838SpecificInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct838SpecificInputBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct838SpecificInputBase.html"
         }
       },
       "version": ""
