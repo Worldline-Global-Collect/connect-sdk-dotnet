@@ -10,7 +10,16 @@ namespace Worldline.Connect.Sdk.V1.Domain
     public class CaptureStatusOutput
     {
         /// <summary>
-        /// Flag indicating whether a rejected payment may be retried by the merchant without incurring a fee 
+        /// Flag indicating if a capture can be refunded 
+        /// <list type="bullet">
+        ///   <item><description>true</description></item>
+        ///   <item><description>false</description></item>
+        /// </list>
+        /// </summary>
+        public bool? IsRefundable { get; set; }
+
+        /// <summary>
+        /// Flag indicating whether a rejected capture may be retried by you without incurring a fee 
         /// <list type="bullet">
         ///   <item><description>true</description></item>
         ///   <item><description>false</description></item>
@@ -27,5 +36,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// Numeric status code of the legacy API. It is returned to ease the migration from the legacy APIs to Worldline Connect. You should not write new business logic based on this property as it will be deprecated in a future version of the API. The value can also be found in the GlobalCollect Payment Console, in the Ogone BackOffice and in report files.
         /// </summary>
         public int? StatusCode { get; set; }
+
+        /// <summary>
+        /// Date and time of capture
+        /// <br /> Format: YYYYMMDDHH24MISS
+        /// </summary>
+        public string StatusCodeChangeDateTime { get; set; }
     }
 }

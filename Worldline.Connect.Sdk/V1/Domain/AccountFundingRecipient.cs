@@ -20,6 +20,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>iban = International Bank Account Number, is a standard international numbering system for identifying bank accounts.</description></item>
         ///   <item><description>bicNumber = Bank Identification Code is a number that is used to identify a specific bank.</description></item>
         ///   <item><description>giftCard = Gift card is a type of prepaid card that contains a specific amount of money that can be used at participating stores and marketplaces.</description></item>
+        ///   <item><description>phoneNumber = The phone number of the recipient.</description></item>
         /// </list>
         /// </summary>
         public string AccountNumberType { get; set; }

@@ -32,26 +32,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public CashPaymentMethodSpecificOutput CashPaymentMethodSpecificOutput { get; set; }
 
         /// <summary>
-        /// Object containing the non SEPA direct debit payment method details
-        /// </summary>
-        public NonSepaDirectDebitPaymentMethodSpecificOutput DirectDebitPaymentMethodSpecificOutput { get; set; }
-
-        /// <summary>
-        /// Object containing the e-invoice payment method details
-        /// </summary>
-        public EInvoicePaymentMethodSpecificOutput EInvoicePaymentMethodSpecificOutput { get; set; }
-
-        /// <summary>
-        /// Object containing the invoice payment method details
-        /// </summary>
-        public InvoicePaymentMethodSpecificOutput InvoicePaymentMethodSpecificOutput { get; set; }
-
-        /// <summary>
-        /// Object containing the mobile payment method details
-        /// </summary>
-        public MobilePaymentMethodSpecificOutput MobilePaymentMethodSpecificOutput { get; set; }
-
-        /// <summary>
         /// Payment method identifier used by the our payment engine with the following possible values: 
         /// <list type="bullet">
         ///   <item><description>bankRefund</description></item>

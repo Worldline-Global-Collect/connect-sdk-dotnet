@@ -7,6 +7,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
     public class PaymentReferences
     {
         /// <summary>
+        /// Your unique reference of the capture that is also returned in our report files. This is almost always used for your reconciliation of our report files.
+        /// </summary>
+        public string MerchantCaptureReference { get; set; }
+
+        /// <summary>
         /// Your order ID for this transaction that is also returned in our report files
         /// </summary>
         public long? MerchantOrderId { get; set; }

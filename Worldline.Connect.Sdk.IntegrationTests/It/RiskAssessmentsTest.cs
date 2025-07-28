@@ -10,6 +10,7 @@ namespace Worldline.Connect.Sdk.It
         /// Smoke Test for risk assessments service.
         /// </summary>
         [TestCase]
+        [Ignore("Risk assessments are not available for pre-prod sandbox accounts")]
         public async Task Test()
         {
             var bankAccountBban = new BankAccountBban

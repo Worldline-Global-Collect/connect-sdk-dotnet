@@ -18,5 +18,10 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// This property indicates whether this will be the final capture of this transaction. The default value for this property is false.
         /// </summary>
         public bool? IsFinal { get; set; }
+
+        /// <summary>
+        /// Order object containing order related data
+        /// </summary>
+        public CapturePaymentOrder Order { get; set; }
     }
 }

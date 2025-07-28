@@ -38,6 +38,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public string ProductCode { get; set; }
 
         /// <summary>
+        /// The URL of the image of the purchased product.
+        /// </summary>
+        public string ProductImageUrl { get; set; }
+
+        /// <summary>
         /// The name of the product. The '+' character is not allowed in this property for transactions that are processed by TechProcess Payment Platform.
         /// </summary>
         public string ProductName { get; set; }
@@ -57,6 +62,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <br />Note: Must not be all spaces or all zeros
         /// </summary>
         public string ProductType { get; set; }
+
+        /// <summary>
+        /// The URL of the product page on your website.
+        /// </summary>
+        public string ProductUrl { get; set; }
 
         /// <summary>
         /// Quantity of the units being purchased, should be greater than zero

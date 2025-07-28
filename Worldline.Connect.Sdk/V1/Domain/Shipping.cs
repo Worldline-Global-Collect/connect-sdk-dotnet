@@ -26,6 +26,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public string AddressIndicator { get; set; }
 
         /// <summary>
+        /// Indicates the carrier that will deliver the products.
+        /// </summary>
+        public string Carrier { get; set; }
+
+        /// <summary>
         /// Comments included during shipping
         /// </summary>
         public string Comments { get; set; }
@@ -39,6 +44,22 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// Date (YYYYMMDD) when the shipping details for this transaction were first used.
         /// </summary>
         public string FirstUsageDate { get; set; }
+
+        /// <summary>
+        /// <p>The delivery instructions or preferences for the shipment. The instructions that informed the delivery carrier about handling requirements, delivery methods, and any special considerations to ensure successful delivery.</p>Possible values:
+        /// <list type="bullet">
+        ///   <item><description>signature-required = A signature is required upon delivery.</description></item>
+        ///   <item><description>identification-required = Recipient needs to provide identification.</description></item>
+        ///   <item><description>contactless-delivery = Delivery should be contactless.</description></item>
+        ///   <item><description>leave-at-door = Leave the package at the recipient's door.</description></item>
+        ///   <item><description>leave-at-curb = Leave the package at the curbside.</description></item>
+        ///   <item><description>leave-with-neighbor = Leave the package with a neighbor.</description></item>
+        ///   <item><description>express = Expedite the delivery process.</description></item>
+        ///   <item><description>tracked = The delivery is tracked with real-time updates.</description></item>
+        ///   <item><description>untracked = The delivery is untracked, with no real-time updates.</description></item>
+        /// </list>
+        /// </summary>
+        public string Instructions { get; set; }
 
         /// <summary>
         /// Indicator if this shipping address is used for the first time to ship an order 
