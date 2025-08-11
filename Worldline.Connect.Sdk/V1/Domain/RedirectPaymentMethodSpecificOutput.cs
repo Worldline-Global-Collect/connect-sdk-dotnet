@@ -47,6 +47,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public PaymentProduct840SpecificOutput PaymentProduct840SpecificOutput { get; set; }
 
         /// <summary>
+        /// Alipay+ (payment product 866) specific details
+        /// </summary>
+        public PaymentProduct866SpecificOutput PaymentProduct866SpecificOutput { get; set; }
+
+        /// <summary>
         /// ID of the token. This property is populated when the payment was done with a token or when the payment was tokenized.
         /// </summary>
         public string Token { get; set; }
