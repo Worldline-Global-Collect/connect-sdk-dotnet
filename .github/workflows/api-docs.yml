@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: code
           persist-credentials: false
@@ -27,7 +27,7 @@ jobs:
         run: docfx docfx.json
         working-directory: code/documentation
       - name: Checkout pages
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: gh-pages
           path: pages

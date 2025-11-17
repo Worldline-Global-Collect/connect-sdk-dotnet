@@ -8,6 +8,8 @@ namespace Worldline.Connect.Sdk.V1.Domain
     {
         public string ApiVersion { get; set; }
 
+        public CaptureResponse Capture { get; set; }
+
         public string Created { get; set; }
 
         public DisputeResponse Dispute { get; set; }

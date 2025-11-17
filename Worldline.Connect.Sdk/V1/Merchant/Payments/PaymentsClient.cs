@@ -94,6 +94,7 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         /// - <a href="https://apireference.connect.worldline-solutions.com/s2sapi/v1/en_US/dotnet/payments/get.html">Get payment</a>
         /// </summary>
         /// <param name="paymentId">string</param>
+        /// <param name="query">GetPaymentParams</param>
         /// <param name="context">CallContext</param>
         /// <returns>PaymentResponse</returns>
         /// <exception cref="IdempotenceException">if an idempotent request caused a conflict (HTTP status code 409)</exception>
@@ -105,7 +106,7 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         ///            the Worldline Global Collect platform was unable to process a message from a downstream partner/acquirer,
         ///            or the service that you're trying to reach is temporary unavailable (HTTP status code 500, 502 or 503)</exception>
         /// <exception cref="ApiException">if the Worldline Global Collect platform returned any other error</exception>
-        public async Task<PaymentResponse> Get(string paymentId, CallContext context = null)
+        public async Task<PaymentResponse> Get(string paymentId, GetPaymentParams query, CallContext context = null)
         {
             var pathContext = new Dictionary<string, string>
             {
@@ -117,7 +118,7 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
                 return await _communicator.Get<PaymentResponse>(
                         uri,
                         ClientHeaders,
-                        null,
+                        query,
                         context).ConfigureAwait(false);
             }
             catch (ResponseException e)

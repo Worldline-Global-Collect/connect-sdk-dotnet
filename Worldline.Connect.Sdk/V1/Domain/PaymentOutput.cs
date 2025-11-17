@@ -2,14 +2,36 @@
  * This class was auto-generated from the API references found at
  * https://apireference.connect.worldline-solutions.com/
  */
+using System.Collections.Generic;
+
 namespace Worldline.Connect.Sdk.V1.Domain
 {
     public class PaymentOutput : OrderOutput
     {
         /// <summary>
+        /// Amount that has been requested to be captured.
+        /// </summary>
+        public long? AmountCaptureRequested { get; set; }
+
+        /// <summary>
+        /// Amount that has been captured.
+        /// </summary>
+        public long? AmountCaptured { get; set; }
+
+        /// <summary>
         /// Amount that has been paid
         /// </summary>
         public long? AmountPaid { get; set; }
+
+        /// <summary>
+        /// Amount that has been requested to be refunded.
+        /// </summary>
+        public long? AmountRefundRequested { get; set; }
+
+        /// <summary>
+        /// Amount that has been refunded.
+        /// </summary>
+        public long? AmountRefunded { get; set; }
 
         /// <summary>
         /// Amount that has been reversed
@@ -50,6 +72,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// Object containing the mobile payment method details
         /// </summary>
         public MobilePaymentMethodSpecificOutput MobilePaymentMethodSpecificOutput { get; set; }
+
+        /// <summary>
+        /// An object array containing information of captures and refunds.
+        /// </summary>
+        public IList<PaymentOperation> Operations { get; set; }
 
         /// <summary>
         /// Payment method identifier used by the our payment engine with the following possible values: 

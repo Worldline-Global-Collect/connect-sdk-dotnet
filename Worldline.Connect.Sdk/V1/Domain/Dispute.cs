@@ -7,6 +7,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
     public class Dispute
     {
         /// <summary>
+        /// The ID of the capture that is being disputed.
+        /// </summary>
+        public string CaptureId { get; set; }
+
+        /// <summary>
         /// This property contains the creationDetails and default information regarding a dispute.
         /// </summary>
         public DisputeOutput DisputeOutput { get; set; }

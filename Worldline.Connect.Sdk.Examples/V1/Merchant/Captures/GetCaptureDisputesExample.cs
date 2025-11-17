@@ -2,19 +2,16 @@
  * This class was auto-generated from the API references found at
  * https://apireference.connect.worldline-solutions.com/
  */
-namespace Worldline.Connect.Sdk.V1.Merchant.Payments
+namespace Worldline.Connect.Sdk.V1.Merchant.Captures
 {
-    public class GetPaymentExample
+    public class GetCaptureDisputesExample
     {
         public async void Example()
         {
 #pragma warning disable 0168
             using (var client = GetClient())
             {
-                var query = new GetPaymentParams();
-                query.ReturnOperations = true;
-
-                var response = await client.V1.WithNewMerchant("merchantId").Payments.Get("paymentId", query);
+                var response = await client.V1.WithNewMerchant("merchantId").Captures.Disputes("captureId");
             }
 #pragma warning restore 0168
         }
