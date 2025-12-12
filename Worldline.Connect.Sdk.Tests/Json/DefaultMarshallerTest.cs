@@ -33,7 +33,7 @@ namespace Worldline.Connect.Sdk.Json
             const string retmac = "aaa";
 
             var json = DefaultMarshaller.Instance.Marshal(new CreateHostedCheckoutResponse { RETURNMAC = retmac });
-            Assert.AreEqual(json, "{\"RETURNMAC\":\"aaa\"}");
+            Assert.AreEqual("{\"RETURNMAC\":\"aaa\"}", json);
 
             var anObject = DefaultMarshaller.Instance.Unmarshal<CreateHostedCheckoutResponse>(json);
             Assert.NotNull(anObject.RETURNMAC);

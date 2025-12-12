@@ -7,7 +7,7 @@ namespace Worldline.Connect.Sdk.Communication
 {
     public static class ResponseHeaderUtils
     {
-        private static Regex DispositionFilenameRegex { get;  } = new Regex(@"(?:^|;)\s*filename\s*=\s*(.*?)\s*(?:;|$)", RegexOptions.IgnoreCase | RegexOptions.Compiled);
+        private static Regex DispositionFilenameRegex { get;  } = new Regex(@"(?:^|;)\s*filename\s*=\s*(.*?)\s*(?:;|$)", RegexOptions.IgnoreCase | RegexOptions.Compiled, TimeSpan.FromSeconds(1));
 
         /// <returns>
         /// The value of the header from this with the given name, or <c>null</c> if there was no such header.

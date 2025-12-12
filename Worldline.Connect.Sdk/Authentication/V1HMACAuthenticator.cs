@@ -100,7 +100,7 @@ namespace Worldline.Connect.Sdk.Authentication
         internal static string ToCanonicalizeHeaderValue(string originalValue)
         {
             const string pattern = "\r?\n[\\s-[\r\n]]*";
-            var newString = new Regex(pattern, RegexOptions.Multiline | RegexOptions.CultureInvariant).Replace(originalValue, " ").Trim();
+            var newString = new Regex(pattern, RegexOptions.Multiline | RegexOptions.CultureInvariant, TimeSpan.FromSeconds(1)).Replace(originalValue, " ").Trim();
             return newString;
         }
 

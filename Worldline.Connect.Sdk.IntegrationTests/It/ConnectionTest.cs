@@ -1,5 +1,4 @@
 using NUnit.Framework;
-using System.Threading.Tasks;
 
 namespace Worldline.Connect.Sdk.It
 {
@@ -10,11 +9,11 @@ namespace Worldline.Connect.Sdk.It
         /// Smoke test for test connection.
         /// </summary>
         [TestCase]
-        public async Task Test()
+        public void Test()
         {
             using (var client = GetClient())
             {
-                await client.V1.WithNewMerchant(GetMerchantId()).Services.Testconnection();
+                Assert.DoesNotThrowAsync(async () => await client.V1.WithNewMerchant(GetMerchantId()).Services.Testconnection());
             }
         }
     }

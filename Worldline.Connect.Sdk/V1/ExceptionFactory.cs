@@ -75,7 +75,7 @@ namespace Worldline.Connect.Sdk.V1
         {
             return context?.IdempotenceKey != null
                    && errors?.Count == 1
-                   && "1409".Equals(errors.ElementAt(0)?.Code);
+                   && "1409".Equals(errors[0]?.Code);
         }
     }
 }

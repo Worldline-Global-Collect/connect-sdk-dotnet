@@ -2,13 +2,14 @@
  * This class was auto-generated from the API references found at
  * https://apireference.connect.worldline-solutions.com/
  */
+using System.Threading.Tasks;
 using Worldline.Connect.Sdk.V1.Domain;
 
 namespace Worldline.Connect.Sdk.V1.Merchant.Hostedcheckouts
 {
-    public class CreateHostedCheckoutExample
+    public static class CreateHostedCheckoutExample
     {
-        public async void Example()
+        public static async Task Example()
         {
 #pragma warning disable 0168
             using (var client = GetClient())

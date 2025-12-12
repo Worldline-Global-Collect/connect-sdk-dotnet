@@ -3,13 +3,14 @@
  * https://apireference.connect.worldline-solutions.com/
  */
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Worldline.Connect.Sdk.V1.Domain;
 
 namespace Worldline.Connect.Sdk.V1.Merchant.Riskassessments
 {
-    public class RiskAssessmentCardsExample
+    public static class RiskAssessmentCardsExample
     {
-        public async void Example()
+        public static async Task Example()
         {
 #pragma warning disable 0168
             using (var client = GetClient())

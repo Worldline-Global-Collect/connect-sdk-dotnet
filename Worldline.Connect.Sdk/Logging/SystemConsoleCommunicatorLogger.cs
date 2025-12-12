@@ -16,13 +16,13 @@ namespace Worldline.Connect.Sdk.Logging
             Console.WriteLine(DatePrefix + message);
         }
 
-        public void Log(string message, Exception exception)
+        public void Log(string message, Exception thrown)
         {
             // Console.WriteLine is thread safe
             Console.WriteLine(DatePrefix + message);
-            if (exception != null)
+            if (thrown != null)
             {
-                var e = exception;
+                var e = thrown;
                 do
                 {
                     Console.WriteLine(e.ToString());

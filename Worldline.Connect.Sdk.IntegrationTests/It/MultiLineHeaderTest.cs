@@ -40,7 +40,7 @@ namespace Worldline.Connect.Sdk.It
         }
 
         [TestCase]
-        public async Task SimpleTest()
+        public void SimpleTest()
         {
             var configuration = GetCommunicatorConfiguration();
 
@@ -54,11 +54,11 @@ namespace Worldline.Connect.Sdk.It
                     .Build();
             using (var client = Factory.CreateClient(communicator))
             {
-                await client
+                Assert.DoesNotThrowAsync(async () => await client
                     .V1
                     .WithNewMerchant(GetMerchantId())
                     .Services
-                    .Testconnection();
+                    .Testconnection());
             }
         }
     }

@@ -28,7 +28,7 @@ namespace Worldline.Connect.Sdk.Communication
             // This matches the normalization done by V1HMACAuthenticator, and ensures that multiline headers
             // will not cause authentication failures
             const string pattern = "\r?\n[\\s-[\r\n]]*";
-            var newString = new Regex(pattern, RegexOptions.Multiline | RegexOptions.CultureInvariant).Replace(value, " ").Trim();
+            var newString = new Regex(pattern, RegexOptions.Multiline | RegexOptions.CultureInvariant, TimeSpan.FromSeconds(1)).Replace(value, " ").Trim();
             return newString;
         }
 

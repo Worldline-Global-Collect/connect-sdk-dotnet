@@ -29,7 +29,7 @@ namespace Worldline.Connect.Sdk.Communication
             // - no line ends with whitespace, because this causes authentication failures
             // - each line starts with a single whitespace, so it is a valid header value
             const string pattern = "[\\s-[\r\n]]*(\r?\n)[\\s-[\r\n]]*";
-            var newString = new Regex(pattern, RegexOptions.Multiline | RegexOptions.CultureInvariant).Replace(value, "$1 ");
+            var newString = new Regex(pattern, RegexOptions.Multiline | RegexOptions.CultureInvariant, TimeSpan.FromSeconds(1)).Replace(value, "$1 ");
             return newString;
         }
 

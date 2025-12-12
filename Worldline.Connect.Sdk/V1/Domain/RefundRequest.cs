@@ -28,6 +28,19 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public string RefundDate { get; set; }
 
         /// <summary>
+        /// <p>The reasons for the refund request. Possible values are:</p>
+        /// <list type="bullet">
+        ///   <item><description>RETURN</description></item>
+        ///   <item><description>CORRECTION</description></item>
+        ///   <item><description>PRE_DISPUTE</description></item>
+        ///   <item><description>SUBSCRIPTION</description></item>
+        ///   <item><description>SERVICE_LATE_CANCELLATION</description></item>
+        ///   <item><description>OTHER</description></item>
+        /// </list>
+        /// </summary>
+        public string RefundReason { get; set; }
+
+        /// <summary>
         /// Object that holds all reference properties that are linked to this refund
         /// </summary>
         public RefundReferences RefundReferences { get; set; }

@@ -2,6 +2,7 @@
  * This class was auto-generated from the API references found at
  * https://apireference.connect.worldline-solutions.com/
  */
+using System.Linq;
 using System.Collections.Generic;
 using Worldline.Connect.Sdk.Communication;
 
@@ -101,12 +102,9 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Productgroups
             }
             if (Hide != null)
             {
-                foreach (var hideElement in Hide)
+                foreach (var hideElement in Hide.Where(e => e != null))
                 {
-                    if (hideElement != null)
-                    {
-                        result.Add(new RequestParam("hide", hideElement));
-                    }
+                    result.Add(new RequestParam("hide", hideElement));
                 }
             }
             return result;

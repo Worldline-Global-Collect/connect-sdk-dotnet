@@ -69,16 +69,16 @@ namespace Worldline.Connect.Sdk.Communication
 
         private static void AssertServerMetaInfo(MetadataProvider metadataProvider, IRequestHeader requestHeader)
         {
-            Assert.AreEqual(requestHeader.Name, "X-GCS-ServerMetaInfo");
+            Assert.AreEqual("X-GCS-ServerMetaInfo", requestHeader.Name);
             Assert.NotNull(requestHeader.Value);
 
             var data = Convert.FromBase64String(requestHeader.Value);
             var serverMetaInfoJson = Encoding.UTF8.GetString(data);
 
             var serverMetaInfo = DefaultMarshaller.Instance.Unmarshal<MetadataProvider.ServerMetaInfo>(serverMetaInfoJson);
-            Assert.AreEqual(metadataProvider.SdkIdentifier, serverMetaInfo.SdkIdentifier);
+            Assert.AreEqual(MetadataProvider.SdkIdentifier, serverMetaInfo.SdkIdentifier);
             Assert.AreEqual("Worldline", serverMetaInfo.SdkCreator);
-            Assert.AreEqual(metadataProvider.PlatformIdentifier, serverMetaInfo.PlatformIdentifier);
+            Assert.AreEqual(MetadataProvider.PlatformIdentifier, serverMetaInfo.PlatformIdentifier);
         }
     }
 }

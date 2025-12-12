@@ -10,12 +10,12 @@ namespace Worldline.Connect.Sdk.It
         [TestCase(10, 10)]
         [TestCase(10, 5)]
         [TestCase(10, 1)]
-        public async Task TestConnectionPooling(int requestCount, int maxConnections)
+        public void TestConnectionPooling(int requestCount, int maxConnections)
         {
             var configuration = GetCommunicatorConfiguration().WithMaxConnections(maxConnections);
             using (var communicator = Factory.CreateCommunicator(configuration))
             {
-                await ActuallyTestConnectionPooling(communicator, requestCount);
+                Assert.DoesNotThrowAsync(async () => await ActuallyTestConnectionPooling(communicator, requestCount));
             }
         }
 

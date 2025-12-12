@@ -37,9 +37,9 @@ namespace Worldline.Connect.Sdk.Logging
             _logger.Log(_logLevel, message);
         }
 
-        public void Log(string message, Exception exception)
+        public void Log(string message, Exception thrown)
         {
-            _logger.Log(_errorLogLevel, message, exception, new object[0]);
+            _logger.Log(_errorLogLevel, thrown, message);
         }
         #endregion
 

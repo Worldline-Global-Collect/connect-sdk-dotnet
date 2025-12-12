@@ -2,11 +2,13 @@
  * This class was auto-generated from the API references found at
  * https://apireference.connect.worldline-solutions.com/
  */
+using System.Threading.Tasks;
+
 namespace Worldline.Connect.Sdk.V1.Merchant.Tokens
 {
-    public class GetTokenExample
+    public static class GetTokenExample
     {
-        public async void Example()
+        public static async Task Example()
         {
 #pragma warning disable 0168
             using (var client = GetClient())

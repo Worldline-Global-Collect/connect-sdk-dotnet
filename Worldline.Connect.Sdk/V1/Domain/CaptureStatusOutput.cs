@@ -10,6 +10,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
     public class CaptureStatusOutput
     {
         /// <summary>
+        /// This property indicates whether this is the final capture of this transaction.
+        /// </summary>
+        public bool? IsFinal { get; set; }
+
+        /// <summary>
         /// Flag indicating if a capture can be refunded 
         /// <list type="bullet">
         ///   <item><description>true</description></item>

@@ -25,7 +25,7 @@ namespace Worldline.Connect.Sdk.Logging
             if (propertyNames.Count == 0)
             {
                 // no matches possible
-                return new Regex("$^");
+                return new Regex("$^", RegexOptions.None, TimeSpan.FromSeconds(1));
             }
 
             using (var iterator = propertyNames.GetEnumerator())
@@ -56,7 +56,7 @@ namespace Worldline.Connect.Sdk.Logging
 
                 regexStringBuilder.Append(")\\1\\s*:\\s*(?:([\"'])(.*?)(?<!\\\\)\\3|([^\"'\\s\\[\\{][\\S-[,]]*))");
 
-                return new Regex(regexStringBuilder.ToString(), RegexOptions.Multiline);
+                return new Regex(regexStringBuilder.ToString(), RegexOptions.Multiline, TimeSpan.FromSeconds(1));
             }
         }
 

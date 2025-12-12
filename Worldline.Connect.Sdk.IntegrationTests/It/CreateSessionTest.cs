@@ -1,5 +1,4 @@
 using NUnit.Framework;
-using System.Threading.Tasks;
 using Worldline.Connect.Sdk.V1.Domain;
 
 namespace Worldline.Connect.Sdk.It
@@ -10,17 +9,17 @@ namespace Worldline.Connect.Sdk.It
          * Smoke Test for products service.
          */
         [TestCase]
-        public async Task Test()
+        public void Test()
         {
             var lParams = new SessionRequest();
 
             using (var client = GetClient())
             {
-                await client
+                Assert.DoesNotThrowAsync(async () => await client
                     .V1
                     .WithNewMerchant(GetMerchantId())
                     .Sessions
-                    .Create(lParams);
+                    .Create(lParams));
             }
         }
     }

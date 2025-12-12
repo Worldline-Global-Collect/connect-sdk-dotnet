@@ -37,11 +37,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public PaymentProduct806SpecificOutput PaymentProduct806SpecificOutput { get; set; }
 
         /// <summary>
-        /// Sofort (payment product 836) specific details
-        /// </summary>
-        public PaymentProduct836SpecificOutput PaymentProduct836SpecificOutput { get; set; }
-
-        /// <summary>
         /// PayPal (payment product 840) specific details
         /// </summary>
         public PaymentProduct840SpecificOutput PaymentProduct840SpecificOutput { get; set; }

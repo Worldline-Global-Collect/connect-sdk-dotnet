@@ -32,7 +32,7 @@ namespace Worldline.Connect.Sdk.Logging
             var mock = new Mock<ILogger>();
             var messageList = new List<Tuple<LogLevel, string, Exception>>();
             var exception = new Exception();
-            mock.Setup(t => t.Log(It.IsAny<LogLevel>(), It.IsAny<string>(), It.IsAny<Exception>(), new object[0])).Callback((LogLevel logLevel, string message, Exception e, object[] unused) => messageList.Add(Tuple.Create(logLevel, message,e)));
+            mock.Setup(t => t.Log(It.IsAny<LogLevel>(), It.IsAny<Exception>(), It.IsAny<string>(), new object[0])).Callback((LogLevel logLevel, Exception e, string message, object[] unused) => messageList.Add(Tuple.Create(logLevel, message,e)));
             var communicatorLogger = new NLogCommunicatorLogger(mock.Object, LogLevel.Info, LogLevel.Warn);
             communicatorLogger.Log("Hello world", exception);
             Assert.That(messageList, Has.Count.EqualTo(1));

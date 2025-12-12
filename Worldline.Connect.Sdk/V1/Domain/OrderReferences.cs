@@ -31,7 +31,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>404 INICIS - 80 characters</description></item>
         ///   <item><description>802 Nordea ePayment Finland - 234 characters</description></item>
         ///   <item><description>809 iDeal - 32 characters</description></item>
-        ///   <item><description>836 SOFORT - 42 characters</description></item>
         ///   <item><description>840 PayPal - 127 characters</description></item>
         ///   <item><description>841 WebMoney - 175 characters</description></item>
         ///   <item><description>849 Yandex - 64 characters</description></item>

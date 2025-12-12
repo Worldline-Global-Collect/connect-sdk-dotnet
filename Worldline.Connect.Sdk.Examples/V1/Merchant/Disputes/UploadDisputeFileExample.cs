@@ -3,13 +3,14 @@
  * https://apireference.connect.worldline-solutions.com/
  */
 using System.IO;
+using System.Threading.Tasks;
 using Worldline.Connect.Sdk.Domain;
 
 namespace Worldline.Connect.Sdk.V1.Merchant.Disputes
 {
-    public class UploadDisputeFileExample
+    public static class UploadDisputeFileExample
     {
-        public async void Example()
+        public static async Task Example()
         {
 #pragma warning disable 0168
             using (var client = GetClient())

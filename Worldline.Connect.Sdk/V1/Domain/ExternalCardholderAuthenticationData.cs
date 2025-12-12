@@ -40,15 +40,30 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public string DirectoryServerTransactionId { get; set; }
 
         /// <summary>
-        /// Electronic Commerce Indicator provides authentication validation results returned after AUTHENTICATIONVALIDATION 
+        /// <p>
+        /// <strong>ECI (Electronic Commerce Indicator)</strong> indicates the level of authentication obtained for a transaction. Possible values for each level of authentication are listed below.</p>
         /// <list type="bullet">
-        ///   <item><description>0 = No authentication, Internet (no liability shift, not a 3D Secure transaction)</description></item>
-        ///   <item><description>1 = Authentication attempted (MasterCard)</description></item>
-        ///   <item><description>2 = Successful authentication (MasterCard)</description></item>
-        ///   <item><description>5 = Successful authentication (Visa, Diners Club, Amex)</description></item>
-        ///   <item><description>6 = Authentication attempted (Visa, Diners Club, Amex)</description></item>
-        ///   <item><description>7 = No authentication, Internet (no liability shift, not a 3D Secure transaction)</description></item>
-        ///   <item><description>(empty) = Not checked or not enrolled</description></item>
+        ///   <item><description>
+        ///   <strong>For ValidationResult = Y (Successful Authentication)</strong> 
+        ///   <list type="bullet">
+        ///     <item><description>MC &#8594; ECI 02</description></item>
+        ///     <item><description>Visa, CB, Amex, JCB, DCI, UPI &#8594; ECI 05</description></item>
+        ///   </list></description></item>
+        ///   <item><description>
+        ///   <strong>For ValidationResult = A (Attempt)</strong> 
+        ///   <list type="bullet">
+        ///     <item><description>MC &#8594; ECI 01</description></item>
+        ///     <item><description>Visa, Amex, JCB, DCI, UPI &#8594; ECI 06</description></item>
+        ///     <item><description>CB &#8594; 06 (or null from ACS - populate as 06)</description></item>
+        ///   </list></description></item>
+        ///   <item><description>
+        ///   <strong>For ValidationResult = I (Exemption Accepted)</strong>- for all below values, ECI must be sent with the resulted CAVV 
+        ///   <list type="bullet">
+        ///     <item><description>MC &#8594; ECI 06 (PSD2 Exemption)</description></item>
+        ///     <item><description>Visa &#8594; ECI 07 (TRA Exemption) or ECI 05 (other exemptions)</description></item>
+        ///     <item><description>CB, JCB, UPI &#8594; ECI 05</description></item>
+        ///     <item><description>Amex, DCI &#8594; ECI 05/0</description></item>
+        ///   </list></description></item>
         /// </list>
         /// </summary>
         public int? Eci { get; set; }
@@ -81,7 +96,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public string ThreeDServerTransactionId { get; set; }
 
         /// <summary>
-        /// The 3D Secure authentication result from your 3D Secure provider.
+        /// The transaction status given by the 3D Secure provider. Possible values below: 
+        /// <list type="bullet">
+        ///   <item><description>Y: Cardholder successfully authenticated</description></item>
+        ///   <item><description>A: Authentication attempt (merchant attempted, issuer not participating or ACS unavailable)</description></item>
+        ///   <item><description>I: Informational only (SCA exemption accepted)</description></item>
+        /// </list>
         /// </summary>
         public string ValidationResult { get; set; }
 

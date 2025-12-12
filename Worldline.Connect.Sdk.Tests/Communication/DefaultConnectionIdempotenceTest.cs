@@ -282,7 +282,7 @@ namespace Worldline.Connect.Sdk.Communication
 
                     await client.V1.WithNewMerchant("20000").Payments.Create(request, context);
 
-                    Assert.True(false, "Expected DeclinedPaymentException");
+                    Assert.Fail("Expected DeclinedPaymentException");
                 }
                 catch (DeclinedPaymentException e)
                 {
@@ -324,7 +324,7 @@ namespace Worldline.Connect.Sdk.Communication
 
                     await client.V1.WithNewMerchant("20000").Payments.Create(request, context);
 
-                    Assert.True(false, "Expected DeclinedPaymentException");
+                    Assert.Fail("Expected DeclinedPaymentException");
                 }
                 catch (DeclinedPaymentException e)
                 {
@@ -366,7 +366,7 @@ namespace Worldline.Connect.Sdk.Communication
 
                     await client.V1.WithNewMerchant("20000").Payments.Create(request, context);
 
-                    Assert.True(false, "Expected DeclinedPaymentException");
+                    Assert.Fail("Expected DeclinedPaymentException");
                 }
                 catch (IdempotenceException e)
                 {

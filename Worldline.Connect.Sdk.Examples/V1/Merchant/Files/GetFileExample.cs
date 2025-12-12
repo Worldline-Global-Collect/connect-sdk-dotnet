@@ -5,12 +5,13 @@
 using System;
 using System.IO;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace Worldline.Connect.Sdk.V1.Merchant.Files
 {
-    public class GetFileExample
+    public static class GetFileExample
     {
-        public async void Example()
+        public static async Task Example()
         {
 #pragma warning disable 0168
             using (var client = GetClient())
