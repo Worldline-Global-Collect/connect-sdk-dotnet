@@ -63,6 +63,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Worldline.Connect.Sdk.BodyHandlerException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Worldline.Connect.Sdk.BodyHandlerException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Worldline.Connect.Sdk.CallContext.yml",
       "output": {
         ".html": {
@@ -3177,16 +3187,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct806SpecificOutput.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct836SpecificOutput.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct836SpecificOutput.html"
         }
       },
       "version": ""

@@ -192,6 +192,49 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.Authentication.V1HMACAuthenticator.GetAuthorization
   nameWithType: V1HMACAuthenticator.GetAuthorization
+- uid: Worldline.Connect.Sdk.BodyHandlerException
+  name: BodyHandlerException
+  href: api/Worldline.Connect.Sdk.BodyHandlerException.html
+  commentId: T:Worldline.Connect.Sdk.BodyHandlerException
+  fullName: Worldline.Connect.Sdk.BodyHandlerException
+  nameWithType: BodyHandlerException
+- uid: Worldline.Connect.Sdk.BodyHandlerException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: BodyHandlerException(SerializationInfo, StreamingContext)
+  href: api/Worldline.Connect.Sdk.BodyHandlerException.html#Worldline_Connect_Sdk_BodyHandlerException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:Worldline.Connect.Sdk.BodyHandlerException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name.vb: New(SerializationInfo, StreamingContext)
+  fullName: Worldline.Connect.Sdk.BodyHandlerException.BodyHandlerException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  fullName.vb: Worldline.Connect.Sdk.BodyHandlerException.New(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: BodyHandlerException.BodyHandlerException(SerializationInfo, StreamingContext)
+  nameWithType.vb: BodyHandlerException.New(SerializationInfo, StreamingContext)
+- uid: Worldline.Connect.Sdk.BodyHandlerException.#ctor(System.String,System.Exception)
+  name: BodyHandlerException(string, Exception)
+  href: api/Worldline.Connect.Sdk.BodyHandlerException.html#Worldline_Connect_Sdk_BodyHandlerException__ctor_System_String_System_Exception_
+  commentId: M:Worldline.Connect.Sdk.BodyHandlerException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Worldline.Connect.Sdk.BodyHandlerException.BodyHandlerException(string, System.Exception)
+  fullName.vb: Worldline.Connect.Sdk.BodyHandlerException.New(String, System.Exception)
+  nameWithType: BodyHandlerException.BodyHandlerException(string, Exception)
+  nameWithType.vb: BodyHandlerException.New(String, Exception)
+- uid: Worldline.Connect.Sdk.BodyHandlerException.#ctor(System.String)
+  name: BodyHandlerException(string)
+  href: api/Worldline.Connect.Sdk.BodyHandlerException.html#Worldline_Connect_Sdk_BodyHandlerException__ctor_System_String_
+  commentId: M:Worldline.Connect.Sdk.BodyHandlerException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Worldline.Connect.Sdk.BodyHandlerException.BodyHandlerException(string)
+  fullName.vb: Worldline.Connect.Sdk.BodyHandlerException.New(String)
+  nameWithType: BodyHandlerException.BodyHandlerException(string)
+  nameWithType.vb: BodyHandlerException.New(String)
+- uid: Worldline.Connect.Sdk.BodyHandlerException.#ctor*
+  name: BodyHandlerException
+  href: api/Worldline.Connect.Sdk.BodyHandlerException.html#Worldline_Connect_Sdk_BodyHandlerException__ctor_
+  commentId: Overload:Worldline.Connect.Sdk.BodyHandlerException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Worldline.Connect.Sdk.BodyHandlerException.BodyHandlerException
+  fullName.vb: Worldline.Connect.Sdk.BodyHandlerException.New
+  nameWithType: BodyHandlerException.BodyHandlerException
+  nameWithType.vb: BodyHandlerException.New
 - uid: Worldline.Connect.Sdk.CallContext
   name: CallContext
   href: api/Worldline.Connect.Sdk.CallContext.html
@@ -7247,6 +7290,19 @@ references:
   commentId: T:Worldline.Connect.Sdk.V1.Domain.CaptureStatusOutput
   fullName: Worldline.Connect.Sdk.V1.Domain.CaptureStatusOutput
   nameWithType: CaptureStatusOutput
+- uid: Worldline.Connect.Sdk.V1.Domain.CaptureStatusOutput.IsFinal
+  name: IsFinal
+  href: api/Worldline.Connect.Sdk.V1.Domain.CaptureStatusOutput.html#Worldline_Connect_Sdk_V1_Domain_CaptureStatusOutput_IsFinal
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CaptureStatusOutput.IsFinal
+  fullName: Worldline.Connect.Sdk.V1.Domain.CaptureStatusOutput.IsFinal
+  nameWithType: CaptureStatusOutput.IsFinal
+- uid: Worldline.Connect.Sdk.V1.Domain.CaptureStatusOutput.IsFinal*
+  name: IsFinal
+  href: api/Worldline.Connect.Sdk.V1.Domain.CaptureStatusOutput.html#Worldline_Connect_Sdk_V1_Domain_CaptureStatusOutput_IsFinal_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CaptureStatusOutput.IsFinal
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CaptureStatusOutput.IsFinal
+  nameWithType: CaptureStatusOutput.IsFinal
 - uid: Worldline.Connect.Sdk.V1.Domain.CaptureStatusOutput.IsRefundable
   name: IsRefundable
   href: api/Worldline.Connect.Sdk.V1.Domain.CaptureStatusOutput.html#Worldline_Connect_Sdk_V1_Domain_CaptureStatusOutput_IsRefundable
@@ -17891,25 +17947,6 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct806SpecificOutput.CustomerAccount
   nameWithType: PaymentProduct806SpecificOutput.CustomerAccount
-- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct836SpecificOutput
-  name: PaymentProduct836SpecificOutput
-  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct836SpecificOutput.html
-  commentId: T:Worldline.Connect.Sdk.V1.Domain.PaymentProduct836SpecificOutput
-  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct836SpecificOutput
-  nameWithType: PaymentProduct836SpecificOutput
-- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct836SpecificOutput.SecurityIndicator
-  name: SecurityIndicator
-  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct836SpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct836SpecificOutput_SecurityIndicator
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.PaymentProduct836SpecificOutput.SecurityIndicator
-  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct836SpecificOutput.SecurityIndicator
-  nameWithType: PaymentProduct836SpecificOutput.SecurityIndicator
-- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct836SpecificOutput.SecurityIndicator*
-  name: SecurityIndicator
-  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct836SpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct836SpecificOutput_SecurityIndicator_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.PaymentProduct836SpecificOutput.SecurityIndicator
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct836SpecificOutput.SecurityIndicator
-  nameWithType: PaymentProduct836SpecificOutput.SecurityIndicator
 - uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct840CustomerAccount
   name: PaymentProduct840CustomerAccount
   href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct840CustomerAccount.html
@@ -20199,19 +20236,6 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificOutput.PaymentProduct806SpecificOutput
   nameWithType: RedirectPaymentMethodSpecificOutput.PaymentProduct806SpecificOutput
-- uid: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificOutput.PaymentProduct836SpecificOutput
-  name: PaymentProduct836SpecificOutput
-  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_RedirectPaymentMethodSpecificOutput_PaymentProduct836SpecificOutput
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificOutput.PaymentProduct836SpecificOutput
-  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificOutput.PaymentProduct836SpecificOutput
-  nameWithType: RedirectPaymentMethodSpecificOutput.PaymentProduct836SpecificOutput
-- uid: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificOutput.PaymentProduct836SpecificOutput*
-  name: PaymentProduct836SpecificOutput
-  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_RedirectPaymentMethodSpecificOutput_PaymentProduct836SpecificOutput_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificOutput.PaymentProduct836SpecificOutput
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificOutput.PaymentProduct836SpecificOutput
-  nameWithType: RedirectPaymentMethodSpecificOutput.PaymentProduct836SpecificOutput
 - uid: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificOutput.PaymentProduct840SpecificOutput
   name: PaymentProduct840SpecificOutput
   href: api/Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_RedirectPaymentMethodSpecificOutput_PaymentProduct840SpecificOutput
@@ -20928,6 +20952,19 @@ references:
   commentId: T:Worldline.Connect.Sdk.V1.Domain.RefundReferences
   fullName: Worldline.Connect.Sdk.V1.Domain.RefundReferences
   nameWithType: RefundReferences
+- uid: Worldline.Connect.Sdk.V1.Domain.RefundReferences.Descriptor
+  name: Descriptor
+  href: api/Worldline.Connect.Sdk.V1.Domain.RefundReferences.html#Worldline_Connect_Sdk_V1_Domain_RefundReferences_Descriptor
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.RefundReferences.Descriptor
+  fullName: Worldline.Connect.Sdk.V1.Domain.RefundReferences.Descriptor
+  nameWithType: RefundReferences.Descriptor
+- uid: Worldline.Connect.Sdk.V1.Domain.RefundReferences.Descriptor*
+  name: Descriptor
+  href: api/Worldline.Connect.Sdk.V1.Domain.RefundReferences.html#Worldline_Connect_Sdk_V1_Domain_RefundReferences_Descriptor_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.RefundReferences.Descriptor
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.RefundReferences.Descriptor
+  nameWithType: RefundReferences.Descriptor
 - uid: Worldline.Connect.Sdk.V1.Domain.RefundReferences.MerchantReference
   name: MerchantReference
   href: api/Worldline.Connect.Sdk.V1.Domain.RefundReferences.html#Worldline_Connect_Sdk_V1_Domain_RefundReferences_MerchantReference
@@ -20999,6 +21036,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.RefundRequest.RefundDate
   nameWithType: RefundRequest.RefundDate
+- uid: Worldline.Connect.Sdk.V1.Domain.RefundRequest.RefundReason
+  name: RefundReason
+  href: api/Worldline.Connect.Sdk.V1.Domain.RefundRequest.html#Worldline_Connect_Sdk_V1_Domain_RefundRequest_RefundReason
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.RefundRequest.RefundReason
+  fullName: Worldline.Connect.Sdk.V1.Domain.RefundRequest.RefundReason
+  nameWithType: RefundRequest.RefundReason
+- uid: Worldline.Connect.Sdk.V1.Domain.RefundRequest.RefundReason*
+  name: RefundReason
+  href: api/Worldline.Connect.Sdk.V1.Domain.RefundRequest.html#Worldline_Connect_Sdk_V1_Domain_RefundRequest_RefundReason_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.RefundRequest.RefundReason
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.RefundRequest.RefundReason
+  nameWithType: RefundRequest.RefundReason
 - uid: Worldline.Connect.Sdk.V1.Domain.RefundRequest.RefundReferences
   name: RefundReferences
   href: api/Worldline.Connect.Sdk.V1.Domain.RefundRequest.html#Worldline_Connect_Sdk_V1_Domain_RefundRequest_RefundReferences

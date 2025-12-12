@@ -246,8 +246,15 @@
   </table>
   <a id="Worldline_Connect_Sdk_V1_Domain_ExternalCardholderAuthenticationData_Eci_" data-uid="Worldline.Connect.Sdk.V1.Domain.ExternalCardholderAuthenticationData.Eci*"></a>
   <h4 id="Worldline_Connect_Sdk_V1_Domain_ExternalCardholderAuthenticationData_Eci" data-uid="Worldline.Connect.Sdk.V1.Domain.ExternalCardholderAuthenticationData.Eci">Eci</h4>
-  <div class="markdown level1 summary"><p>Electronic Commerce Indicator provides authentication validation results returned after AUTHENTICATIONVALIDATION</p>
-<ul><li>0 = No authentication, Internet (no liability shift, not a 3D Secure transaction)</li><li>1 = Authentication attempted (MasterCard)</li><li>2 = Successful authentication (MasterCard)</li><li>5 = Successful authentication (Visa, Diners Club, Amex)</li><li>6 = Authentication attempted (Visa, Diners Club, Amex)</li><li>7 = No authentication, Internet (no liability shift, not a 3D Secure transaction)</li><li>(empty) = Not checked or not enrolled</li></ul>
+  <div class="markdown level1 summary"><p>
+<strong>ECI (Electronic Commerce Indicator)</strong> indicates the level of authentication obtained for a transaction. Possible values for each level of authentication are listed below.</p>
+<ul><li>
+  <strong>For ValidationResult = Y (Successful Authentication)</strong> 
+  <ul><li>MC → ECI 02</li><li>Visa, CB, Amex, JCB, DCI, UPI → ECI 05</li></ul></li><li>
+  <strong>For ValidationResult = A (Attempt)</strong> 
+  <ul><li>MC → ECI 01</li><li>Visa, Amex, JCB, DCI, UPI → ECI 06</li><li>CB → 06 (or null from ACS - populate as 06)</li></ul></li><li>
+  <strong>For ValidationResult = I (Exemption Accepted)</strong>- for all below values, ECI must be sent with the resulted CAVV 
+  <ul><li>MC → ECI 06 (PSD2 Exemption)</li><li>Visa → ECI 07 (TRA Exemption) or ECI 05 (other exemptions)</li><li>CB, JCB, UPI → ECI 05</li><li>Amex, DCI → ECI 05/0</li></ul></li></ul>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -345,7 +352,8 @@ public string ThreeDServerTransactionId { get; set; }</code></pre>
   </table>
   <a id="Worldline_Connect_Sdk_V1_Domain_ExternalCardholderAuthenticationData_ValidationResult_" data-uid="Worldline.Connect.Sdk.V1.Domain.ExternalCardholderAuthenticationData.ValidationResult*"></a>
   <h4 id="Worldline_Connect_Sdk_V1_Domain_ExternalCardholderAuthenticationData_ValidationResult" data-uid="Worldline.Connect.Sdk.V1.Domain.ExternalCardholderAuthenticationData.ValidationResult">ValidationResult</h4>
-  <div class="markdown level1 summary"><p>The 3D Secure authentication result from your 3D Secure provider.</p>
+  <div class="markdown level1 summary"><p>The transaction status given by the 3D Secure provider. Possible values below:</p>
+<ul><li>Y: Cardholder successfully authenticated</li><li>A: Authentication attempt (merchant attempted, issuer not participating or ACS unavailable)</li><li>I: Informational only (SCA exemption accepted)</li></ul>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
