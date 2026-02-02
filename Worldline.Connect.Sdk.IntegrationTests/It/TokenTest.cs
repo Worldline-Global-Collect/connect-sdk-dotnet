@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System;
 using System.Threading.Tasks;
 using Worldline.Connect.Sdk.V1.Domain;
 using Worldline.Connect.Sdk.V1.Merchant.Tokens;
@@ -13,6 +14,8 @@ namespace Worldline.Connect.Sdk.It
         [TestCase]
         public async Task Test()
         {
+            var expiryDate = DateTime.Now.AddMonths(6).ToString("MMyy");
+
             var billingAddress = new Address
             {
                 CountryCode = "NL"
@@ -28,7 +31,7 @@ namespace Worldline.Connect.Sdk.It
                 CardholderName = "Jan",
                 IssueNumber = "12",
                 CardNumber = "4567350000427977",
-                ExpiryDate = "1225"
+                ExpiryDate = expiryDate
             };
 
             var mandate = new TokenCardData
