@@ -4,23 +4,8 @@
  */
 namespace Worldline.Connect.Sdk.V1.Domain
 {
-    public class MobilePaymentMethodSpecificInput : AbstractPaymentMethodSpecificInput
+    public class MobilePaymentMethodSpecificInput : AbstractMobilePaymentMethodSpecificInput
     {
-        /// <summary>
-        /// Determines the type of the authorization that will be used. Allowed values: 
-        /// <list type="bullet">
-        ///   <item><description>FINAL_AUTHORIZATION - The payment creation results in an authorization that is ready for capture. Final authorizations can't be reversed and need to be captured for the full amount within 7 days.</description></item>
-        ///   <item><description>PRE_AUTHORIZATION - The payment creation results in a pre-authorization that is ready for capture. Pre-authortizations can be reversed and can be captured within 30 days. The capture amount can be lower than the authorized amount.</description></item>
-        ///   <item><description>SALE - The payment creation results in an authorization that is already captured at the moment of approval.</description></item>
-        /// </list>Only used with some acquirers, ingnored for acquirers that don't support this. In case the acquirer doesn't allow this to be specified the authorizationMode is 'unspecified', which behaves similar to a final authorization.
-        /// </summary>
-        public string AuthorizationMode { get; set; }
-
-        /// <summary>
-        /// Reference of the customer for the payment (purchase order #, etc.). Only used with some acquirers.
-        /// </summary>
-        public string CustomerReference { get; set; }
-
         /// <summary>
         /// The payment data if you do the decryption of the encrypted payment data yourself.
         /// </summary>
@@ -42,26 +27,27 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public string EncryptedPaymentData { get; set; }
 
         /// <summary>
+        /// Indicates if this transaction is of a one-off or a recurring type 
+        /// <list type="bullet">
+        ///   <item><description>true - This is recurring</description></item>
+        ///   <item><description>false - This is one-off</description></item>
+        /// </list>
+        /// </summary>
+        public bool? IsRecurring { get; set; }
+
+        /// <summary>
+        /// Indicates reason behind the merchant initiated transaction. These are industry specific.
+        /// <br />Possible values: 
+        /// <list type="bullet">
+        ///   <item><description>delayedCharges - Delayed charges are performed to process a supplemental account charge after original services have been rendered and respective payment has been processed. This is typically used in hotel, cruise lines and vehicle rental environments to perform a supplemental payment after the original services are rendered.</description></item>
+        ///   <item><description>noShow - Cardholders can use their cards to make a guaranteed reservation with certain merchant segments. A guaranteed reservation ensures that the reservation will be honored and allows a merchant to perform a No Show transaction to charge the cardholder a penalty according to the merchant&#8217;s cancellation policy. For merchants that accept token-based payment credentials to guarantee a reservation, it is necessary to perform a customer initiated (Account Verification) at the time of reservation to be able perform a No Show transaction later.</description></item>
+        /// </list>
+        /// </summary>
+        public string MerchantInitiatedReasonIndicator { get; set; }
+
+        /// <summary>
         /// Object containing information specific to Google Pay
         /// </summary>
         public MobilePaymentProduct320SpecificInput PaymentProduct320SpecificInput { get; set; }
-
-        /// <summary>
-        /// <list type="bullet">
-        ///   <item><description>true = the payment requires approval before the funds will be captured using the 
-        ///   <a href='https://apireference.connect.worldline-solutions.com/s2sapi/v1/en_US/dotnet/payments/approve.html'>Approve payment</a> or 
-        ///   <a href='https://apireference.connect.worldline-solutions.com/s2sapi/v1/en_US/dotnet/payments/capture.html'>Capture payment</a> API</description></item>
-        ///   <item><description>false = the payment does not require approval, and the funds will be captured automatically</description></item>
-        /// </list>
-        /// </summary>
-        public bool? RequiresApproval { get; set; }
-
-        /// <summary>
-        /// <list type="bullet">
-        ///   <item><description>true = Fraud scoring will be skipped for this transaction</description></item>
-        ///   <item><description>false = Fraud scoring will not be skipped for this transaction</description></item>
-        /// </list>Note: This is only possible if your account in our system is setup for Fraud scoring and if your configuration in our system allows you to override it per transaction.
-        /// </summary>
-        public bool? SkipFraudService { get; set; }
     }
 }

@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFrameworks>net45;netstandard2.0;netstandard2.1</TargetFrameworks>
     <RootNamespace>Worldline.Connect.Sdk</RootNamespace>
-    <AssemblyVersion>5.2.0</AssemblyVersion>
-    <Version>5.2.0</Version>
+    <AssemblyVersion>5.2.1</AssemblyVersion>
+    <Version>5.2.1</Version>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Company>Worldline Global Collect</Company>
     <Product>Worldline Connect .NET SDK examples</Product>

@@ -53,6 +53,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <strong>For ValidationResult = A (Attempt)</strong> 
         ///   <list type="bullet">
         ///     <item><description>MC &#8594; ECI 01</description></item>
+        ///     <item><description>MC &#8594; ECI 04</description></item>
         ///     <item><description>Visa, Amex, JCB, DCI, UPI &#8594; ECI 06</description></item>
         ///     <item><description>CB &#8594; 06 (or null from ACS - populate as 06)</description></item>
         ///   </list></description></item>

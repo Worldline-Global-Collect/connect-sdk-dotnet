@@ -28,6 +28,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public bool? IsRecurring { get; set; }
 
         /// <summary>
+        /// The date that the trial period starts in YYYYMMDD format.
+        /// </summary>
+        public string StartDate { get; set; }
+
+        /// <summary>
         /// The object containing information on the trial period duration and the interval between payments during that period.
         /// </summary>
         public TrialPeriod TrialPeriod { get; set; }

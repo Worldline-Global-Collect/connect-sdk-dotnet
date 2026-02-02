@@ -7,7 +7,15 @@ namespace Worldline.Connect.Sdk.V1.Domain
     public class Frequency
     {
         /// <summary>
-        /// The interval between recurring payments specified as days, weeks, quarters, or years.
+        /// <p>The interval between recurring payments specified as days, weeks, quarters, or years.</p>
+        /// <p>Allowed values:</p>
+        /// <list type="bullet">
+        ///   <item><description>days</description></item>
+        ///   <item><description>weeks</description></item>
+        ///   <item><description>months</description></item>
+        ///   <item><description>quarters</description></item>
+        ///   <item><description>years</description></item>
+        /// </list>
         /// </summary>
         public string Interval { get; set; }
 

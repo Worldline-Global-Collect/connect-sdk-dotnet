@@ -17,6 +17,12 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public CardFraudResults FraudResults { get; set; }
 
         /// <summary>
+        /// The unique scheme transactionId of the initial transaction that was performed with SCA.
+        /// <br />Should be stored by the merchant to allow it to be submitted in future transactions.
+        /// </summary>
+        public string InitialSchemeTransactionId { get; set; }
+
+        /// <summary>
         /// The network that was used for the refund
         /// </summary>
         public string Network { get; set; }
@@ -27,8 +33,19 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public MobilePaymentData PaymentData { get; set; }
 
         /// <summary>
+        /// The unique scheme transactionId of this transaction.
+        /// <br />Should be stored by the merchant to allow it to be submitted in future transactions. Use this value in case the initialSchemeTransactionId property is empty.
+        /// </summary>
+        public string SchemeTransactionId { get; set; }
+
+        /// <summary>
         /// 3D Secure results object
         /// </summary>
         public ThreeDSecureResults ThreeDSecureResults { get; set; }
+
+        /// <summary>
+        /// If a token was used for or created during the payment, then the ID of that token.
+        /// </summary>
+        public string Token { get; set; }
     }
 }
