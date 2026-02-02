@@ -663,6 +663,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.AbstractOrderStatus.yml",
       "output": {
         ".html": {
@@ -1033,6 +1043,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.AutomaticReloadBillingDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.AutomaticReloadBillingDetails.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.BankAccount.yml",
       "output": {
         ".html": {
@@ -1157,6 +1177,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.BankTransferPayoutMethodSpecificInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.BaseBillingDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.BaseBillingDetails.html"
         }
       },
       "version": ""
@@ -1937,6 +1967,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.DecryptedPaymentData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.html"
         }
       },
       "version": ""
@@ -3153,6 +3193,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct3201SpecificOutput.yml",
       "output": {
         ".html": {
@@ -3617,6 +3667,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.RangeValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.RecurringBillingDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.RecurringBillingDetails.html"
         }
       },
       "version": ""

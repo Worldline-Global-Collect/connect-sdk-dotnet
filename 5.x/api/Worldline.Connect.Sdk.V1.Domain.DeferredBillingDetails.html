@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class TrialInformation
+      <title>Class DeferredBillingDetails
  | Worldline Connect .NET SDK </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class TrialInformation
+      <meta name="title" content="Class DeferredBillingDetails
  | Worldline Connect .NET SDK ">
     
       <link rel="shortcut icon" href="../favicon.ico">
@@ -77,21 +77,25 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Worldline.Connect.Sdk.V1.Domain.TrialInformation">
+            <article class="content wrap" id="_content" data-uid="Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails">
 
 
 
-  <h1 id="Worldline_Connect_Sdk_V1_Domain_TrialInformation" data-uid="Worldline.Connect.Sdk.V1.Domain.TrialInformation" class="text-break">Class TrialInformation
+  <h1 id="Worldline_Connect_Sdk_V1_Domain_DeferredBillingDetails" data-uid="Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails" class="text-break">Class DeferredBillingDetails
 </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">TrialInformation</span></div>
+    <div class="level1"><a class="xref" href="Worldline.Connect.Sdk.V1.Domain.BaseBillingDetails.html">BaseBillingDetails</a></div>
+    <div class="level2"><span class="xref">DeferredBillingDetails</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Worldline.Connect.Sdk.V1.Domain.BaseBillingDetails.html#Worldline_Connect_Sdk_V1_Domain_BaseBillingDetails_Description">BaseBillingDetails.Description</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
@@ -116,48 +120,20 @@
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">Worldline</span>.<span class="xref">Connect</span>.<a class="xref" href="Worldline.Connect.Sdk.html">Sdk</a>.<a class="xref" href="Worldline.Connect.Sdk.V1.html">V1</a>.<a class="xref" href="Worldline.Connect.Sdk.V1.Domain.html">Domain</a></h6>
   <h6><strong>Assembly</strong>: Worldline.Connect.Sdk.dll</h6>
-  <h5 id="Worldline_Connect_Sdk_V1_Domain_TrialInformation_syntax">Syntax</h5>
+  <h5 id="Worldline_Connect_Sdk_V1_Domain_DeferredBillingDetails_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TrialInformation</code></pre>
+    <pre><code class="lang-csharp hljs">public class DeferredBillingDetails : BaseBillingDetails</code></pre>
   </div>
   <h3 id="properties">Properties
 </h3>
-  <a id="Worldline_Connect_Sdk_V1_Domain_TrialInformation_AmountOfMoneyAfterTrial_" data-uid="Worldline.Connect.Sdk.V1.Domain.TrialInformation.AmountOfMoneyAfterTrial*"></a>
-  <h4 id="Worldline_Connect_Sdk_V1_Domain_TrialInformation_AmountOfMoneyAfterTrial" data-uid="Worldline.Connect.Sdk.V1.Domain.TrialInformation.AmountOfMoneyAfterTrial">AmountOfMoneyAfterTrial</h4>
-  <div class="markdown level1 summary"><p>The object containing the amount and ISO currency code attributes of money to be paid after the trial period ends.
-<br>
-<br>Note:
-<br>
-<br>The property order.amountOfMoney should be populated with the amount to be paid during or for the trial period (no-cost or discounted time-constrained trial subscription period).</p>
+  <a id="Worldline_Connect_Sdk_V1_Domain_DeferredBillingDetails_DeferredPaymentDate_" data-uid="Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.DeferredPaymentDate*"></a>
+  <h4 id="Worldline_Connect_Sdk_V1_Domain_DeferredBillingDetails_DeferredPaymentDate" data-uid="Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.DeferredPaymentDate">DeferredPaymentDate</h4>
+  <div class="markdown level1 summary"><p>The date of the payment in in YYYYMMDD format that will take place in the future.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AmountOfMoney AmountOfMoneyAfterTrial { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Worldline.Connect.Sdk.V1.Domain.AmountOfMoney.html">AmountOfMoney</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Worldline_Connect_Sdk_V1_Domain_TrialInformation_EndDate_" data-uid="Worldline.Connect.Sdk.V1.Domain.TrialInformation.EndDate*"></a>
-  <h4 id="Worldline_Connect_Sdk_V1_Domain_TrialInformation_EndDate" data-uid="Worldline.Connect.Sdk.V1.Domain.TrialInformation.EndDate">EndDate</h4>
-  <div class="markdown level1 summary"><p>The date that the trial period ends in YYYYMMDD format.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string EndDate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string DeferredPaymentDate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -174,40 +150,14 @@
       </tr>
     </tbody>
   </table>
-  <a id="Worldline_Connect_Sdk_V1_Domain_TrialInformation_IsRecurring_" data-uid="Worldline.Connect.Sdk.V1.Domain.TrialInformation.IsRecurring*"></a>
-  <h4 id="Worldline_Connect_Sdk_V1_Domain_TrialInformation_IsRecurring" data-uid="Worldline.Connect.Sdk.V1.Domain.TrialInformation.IsRecurring">IsRecurring</h4>
-  <div class="markdown level1 summary"><p>The property specifying if there will be recurring charges throughout the trial period (when the trial period involves a temporary discounted rate).
-<br>True = there will be recurring charges during the trial period
-<br>False = there will not be recurring charges during the trial period</p>
+  <a id="Worldline_Connect_Sdk_V1_Domain_DeferredBillingDetails_FreeCancellationDate_" data-uid="Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.FreeCancellationDate*"></a>
+  <h4 id="Worldline_Connect_Sdk_V1_Domain_DeferredBillingDetails_FreeCancellationDate" data-uid="Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.FreeCancellationDate">FreeCancellationDate</h4>
+  <div class="markdown level1 summary"><p>The date until which customers can cancel their recurring payment without charges in YYYYMMDDHH24MISS format.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? IsRecurring { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Worldline_Connect_Sdk_V1_Domain_TrialInformation_StartDate_" data-uid="Worldline.Connect.Sdk.V1.Domain.TrialInformation.StartDate*"></a>
-  <h4 id="Worldline_Connect_Sdk_V1_Domain_TrialInformation_StartDate" data-uid="Worldline.Connect.Sdk.V1.Domain.TrialInformation.StartDate">StartDate</h4>
-  <div class="markdown level1 summary"><p>The date that the trial period starts in YYYYMMDD format.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string StartDate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string FreeCancellationDate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -224,14 +174,14 @@
       </tr>
     </tbody>
   </table>
-  <a id="Worldline_Connect_Sdk_V1_Domain_TrialInformation_TrialPeriod_" data-uid="Worldline.Connect.Sdk.V1.Domain.TrialInformation.TrialPeriod*"></a>
-  <h4 id="Worldline_Connect_Sdk_V1_Domain_TrialInformation_TrialPeriod" data-uid="Worldline.Connect.Sdk.V1.Domain.TrialInformation.TrialPeriod">TrialPeriod</h4>
-  <div class="markdown level1 summary"><p>The object containing information on the trial period duration and the interval between payments during that period.</p>
+  <a id="Worldline_Connect_Sdk_V1_Domain_DeferredBillingDetails_FreeCancellationDateTimeZone_" data-uid="Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.FreeCancellationDateTimeZone*"></a>
+  <h4 id="Worldline_Connect_Sdk_V1_Domain_DeferredBillingDetails_FreeCancellationDateTimeZone" data-uid="Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.FreeCancellationDateTimeZone">FreeCancellationDateTimeZone</h4>
+  <div class="markdown level1 summary"><p>The IANA timezone identifier that provides the correct local context for interpreting the free cancellation deadline displayed on the payment sheet.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TrialPeriod TrialPeriod { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string FreeCancellationDateTimeZone { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -243,37 +193,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Worldline.Connect.Sdk.V1.Domain.TrialPeriod.html">TrialPeriod</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Worldline_Connect_Sdk_V1_Domain_TrialInformation_TrialPeriodRecurring_" data-uid="Worldline.Connect.Sdk.V1.Domain.TrialInformation.TrialPeriodRecurring*"></a>
-  <h4 id="Worldline_Connect_Sdk_V1_Domain_TrialInformation_TrialPeriodRecurring" data-uid="Worldline.Connect.Sdk.V1.Domain.TrialInformation.TrialPeriodRecurring">TrialPeriodRecurring</h4>
-  <div class="markdown level1 summary"><p>The object containing the frequency and interval between recurring payments.
-<br>
-<br>Note:
-<br>
-<br>This object should only be populated if the frequency of recurring payments between the trial and regular periods is different.
-<br>
-<br>If you do not populated this object, then the same interval frequency and interval of recurringPaymentsData.recurringInterval will be used</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Frequency TrialPeriodRecurring { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Worldline.Connect.Sdk.V1.Domain.Frequency.html">Frequency</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td></td>
       </tr>
     </tbody>

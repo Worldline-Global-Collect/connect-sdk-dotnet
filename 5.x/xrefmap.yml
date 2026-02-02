@@ -4372,6 +4372,142 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.AbstractIndicator.Value
   nameWithType: AbstractIndicator.Value
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput
+  name: AbstractMobilePaymentMethodSpecificInput
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput
+  nameWithType: AbstractMobilePaymentMethodSpecificInput
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.AuthorizationMode
+  name: AuthorizationMode
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_AuthorizationMode
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.AuthorizationMode
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.AuthorizationMode
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.AuthorizationMode
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.AuthorizationMode*
+  name: AuthorizationMode
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_AuthorizationMode_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.AuthorizationMode
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.AuthorizationMode
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.AuthorizationMode
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.CustomerReference
+  name: CustomerReference
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_CustomerReference
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.CustomerReference
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.CustomerReference
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.CustomerReference
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.CustomerReference*
+  name: CustomerReference
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_CustomerReference_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.CustomerReference
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.CustomerReference
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.CustomerReference
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.InitialSchemeTransactionId
+  name: InitialSchemeTransactionId
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_InitialSchemeTransactionId
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.InitialSchemeTransactionId
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.InitialSchemeTransactionId
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.InitialSchemeTransactionId
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.InitialSchemeTransactionId*
+  name: InitialSchemeTransactionId
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_InitialSchemeTransactionId_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.InitialSchemeTransactionId
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.InitialSchemeTransactionId
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.InitialSchemeTransactionId
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.Recurring
+  name: Recurring
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_Recurring
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.Recurring
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.Recurring
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.Recurring
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.Recurring*
+  name: Recurring
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_Recurring_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.Recurring
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.Recurring
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.Recurring
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.RequiresApproval
+  name: RequiresApproval
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_RequiresApproval
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.RequiresApproval
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.RequiresApproval
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.RequiresApproval
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.RequiresApproval*
+  name: RequiresApproval
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_RequiresApproval_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.RequiresApproval
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.RequiresApproval
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.RequiresApproval
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.SkipFraudService
+  name: SkipFraudService
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_SkipFraudService
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.SkipFraudService
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.SkipFraudService
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.SkipFraudService
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.SkipFraudService*
+  name: SkipFraudService
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_SkipFraudService_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.SkipFraudService
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.SkipFraudService
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.SkipFraudService
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.Token
+  name: Token
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_Token
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.Token
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.Token
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.Token
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.Token*
+  name: Token
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_Token_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.Token
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.Token
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.Token
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.Tokenize
+  name: Tokenize
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_Tokenize
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.Tokenize
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.Tokenize
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.Tokenize
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.Tokenize*
+  name: Tokenize
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_Tokenize_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.Tokenize
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.Tokenize
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.Tokenize
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.UnscheduledCardOnFileRequestor
+  name: UnscheduledCardOnFileRequestor
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_UnscheduledCardOnFileRequestor
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.UnscheduledCardOnFileRequestor
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.UnscheduledCardOnFileRequestor
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.UnscheduledCardOnFileRequestor
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.UnscheduledCardOnFileRequestor*
+  name: UnscheduledCardOnFileRequestor
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_UnscheduledCardOnFileRequestor_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.UnscheduledCardOnFileRequestor
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.UnscheduledCardOnFileRequestor
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.UnscheduledCardOnFileRequestor
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.UnscheduledCardOnFileSequenceIndicator
+  name: UnscheduledCardOnFileSequenceIndicator
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_UnscheduledCardOnFileSequenceIndicator
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.UnscheduledCardOnFileSequenceIndicator
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.UnscheduledCardOnFileSequenceIndicator
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.UnscheduledCardOnFileSequenceIndicator
+- uid: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.UnscheduledCardOnFileSequenceIndicator*
+  name: UnscheduledCardOnFileSequenceIndicator
+  href: api/Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_AbstractMobilePaymentMethodSpecificInput_UnscheduledCardOnFileSequenceIndicator_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.UnscheduledCardOnFileSequenceIndicator
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.AbstractMobilePaymentMethodSpecificInput.UnscheduledCardOnFileSequenceIndicator
+  nameWithType: AbstractMobilePaymentMethodSpecificInput.UnscheduledCardOnFileSequenceIndicator
 - uid: Worldline.Connect.Sdk.V1.Domain.AbstractOrderStatus
   name: AbstractOrderStatus
   href: api/Worldline.Connect.Sdk.V1.Domain.AbstractOrderStatus.html
@@ -6264,6 +6400,25 @@ references:
   commentId: T:Worldline.Connect.Sdk.V1.Domain.AuthenticationIndicator
   fullName: Worldline.Connect.Sdk.V1.Domain.AuthenticationIndicator
   nameWithType: AuthenticationIndicator
+- uid: Worldline.Connect.Sdk.V1.Domain.AutomaticReloadBillingDetails
+  name: AutomaticReloadBillingDetails
+  href: api/Worldline.Connect.Sdk.V1.Domain.AutomaticReloadBillingDetails.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.AutomaticReloadBillingDetails
+  fullName: Worldline.Connect.Sdk.V1.Domain.AutomaticReloadBillingDetails
+  nameWithType: AutomaticReloadBillingDetails
+- uid: Worldline.Connect.Sdk.V1.Domain.AutomaticReloadBillingDetails.AutomaticReloadPaymentThresholdAmount
+  name: AutomaticReloadPaymentThresholdAmount
+  href: api/Worldline.Connect.Sdk.V1.Domain.AutomaticReloadBillingDetails.html#Worldline_Connect_Sdk_V1_Domain_AutomaticReloadBillingDetails_AutomaticReloadPaymentThresholdAmount
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.AutomaticReloadBillingDetails.AutomaticReloadPaymentThresholdAmount
+  fullName: Worldline.Connect.Sdk.V1.Domain.AutomaticReloadBillingDetails.AutomaticReloadPaymentThresholdAmount
+  nameWithType: AutomaticReloadBillingDetails.AutomaticReloadPaymentThresholdAmount
+- uid: Worldline.Connect.Sdk.V1.Domain.AutomaticReloadBillingDetails.AutomaticReloadPaymentThresholdAmount*
+  name: AutomaticReloadPaymentThresholdAmount
+  href: api/Worldline.Connect.Sdk.V1.Domain.AutomaticReloadBillingDetails.html#Worldline_Connect_Sdk_V1_Domain_AutomaticReloadBillingDetails_AutomaticReloadPaymentThresholdAmount_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.AutomaticReloadBillingDetails.AutomaticReloadPaymentThresholdAmount
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.AutomaticReloadBillingDetails.AutomaticReloadPaymentThresholdAmount
+  nameWithType: AutomaticReloadBillingDetails.AutomaticReloadPaymentThresholdAmount
 - uid: Worldline.Connect.Sdk.V1.Domain.BankAccount
   name: BankAccount
   href: api/Worldline.Connect.Sdk.V1.Domain.BankAccount.html
@@ -6745,6 +6900,25 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.BankTransferPayoutMethodSpecificInput.SwiftCode
   nameWithType: BankTransferPayoutMethodSpecificInput.SwiftCode
+- uid: Worldline.Connect.Sdk.V1.Domain.BaseBillingDetails
+  name: BaseBillingDetails
+  href: api/Worldline.Connect.Sdk.V1.Domain.BaseBillingDetails.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.BaseBillingDetails
+  fullName: Worldline.Connect.Sdk.V1.Domain.BaseBillingDetails
+  nameWithType: BaseBillingDetails
+- uid: Worldline.Connect.Sdk.V1.Domain.BaseBillingDetails.Description
+  name: Description
+  href: api/Worldline.Connect.Sdk.V1.Domain.BaseBillingDetails.html#Worldline_Connect_Sdk_V1_Domain_BaseBillingDetails_Description
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.BaseBillingDetails.Description
+  fullName: Worldline.Connect.Sdk.V1.Domain.BaseBillingDetails.Description
+  nameWithType: BaseBillingDetails.Description
+- uid: Worldline.Connect.Sdk.V1.Domain.BaseBillingDetails.Description*
+  name: Description
+  href: api/Worldline.Connect.Sdk.V1.Domain.BaseBillingDetails.html#Worldline_Connect_Sdk_V1_Domain_BaseBillingDetails_Description_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.BaseBillingDetails.Description
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.BaseBillingDetails.Description
+  nameWithType: BaseBillingDetails.Description
 - uid: Worldline.Connect.Sdk.V1.Domain.BoletoBancarioRequirednessValidator
   name: BoletoBancarioRequirednessValidator
   href: api/Worldline.Connect.Sdk.V1.Domain.BoletoBancarioRequirednessValidator.html
@@ -10775,6 +10949,51 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.DecryptedPaymentData.PaymentMethod
   nameWithType: DecryptedPaymentData.PaymentMethod
+- uid: Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails
+  name: DeferredBillingDetails
+  href: api/Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails
+  fullName: Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails
+  nameWithType: DeferredBillingDetails
+- uid: Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.DeferredPaymentDate
+  name: DeferredPaymentDate
+  href: api/Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.html#Worldline_Connect_Sdk_V1_Domain_DeferredBillingDetails_DeferredPaymentDate
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.DeferredPaymentDate
+  fullName: Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.DeferredPaymentDate
+  nameWithType: DeferredBillingDetails.DeferredPaymentDate
+- uid: Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.DeferredPaymentDate*
+  name: DeferredPaymentDate
+  href: api/Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.html#Worldline_Connect_Sdk_V1_Domain_DeferredBillingDetails_DeferredPaymentDate_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.DeferredPaymentDate
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.DeferredPaymentDate
+  nameWithType: DeferredBillingDetails.DeferredPaymentDate
+- uid: Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.FreeCancellationDate
+  name: FreeCancellationDate
+  href: api/Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.html#Worldline_Connect_Sdk_V1_Domain_DeferredBillingDetails_FreeCancellationDate
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.FreeCancellationDate
+  fullName: Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.FreeCancellationDate
+  nameWithType: DeferredBillingDetails.FreeCancellationDate
+- uid: Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.FreeCancellationDate*
+  name: FreeCancellationDate
+  href: api/Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.html#Worldline_Connect_Sdk_V1_Domain_DeferredBillingDetails_FreeCancellationDate_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.FreeCancellationDate
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.FreeCancellationDate
+  nameWithType: DeferredBillingDetails.FreeCancellationDate
+- uid: Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.FreeCancellationDateTimeZone
+  name: FreeCancellationDateTimeZone
+  href: api/Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.html#Worldline_Connect_Sdk_V1_Domain_DeferredBillingDetails_FreeCancellationDateTimeZone
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.FreeCancellationDateTimeZone
+  fullName: Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.FreeCancellationDateTimeZone
+  nameWithType: DeferredBillingDetails.FreeCancellationDateTimeZone
+- uid: Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.FreeCancellationDateTimeZone*
+  name: FreeCancellationDateTimeZone
+  href: api/Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.html#Worldline_Connect_Sdk_V1_Domain_DeferredBillingDetails_FreeCancellationDateTimeZone_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.FreeCancellationDateTimeZone
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.DeferredBillingDetails.FreeCancellationDateTimeZone
+  nameWithType: DeferredBillingDetails.FreeCancellationDateTimeZone
 - uid: Worldline.Connect.Sdk.V1.Domain.DeviceFingerprintDetails
   name: DeviceFingerprintDetails
   href: api/Worldline.Connect.Sdk.V1.Domain.DeviceFingerprintDetails.html
@@ -15353,32 +15572,6 @@ references:
   commentId: T:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput
   fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput
   nameWithType: MobilePaymentMethodSpecificInput
-- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.AuthorizationMode
-  name: AuthorizationMode
-  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInput_AuthorizationMode
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.AuthorizationMode
-  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.AuthorizationMode
-  nameWithType: MobilePaymentMethodSpecificInput.AuthorizationMode
-- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.AuthorizationMode*
-  name: AuthorizationMode
-  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInput_AuthorizationMode_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.AuthorizationMode
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.AuthorizationMode
-  nameWithType: MobilePaymentMethodSpecificInput.AuthorizationMode
-- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.CustomerReference
-  name: CustomerReference
-  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInput_CustomerReference
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.CustomerReference
-  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.CustomerReference
-  nameWithType: MobilePaymentMethodSpecificInput.CustomerReference
-- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.CustomerReference*
-  name: CustomerReference
-  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInput_CustomerReference_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.CustomerReference
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.CustomerReference
-  nameWithType: MobilePaymentMethodSpecificInput.CustomerReference
 - uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.DecryptedPaymentData
   name: DecryptedPaymentData
   href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInput_DecryptedPaymentData
@@ -15405,6 +15598,32 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.EncryptedPaymentData
   nameWithType: MobilePaymentMethodSpecificInput.EncryptedPaymentData
+- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.IsRecurring
+  name: IsRecurring
+  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInput_IsRecurring
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.IsRecurring
+  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.IsRecurring
+  nameWithType: MobilePaymentMethodSpecificInput.IsRecurring
+- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.IsRecurring*
+  name: IsRecurring
+  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInput_IsRecurring_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.IsRecurring
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.IsRecurring
+  nameWithType: MobilePaymentMethodSpecificInput.IsRecurring
+- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.MerchantInitiatedReasonIndicator
+  name: MerchantInitiatedReasonIndicator
+  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInput_MerchantInitiatedReasonIndicator
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.MerchantInitiatedReasonIndicator
+  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.MerchantInitiatedReasonIndicator
+  nameWithType: MobilePaymentMethodSpecificInput.MerchantInitiatedReasonIndicator
+- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.MerchantInitiatedReasonIndicator*
+  name: MerchantInitiatedReasonIndicator
+  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInput_MerchantInitiatedReasonIndicator_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.MerchantInitiatedReasonIndicator
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.MerchantInitiatedReasonIndicator
+  nameWithType: MobilePaymentMethodSpecificInput.MerchantInitiatedReasonIndicator
 - uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.PaymentProduct320SpecificInput
   name: PaymentProduct320SpecificInput
   href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInput_PaymentProduct320SpecificInput
@@ -15418,64 +15637,12 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.PaymentProduct320SpecificInput
   nameWithType: MobilePaymentMethodSpecificInput.PaymentProduct320SpecificInput
-- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.RequiresApproval
-  name: RequiresApproval
-  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInput_RequiresApproval
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.RequiresApproval
-  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.RequiresApproval
-  nameWithType: MobilePaymentMethodSpecificInput.RequiresApproval
-- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.RequiresApproval*
-  name: RequiresApproval
-  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInput_RequiresApproval_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.RequiresApproval
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.RequiresApproval
-  nameWithType: MobilePaymentMethodSpecificInput.RequiresApproval
-- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.SkipFraudService
-  name: SkipFraudService
-  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInput_SkipFraudService
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.SkipFraudService
-  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.SkipFraudService
-  nameWithType: MobilePaymentMethodSpecificInput.SkipFraudService
-- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.SkipFraudService*
-  name: SkipFraudService
-  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInput_SkipFraudService_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.SkipFraudService
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInput.SkipFraudService
-  nameWithType: MobilePaymentMethodSpecificInput.SkipFraudService
 - uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout
   name: MobilePaymentMethodSpecificInputHostedCheckout
   href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.html
   commentId: T:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout
   fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout
   nameWithType: MobilePaymentMethodSpecificInputHostedCheckout
-- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.AuthorizationMode
-  name: AuthorizationMode
-  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInputHostedCheckout_AuthorizationMode
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.AuthorizationMode
-  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.AuthorizationMode
-  nameWithType: MobilePaymentMethodSpecificInputHostedCheckout.AuthorizationMode
-- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.AuthorizationMode*
-  name: AuthorizationMode
-  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInputHostedCheckout_AuthorizationMode_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.AuthorizationMode
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.AuthorizationMode
-  nameWithType: MobilePaymentMethodSpecificInputHostedCheckout.AuthorizationMode
-- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.CustomerReference
-  name: CustomerReference
-  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInputHostedCheckout_CustomerReference
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.CustomerReference
-  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.CustomerReference
-  nameWithType: MobilePaymentMethodSpecificInputHostedCheckout.CustomerReference
-- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.CustomerReference*
-  name: CustomerReference
-  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInputHostedCheckout_CustomerReference_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.CustomerReference
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.CustomerReference
-  nameWithType: MobilePaymentMethodSpecificInputHostedCheckout.CustomerReference
 - uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.PaymentProduct302SpecificInput
   name: PaymentProduct302SpecificInput
   href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInputHostedCheckout_PaymentProduct302SpecificInput
@@ -15502,32 +15669,6 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.PaymentProduct320SpecificInput
   nameWithType: MobilePaymentMethodSpecificInputHostedCheckout.PaymentProduct320SpecificInput
-- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.RequiresApproval
-  name: RequiresApproval
-  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInputHostedCheckout_RequiresApproval
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.RequiresApproval
-  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.RequiresApproval
-  nameWithType: MobilePaymentMethodSpecificInputHostedCheckout.RequiresApproval
-- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.RequiresApproval*
-  name: RequiresApproval
-  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInputHostedCheckout_RequiresApproval_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.RequiresApproval
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.RequiresApproval
-  nameWithType: MobilePaymentMethodSpecificInputHostedCheckout.RequiresApproval
-- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.SkipFraudService
-  name: SkipFraudService
-  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInputHostedCheckout_SkipFraudService
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.SkipFraudService
-  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.SkipFraudService
-  nameWithType: MobilePaymentMethodSpecificInputHostedCheckout.SkipFraudService
-- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.SkipFraudService*
-  name: SkipFraudService
-  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificInputHostedCheckout_SkipFraudService_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.SkipFraudService
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificInputHostedCheckout.SkipFraudService
-  nameWithType: MobilePaymentMethodSpecificInputHostedCheckout.SkipFraudService
 - uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput
   name: MobilePaymentMethodSpecificOutput
   href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.html
@@ -15560,6 +15701,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.FraudResults
   nameWithType: MobilePaymentMethodSpecificOutput.FraudResults
+- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.InitialSchemeTransactionId
+  name: InitialSchemeTransactionId
+  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificOutput_InitialSchemeTransactionId
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.InitialSchemeTransactionId
+  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.InitialSchemeTransactionId
+  nameWithType: MobilePaymentMethodSpecificOutput.InitialSchemeTransactionId
+- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.InitialSchemeTransactionId*
+  name: InitialSchemeTransactionId
+  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificOutput_InitialSchemeTransactionId_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.InitialSchemeTransactionId
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.InitialSchemeTransactionId
+  nameWithType: MobilePaymentMethodSpecificOutput.InitialSchemeTransactionId
 - uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.Network
   name: Network
   href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificOutput_Network
@@ -15586,6 +15740,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.PaymentData
   nameWithType: MobilePaymentMethodSpecificOutput.PaymentData
+- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.SchemeTransactionId
+  name: SchemeTransactionId
+  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificOutput_SchemeTransactionId
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.SchemeTransactionId
+  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.SchemeTransactionId
+  nameWithType: MobilePaymentMethodSpecificOutput.SchemeTransactionId
+- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.SchemeTransactionId*
+  name: SchemeTransactionId
+  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificOutput_SchemeTransactionId_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.SchemeTransactionId
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.SchemeTransactionId
+  nameWithType: MobilePaymentMethodSpecificOutput.SchemeTransactionId
 - uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.ThreeDSecureResults
   name: ThreeDSecureResults
   href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificOutput_ThreeDSecureResults
@@ -15599,6 +15766,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.ThreeDSecureResults
   nameWithType: MobilePaymentMethodSpecificOutput.ThreeDSecureResults
+- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.Token
+  name: Token
+  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificOutput_Token
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.Token
+  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.Token
+  nameWithType: MobilePaymentMethodSpecificOutput.Token
+- uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.Token*
+  name: Token
+  href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_MobilePaymentMethodSpecificOutput_Token_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.Token
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.MobilePaymentMethodSpecificOutput.Token
+  nameWithType: MobilePaymentMethodSpecificOutput.Token
 - uid: Worldline.Connect.Sdk.V1.Domain.MobilePaymentProduct302SpecificInputHostedCheckout
   name: MobilePaymentProduct302SpecificInputHostedCheckout
   href: api/Worldline.Connect.Sdk.V1.Domain.MobilePaymentProduct302SpecificInputHostedCheckout.html
@@ -17845,6 +18025,116 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificData.Networks
   nameWithType: PaymentProduct302SpecificData.Networks
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput
+  name: PaymentProduct302SpecificInput
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput
+  nameWithType: PaymentProduct302SpecificInput
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.AutomaticReloadBilling
+  name: AutomaticReloadBilling
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct302SpecificInput_AutomaticReloadBilling
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.AutomaticReloadBilling
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.AutomaticReloadBilling
+  nameWithType: PaymentProduct302SpecificInput.AutomaticReloadBilling
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.AutomaticReloadBilling*
+  name: AutomaticReloadBilling
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct302SpecificInput_AutomaticReloadBilling_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.AutomaticReloadBilling
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.AutomaticReloadBilling
+  nameWithType: PaymentProduct302SpecificInput.AutomaticReloadBilling
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.BillingAgreement
+  name: BillingAgreement
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct302SpecificInput_BillingAgreement
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.BillingAgreement
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.BillingAgreement
+  nameWithType: PaymentProduct302SpecificInput.BillingAgreement
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.BillingAgreement*
+  name: BillingAgreement
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct302SpecificInput_BillingAgreement_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.BillingAgreement
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.BillingAgreement
+  nameWithType: PaymentProduct302SpecificInput.BillingAgreement
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.DeferredBilling
+  name: DeferredBilling
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct302SpecificInput_DeferredBilling
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.DeferredBilling
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.DeferredBilling
+  nameWithType: PaymentProduct302SpecificInput.DeferredBilling
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.DeferredBilling*
+  name: DeferredBilling
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct302SpecificInput_DeferredBilling_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.DeferredBilling
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.DeferredBilling
+  nameWithType: PaymentProduct302SpecificInput.DeferredBilling
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.ManagementUrl
+  name: ManagementUrl
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct302SpecificInput_ManagementUrl
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.ManagementUrl
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.ManagementUrl
+  nameWithType: PaymentProduct302SpecificInput.ManagementUrl
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.ManagementUrl*
+  name: ManagementUrl
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct302SpecificInput_ManagementUrl_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.ManagementUrl
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.ManagementUrl
+  nameWithType: PaymentProduct302SpecificInput.ManagementUrl
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.PaymentDescription
+  name: PaymentDescription
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct302SpecificInput_PaymentDescription
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.PaymentDescription
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.PaymentDescription
+  nameWithType: PaymentProduct302SpecificInput.PaymentDescription
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.PaymentDescription*
+  name: PaymentDescription
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct302SpecificInput_PaymentDescription_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.PaymentDescription
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.PaymentDescription
+  nameWithType: PaymentProduct302SpecificInput.PaymentDescription
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.RegularBilling
+  name: RegularBilling
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct302SpecificInput_RegularBilling
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.RegularBilling
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.RegularBilling
+  nameWithType: PaymentProduct302SpecificInput.RegularBilling
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.RegularBilling*
+  name: RegularBilling
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct302SpecificInput_RegularBilling_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.RegularBilling
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.RegularBilling
+  nameWithType: PaymentProduct302SpecificInput.RegularBilling
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.TokenNotificationUrl
+  name: TokenNotificationUrl
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct302SpecificInput_TokenNotificationUrl
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.TokenNotificationUrl
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.TokenNotificationUrl
+  nameWithType: PaymentProduct302SpecificInput.TokenNotificationUrl
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.TokenNotificationUrl*
+  name: TokenNotificationUrl
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct302SpecificInput_TokenNotificationUrl_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.TokenNotificationUrl
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.TokenNotificationUrl
+  nameWithType: PaymentProduct302SpecificInput.TokenNotificationUrl
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.TrialBilling
+  name: TrialBilling
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct302SpecificInput_TrialBilling
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.TrialBilling
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.TrialBilling
+  nameWithType: PaymentProduct302SpecificInput.TrialBilling
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.TrialBilling*
+  name: TrialBilling
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct302SpecificInput_TrialBilling_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.TrialBilling
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct302SpecificInput.TrialBilling
+  nameWithType: PaymentProduct302SpecificInput.TrialBilling
 - uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct3201SpecificOutput
   name: PaymentProduct3201SpecificOutput
   href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct3201SpecificOutput.html
@@ -19856,12 +20146,44 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.RangeValidator.MinValue
   nameWithType: RangeValidator.MinValue
+- uid: Worldline.Connect.Sdk.V1.Domain.RecurringBillingDetails
+  name: RecurringBillingDetails
+  href: api/Worldline.Connect.Sdk.V1.Domain.RecurringBillingDetails.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.RecurringBillingDetails
+  fullName: Worldline.Connect.Sdk.V1.Domain.RecurringBillingDetails
+  nameWithType: RecurringBillingDetails
 - uid: Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData
   name: RecurringPaymentsData
   href: api/Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.html
   commentId: T:Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData
   fullName: Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData
   nameWithType: RecurringPaymentsData
+- uid: Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.PaymentProduct302SpecificInput
+  name: PaymentProduct302SpecificInput
+  href: api/Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.html#Worldline_Connect_Sdk_V1_Domain_RecurringPaymentsData_PaymentProduct302SpecificInput
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.PaymentProduct302SpecificInput
+  fullName: Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.PaymentProduct302SpecificInput
+  nameWithType: RecurringPaymentsData.PaymentProduct302SpecificInput
+- uid: Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.PaymentProduct302SpecificInput*
+  name: PaymentProduct302SpecificInput
+  href: api/Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.html#Worldline_Connect_Sdk_V1_Domain_RecurringPaymentsData_PaymentProduct302SpecificInput_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.PaymentProduct302SpecificInput
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.PaymentProduct302SpecificInput
+  nameWithType: RecurringPaymentsData.PaymentProduct302SpecificInput
+- uid: Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.RecurringEndDate
+  name: RecurringEndDate
+  href: api/Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.html#Worldline_Connect_Sdk_V1_Domain_RecurringPaymentsData_RecurringEndDate
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.RecurringEndDate
+  fullName: Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.RecurringEndDate
+  nameWithType: RecurringPaymentsData.RecurringEndDate
+- uid: Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.RecurringEndDate*
+  name: RecurringEndDate
+  href: api/Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.html#Worldline_Connect_Sdk_V1_Domain_RecurringPaymentsData_RecurringEndDate_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.RecurringEndDate
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.RecurringEndDate
+  nameWithType: RecurringPaymentsData.RecurringEndDate
 - uid: Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.RecurringInterval
   name: RecurringInterval
   href: api/Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.html#Worldline_Connect_Sdk_V1_Domain_RecurringPaymentsData_RecurringInterval
@@ -19875,6 +20197,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.RecurringInterval
   nameWithType: RecurringPaymentsData.RecurringInterval
+- uid: Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.RecurringStartDate
+  name: RecurringStartDate
+  href: api/Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.html#Worldline_Connect_Sdk_V1_Domain_RecurringPaymentsData_RecurringStartDate
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.RecurringStartDate
+  fullName: Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.RecurringStartDate
+  nameWithType: RecurringPaymentsData.RecurringStartDate
+- uid: Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.RecurringStartDate*
+  name: RecurringStartDate
+  href: api/Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.html#Worldline_Connect_Sdk_V1_Domain_RecurringPaymentsData_RecurringStartDate_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.RecurringStartDate
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.RecurringStartDate
+  nameWithType: RecurringPaymentsData.RecurringStartDate
 - uid: Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.TrialInformation
   name: TrialInformation
   href: api/Worldline.Connect.Sdk.V1.Domain.RecurringPaymentsData.html#Worldline_Connect_Sdk_V1_Domain_RecurringPaymentsData_TrialInformation
@@ -23250,6 +23585,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.TrialInformation.IsRecurring
   nameWithType: TrialInformation.IsRecurring
+- uid: Worldline.Connect.Sdk.V1.Domain.TrialInformation.StartDate
+  name: StartDate
+  href: api/Worldline.Connect.Sdk.V1.Domain.TrialInformation.html#Worldline_Connect_Sdk_V1_Domain_TrialInformation_StartDate
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.TrialInformation.StartDate
+  fullName: Worldline.Connect.Sdk.V1.Domain.TrialInformation.StartDate
+  nameWithType: TrialInformation.StartDate
+- uid: Worldline.Connect.Sdk.V1.Domain.TrialInformation.StartDate*
+  name: StartDate
+  href: api/Worldline.Connect.Sdk.V1.Domain.TrialInformation.html#Worldline_Connect_Sdk_V1_Domain_TrialInformation_StartDate_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.TrialInformation.StartDate
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.TrialInformation.StartDate
+  nameWithType: TrialInformation.StartDate
 - uid: Worldline.Connect.Sdk.V1.Domain.TrialInformation.TrialPeriod
   name: TrialPeriod
   href: api/Worldline.Connect.Sdk.V1.Domain.TrialInformation.html#Worldline_Connect_Sdk_V1_Domain_TrialInformation_TrialPeriod
