@@ -11,19 +11,13 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <list type="bullet">
         ///   <item><description>AIB - 22 characters</description></item>
         ///   <item><description>American Express - 25 characters</description></item>
-        ///   <item><description>Atos Origin BNP - 15 characters</description></item>
-        ///   <item><description>Barclays - 25 characters</description></item>
-        ///   <item><description>Catella - 22 characters</description></item>
-        ///   <item><description>CBA - 20 characters</description></item>
-        ///   <item><description>Elavon - 25 characters</description></item>
-        ///   <item><description>First Data - 25 characters</description></item>
+        ///   <item><description>Bambora - 22 characters</description></item>
+        ///   <item><description>First Data APAC and AUS - 25 characters</description></item>
+        ///   <item><description>Chase - not supported</description></item>
         ///   <item><description>INICIS (INIPAY) - 22-30 characters</description></item>
-        ///   <item><description>JCB - 25 characters</description></item>
-        ///   <item><description>Merchant Solutions - 22-25 characters</description></item>
-        ///   <item><description>Payvision (EU &amp; HK) - 25 characters</description></item>
-        ///   <item><description>SEB Euroline - 22 characters</description></item>
-        ///   <item><description>Sub1 Argentina - 15 characters</description></item>
-        ///   <item><description>Wells Fargo - 25 characters</description></item>
+        ///   <item><description>Lidio - 30 characters</description></item>
+        ///   <item><description>Worldline TAP UK - 22 characters</description></item>
+        ///   <item><description>Worldline TAP EU - 22 characters</description></item>
         /// </list>Note that we advise you to use 22 characters as the max length as beyond this our experience is that issuers will start to truncate. We currently also only allow per API call overrides for AIB and Barclays
         /// <br />For alternative payment products the maximum allowed length varies per payment product: 
         /// <list type="bullet">
@@ -32,12 +26,9 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>802 Nordea ePayment Finland - 234 characters</description></item>
         ///   <item><description>809 iDeal - 32 characters</description></item>
         ///   <item><description>840 PayPal - 127 characters</description></item>
-        ///   <item><description>841 WebMoney - 175 characters</description></item>
-        ///   <item><description>849 Yandex - 64 characters</description></item>
         ///   <item><description>861 Alipay - 256 characters</description></item>
         ///   <item><description>863 WeChat Pay - 32 characters</description></item>
-        ///   <item><description>880 BOKU - 20 characters</description></item>
-        ///   <item><description>8580 Qiwi - 255 characters</description></item>
+        ///   <item><description>900 Wero - 50 characters</description></item>
         ///   <item><description>1504 Konbini - 80 characters</description></item>
         /// </list>All other payment products don't support a descriptor.
         /// </summary>

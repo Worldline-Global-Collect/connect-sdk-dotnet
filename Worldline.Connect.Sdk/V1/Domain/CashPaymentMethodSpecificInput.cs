@@ -20,6 +20,16 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public CashPaymentProduct1504SpecificInput PaymentProduct1504SpecificInput { get; set; }
 
         /// <summary>
+        /// Object that holds the specific data for Pago Facil in Argentina (payment product 1506)
+        /// </summary>
+        public CashPaymentProduct1506SpecificInput PaymentProduct1506SpecificInput { get; set; }
+
+        /// <summary>
+        /// Object that holds the specific data for Rapipago in Argentina (payment product 1508)
+        /// </summary>
+        public CashPaymentProduct1508SpecificInput PaymentProduct1508SpecificInput { get; set; }
+
+        /// <summary>
         /// Object that holds the specific data for e-Pay (payment product 1521).
         /// </summary>
         public CashPaymentProduct1521SpecificInput PaymentProduct1521SpecificInput { get; set; }

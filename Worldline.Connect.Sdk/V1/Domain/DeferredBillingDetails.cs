@@ -7,6 +7,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
     public class DeferredBillingDetails : BaseBillingDetails
     {
         /// <summary>
+        /// Amount in cents and always having 2 decimals. The amount to be paid on the deferred payment date. If omitted, defaults to the total order amount.
+        /// </summary>
+        public long? DeferredPaymentAmount { get; set; }
+
+        /// <summary>
         /// The date of the payment in in YYYYMMDD format that will take place in the future.
         /// </summary>
         public string DeferredPaymentDate { get; set; }

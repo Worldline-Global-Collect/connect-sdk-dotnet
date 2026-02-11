@@ -58,6 +58,7 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Products
         ///   <item><description>fields - Don't return any data on fields of the payment product</description></item>
         ///   <item><description>accountsOnFile - Don't return any accounts on file data</description></item>
         ///   <item><description>translations - Don't return any label texts associated with the payment products</description></item>
+        ///   <item><description>clickToPayConfigurationFields - Don't return configuration parameters for each scheme supporting Click to Pay</description></item>
         /// </list>
         /// </summary>
         public IList<string> Hide { get; set; }

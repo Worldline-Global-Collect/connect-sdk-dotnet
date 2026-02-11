@@ -21,6 +21,15 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public string AcquirerCountry { get; set; }
 
         /// <summary>
+        /// Indicates if the product supports Click to Pay: 
+        /// <list type="bullet">
+        ///   <item><description>true - This payment supports Click to Pay</description></item>
+        ///   <item><description>false - This payment does not support Click to Pay</description></item>
+        /// </list>
+        /// </summary>
+        public bool? AllowsClickToPay { get; set; }
+
+        /// <summary>
         /// Indicates if the product supports installments 
         /// <list type="bullet">
         ///   <item><description>true - This payment supports installments</description></item>
@@ -69,6 +78,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// </list>
         /// </summary>
         public bool? CanBeIframed { get; set; }
+
+        /// <summary>
+        /// Object containing the configuration parameters for each scheme supporting Click to Pay for the provided country and currency combination. These parameters initialize SRC System SDK for the scheme. This object is only returned for card products with allowsClickToPay set to true.
+        /// </summary>
+        public ClickToPayConfiguration ClickToPayConfiguration { get; set; }
 
         /// <summary>
         /// Indicates if device fingerprint is enabled for the product 

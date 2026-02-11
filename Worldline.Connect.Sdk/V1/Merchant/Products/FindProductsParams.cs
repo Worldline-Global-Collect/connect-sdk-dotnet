@@ -61,6 +61,7 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Products
         ///   <item><description>productsWithoutFields - Don't return products that require any additional data to be captured</description></item>
         ///   <item><description>productsWithoutInstructions - Don't return products that show instructions</description></item>
         ///   <item><description>productsWithRedirects - Don't return products that require a redirect to a 3rd party. Note that products that involve potential redirects related to 3D Secure authentication are not hidden</description></item>
+        ///   <item><description>clickToPayConfigurationFields - Don't return configuration parameters for each scheme supporting Click to Pay</description></item>
         /// </list>
         /// </summary>
         public IList<string> Hide { get; set; }
