@@ -8291,6 +8291,19 @@ references:
   commentId: T:Worldline.Connect.Sdk.V1.Domain.ClickToPayConfiguration
   fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPayConfiguration
   nameWithType: ClickToPayConfiguration
+- uid: Worldline.Connect.Sdk.V1.Domain.ClickToPayConfiguration.DisplayHints
+  name: DisplayHints
+  href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPayConfiguration.html#Worldline_Connect_Sdk_V1_Domain_ClickToPayConfiguration_DisplayHints
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.ClickToPayConfiguration.DisplayHints
+  fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPayConfiguration.DisplayHints
+  nameWithType: ClickToPayConfiguration.DisplayHints
+- uid: Worldline.Connect.Sdk.V1.Domain.ClickToPayConfiguration.DisplayHints*
+  name: DisplayHints
+  href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPayConfiguration.html#Worldline_Connect_Sdk_V1_Domain_ClickToPayConfiguration_DisplayHints_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.ClickToPayConfiguration.DisplayHints
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPayConfiguration.DisplayHints
+  nameWithType: ClickToPayConfiguration.DisplayHints
 - uid: Worldline.Connect.Sdk.V1.Domain.ClickToPayConfiguration.Mastercard
   name: Mastercard
   href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPayConfiguration.html#Worldline_Connect_Sdk_V1_Domain_ClickToPayConfiguration_Mastercard
@@ -8355,6 +8368,25 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPayConfigurationVisa.NModulus
   nameWithType: ClickToPayConfigurationVisa.NModulus
+- uid: Worldline.Connect.Sdk.V1.Domain.ClickToPayDisplayHints
+  name: ClickToPayDisplayHints
+  href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPayDisplayHints.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.ClickToPayDisplayHints
+  fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPayDisplayHints
+  nameWithType: ClickToPayDisplayHints
+- uid: Worldline.Connect.Sdk.V1.Domain.ClickToPayDisplayHints.Logo
+  name: Logo
+  href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPayDisplayHints.html#Worldline_Connect_Sdk_V1_Domain_ClickToPayDisplayHints_Logo
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.ClickToPayDisplayHints.Logo
+  fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPayDisplayHints.Logo
+  nameWithType: ClickToPayDisplayHints.Logo
+- uid: Worldline.Connect.Sdk.V1.Domain.ClickToPayDisplayHints.Logo*
+  name: Logo
+  href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPayDisplayHints.html#Worldline_Connect_Sdk_V1_Domain_ClickToPayDisplayHints_Logo_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.ClickToPayDisplayHints.Logo
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPayDisplayHints.Logo
+  nameWithType: ClickToPayDisplayHints.Logo
 - uid: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase
   name: ClickToPaySchemeConfigurationBase
   href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.html
