@@ -24,7 +24,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <list type="bullet">
         ///   <item><description>short - These issuers should be presented at the top of the list</description></item>
         ///   <item><description>long - These issuers should be presented after the issuers marked as short</description></item>
-        /// </list>Note: this is only filled if supported by the payment product. Currently only iDeal (809) support this. Sorting within the groups should be done alphabetically.
+        /// </list>Note: this is only filled if supported by the payment product. Currently only iDEAL | Wero (809) support this. Sorting within the groups should be done alphabetically.
         /// </summary>
         public string IssuerList { get; set; }
 

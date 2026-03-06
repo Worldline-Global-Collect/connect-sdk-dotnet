@@ -73,7 +73,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public Order Order { get; set; }
 
         /// <summary>
-        /// Object containing the specific input details for payments that involve redirects to 3rd parties to complete, like iDeal and PayPal
+        /// Object containing the specific input details for payments that involve redirects to 3rd parties to complete, like iDEAL | Wero and PayPal
         /// </summary>
         public RedirectPaymentMethodSpecificInput RedirectPaymentMethodSpecificInput { get; set; }
 

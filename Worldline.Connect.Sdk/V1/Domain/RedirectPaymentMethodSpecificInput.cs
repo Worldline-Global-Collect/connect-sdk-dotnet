@@ -22,7 +22,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public RedirectPaymentProduct4101SpecificInput PaymentProduct4101SpecificInput { get; set; }
 
         /// <summary>
-        /// Object containing specific input required for Dutch iDeal payments (Payment product ID 809)
+        /// Object containing specific input required for Dutch iDEAL | Wero payments (Payment product ID 809)
         /// </summary>
         public RedirectPaymentProduct809SpecificInput PaymentProduct809SpecificInput { get; set; }
 

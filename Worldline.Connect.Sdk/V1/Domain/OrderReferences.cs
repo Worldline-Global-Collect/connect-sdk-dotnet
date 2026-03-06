@@ -24,7 +24,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>402 e-Przelewy - 30 characters</description></item>
         ///   <item><description>404 INICIS - 80 characters</description></item>
         ///   <item><description>802 Nordea ePayment Finland - 234 characters</description></item>
-        ///   <item><description>809 iDeal - 32 characters</description></item>
+        ///   <item><description>809 iDEAL | Wero - 32 characters</description></item>
         ///   <item><description>840 PayPal - 127 characters</description></item>
         ///   <item><description>861 Alipay - 256 characters</description></item>
         ///   <item><description>863 WeChat Pay - 32 characters</description></item>
