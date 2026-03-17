@@ -9,6 +9,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
     public class CashPaymentMethodSpecificInput : AbstractCashPaymentMethodSpecificInput
     {
         /// <summary>
+        /// Object that holds the specific data for OXXO Pay in Mexico (payment product 1502)
+        /// </summary>
+        public CashPaymentProduct1502SpecificInput PaymentProduct1502SpecificInput { get; set; }
+
+        /// <summary>
         /// Object that holds the specific data for Boleto Bancario in Brazil (payment product 1503)
         /// </summary>
         [Obsolete("No replacement")]
@@ -48,6 +53,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// Object that holds the specific data for DragonPay (payment product 1524).
         /// </summary>
         public CashPaymentProduct1524SpecificInput PaymentProduct1524SpecificInput { get; set; }
+
+        /// <summary>
+        /// Object that holds the specific data for PagoEfectivo in Peru (payment product 1525)
+        /// </summary>
+        public CashPaymentProduct1525SpecificInput PaymentProduct1525SpecificInput { get; set; }
 
         /// <summary>
         /// Object that holds the specific data for 7-11 MOLPay Cash (payment product 1526).
