@@ -8057,6 +8057,19 @@ references:
   commentId: T:Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput
   fullName: Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput
   nameWithType: CashPaymentMethodSpecificInput
+- uid: Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.PaymentProduct1502SpecificInput
+  name: PaymentProduct1502SpecificInput
+  href: api/Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_CashPaymentMethodSpecificInput_PaymentProduct1502SpecificInput
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.PaymentProduct1502SpecificInput
+  fullName: Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.PaymentProduct1502SpecificInput
+  nameWithType: CashPaymentMethodSpecificInput.PaymentProduct1502SpecificInput
+- uid: Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.PaymentProduct1502SpecificInput*
+  name: PaymentProduct1502SpecificInput
+  href: api/Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_CashPaymentMethodSpecificInput_PaymentProduct1502SpecificInput_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.PaymentProduct1502SpecificInput
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.PaymentProduct1502SpecificInput
+  nameWithType: CashPaymentMethodSpecificInput.PaymentProduct1502SpecificInput
 - uid: Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.PaymentProduct1503SpecificInput
   name: PaymentProduct1503SpecificInput
   href: api/Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_CashPaymentMethodSpecificInput_PaymentProduct1503SpecificInput
@@ -8161,6 +8174,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.PaymentProduct1524SpecificInput
   nameWithType: CashPaymentMethodSpecificInput.PaymentProduct1524SpecificInput
+- uid: Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.PaymentProduct1525SpecificInput
+  name: PaymentProduct1525SpecificInput
+  href: api/Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_CashPaymentMethodSpecificInput_PaymentProduct1525SpecificInput
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.PaymentProduct1525SpecificInput
+  fullName: Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.PaymentProduct1525SpecificInput
+  nameWithType: CashPaymentMethodSpecificInput.PaymentProduct1525SpecificInput
+- uid: Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.PaymentProduct1525SpecificInput*
+  name: PaymentProduct1525SpecificInput
+  href: api/Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_CashPaymentMethodSpecificInput_PaymentProduct1525SpecificInput_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.PaymentProduct1525SpecificInput
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.PaymentProduct1525SpecificInput
+  nameWithType: CashPaymentMethodSpecificInput.PaymentProduct1525SpecificInput
 - uid: Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.PaymentProduct1526SpecificInput
   name: PaymentProduct1526SpecificInput
   href: api/Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_CashPaymentMethodSpecificInput_PaymentProduct1526SpecificInput
@@ -8199,6 +8225,12 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.CashPaymentMethodSpecificOutput.FraudResults
   nameWithType: CashPaymentMethodSpecificOutput.FraudResults
+- uid: Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1502SpecificInput
+  name: CashPaymentProduct1502SpecificInput
+  href: api/Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1502SpecificInput.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1502SpecificInput
+  fullName: Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1502SpecificInput
+  nameWithType: CashPaymentProduct1502SpecificInput
 - uid: Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1503SpecificInput
   name: CashPaymentProduct1503SpecificInput
   href: api/Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1503SpecificInput.html
@@ -8260,6 +8292,12 @@ references:
   commentId: T:Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1524SpecificInput
   fullName: Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1524SpecificInput
   nameWithType: CashPaymentProduct1524SpecificInput
+- uid: Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1525SpecificInput
+  name: CashPaymentProduct1525SpecificInput
+  href: api/Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1525SpecificInput.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1525SpecificInput
+  fullName: Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1525SpecificInput
+  nameWithType: CashPaymentProduct1525SpecificInput
 - uid: Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1526SpecificInput
   name: CashPaymentProduct1526SpecificInput
   href: api/Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1526SpecificInput.html
@@ -25562,6 +25600,22 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Merchant.Payments.PaymentsClient.Disputes
   nameWithType: PaymentsClient.Disputes
+- uid: Worldline.Connect.Sdk.V1.Merchant.Payments.PaymentsClient.Finalizecapture(System.String,Worldline.Connect.Sdk.CallContext)
+  name: Finalizecapture(string, CallContext)
+  href: api/Worldline.Connect.Sdk.V1.Merchant.Payments.PaymentsClient.html#Worldline_Connect_Sdk_V1_Merchant_Payments_PaymentsClient_Finalizecapture_System_String_Worldline_Connect_Sdk_CallContext_
+  commentId: M:Worldline.Connect.Sdk.V1.Merchant.Payments.PaymentsClient.Finalizecapture(System.String,Worldline.Connect.Sdk.CallContext)
+  name.vb: Finalizecapture(String, CallContext)
+  fullName: Worldline.Connect.Sdk.V1.Merchant.Payments.PaymentsClient.Finalizecapture(string, Worldline.Connect.Sdk.CallContext)
+  fullName.vb: Worldline.Connect.Sdk.V1.Merchant.Payments.PaymentsClient.Finalizecapture(String, Worldline.Connect.Sdk.CallContext)
+  nameWithType: PaymentsClient.Finalizecapture(string, CallContext)
+  nameWithType.vb: PaymentsClient.Finalizecapture(String, CallContext)
+- uid: Worldline.Connect.Sdk.V1.Merchant.Payments.PaymentsClient.Finalizecapture*
+  name: Finalizecapture
+  href: api/Worldline.Connect.Sdk.V1.Merchant.Payments.PaymentsClient.html#Worldline_Connect_Sdk_V1_Merchant_Payments_PaymentsClient_Finalizecapture_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Merchant.Payments.PaymentsClient.Finalizecapture
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Merchant.Payments.PaymentsClient.Finalizecapture
+  nameWithType: PaymentsClient.Finalizecapture
 - uid: Worldline.Connect.Sdk.V1.Merchant.Payments.PaymentsClient.Find(Worldline.Connect.Sdk.V1.Merchant.Payments.FindPaymentsParams,Worldline.Connect.Sdk.CallContext)
   name: Find(FindPaymentsParams, CallContext)
   href: api/Worldline.Connect.Sdk.V1.Merchant.Payments.PaymentsClient.html#Worldline_Connect_Sdk_V1_Merchant_Payments_PaymentsClient_Find_Worldline_Connect_Sdk_V1_Merchant_Payments_FindPaymentsParams_Worldline_Connect_Sdk_CallContext_

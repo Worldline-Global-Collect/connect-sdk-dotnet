@@ -1463,6 +1463,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1502SpecificInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1502SpecificInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1503SpecificInput.yml",
       "output": {
         ".html": {
@@ -1537,6 +1547,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1524SpecificInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1525SpecificInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.CashPaymentProduct1525SpecificInput.html"
         }
       },
       "version": ""
