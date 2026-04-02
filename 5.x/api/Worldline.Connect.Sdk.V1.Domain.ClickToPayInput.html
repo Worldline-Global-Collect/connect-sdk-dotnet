@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class ClickToPaySchemeConfigurationBase
+      <title>Class ClickToPayInput
  | Worldline Connect .NET SDK </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class ClickToPaySchemeConfigurationBase
+      <meta name="title" content="Class ClickToPayInput
  | Worldline Connect .NET SDK ">
     
       <link rel="shortcut icon" href="../favicon.ico">
@@ -77,20 +77,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase">
+            <article class="content wrap" id="_content" data-uid="Worldline.Connect.Sdk.V1.Domain.ClickToPayInput">
 
 
 
-  <h1 id="Worldline_Connect_Sdk_V1_Domain_ClickToPaySchemeConfigurationBase" data-uid="Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase" class="text-break">Class ClickToPaySchemeConfigurationBase
+  <h1 id="Worldline_Connect_Sdk_V1_Domain_ClickToPayInput" data-uid="Worldline.Connect.Sdk.V1.Domain.ClickToPayInput" class="text-break">Class ClickToPayInput
 </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">ClickToPaySchemeConfigurationBase</span></div>
-      <div class="level2"><a class="xref" href="Worldline.Connect.Sdk.V1.Domain.ClickToPayConfigurationMastercard.html">ClickToPayConfigurationMastercard</a></div>
-      <div class="level2"><a class="xref" href="Worldline.Connect.Sdk.V1.Domain.ClickToPayConfigurationVisa.html">ClickToPayConfigurationVisa</a></div>
+    <div class="level1"><span class="xref">ClickToPayInput</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -118,42 +116,20 @@
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">Worldline</span>.<span class="xref">Connect</span>.<a class="xref" href="Worldline.Connect.Sdk.html">Sdk</a>.<a class="xref" href="Worldline.Connect.Sdk.V1.html">V1</a>.<a class="xref" href="Worldline.Connect.Sdk.V1.Domain.html">Domain</a></h6>
   <h6><strong>Assembly</strong>: Worldline.Connect.Sdk.dll</h6>
-  <h5 id="Worldline_Connect_Sdk_V1_Domain_ClickToPaySchemeConfigurationBase_syntax">Syntax</h5>
+  <h5 id="Worldline_Connect_Sdk_V1_Domain_ClickToPayInput_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ClickToPaySchemeConfigurationBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class ClickToPayInput</code></pre>
   </div>
   <h3 id="properties">Properties
 </h3>
-  <a id="Worldline_Connect_Sdk_V1_Domain_ClickToPaySchemeConfigurationBase_SrciDpaId_" data-uid="Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId*"></a>
-  <h4 id="Worldline_Connect_Sdk_V1_Domain_ClickToPaySchemeConfigurationBase_SrciDpaId" data-uid="Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId">SrciDpaId</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Worldline_Connect_Sdk_V1_Domain_ClickToPayInput_CheckoutResponseSignature_" data-uid="Worldline.Connect.Sdk.V1.Domain.ClickToPayInput.CheckoutResponseSignature*"></a>
+  <h4 id="Worldline_Connect_Sdk_V1_Domain_ClickToPayInput_CheckoutResponseSignature" data-uid="Worldline.Connect.Sdk.V1.Domain.ClickToPayInput.CheckoutResponseSignature">CheckoutResponseSignature</h4>
+  <div class="markdown level1 summary"><p>The checkoutResponseSignature is a token (JWS) that signs the Checkout response returned by the SRC System after a successful Click to Pay payment. It is used to call the Click to Pay SRCI Server Payload API.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string SrciDpaId { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Worldline_Connect_Sdk_V1_Domain_ClickToPaySchemeConfigurationBase_SrcInitiatorId_" data-uid="Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrcInitiatorId*"></a>
-  <h4 id="Worldline_Connect_Sdk_V1_Domain_ClickToPaySchemeConfigurationBase_SrcInitiatorId" data-uid="Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrcInitiatorId">SrcInitiatorId</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string SrcInitiatorId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string CheckoutResponseSignature { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">

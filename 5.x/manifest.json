@@ -1623,6 +1623,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.ClickToPayInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Worldline.Connect.Sdk.V1.Domain.ClickToPayInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.yml",
       "output": {
         ".html": {

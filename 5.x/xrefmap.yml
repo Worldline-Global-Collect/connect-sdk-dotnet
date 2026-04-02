@@ -7696,6 +7696,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificInput.Card
   nameWithType: CardPaymentMethodSpecificInput.Card
+- uid: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificInput.ClickToPay
+  name: ClickToPay
+  href: api/Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificInput_ClickToPay
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificInput.ClickToPay
+  fullName: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificInput.ClickToPay
+  nameWithType: CardPaymentMethodSpecificInput.ClickToPay
+- uid: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificInput.ClickToPay*
+  name: ClickToPay
+  href: api/Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificInput_ClickToPay_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificInput.ClickToPay
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificInput.ClickToPay
+  nameWithType: CardPaymentMethodSpecificInput.ClickToPay
 - uid: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificInput.ExternalCardholderAuthenticationData
   name: ExternalCardholderAuthenticationData
   href: api/Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificInput_ExternalCardholderAuthenticationData
@@ -7825,6 +7838,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.Card
   nameWithType: CardPaymentMethodSpecificOutput.Card
+- uid: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.ClickToPayUsed
+  name: ClickToPayUsed
+  href: api/Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificOutput_ClickToPayUsed
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.ClickToPayUsed
+  fullName: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.ClickToPayUsed
+  nameWithType: CardPaymentMethodSpecificOutput.ClickToPayUsed
+- uid: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.ClickToPayUsed*
+  name: ClickToPayUsed
+  href: api/Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificOutput_ClickToPayUsed_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.ClickToPayUsed
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.ClickToPayUsed
+  nameWithType: CardPaymentMethodSpecificOutput.ClickToPayUsed
 - uid: Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.FraudResults
   name: FraudResults
   href: api/Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificOutput_FraudResults
@@ -8425,25 +8451,44 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPayDisplayHints.Logo
   nameWithType: ClickToPayDisplayHints.Logo
+- uid: Worldline.Connect.Sdk.V1.Domain.ClickToPayInput
+  name: ClickToPayInput
+  href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPayInput.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.ClickToPayInput
+  fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPayInput
+  nameWithType: ClickToPayInput
+- uid: Worldline.Connect.Sdk.V1.Domain.ClickToPayInput.CheckoutResponseSignature
+  name: CheckoutResponseSignature
+  href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPayInput.html#Worldline_Connect_Sdk_V1_Domain_ClickToPayInput_CheckoutResponseSignature
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.ClickToPayInput.CheckoutResponseSignature
+  fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPayInput.CheckoutResponseSignature
+  nameWithType: ClickToPayInput.CheckoutResponseSignature
+- uid: Worldline.Connect.Sdk.V1.Domain.ClickToPayInput.CheckoutResponseSignature*
+  name: CheckoutResponseSignature
+  href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPayInput.html#Worldline_Connect_Sdk_V1_Domain_ClickToPayInput_CheckoutResponseSignature_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.ClickToPayInput.CheckoutResponseSignature
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPayInput.CheckoutResponseSignature
+  nameWithType: ClickToPayInput.CheckoutResponseSignature
 - uid: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase
   name: ClickToPaySchemeConfigurationBase
   href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.html
   commentId: T:Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase
   fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase
   nameWithType: ClickToPaySchemeConfigurationBase
-- uid: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrcDpaId
-  name: SrcDpaId
-  href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.html#Worldline_Connect_Sdk_V1_Domain_ClickToPaySchemeConfigurationBase_SrcDpaId
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrcDpaId
-  fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrcDpaId
-  nameWithType: ClickToPaySchemeConfigurationBase.SrcDpaId
-- uid: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrcDpaId*
-  name: SrcDpaId
-  href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.html#Worldline_Connect_Sdk_V1_Domain_ClickToPaySchemeConfigurationBase_SrcDpaId_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrcDpaId
+- uid: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId
+  name: SrciDpaId
+  href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.html#Worldline_Connect_Sdk_V1_Domain_ClickToPaySchemeConfigurationBase_SrciDpaId
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId
+  fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId
+  nameWithType: ClickToPaySchemeConfigurationBase.SrciDpaId
+- uid: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId*
+  name: SrciDpaId
+  href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.html#Worldline_Connect_Sdk_V1_Domain_ClickToPaySchemeConfigurationBase_SrciDpaId_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId
   isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrcDpaId
-  nameWithType: ClickToPaySchemeConfigurationBase.SrcDpaId
+  fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId
+  nameWithType: ClickToPaySchemeConfigurationBase.SrciDpaId
 - uid: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrcInitiatorId
   name: SrcInitiatorId
   href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.html#Worldline_Connect_Sdk_V1_Domain_ClickToPaySchemeConfigurationBase_SrcInitiatorId
@@ -13398,6 +13443,19 @@ references:
   commentId: T:Worldline.Connect.Sdk.V1.Domain.HostedCheckoutSpecificInput
   fullName: Worldline.Connect.Sdk.V1.Domain.HostedCheckoutSpecificInput
   nameWithType: HostedCheckoutSpecificInput
+- uid: Worldline.Connect.Sdk.V1.Domain.HostedCheckoutSpecificInput.AllowClickToPay
+  name: AllowClickToPay
+  href: api/Worldline.Connect.Sdk.V1.Domain.HostedCheckoutSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_HostedCheckoutSpecificInput_AllowClickToPay
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.HostedCheckoutSpecificInput.AllowClickToPay
+  fullName: Worldline.Connect.Sdk.V1.Domain.HostedCheckoutSpecificInput.AllowClickToPay
+  nameWithType: HostedCheckoutSpecificInput.AllowClickToPay
+- uid: Worldline.Connect.Sdk.V1.Domain.HostedCheckoutSpecificInput.AllowClickToPay*
+  name: AllowClickToPay
+  href: api/Worldline.Connect.Sdk.V1.Domain.HostedCheckoutSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_HostedCheckoutSpecificInput_AllowClickToPay_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.HostedCheckoutSpecificInput.AllowClickToPay
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.HostedCheckoutSpecificInput.AllowClickToPay
+  nameWithType: HostedCheckoutSpecificInput.AllowClickToPay
 - uid: Worldline.Connect.Sdk.V1.Domain.HostedCheckoutSpecificInput.IsRecurring
   name: IsRecurring
   href: api/Worldline.Connect.Sdk.V1.Domain.HostedCheckoutSpecificInput.html#Worldline_Connect_Sdk_V1_Domain_HostedCheckoutSpecificInput_IsRecurring
