@@ -17,6 +17,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public CardEssentials Card { get; set; }
 
         /// <summary>
+        /// Indicates if a Click to Pay token was used during the payment.
+        /// </summary>
+        public bool? ClickToPayUsed { get; set; }
+
+        /// <summary>
         /// Fraud results contained in the CardFraudResults object
         /// </summary>
         public CardFraudResults FraudResults { get; set; }

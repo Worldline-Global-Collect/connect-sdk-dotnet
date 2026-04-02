@@ -14,6 +14,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public Card Card { get; set; }
 
         /// <summary>
+        /// Object holding data that is required to process card transaction with Click to Pay.
+        /// </summary>
+        public ClickToPayInput ClickToPay { get; set; }
+
+        /// <summary>
         /// Object containing 3D secure details.
         /// </summary>
         [Obsolete("Use threeDSecure.externalCardholderAuthenticationData instead")]

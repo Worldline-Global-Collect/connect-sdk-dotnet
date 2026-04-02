@@ -7,6 +7,15 @@ namespace Worldline.Connect.Sdk.V1.Domain
     public class HostedCheckoutSpecificInput
     {
         /// <summary>
+        /// Controls whether the Click to Pay flow is initiated. 
+        /// <list type="bullet">
+        ///   <item><description>true: initiate the Click to Pay user experience.</description></item>
+        ///   <item><description>false: do not initiate the Click to Pay user experience.</description></item>
+        /// </list>Note: Effective only if you are onboarded to use Click to Pay.
+        /// </summary>
+        public bool? AllowClickToPay { get; set; }
+
+        /// <summary>
         /// <list type="bullet">
         ///   <item><description>true - Only payment products that support recurring payments will be shown. Any transactions created will also be tagged as being a first of a recurring sequence.</description></item>
         ///   <item><description>false - Only payment products that support one-off payments will be shown.</description></item>

@@ -6,8 +6,8 @@ namespace Worldline.Connect.Sdk.V1.Domain
 {
     public class ClickToPaySchemeConfigurationBase
     {
-        public string SrcDpaId { get; set; }
-
         public string SrcInitiatorId { get; set; }
+
+        public string SrciDpaId { get; set; }
     }
 }
