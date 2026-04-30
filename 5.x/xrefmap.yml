@@ -7337,6 +7337,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrder.References
   nameWithType: CapturePaymentOrder.References
+- uid: Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrder.Shipping
+  name: Shipping
+  href: api/Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrder.html#Worldline_Connect_Sdk_V1_Domain_CapturePaymentOrder_Shipping
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrder.Shipping
+  fullName: Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrder.Shipping
+  nameWithType: CapturePaymentOrder.Shipping
+- uid: Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrder.Shipping*
+  name: Shipping
+  href: api/Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrder.html#Worldline_Connect_Sdk_V1_Domain_CapturePaymentOrder_Shipping_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrder.Shipping
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrder.Shipping
+  nameWithType: CapturePaymentOrder.Shipping
 - uid: Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrderAdditionalInput
   name: CapturePaymentOrderAdditionalInput
   href: api/Worldline.Connect.Sdk.V1.Domain.CapturePaymentOrderAdditionalInput.html
@@ -18014,6 +18027,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct.AllowsInstallments
   nameWithType: PaymentProduct.AllowsInstallments
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct.AllowsMultiplePartialCaptures
+  name: AllowsMultiplePartialCaptures
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct_AllowsMultiplePartialCaptures
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.PaymentProduct.AllowsMultiplePartialCaptures
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct.AllowsMultiplePartialCaptures
+  nameWithType: PaymentProduct.AllowsMultiplePartialCaptures
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct.AllowsMultiplePartialCaptures*
+  name: AllowsMultiplePartialCaptures
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct_AllowsMultiplePartialCaptures_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.PaymentProduct.AllowsMultiplePartialCaptures
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentProduct.AllowsMultiplePartialCaptures
+  nameWithType: PaymentProduct.AllowsMultiplePartialCaptures
 - uid: Worldline.Connect.Sdk.V1.Domain.PaymentProduct.AllowsRecurring
   name: AllowsRecurring
   href: api/Worldline.Connect.Sdk.V1.Domain.PaymentProduct.html#Worldline_Connect_Sdk_V1_Domain_PaymentProduct_AllowsRecurring
