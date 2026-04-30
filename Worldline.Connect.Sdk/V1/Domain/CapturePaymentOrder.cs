@@ -15,5 +15,10 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// Object that holds all reference properties that are linked to this transaction
         /// </summary>
         public CapturePaymentOrderReferences References { get; set; }
+
+        /// <summary>
+        /// Object containing shipping related data
+        /// </summary>
+        public Shipping Shipping { get; set; }
     }
 }

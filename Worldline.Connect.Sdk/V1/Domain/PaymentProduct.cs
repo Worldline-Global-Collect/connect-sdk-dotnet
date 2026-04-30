@@ -39,6 +39,15 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public bool? AllowsInstallments { get; set; }
 
         /// <summary>
+        /// Indicates if the payment product supports multiple partial captures 
+        /// <list type="bullet">
+        ///   <item><description>true - This payment product supports multiple partial captures</description></item>
+        ///   <item><description>false - This payment payment does not support multiple partial captures</description></item>
+        /// </list>
+        /// </summary>
+        public bool? AllowsMultiplePartialCaptures { get; set; }
+
+        /// <summary>
         /// Indicates if the product supports recurring payments 
         /// <list type="bullet">
         ///   <item><description>true - This payment product supports recurring payments</description></item>

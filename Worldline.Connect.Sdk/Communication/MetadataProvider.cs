@@ -95,7 +95,7 @@ namespace Worldline.Connect.Sdk.Communication
             .Append(Environment.Version)
             .ToString();
 
-        private const string SdkVersion = "5.6.0";
+        private const string SdkVersion = "5.7.0";
 
         private const string ServerMetaInfoHeader = "X-GCS-ServerMetaInfo";
 
