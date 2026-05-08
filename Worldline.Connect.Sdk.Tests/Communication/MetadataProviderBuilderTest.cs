@@ -26,13 +26,13 @@ namespace Worldline.Connect.Sdk.Communication
             {
                 var metadataProvider = builder.WithAdditionalRequestHeader(additionalRequestHeader).Build();
                 var requestHeaders = metadataProvider.ServerMetadataHeaders;
-                Assert.AreEqual(2, requestHeaders.Count());
+                Assert.That(requestHeaders.Count(), Is.EqualTo(2));
 
                 var requestHeader = requestHeaders.First();
-                Assert.AreEqual("X-GCS-ServerMetaInfo", requestHeader.Name);
+                Assert.That(requestHeader.Name, Is.EqualTo("X-GCS-ServerMetaInfo"));
 
                 requestHeader = requestHeaders.Skip(1).First();
-                Assert.AreEqual(requestHeader, additionalRequestHeader);
+                Assert.That(requestHeader, Is.EqualTo(additionalRequestHeader));
             }
             else {
                 Assert.That(() => builder.WithAdditionalRequestHeader(additionalRequestHeader), Throws.ArgumentException.With.Message.Contains(additionalHeaderName));

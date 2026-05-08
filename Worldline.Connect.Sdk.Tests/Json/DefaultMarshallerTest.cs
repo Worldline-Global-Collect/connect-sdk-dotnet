@@ -23,8 +23,8 @@ namespace Worldline.Connect.Sdk.Json
             var json = DefaultMarshaller.Instance.Marshal(token);
             var returnedToken = DefaultMarshaller.Instance.Unmarshal<JsonToken>(json);
 
-            Assert.AreEqual(iban, returnedToken.Iban);
-            Assert.AreEqual(date, returnedToken.Date);
+            Assert.That(returnedToken.Iban, Is.EqualTo(iban));
+            Assert.That(returnedToken.Date, Is.EqualTo(date));
         }
 
         [TestCase]
@@ -33,10 +33,10 @@ namespace Worldline.Connect.Sdk.Json
             const string retmac = "aaa";
 
             var json = DefaultMarshaller.Instance.Marshal(new CreateHostedCheckoutResponse { RETURNMAC = retmac });
-            Assert.AreEqual("{\"RETURNMAC\":\"aaa\"}", json);
+            Assert.That(json, Is.EqualTo("{\"RETURNMAC\":\"aaa\"}"));
 
             var anObject = DefaultMarshaller.Instance.Unmarshal<CreateHostedCheckoutResponse>(json);
-            Assert.NotNull(anObject.RETURNMAC);
+            Assert.That(anObject.RETURNMAC, Is.Not.Null);
         }
 
         [TestCase]
@@ -45,12 +45,12 @@ namespace Worldline.Connect.Sdk.Json
             var redirectData = new RedirectData { RETURNMAC = "hello", RedirectURL = "world" };
 
             var json = DefaultMarshaller.Instance.Marshal(redirectData);
-            Assert.AreEqual("{\"RETURNMAC\":\"hello\",\"redirectURL\":\"world\"}", json);
+            Assert.That(json, Is.EqualTo("{\"RETURNMAC\":\"hello\",\"redirectURL\":\"world\"}"));
 
             var unmarshalledRedirectData = DefaultMarshaller.Instance.Unmarshal<RedirectData>(json);
 
-            Assert.AreEqual(redirectData.RETURNMAC, unmarshalledRedirectData.RETURNMAC);
-            Assert.AreEqual(redirectData.RedirectURL, unmarshalledRedirectData.RedirectURL);
+            Assert.That(unmarshalledRedirectData.RETURNMAC, Is.EqualTo(redirectData.RETURNMAC));
+            Assert.That(unmarshalledRedirectData.RedirectURL, Is.EqualTo(redirectData.RedirectURL));
         }
 
         [TestCase]
@@ -65,12 +65,12 @@ namespace Worldline.Connect.Sdk.Json
             };
 
             var json = DefaultMarshaller.Instance.Marshal(paymentProducts);
-            Assert.AreEqual("{\"paymentProducts\":[{\"id\":1}]}", json);
+            Assert.That(json, Is.EqualTo("{\"paymentProducts\":[{\"id\":1}]}"));
 
             var unmarshalledPaymentProducts = DefaultMarshaller.Instance.Unmarshal<PaymentProducts>(json);
 
-            Assert.AreEqual(paymentProducts.ListOfPaymentProducts.Count, unmarshalledPaymentProducts.ListOfPaymentProducts.Count);
-            Assert.AreEqual(paymentProducts.ListOfPaymentProducts[0].Id, unmarshalledPaymentProducts.ListOfPaymentProducts[0].Id);
+            Assert.That(unmarshalledPaymentProducts.ListOfPaymentProducts.Count, Is.EqualTo(paymentProducts.ListOfPaymentProducts.Count));
+            Assert.That(unmarshalledPaymentProducts.ListOfPaymentProducts[0].Id, Is.EqualTo(paymentProducts.ListOfPaymentProducts[0].Id));
         }
     }
 

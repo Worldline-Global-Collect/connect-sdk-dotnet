@@ -28,13 +28,13 @@ namespace Worldline.Connect.Sdk
         public void TestCreateConfiguration()
         {
             var configuration = Factory.CreateConfiguration(Dict, ApiKeyId, SecretApiKey);
-            Assert.AreEqual(new Uri("https://api.preprod.connect.worldline-solutions.com"), configuration.ApiEndpoint);
-            Assert.AreEqual(AuthorizationType.V1HMAC, configuration.AuthorizationType);
-            Assert.AreEqual(null, configuration.ConnectTimeout);
-            Assert.AreEqual(null, configuration.SocketTimeout);
-            Assert.AreEqual(100, configuration.MaxConnections);
-            Assert.AreEqual(ApiKeyId, configuration.ApiKeyId);
-            Assert.AreEqual(SecretApiKey, configuration.SecretApiKey);
+            Assert.That(configuration.ApiEndpoint, Is.EqualTo(new Uri("https://api.preprod.connect.worldline-solutions.com")));
+            Assert.That(configuration.AuthorizationType, Is.EqualTo(AuthorizationType.V1HMAC));
+            Assert.That(configuration.ConnectTimeout, Is.Null);
+            Assert.That(configuration.SocketTimeout, Is.Null);
+            Assert.That(configuration.MaxConnections, Is.EqualTo(100));
+            Assert.That(configuration.ApiKeyId, Is.EqualTo(ApiKeyId));
+            Assert.That(configuration.SecretApiKey, Is.EqualTo(SecretApiKey));
         }
 
         [TestCase]
@@ -42,23 +42,23 @@ namespace Worldline.Connect.Sdk
         {
             var communicator = Factory.CreateCommunicator(Dict, ApiKeyId, SecretApiKey);
 
-            Assert.AreSame(DefaultMarshaller.Instance, communicator.Marshaller);
+            Assert.That(communicator.Marshaller, Is.SameAs(DefaultMarshaller.Instance));
 
             var connection = communicator.Connection;
-            Assert.True(connection is DefaultConnection);
+            Assert.That(connection, Is.InstanceOf<DefaultConnection>());
             //DefaultConnectionTest.assertConnection((DefaultConnection) connection, -1, -1, 100, null);
 
             var authenticator = communicator.Authenticator;
-            Assert.True(authenticator is V1HMACAuthenticator);
-            Assert.AreEqual(ApiKeyId, authenticator.GetPrivateField(typeof(V1HMACAuthenticator), "_apiKeyId"));
-            Assert.AreEqual(SecretApiKey, authenticator.GetPrivateField(typeof(V1HMACAuthenticator), "_secretApiKey"));
+            Assert.That(authenticator, Is.InstanceOf<V1HMACAuthenticator>());
+            Assert.That(authenticator.GetPrivateField(typeof(V1HMACAuthenticator), "_apiKeyId"), Is.EqualTo(ApiKeyId));
+            Assert.That(authenticator.GetPrivateField(typeof(V1HMACAuthenticator), "_secretApiKey"), Is.EqualTo(SecretApiKey));
 
             var metadataProvider = communicator.MetadataProvider;
-            Assert.AreEqual(typeof(MetadataProvider), metadataProvider.GetType());
+            Assert.That(metadataProvider.GetType(), Is.EqualTo(typeof(MetadataProvider)));
             var requestHeaders = metadataProvider.ServerMetadataHeaders;
-            Assert.AreEqual(1, requestHeaders.Count());
+            Assert.That(requestHeaders.Count(), Is.EqualTo(1));
             var requestHeader = requestHeaders.ElementAt(0);
-            Assert.AreEqual("X-GCS-ServerMetaInfo", requestHeader.Name);
+            Assert.That(requestHeader.Name, Is.EqualTo("X-GCS-ServerMetaInfo"));
         }
     }
 }

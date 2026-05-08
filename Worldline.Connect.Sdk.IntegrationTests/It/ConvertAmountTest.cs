@@ -28,7 +28,7 @@ namespace Worldline.Connect.Sdk.It
                     .Services
                     .ConvertAmount(request);
 
-                Assert.NotNull(response.ConvertedAmount);
+                Assert.That(response.ConvertedAmount, Is.Not.Null);
             }
         }
     }

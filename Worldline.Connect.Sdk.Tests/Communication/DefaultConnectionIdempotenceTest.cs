@@ -195,14 +195,14 @@ namespace Worldline.Connect.Sdk.Communication
 
                 var response = await client.V1.WithNewMerchant("20000").Payments.Create(request, context);
 
-                Assert.NotNull(response);
-                Assert.NotNull(response.Payment);
-                Assert.NotNull(response.Payment.Id);
+                Assert.That(response, Is.Not.Null);
+                Assert.That(response.Payment, Is.Not.Null);
+                Assert.That(response.Payment.Id, Is.Not.Null);
             }
-            Assert.AreEqual(idempotenceKey, requestHeaders["X-GCS-Idempotence-Key"]);
+            Assert.That(requestHeaders["X-GCS-Idempotence-Key"], Is.EqualTo(idempotenceKey));
 
-            Assert.AreEqual(idempotenceKey, context.IdempotenceKey);
-            Assert.Null(context.IdempotenceRequestTimestamp);
+            Assert.That(context.IdempotenceKey, Is.EqualTo(idempotenceKey));
+            Assert.That(context.IdempotenceRequestTimestamp, Is.Null);
         }
 
         [TestCase]
@@ -232,14 +232,14 @@ namespace Worldline.Connect.Sdk.Communication
 
                 var response = await client.V1.WithNewMerchant("20000").Payments.Create(request, context);
 
-                Assert.NotNull(response);
-                Assert.NotNull(response.Payment);
-                Assert.NotNull(response.Payment.Id);
+                Assert.That(response, Is.Not.Null);
+                Assert.That(response.Payment, Is.Not.Null);
+                Assert.That(response.Payment.Id, Is.Not.Null);
             }
-            Assert.AreEqual(idempotenceKey, requestHeaders["X-GCS-Idempotence-Key"]);
+            Assert.That(requestHeaders["X-GCS-Idempotence-Key"], Is.EqualTo(idempotenceKey));
 
-            Assert.AreEqual(idempotenceKey, context.IdempotenceKey);
-            Assert.Null(context.IdempotenceRequestTimestamp);
+            Assert.That(context.IdempotenceKey, Is.EqualTo(idempotenceKey));
+            Assert.That(context.IdempotenceRequestTimestamp, Is.Null);
         }
 
         private static void RecordRequest(HttpStatusCode statusCode, HttpListenerRequest request, IDictionary<string, string> requestHeaders, HttpListenerResponse response, IDictionary<string, string> responseHeaders)
@@ -286,14 +286,14 @@ namespace Worldline.Connect.Sdk.Communication
                 }
                 catch (DeclinedPaymentException e)
                 {
-                    Assert.AreEqual(HttpStatusCode.PaymentRequired, e.StatusCode);
-                    Assert.AreEqual(body, e.ResponseBody);
+                    Assert.That(e.StatusCode, Is.EqualTo(HttpStatusCode.PaymentRequired));
+                    Assert.That(e.ResponseBody, Is.EqualTo(body));
                 }
             }
-            Assert.AreEqual(idempotenceKey, requestHeaders["X-GCS-Idempotence-Key"]);
+            Assert.That(requestHeaders["X-GCS-Idempotence-Key"], Is.EqualTo(idempotenceKey));
 
-            Assert.AreEqual(idempotenceKey, context.IdempotenceKey);
-            Assert.Null(context.IdempotenceRequestTimestamp);
+            Assert.That(context.IdempotenceKey, Is.EqualTo(idempotenceKey));
+            Assert.That(context.IdempotenceRequestTimestamp, Is.Null);
         }
 
         [TestCase]
@@ -328,14 +328,14 @@ namespace Worldline.Connect.Sdk.Communication
                 }
                 catch (DeclinedPaymentException e)
                 {
-                    Assert.AreEqual(HttpStatusCode.PaymentRequired, e.StatusCode);
-                    Assert.AreEqual(body, e.ResponseBody);
+                    Assert.That(e.StatusCode, Is.EqualTo(HttpStatusCode.PaymentRequired));
+                    Assert.That(e.ResponseBody, Is.EqualTo(body));
                 }
             }
-            Assert.AreEqual(idempotenceKey, requestHeaders["X-GCS-Idempotence-Key"]);
+            Assert.That(requestHeaders["X-GCS-Idempotence-Key"], Is.EqualTo(idempotenceKey));
 
-            Assert.AreEqual(idempotenceKey, context.IdempotenceKey);
-            Assert.Null(context.IdempotenceRequestTimestamp);
+            Assert.That(context.IdempotenceKey, Is.EqualTo(idempotenceKey));
+            Assert.That(context.IdempotenceRequestTimestamp, Is.Null);
         }
 
         [TestCase]
@@ -370,14 +370,14 @@ namespace Worldline.Connect.Sdk.Communication
                 }
                 catch (IdempotenceException e)
                 {
-                    Assert.AreEqual((HttpStatusCode)409, e.StatusCode);
-                    Assert.AreEqual(body, e.ResponseBody);
+                    Assert.That(e.StatusCode, Is.EqualTo((HttpStatusCode)409));
+                    Assert.That(e.ResponseBody, Is.EqualTo(body));
                 }
             }
-            Assert.AreEqual(idempotenceKey, requestHeaders["X-GCS-Idempotence-Key"]);
+            Assert.That(requestHeaders["X-GCS-Idempotence-Key"], Is.EqualTo(idempotenceKey));
 
-            Assert.AreEqual(idempotenceKey, context.IdempotenceKey);
-            Assert.Null(context.IdempotenceRequestTimestamp);
+            Assert.That(context.IdempotenceKey, Is.EqualTo(idempotenceKey));
+            Assert.That(context.IdempotenceRequestTimestamp, Is.Null);
         }
     }
 }

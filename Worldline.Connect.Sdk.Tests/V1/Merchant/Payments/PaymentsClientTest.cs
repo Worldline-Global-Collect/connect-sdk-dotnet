@@ -164,8 +164,8 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
             var body = CreateRequest();
 
             var response = await client.V1.WithNewMerchant("merchantId").Payments.Create(body);
-            Assert.AreEqual("000002000020142549460000100001", response.Payment.Id);
-            Assert.AreEqual("PENDING_APPROVAL", response.Payment.Status);
+            Assert.That(response.Payment.Id, Is.EqualTo("000002000020142549460000100001"));
+            Assert.That(response.Payment.Status, Is.EqualTo("PENDING_APPROVAL"));
         }
 
         /// <summary>

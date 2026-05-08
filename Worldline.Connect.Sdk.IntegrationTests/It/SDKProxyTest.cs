@@ -31,12 +31,12 @@ namespace Worldline.Connect.Sdk.It
 
                 Assert.That(services, Is.TypeOf(typeof(ServicesClient)));
                 var configuration = GetCommunicatorConfiguration();
-                Assert.NotNull(configuration.Proxy);
+                Assert.That(configuration.Proxy, Is.Not.Null);
                 AssertProxyAndAuthentication(GetConnectionFromService(services), configuration.Proxy);
 
                 var response = await services.ConvertAmount(request);
 
-                Assert.NotNull(response.ConvertedAmount);
+                Assert.That(response.ConvertedAmount, Is.Not.Null);
             }
         }
 

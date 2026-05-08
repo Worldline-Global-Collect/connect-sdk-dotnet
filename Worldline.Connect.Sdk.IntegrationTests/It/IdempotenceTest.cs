@@ -69,16 +69,16 @@ namespace Worldline.Connect.Sdk.It
                 var paymentId = result.Payment.Id;
                 var status = result.Payment.Status;
 
-                Assert.AreEqual(idempotenceKey, context.IdempotenceKey);
-                Assert.Null(context.IdempotenceRequestTimestamp);
+                Assert.That(context.IdempotenceKey, Is.EqualTo(idempotenceKey));
+                Assert.That(context.IdempotenceRequestTimestamp, Is.Null);
 
                 result = await DoCreatePayment(client, body, context);
 
-                Assert.AreEqual(paymentId, result.Payment.Id);
-                Assert.AreEqual(status, result.Payment.Status);
+                Assert.That(result.Payment.Id, Is.EqualTo(paymentId));
+                Assert.That(result.Payment.Status, Is.EqualTo(status));
 
-                Assert.AreEqual(idempotenceKey, context.IdempotenceKey);
-                Assert.NotNull(context.IdempotenceRequestTimestamp);
+                Assert.That(context.IdempotenceKey, Is.EqualTo(idempotenceKey));
+                Assert.That(context.IdempotenceRequestTimestamp, Is.Not.Null);
             }
         }
 

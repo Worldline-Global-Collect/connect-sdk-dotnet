@@ -35,15 +35,15 @@ namespace Worldline.Connect.Sdk.It
 
                     var response = await communicator.Post<HttpBinResponse>("/post", null, null, multipart, null);
 
-                    Assert.NotNull(response.Form);
-                    Assert.AreEqual(1, response.Form.Count);
-                    Assert.IsTrue(response.Form.ContainsKey("value"));
-                    Assert.AreEqual("Hello World", response.Form["value"]);
+                    Assert.That(response.Form, Is.Not.Null);
+                    Assert.That(response.Form.Count, Is.EqualTo(1));
+                    Assert.That(response.Form.ContainsKey("value"), Is.True);
+                    Assert.That(response.Form["value"], Is.EqualTo("Hello World"));
 
-                    Assert.NotNull(response.Files);
-                    Assert.AreEqual(1, response.Files.Count);
-                    Assert.IsTrue(response.Files.ContainsKey("file"));
-                    Assert.AreEqual("file-content", response.Files["file"]);
+                    Assert.That(response.Files, Is.Not.Null);
+                    Assert.That(response.Files.Count, Is.EqualTo(1));
+                    Assert.That(response.Files.ContainsKey("file"), Is.True);
+                    Assert.That(response.Files["file"], Is.EqualTo("file-content"));
                 }
             }
             finally
@@ -75,15 +75,15 @@ namespace Worldline.Connect.Sdk.It
 
                     var response = await communicator.Post<HttpBinResponse>("/post", null, null, new MultipartFormDataObjectWrapper(multipart), null);
 
-                    Assert.NotNull(response.Form);
-                    Assert.AreEqual(1, response.Form.Count);
-                    Assert.IsTrue(response.Form.ContainsKey("value"));
-                    Assert.AreEqual("Hello World", response.Form["value"]);
+                    Assert.That(response.Form, Is.Not.Null);
+                    Assert.That(response.Form.Count, Is.EqualTo(1));
+                    Assert.That(response.Form.ContainsKey("value"), Is.True);
+                    Assert.That(response.Form["value"], Is.EqualTo("Hello World"));
 
-                    Assert.NotNull(response.Files);
-                    Assert.AreEqual(1, response.Files.Count);
-                    Assert.IsTrue(response.Files.ContainsKey("file"));
-                    Assert.AreEqual("file-content", response.Files["file"]);
+                    Assert.That(response.Files, Is.Not.Null);
+                    Assert.That(response.Files.Count, Is.EqualTo(1));
+                    Assert.That(response.Files.ContainsKey("file"), Is.True);
+                    Assert.That(response.Files["file"], Is.EqualTo("file-content"));
                 }
             }
             finally
@@ -116,15 +116,15 @@ namespace Worldline.Connect.Sdk.It
                     await communicator.Post("/post", null, null, multipart, (stream, headers) => {
                         var response = DefaultMarshaller.Instance.Unmarshal<HttpBinResponse>(stream);
 
-                        Assert.NotNull(response.Form);
-                        Assert.AreEqual(1, response.Form.Count);
-                        Assert.IsTrue(response.Form.ContainsKey("value"));
-                        Assert.AreEqual("Hello World", response.Form["value"]);
+                        Assert.That(response.Form, Is.Not.Null);
+                        Assert.That(response.Form.Count, Is.EqualTo(1));
+                        Assert.That(response.Form.ContainsKey("value"), Is.True);
+                        Assert.That(response.Form["value"], Is.EqualTo("Hello World"));
 
-                        Assert.NotNull(response.Files);
-                        Assert.AreEqual(1, response.Files.Count);
-                        Assert.IsTrue(response.Files.ContainsKey("file"));
-                        Assert.AreEqual("file-content", response.Files["file"]);
+                        Assert.That(response.Files, Is.Not.Null);
+                        Assert.That(response.Files.Count, Is.EqualTo(1));
+                        Assert.That(response.Files.ContainsKey("file"), Is.True);
+                        Assert.That(response.Files["file"], Is.EqualTo("file-content"));
                     }, null);
                 }
             }
@@ -158,15 +158,15 @@ namespace Worldline.Connect.Sdk.It
                     await communicator.Post("/post", null, null, new MultipartFormDataObjectWrapper(multipart), (stream, headers) => {
                         var response = DefaultMarshaller.Instance.Unmarshal<HttpBinResponse>(stream);
 
-                        Assert.NotNull(response.Form);
-                        Assert.AreEqual(1, response.Form.Count);
-                        Assert.IsTrue(response.Form.ContainsKey("value"));
-                        Assert.AreEqual("Hello World", response.Form["value"]);
+                        Assert.That(response.Form, Is.Not.Null);
+                        Assert.That(response.Form.Count, Is.EqualTo(1));
+                        Assert.That(response.Form.ContainsKey("value"), Is.True);
+                        Assert.That(response.Form["value"], Is.EqualTo("Hello World"));
 
-                        Assert.NotNull(response.Files);
-                        Assert.AreEqual(1, response.Files.Count);
-                        Assert.IsTrue(response.Files.ContainsKey("file"));
-                        Assert.AreEqual("file-content", response.Files["file"]);
+                        Assert.That(response.Files, Is.Not.Null);
+                        Assert.That(response.Files.Count, Is.EqualTo(1));
+                        Assert.That(response.Files.ContainsKey("file"), Is.True);
+                        Assert.That(response.Files["file"], Is.EqualTo("file-content"));
                     }, null);
                 }
             }
@@ -199,15 +199,15 @@ namespace Worldline.Connect.Sdk.It
 
                     var response = await communicator.Put<HttpBinResponse>("/put", null, null, multipart, null);
 
-                    Assert.NotNull(response.Form);
-                    Assert.AreEqual(1, response.Form.Count);
-                    Assert.IsTrue(response.Form.ContainsKey("value"));
-                    Assert.AreEqual("Hello World", response.Form["value"]);
+                    Assert.That(response.Form, Is.Not.Null);
+                    Assert.That(response.Form.Count, Is.EqualTo(1));
+                    Assert.That(response.Form.ContainsKey("value"), Is.True);
+                    Assert.That(response.Form["value"], Is.EqualTo("Hello World"));
 
-                    Assert.NotNull(response.Files);
-                    Assert.AreEqual(1, response.Files.Count);
-                    Assert.IsTrue(response.Files.ContainsKey("file"));
-                    Assert.AreEqual("file-content", response.Files["file"]);
+                    Assert.That(response.Files, Is.Not.Null);
+                    Assert.That(response.Files.Count, Is.EqualTo(1));
+                    Assert.That(response.Files.ContainsKey("file"), Is.True);
+                    Assert.That(response.Files["file"], Is.EqualTo("file-content"));
                 }
             }
             finally
@@ -239,15 +239,15 @@ namespace Worldline.Connect.Sdk.It
 
                     var response = await communicator.Put<HttpBinResponse>("/put", null, null, new MultipartFormDataObjectWrapper(multipart), null);
 
-                    Assert.NotNull(response.Form);
-                    Assert.AreEqual(1, response.Form.Count);
-                    Assert.IsTrue(response.Form.ContainsKey("value"));
-                    Assert.AreEqual("Hello World", response.Form["value"]);
+                    Assert.That(response.Form, Is.Not.Null);
+                    Assert.That(response.Form.Count, Is.EqualTo(1));
+                    Assert.That(response.Form.ContainsKey("value"), Is.True);
+                    Assert.That(response.Form["value"], Is.EqualTo("Hello World"));
 
-                    Assert.NotNull(response.Files);
-                    Assert.AreEqual(1, response.Files.Count);
-                    Assert.IsTrue(response.Files.ContainsKey("file"));
-                    Assert.AreEqual("file-content", response.Files["file"]);
+                    Assert.That(response.Files, Is.Not.Null);
+                    Assert.That(response.Files.Count, Is.EqualTo(1));
+                    Assert.That(response.Files.ContainsKey("file"), Is.True);
+                    Assert.That(response.Files["file"], Is.EqualTo("file-content"));
                 }
             }
             finally
@@ -280,15 +280,15 @@ namespace Worldline.Connect.Sdk.It
                     await communicator.Put("/put", null, null, multipart, (stream, headers) => {
                         var response = DefaultMarshaller.Instance.Unmarshal<HttpBinResponse>(stream);
 
-                        Assert.NotNull(response.Form);
-                        Assert.AreEqual(1, response.Form.Count);
-                        Assert.IsTrue(response.Form.ContainsKey("value"));
-                        Assert.AreEqual("Hello World", response.Form["value"]);
+                        Assert.That(response.Form, Is.Not.Null);
+                        Assert.That(response.Form.Count, Is.EqualTo(1));
+                        Assert.That(response.Form.ContainsKey("value"), Is.True);
+                        Assert.That(response.Form["value"], Is.EqualTo("Hello World"));
 
-                        Assert.NotNull(response.Files);
-                        Assert.AreEqual(1, response.Files.Count);
-                        Assert.IsTrue(response.Files.ContainsKey("file"));
-                        Assert.AreEqual("file-content", response.Files["file"]);
+                        Assert.That(response.Files, Is.Not.Null);
+                        Assert.That(response.Files.Count, Is.EqualTo(1));
+                        Assert.That(response.Files.ContainsKey("file"), Is.True);
+                        Assert.That(response.Files["file"], Is.EqualTo("file-content"));
                     }, null);
                 }
             }
@@ -322,15 +322,15 @@ namespace Worldline.Connect.Sdk.It
                     await communicator.Put("/put", null, null, new MultipartFormDataObjectWrapper(multipart), (stream, headers) => {
                         var response = DefaultMarshaller.Instance.Unmarshal<HttpBinResponse>(stream);
 
-                        Assert.NotNull(response.Form);
-                        Assert.AreEqual(1, response.Form.Count);
-                        Assert.IsTrue(response.Form.ContainsKey("value"));
-                        Assert.AreEqual("Hello World", response.Form["value"]);
+                        Assert.That(response.Form, Is.Not.Null);
+                        Assert.That(response.Form.Count, Is.EqualTo(1));
+                        Assert.That(response.Form.ContainsKey("value"), Is.True);
+                        Assert.That(response.Form["value"], Is.EqualTo("Hello World"));
 
-                        Assert.NotNull(response.Files);
-                        Assert.AreEqual(1, response.Files.Count);
-                        Assert.IsTrue(response.Files.ContainsKey("file"));
-                        Assert.AreEqual("file-content", response.Files["file"]);
+                        Assert.That(response.Files, Is.Not.Null);
+                        Assert.That(response.Files.Count, Is.EqualTo(1));
+                        Assert.That(response.Files.ContainsKey("file"), Is.True);
+                        Assert.That(response.Files["file"], Is.EqualTo("file-content"));
                     }, null);
                 }
             }

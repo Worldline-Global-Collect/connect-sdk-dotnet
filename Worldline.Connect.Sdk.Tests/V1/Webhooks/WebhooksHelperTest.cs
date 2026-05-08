@@ -150,42 +150,42 @@ namespace Worldline.Connect.Sdk.V1.Webhooks
 
             var anEvent = helper.Unmarshal(bodyStream, requestHeaders);
 
-            Assert.AreEqual("v1", anEvent.ApiVersion);
-            Assert.AreEqual("8ee793f6-4553-4749-85dc-f2ef095c5ab0", anEvent.Id);
-            Assert.AreEqual("2017-02-02T11:24:14.040+0100", anEvent.Created);
-            Assert.AreEqual("20000", anEvent.MerchantId);
-            Assert.AreEqual("payment.paid", anEvent.Type);
+            Assert.That(anEvent.ApiVersion, Is.EqualTo("v1"));
+            Assert.That(anEvent.Id, Is.EqualTo("8ee793f6-4553-4749-85dc-f2ef095c5ab0"));
+            Assert.That(anEvent.Created, Is.EqualTo("2017-02-02T11:24:14.040+0100"));
+            Assert.That(anEvent.MerchantId, Is.EqualTo("20000"));
+            Assert.That(anEvent.Type, Is.EqualTo("payment.paid"));
 
-            Assert.Null(anEvent.Refund);
-            Assert.Null(anEvent.Payout);
-            Assert.Null(anEvent.Token);
+            Assert.That(anEvent.Refund, Is.Null);
+            Assert.That(anEvent.Payout, Is.Null);
+            Assert.That(anEvent.Token, Is.Null);
 
-            Assert.NotNull(anEvent.Payment);
-            Assert.AreEqual("00000200000143570012", anEvent.Payment.Id);
-            Assert.NotNull(anEvent.Payment.PaymentOutput);
-            Assert.NotNull(anEvent.Payment.PaymentOutput.AmountOfMoney);
-            Assert.AreEqual(1000L, anEvent.Payment.PaymentOutput.AmountOfMoney.Amount);
-            Assert.AreEqual("EUR", anEvent.Payment.PaymentOutput.AmountOfMoney.CurrencyCode);
-            Assert.NotNull(anEvent.Payment.PaymentOutput.References);
-            Assert.AreEqual("200001681810", anEvent.Payment.PaymentOutput.References.PaymentReference);
-            Assert.AreEqual("bankTransfer", anEvent.Payment.PaymentOutput.PaymentMethod);
+            Assert.That(anEvent.Payment, Is.Not.Null);
+            Assert.That(anEvent.Payment.Id, Is.EqualTo("00000200000143570012"));
+            Assert.That(anEvent.Payment.PaymentOutput, Is.Not.Null);
+            Assert.That(anEvent.Payment.PaymentOutput.AmountOfMoney, Is.Not.Null);
+            Assert.That(anEvent.Payment.PaymentOutput.AmountOfMoney.Amount, Is.EqualTo(1000L));
+            Assert.That(anEvent.Payment.PaymentOutput.AmountOfMoney.CurrencyCode, Is.EqualTo("EUR"));
+            Assert.That(anEvent.Payment.PaymentOutput.References, Is.Not.Null);
+            Assert.That(anEvent.Payment.PaymentOutput.References.PaymentReference, Is.EqualTo("200001681810"));
+            Assert.That(anEvent.Payment.PaymentOutput.PaymentMethod, Is.EqualTo("bankTransfer"));
 
-            Assert.Null(anEvent.Payment.PaymentOutput.CardPaymentMethodSpecificOutput);
-            Assert.Null(anEvent.Payment.PaymentOutput.CashPaymentMethodSpecificOutput);
-            Assert.Null(anEvent.Payment.PaymentOutput.DirectDebitPaymentMethodSpecificOutput);
-            Assert.Null(anEvent.Payment.PaymentOutput.InvoicePaymentMethodSpecificOutput);
-            Assert.Null(anEvent.Payment.PaymentOutput.RedirectPaymentMethodSpecificOutput);
-            Assert.Null(anEvent.Payment.PaymentOutput.SepaDirectDebitPaymentMethodSpecificOutput);
-            Assert.NotNull(anEvent.Payment.PaymentOutput.BankTransferPaymentMethodSpecificOutput);
-            Assert.AreEqual(11, anEvent.Payment.PaymentOutput.BankTransferPaymentMethodSpecificOutput.PaymentProductId);
+            Assert.That(anEvent.Payment.PaymentOutput.CardPaymentMethodSpecificOutput, Is.Null);
+            Assert.That(anEvent.Payment.PaymentOutput.CashPaymentMethodSpecificOutput, Is.Null);
+            Assert.That(anEvent.Payment.PaymentOutput.DirectDebitPaymentMethodSpecificOutput, Is.Null);
+            Assert.That(anEvent.Payment.PaymentOutput.InvoicePaymentMethodSpecificOutput, Is.Null);
+            Assert.That(anEvent.Payment.PaymentOutput.RedirectPaymentMethodSpecificOutput, Is.Null);
+            Assert.That(anEvent.Payment.PaymentOutput.SepaDirectDebitPaymentMethodSpecificOutput, Is.Null);
+            Assert.That(anEvent.Payment.PaymentOutput.BankTransferPaymentMethodSpecificOutput, Is.Not.Null);
+            Assert.That(anEvent.Payment.PaymentOutput.BankTransferPaymentMethodSpecificOutput.PaymentProductId, Is.EqualTo(11));
 
-            Assert.AreEqual("PAID", anEvent.Payment.Status);
-            Assert.NotNull(anEvent.Payment.StatusOutput);
-            Assert.AreEqual(false, anEvent.Payment.StatusOutput.IsCancellable);
-            Assert.AreEqual("COMPLETED", anEvent.Payment.StatusOutput.StatusCategory);
-            Assert.AreEqual(1000, anEvent.Payment.StatusOutput.StatusCode);
-            Assert.AreEqual("20170202112414", anEvent.Payment.StatusOutput.StatusCodeChangeDateTime);
-            Assert.AreEqual(true, anEvent.Payment.StatusOutput.IsAuthorized);
+            Assert.That(anEvent.Payment.Status, Is.EqualTo("PAID"));
+            Assert.That(anEvent.Payment.StatusOutput, Is.Not.Null);
+            Assert.That(anEvent.Payment.StatusOutput.IsCancellable, Is.EqualTo(false));
+            Assert.That(anEvent.Payment.StatusOutput.StatusCategory, Is.EqualTo("COMPLETED"));
+            Assert.That(anEvent.Payment.StatusOutput.StatusCode, Is.EqualTo(1000));
+            Assert.That(anEvent.Payment.StatusOutput.StatusCodeChangeDateTime, Is.EqualTo("20170202112414"));
+            Assert.That(anEvent.Payment.StatusOutput.IsAuthorized, Is.EqualTo(true));
         }
 
         private static string Repeat(string s, int times)
@@ -204,20 +204,20 @@ namespace Worldline.Connect.Sdk.V1.Webhooks
             var signature = Guid.NewGuid().ToString();
             var large = Repeat(signature, 100);
 
-            Assert.False("abc".CompareWithoutTimingLeak(signature));
-            Assert.False(signature.CompareWithoutTimingLeak(signature + "1"));
-            Assert.False((signature + "1").CompareWithoutTimingLeak(signature));
-            Assert.False(signature.ToUpper().CompareWithoutTimingLeak(signature.ToLower()));
-            Assert.False(signature.ToLower().CompareWithoutTimingLeak(signature.ToUpper()));
+            Assert.That("abc".CompareWithoutTimingLeak(signature), Is.False);
+            Assert.That(signature.CompareWithoutTimingLeak(signature + "1"), Is.False);
+            Assert.That((signature + "1").CompareWithoutTimingLeak(signature), Is.False);
+            Assert.That(signature.ToUpper().CompareWithoutTimingLeak(signature.ToLower()), Is.False);
+            Assert.That(signature.ToLower().CompareWithoutTimingLeak(signature.ToUpper()), Is.False);
 
-            Assert.False("abc".CompareWithoutTimingLeak(large));
-            Assert.False(large.CompareWithoutTimingLeak(large + "1"));
-            Assert.False((large + "1").CompareWithoutTimingLeak(large));
-            Assert.False(large.ToUpper().CompareWithoutTimingLeak(large.ToLower()));
-            Assert.False(large.ToLower().CompareWithoutTimingLeak(large.ToUpper()));
+            Assert.That("abc".CompareWithoutTimingLeak(large), Is.False);
+            Assert.That(large.CompareWithoutTimingLeak(large + "1"), Is.False);
+            Assert.That((large + "1").CompareWithoutTimingLeak(large), Is.False);
+            Assert.That(large.ToUpper().CompareWithoutTimingLeak(large.ToLower()), Is.False);
+            Assert.That(large.ToLower().CompareWithoutTimingLeak(large.ToUpper()), Is.False);
 
-            Assert.False(large.CompareWithoutTimingLeak(signature));
-            Assert.False(signature.CompareWithoutTimingLeak(large));
+            Assert.That(large.CompareWithoutTimingLeak(signature), Is.False);
+            Assert.That(signature.CompareWithoutTimingLeak(large), Is.False);
         }
     }
 }

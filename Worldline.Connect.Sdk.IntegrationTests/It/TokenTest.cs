@@ -59,7 +59,7 @@ namespace Worldline.Connect.Sdk.It
                     .Tokens
                     .Create(createTokenRequest);
 
-                Assert.NotNull(createTokenResponse.Token);
+                Assert.That(createTokenResponse.Token, Is.Not.Null);
 
                 var deleteTokenRequest = new DeleteTokenParams();
 

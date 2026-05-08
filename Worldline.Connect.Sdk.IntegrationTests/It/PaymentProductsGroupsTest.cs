@@ -26,7 +26,7 @@ namespace Worldline.Connect.Sdk.It
                     .Productgroups
                     .Get("cards", lParams);
 
-                Assert.AreEqual("cards", response.Id);
+                Assert.That(response.Id, Is.EqualTo("cards"));
             }
         }
     }

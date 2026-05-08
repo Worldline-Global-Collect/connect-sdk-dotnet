@@ -504,21 +504,21 @@ namespace Worldline.Connect.Sdk.Communication
                 };
                 var response = await client.V1.WithNewMerchant("1234").Services.ConvertAmount(query);
 
-                Assert.NotNull(response);
-                Assert.NotNull(response.ConvertedAmount);
+                Assert.That(response, Is.Not.Null);
+                Assert.That(response.ConvertedAmount, Is.Not.Null);
             }
 
             Assert.That(logger.Entries, Has.Count.EqualTo(2));
 
             var requestEntry = logger.Entries.First();
 
-            Assert.NotNull(requestEntry.Message);
-            Assert.Null(requestEntry.Thrown);
+            Assert.That(requestEntry.Message, Is.Not.Null);
+            Assert.That(requestEntry.Thrown, Is.Null);
 
             var responseEntry = logger.Entries.ElementAt(1);
 
-            Assert.NotNull(responseEntry.Message);
-            Assert.Null(responseEntry.Thrown);
+            Assert.That(responseEntry.Message, Is.Not.Null);
+            Assert.That(responseEntry.Thrown, Is.Null);
 
             AssertRequestAndResponse(requestEntry.Message, responseEntry.Message, ConvertAmountRequest, ConvertAmountResponse);
         }
@@ -545,13 +545,13 @@ namespace Worldline.Connect.Sdk.Communication
 
             var requestEntry = logger.Entries.First();
 
-            Assert.NotNull(requestEntry.Message);
-            Assert.Null(requestEntry.Thrown);
+            Assert.That(requestEntry.Message, Is.Not.Null);
+            Assert.That(requestEntry.Thrown, Is.Null);
 
             var responseEntry = logger.Entries.ElementAt(1);
 
-            Assert.NotNull(responseEntry.Message);
-            Assert.Null(responseEntry.Thrown);
+            Assert.That(responseEntry.Message, Is.Not.Null);
+            Assert.That(responseEntry.Thrown, Is.Null);
 
             AssertRequestAndResponse(requestEntry.Message, responseEntry.Message, DeleteTokenRequest, DeleteTokenResponse);
         }
@@ -615,9 +615,9 @@ namespace Worldline.Connect.Sdk.Communication
 
                 var response = await client.V1.WithNewMerchant("1234").Payments.Create(request);
 
-                Assert.NotNull(response);
-                Assert.NotNull(response.Payment);
-                Assert.NotNull(response.Payment.Id);
+                Assert.That(response, Is.Not.Null);
+                Assert.That(response.Payment, Is.Not.Null);
+                Assert.That(response.Payment.Id, Is.Not.Null);
             }
             Assert.That(logger.Entries, Has.Count.EqualTo(2));
 
@@ -693,9 +693,9 @@ namespace Worldline.Connect.Sdk.Communication
 
                 var response = await client.V1.WithNewMerchant("1234").Payments.Create(request);
 
-                Assert.NotNull(response);
-                Assert.NotNull(response.Payment);
-                Assert.NotNull(response.Payment.Id);
+                Assert.That(response, Is.Not.Null);
+                Assert.That(response.Payment, Is.Not.Null);
+                Assert.That(response.Payment.Id, Is.Not.Null);
             }
             Assert.That(logger.Entries, Has.Count.EqualTo(2));
 
@@ -1043,13 +1043,13 @@ namespace Worldline.Connect.Sdk.Communication
 
             var requestEntry = logger.Entries.First();
 
-            Assert.NotNull(requestEntry.Message);
-            Assert.Null(requestEntry.Thrown);
+            Assert.That(requestEntry.Message, Is.Not.Null);
+            Assert.That(requestEntry.Thrown, Is.Null);
 
             var responseEntry = logger.Entries.ElementAt(1);
 
-            Assert.NotNull(responseEntry.Message);
-            Assert.Null(responseEntry.Thrown);
+            Assert.That(responseEntry.Message, Is.Not.Null);
+            Assert.That(responseEntry.Thrown, Is.Null);
 
             AssertRequestAndResponse(requestEntry.Message, responseEntry.Message, TestConnectionRequest, UnknownServerErrorResponse);
         }
@@ -1077,13 +1077,13 @@ namespace Worldline.Connect.Sdk.Communication
 
             var requestEntry = logger.Entries.First();
 
-            Assert.NotNull(requestEntry.Message);
-            Assert.Null(requestEntry.Thrown);
+            Assert.That(requestEntry.Message, Is.Not.Null);
+            Assert.That(requestEntry.Thrown, Is.Null);
 
             var responseEntry = logger.Entries.ElementAt(1);
 
-            Assert.NotNull(responseEntry.Message);
-            Assert.Null(responseEntry.Thrown);
+            Assert.That(responseEntry.Message, Is.Not.Null);
+            Assert.That(responseEntry.Thrown, Is.Null);
 
             AssertRequestAndResponse(requestEntry.Message, responseEntry.Message, TestConnectionRequest, NotFoundResponse);
         }
@@ -1112,13 +1112,13 @@ namespace Worldline.Connect.Sdk.Communication
             Assert.That(logger.Entries, Has.Count.EqualTo(2));
 
             var requestEntry = logger.Entries.First();
-            Assert.NotNull(requestEntry.Message);
-            Assert.Null(requestEntry.Thrown);
+            Assert.That(requestEntry.Message, Is.Not.Null);
+            Assert.That(requestEntry.Thrown, Is.Null);
 
             var errorEntry = logger.Entries.ElementAt(1);
 
-            Assert.NotNull(errorEntry.Message);
-            Assert.NotNull(errorEntry.Thrown);
+            Assert.That(errorEntry.Message, Is.Not.Null);
+            Assert.That(errorEntry.Thrown, Is.Not.Null);
 
             AssertRequestAndError(requestEntry.Message, errorEntry.Message, TestConnectionRequest);
         }
@@ -1142,15 +1142,15 @@ namespace Worldline.Connect.Sdk.Communication
 
                 var response = await client.V1.WithNewMerchant("1234").Services.Testconnection();
 
-                Assert.NotNull(response);
-                Assert.AreEqual("OK", response.Result);
+                Assert.That(response, Is.Not.Null);
+                Assert.That(response.Result, Is.EqualTo("OK"));
             }
 
             Assert.That(logger.Entries, Has.Count.EqualTo(1));
             var requestEntry = logger.Entries.First();
 
-            Assert.NotNull(requestEntry.Message);
-            Assert.Null(requestEntry.Thrown);
+            Assert.That(requestEntry.Message, Is.Not.Null);
+            Assert.That(requestEntry.Thrown, Is.Null);
 
             AssertRequest(requestEntry.Message, TestConnectionRequest);
         }
@@ -1172,16 +1172,16 @@ namespace Worldline.Connect.Sdk.Communication
             {
                 var response = await client.V1.WithNewMerchant("1234").Services.Testconnection();
 
-                Assert.NotNull(response);
-                Assert.AreEqual("OK", response.Result);
+                Assert.That(response, Is.Not.Null);
+                Assert.That(response.Result, Is.EqualTo("OK"));
             }
 
             Assert.That(logger.Entries, Has.Count.EqualTo(1));
 
             var requestEntry = logger.Entries.First();
 
-            Assert.NotNull(requestEntry.Message);
-            Assert.Null(requestEntry.Thrown);
+            Assert.That(requestEntry.Message, Is.Not.Null);
+            Assert.That(requestEntry.Thrown, Is.Null);
 
             AssertResponse(requestEntry.Message, TestConnectionResponse);
         }
@@ -1211,8 +1211,8 @@ namespace Worldline.Connect.Sdk.Communication
 
             var errorEntry = logger.Entries.First();
 
-            Assert.NotNull(errorEntry.Message);
-            Assert.NotNull(errorEntry.Thrown);
+            Assert.That(errorEntry.Message, Is.Not.Null);
+            Assert.That(errorEntry.Thrown, Is.Not.Null);
 
             AssertError(errorEntry.Message);
         }
@@ -1270,7 +1270,7 @@ namespace Worldline.Connect.Sdk.Communication
             var responseRequestId = responseMatch.Groups[1].Value;
             if (requestId != null)
             {
-                Assert.AreEqual(requestId, responseRequestId, "response requestId '" + responseRequestId + "' does not match request requestId '" + requestId + "'");
+                Assert.That(responseRequestId, Is.EqualTo(requestId), "response requestId '" + responseRequestId + "' does not match request requestId '" + requestId + "'");
             }
         }
 
@@ -1284,7 +1284,7 @@ namespace Worldline.Connect.Sdk.Communication
 
             if (requestId != null)
             {
-                Assert.AreEqual(errorRequestId, requestId, "error requestId '" + errorRequestId + "' does not match earlier requestId '" + requestId + "'");
+                Assert.That(errorRequestId, Is.EqualTo(requestId), "error requestId '" + errorRequestId + "' does not match earlier requestId '" + requestId + "'");
             }
         }
 

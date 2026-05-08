@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net45;netstandard2.0;netstandard2.1</TargetFrameworks>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Worldline.Connect.Sdk</RootNamespace>
-    <AssemblyVersion>5.7.0</AssemblyVersion>
-    <Version>5.7.0</Version>
+    <AssemblyVersion>6.0.0</AssemblyVersion>
+    <Version>6.0.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>Worldline Global Collect</Company>
     <Product>Worldline Connect .NET SDK</Product>
@@ -41,19 +41,11 @@
     <None Include="..\Worldline.Connect.Sdk.keypair.snk" />
   </ItemGroup>
 
-  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0' or '$(TargetFramework)' == 'netstandard2.1'">
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="NLog" Version="4.6.8" />
-    <PackageReference Include="System.Collections.Immutable" Version="1.7.0" />
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
-  </ItemGroup>
-
-  <ItemGroup Condition="'$(TargetFramework)' == 'net45'">
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="NLog" Version="4.3.7" />
-    <PackageReference Include="System.Collections.Immutable" Version="1.2.0" />
-    <Reference Include="System.Configuration" />
-    <Reference Include="System.Net.Http" />
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="[13.0.3, 14.0.0)" />
+    <PackageReference Include="NLog" Version="[4.6.8, 7.0.0)" />
+    <PackageReference Include="System.Collections.Immutable" Version="[1.7.0, 12.0.0)" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="[4.7.0, 12.0.0)" />
   </ItemGroup>
 
   <ItemGroup>

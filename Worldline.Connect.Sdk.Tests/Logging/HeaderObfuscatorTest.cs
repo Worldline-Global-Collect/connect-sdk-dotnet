@@ -53,21 +53,21 @@ namespace Worldline.Connect.Sdk.Logging
         {
             var obfuscatedValue = HeaderObfuscator.DefaultObfuscator.ObfuscateHeader(name, originalValue);
 
-            Assert.AreEqual(expectedObfuscatedValue, obfuscatedValue);
+            Assert.That(obfuscatedValue, Is.EqualTo(expectedObfuscatedValue));
         }
 
         private static void CheckObfuscateHeaderWithMatch(HeaderObfuscator headerObfuscator, string name, string originalValue, string expectedObfuscatedValue)
         {
             var obfuscatedValue = headerObfuscator.ObfuscateHeader(name, originalValue);
 
-            Assert.AreEqual(expectedObfuscatedValue, obfuscatedValue);
+            Assert.That(obfuscatedValue, Is.EqualTo(expectedObfuscatedValue));
         }
 
         private static void CheckObfuscateHeaderWithNoMatch(string name, string originalValue)
         {
             var obfuscatedValue = HeaderObfuscator.DefaultObfuscator.ObfuscateHeader(name, originalValue);
 
-            Assert.AreEqual(originalValue, obfuscatedValue);
+            Assert.That(obfuscatedValue, Is.EqualTo(originalValue));
         }
     }
 }

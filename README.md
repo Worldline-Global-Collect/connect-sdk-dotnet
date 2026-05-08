@@ -25,28 +25,13 @@ This repository consists out of four main components:
 
 ## Requirements
 
-The .NET SDK supports .NET Framework 4.5 and [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard) 2.0 and 2.1.
+The .NET SDK supports [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard) 2.0 and up.
+The following packages are required:
 
-### .NET Framework 4.5
-
-When using .NET Framework 4.5, the following packages are required:
-
-* [Json.NET](https://www.nuget.org/packages/Newtonsoft.Json/) 13.0.1 or higher
-* [NLog](https://www.nuget.org/packages/NLog/) 4.3.7 or higher
-* [System.Collections.Immutable](https://www.nuget.org/packages/System.Collections.Immutable/) 1.2.0 or higher
-
-In addition, the following references are required, which are part of the .NET Framework:
-* System.Configuration
-* System.Net.Http
-
-### .NET Standard 2.0 and 2.1
-
-When using .NET Standard 2.0 or 2.1, the following packages are required:
-
-* [Json.NET](https://www.nuget.org/packages/Newtonsoft.Json/) 13.0.1 or higher
+* [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/) 13.0.3 or higher
 * [NLog](https://www.nuget.org/packages/NLog/) 4.6.8 or higher
-* [System.Collections.Immutable](https://www.nuget.org/packages/System.Collections.Immutable/) 1.6.0 or higher
-* [System.Configuration.ConfigurationManager](https://www.nuget.org/packages/System.Configuration.ConfigurationManager/) 4.6.0 or higher
+* [System.Collections.Immutable](https://www.nuget.org/packages/System.Collections.Immutable/) 1.7.0 or higher
+* [System.Configuration.ConfigurationManager](https://www.nuget.org/packages/System.Configuration.ConfigurationManager/) 4.7.0 or higher
 
 ## Installation
 

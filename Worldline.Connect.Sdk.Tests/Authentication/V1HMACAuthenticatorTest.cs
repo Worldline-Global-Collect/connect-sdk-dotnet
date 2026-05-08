@@ -13,15 +13,15 @@ namespace Worldline.Connect.Sdk.Authentication
         [TestCase]
         public void TestToCanonicalizeHeaderValue()
         {
-            Assert.AreEqual("foo bar", V1HMACAuthenticator.ToCanonicalizeHeaderValue("foo\nbar  "));
-            Assert.AreEqual("foo bar", V1HMACAuthenticator.ToCanonicalizeHeaderValue(" foo\r\n  bar"));
+            Assert.That(V1HMACAuthenticator.ToCanonicalizeHeaderValue("foo\nbar  "), Is.EqualTo("foo bar"));
+            Assert.That(V1HMACAuthenticator.ToCanonicalizeHeaderValue(" foo\r\n  bar"), Is.EqualTo("foo bar"));
         }
 
         [TestCase]
         public void TestToCanonicalizeHeaderValue2()
         {
             var val1 = V1HMACAuthenticator.ToCanonicalizeHeaderValue(" some value  \r\n \n with  some \r\n  spaces ");
-            Assert.AreEqual("some value    with  some  spaces", val1);
+            Assert.That(val1, Is.EqualTo("some value    with  some  spaces"));
         }
 
         [TestCase]
@@ -40,8 +40,8 @@ namespace Worldline.Connect.Sdk.Authentication
             const string expectedStart = "POST\napplication/json\n";
             const string expectedEnd = "x-gcs-clientmetainfo:{\"foo\",\"bar\"}\nx-gcs-servermetainfo:{\"platformIdentifier\":\"Windows 7/6.1 Java/1.7 (Oracle Corporation; Java HotSpot(TM) 64-Bit Server VM; 1.7.0_45)\",\"sdkIdentifier\":\"1.0\"}\n/v1/9991/services%20bla/convert/amount?foo=bar&mies=no bar\n";
 
-            StringAssert.StartsWith(expectedStart, dataToSign);
-            StringAssert.EndsWith(expectedEnd, dataToSign);
+            Assert.That(dataToSign, Does.StartWith(expectedStart));
+            Assert.That(dataToSign, Does.EndWith(expectedEnd));
         }
 
         [TestCase]
@@ -53,7 +53,7 @@ namespace Worldline.Connect.Sdk.Authentication
 
             var authenticationSignature = authenticator.SignData(dataToSign);
 
-            Assert.AreEqual("VfnXpPBQQoHZivTcAg0JvOWkhnzlPnaCPKpTQn/uMJM=", authenticationSignature);
+            Assert.That(authenticationSignature, Is.EqualTo("VfnXpPBQQoHZivTcAg0JvOWkhnzlPnaCPKpTQn/uMJM="));
         }
 
         [TestCase]
@@ -65,7 +65,7 @@ namespace Worldline.Connect.Sdk.Authentication
 
             var authenticationSignature = authenticator.SignData(dataToSign);
 
-            Assert.AreEqual("9ond5EIN05dBXJGCLRK5om9pxHsyrh/12pZJ7bvmwNM=", authenticationSignature);
+            Assert.That(authenticationSignature, Is.EqualTo("9ond5EIN05dBXJGCLRK5om9pxHsyrh/12pZJ7bvmwNM="));
         }
 
         [TestCase]
@@ -78,7 +78,7 @@ namespace Worldline.Connect.Sdk.Authentication
                 new RequestHeader("Date", "Fri, 06 Jun 2014 13:39:43 GMT")
             };
             var signature = await authenticator.GetAuthorization(HttpMethod.Get, new Uri("http://api.connect.worldline-solutions.com:8080/v1/9991/tokens/123456789"), httpHeaders);
-            Assert.AreEqual("GCS v1HMAC:5e45c937b9db33ae:J5LjfSBvrQNhu7gG0gvifZt+IWNDReGCmHmBmth6ueI=", signature);
+            Assert.That(signature, Is.EqualTo("GCS v1HMAC:5e45c937b9db33ae:J5LjfSBvrQNhu7gG0gvifZt+IWNDReGCmHmBmth6ueI="));
         }
 
         [TestCase]
@@ -95,7 +95,7 @@ namespace Worldline.Connect.Sdk.Authentication
                 new RequestHeader("Date", "Fri, 06 Jun 2014 13:39:43 GMT")
             };
             var signature = await authenticator.GetAuthorization(HttpMethod.Delete, new Uri("http://api.connect.worldline-solutions.com:8080/v1/9991/tokens/123456789"), httpHeaders);
-            Assert.AreEqual("GCS v1HMAC:5e45c937b9db33ae:jGWLz3ouN4klE+SkqO5gO+KkbQNM06Rric7E3dcfmqw=", signature);
+            Assert.That(signature, Is.EqualTo("GCS v1HMAC:5e45c937b9db33ae:jGWLz3ouN4klE+SkqO5gO+KkbQNM06Rric7E3dcfmqw="));
         }
     }
 }
