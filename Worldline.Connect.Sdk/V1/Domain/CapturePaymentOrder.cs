@@ -19,6 +19,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <summary>
         /// Object containing shipping related data
         /// </summary>
-        public Shipping Shipping { get; set; }
+        public CapturePaymentShipping Shipping { get; set; }
     }
 }

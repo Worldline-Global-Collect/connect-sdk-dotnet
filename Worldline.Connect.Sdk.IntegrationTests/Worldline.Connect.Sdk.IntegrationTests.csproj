@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>Worldline.Connect.Sdk</RootNamespace>
-    <AssemblyVersion>6.0.0</AssemblyVersion>
-    <Version>6.0.0</Version>
+    <AssemblyVersion>7.0.0</AssemblyVersion>
+    <Version>7.0.0</Version>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Company>Worldline Global Collect</Company>
     <Product>Worldline Connect .NET SDK integration tests</Product>
