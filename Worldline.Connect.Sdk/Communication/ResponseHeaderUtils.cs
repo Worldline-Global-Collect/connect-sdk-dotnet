@@ -53,7 +53,7 @@ namespace Worldline.Connect.Sdk.Communication
             if ((filename.StartsWith("\"") && filename.EndsWith("\""))
                     || (filename.StartsWith("'") && filename.EndsWith("'")))
             {
-                return filename.Substring(1, filename.Length - 1);
+                return filename.Substring(1, filename.Length - 2);
             }
             return filename;
         }
