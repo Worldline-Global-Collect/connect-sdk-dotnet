@@ -9,6 +9,18 @@ namespace Worldline.Connect.Sdk.V1.Domain
     public class GetIINDetailsResponse
     {
         /// <summary>
+        /// Indicates the type or segments of consumer's BIN is issued. It helps to offer targeted benefits to the consumers, and helps to request exemption for additional authentications. The possible values are: 
+        /// <list type="bullet">
+        ///   <item><description>CONSUMER</description></item>
+        ///   <item><description>COMMERCIAL</description></item>
+        ///   <item><description>VIRTUAL</description></item>
+        ///   <item><description>ALL</description></item>
+        ///   <item><description>OTHER</description></item>
+        /// </list>
+        /// </summary>
+        public string BinProductType { get; set; }
+
+        /// <summary>
         /// Populated only if the card has multiple brands. A list with for every brand of the card, the payment product identifier associated with that brand, and if you submitted a payment context, whether that payment product is allowed in the context.
         /// </summary>
         public IList<IINDetail> CoBrands { get; set; }
@@ -26,6 +38,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// </list>
         /// </summary>
         public bool? IsAllowedInContext { get; set; }
+
+        /// <summary>
+        /// The name of the card issuer associated with the card.
+        /// </summary>
+        public string IssuerName { get; set; }
 
         /// <summary>
         /// The payment product identifier associated with the card. If the card has multiple brands, then we select the most appropriate payment product based on your configuration and the payment context, if you submitted one.
