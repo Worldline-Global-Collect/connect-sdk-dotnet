@@ -43,6 +43,13 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public bool? NetworkTokenUsed { get; set; }
 
         /// <summary>
+        /// The unique Mastercard transactionLinkId of the initial transaction. Strongly advised to be submitted for any merchantInitiated (unscheduledCardOnFileRequestor) or recurring transaction (recurringPaymentSequenceIndicator set to recurring or in case of a last recurring transaction to last).
+        /// <br />
+        /// <br />If the originalTransactionLinkId is empty, we will, where possible, apply the best available match.
+        /// </summary>
+        public string OriginalTransactionLinkId { get; set; }
+
+        /// <summary>
         /// A unique reference to the primary account number. Payment Account Reference provides a consolidated view of transactions associated with a PAN and its affiliated tokens, making it easier to identify customers and their associated transactions across payment channels.
         /// </summary>
         public string PaymentAccountReference { get; set; }
@@ -62,5 +69,13 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// If a token was used for or created during the payment, then the ID of that token.
         /// </summary>
         public string Token { get; set; }
+
+        /// <summary>
+        /// The unique Mastercard transactionLinkId of this transaction.
+        /// <br />Should be stored by you for a first cardholderInitiated (unscheduledCardOnFileRequestor) or zero-value authorization transaction.
+        /// <br />
+        /// <br />Use this value as the originalTransactionLinkId for any subsequent merchantInitiated (unscheduledCardOnFileRequestor) or recurring transaction (recurringPaymentSequenceIndicator set to recurring or in case of a last recurring transaction to last).
+        /// </summary>
+        public string TransactionLinkId { get; set; }
     }
 }

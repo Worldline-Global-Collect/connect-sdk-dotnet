@@ -12,6 +12,8 @@ namespace Worldline.Connect.Sdk.V1.Domain
 
         public string InitialSchemeTransactionId { get; set; }
 
+        public string OriginalTransactionLinkId { get; set; }
+
         public CardRecurrenceDetails Recurring { get; set; }
 
         public bool? RequiresApproval { get; set; }
