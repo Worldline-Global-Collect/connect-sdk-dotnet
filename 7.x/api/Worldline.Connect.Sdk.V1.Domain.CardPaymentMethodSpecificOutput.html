@@ -295,6 +295,32 @@
       </tr>
     </tbody>
   </table>
+  <a id="Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificOutput_OriginalTransactionLinkId_" data-uid="Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.OriginalTransactionLinkId*"></a>
+  <h4 id="Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificOutput_OriginalTransactionLinkId" data-uid="Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.OriginalTransactionLinkId">OriginalTransactionLinkId</h4>
+  <div class="markdown level1 summary"><p>The unique Mastercard transactionLinkId of the initial transaction. Strongly advised to be submitted for any merchantInitiated (unscheduledCardOnFileRequestor) or recurring transaction (recurringPaymentSequenceIndicator set to recurring or in case of a last recurring transaction to last).
+<br>
+<br>If the originalTransactionLinkId is empty, we will, where possible, apply the best available match.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string OriginalTransactionLinkId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificOutput_PaymentAccountReference_" data-uid="Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.PaymentAccountReference*"></a>
   <h4 id="Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificOutput_PaymentAccountReference" data-uid="Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.PaymentAccountReference">PaymentAccountReference</h4>
   <div class="markdown level1 summary"><p>A unique reference to the primary account number. Payment Account Reference provides a consolidated view of transactions associated with a PAN and its affiliated tokens, making it easier to identify customers and their associated transactions across payment channels.</p>
@@ -376,6 +402,33 @@
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string Token { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificOutput_TransactionLinkId_" data-uid="Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.TransactionLinkId*"></a>
+  <h4 id="Worldline_Connect_Sdk_V1_Domain_CardPaymentMethodSpecificOutput_TransactionLinkId" data-uid="Worldline.Connect.Sdk.V1.Domain.CardPaymentMethodSpecificOutput.TransactionLinkId">TransactionLinkId</h4>
+  <div class="markdown level1 summary"><p>The unique Mastercard transactionLinkId of this transaction.
+<br>Should be stored by you for a first cardholderInitiated (unscheduledCardOnFileRequestor) or zero-value authorization transaction.
+<br>
+<br>Use this value as the originalTransactionLinkId for any subsequent merchantInitiated (unscheduledCardOnFileRequestor) or recurring transaction (recurringPaymentSequenceIndicator set to recurring or in case of a last recurring transaction to last).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TransactionLinkId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
