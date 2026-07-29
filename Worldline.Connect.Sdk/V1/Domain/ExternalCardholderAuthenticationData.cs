@@ -70,7 +70,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public int? Eci { get; set; }
 
         /// <summary>
-        /// Global score calculated by the Carte Bancaire (130) Scoring platform. Possible values from 0 to 99.
+        /// Global score calculated by the Cartes Bancaires (130) Scoring platform. Possible values from 0 to 99.
         /// </summary>
         public int? SchemeRiskScore { get; set; }
 

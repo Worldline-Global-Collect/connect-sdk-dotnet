@@ -6,8 +6,8 @@ namespace Worldline.Connect.Sdk.V1.Domain
 {
     public class AbstractRedirectPaymentProduct838SpecificInput
     {
-        public string InteroperabilityData { get; set; }
+        public string NetworkData { get; set; }
 
-        public string InteroperabilityToken { get; set; }
+        public string NetworkSessionToken { get; set; }
     }
 }

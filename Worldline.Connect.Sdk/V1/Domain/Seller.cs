@@ -83,6 +83,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         ///   <item><description>citizen-ship</description></item>
         ///   <item><description>col-identity-card</description></item>
         ///   <item><description>alien-registration</description></item>
+        ///   <item><description>rfc</description></item>
         /// </list>
         /// </summary>
         public string Type { get; set; }
