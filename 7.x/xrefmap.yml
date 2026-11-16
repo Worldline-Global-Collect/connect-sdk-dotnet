@@ -13,18 +13,6 @@ references:
   commentId: T:Worldline.Connect.Sdk.ApiResource
   fullName: Worldline.Connect.Sdk.ApiResource
   nameWithType: ApiResource
-- uid: Worldline.Connect.Sdk.ApiResource._clientMetaInfo
-  name: _clientMetaInfo
-  href: api/Worldline.Connect.Sdk.ApiResource.html#Worldline_Connect_Sdk_ApiResource__clientMetaInfo
-  commentId: F:Worldline.Connect.Sdk.ApiResource._clientMetaInfo
-  fullName: Worldline.Connect.Sdk.ApiResource._clientMetaInfo
-  nameWithType: ApiResource._clientMetaInfo
-- uid: Worldline.Connect.Sdk.ApiResource._communicator
-  name: _communicator
-  href: api/Worldline.Connect.Sdk.ApiResource.html#Worldline_Connect_Sdk_ApiResource__communicator
-  commentId: F:Worldline.Connect.Sdk.ApiResource._communicator
-  fullName: Worldline.Connect.Sdk.ApiResource._communicator
-  nameWithType: ApiResource._communicator
 - uid: Worldline.Connect.Sdk.ApiResource.#ctor(Worldline.Connect.Sdk.ApiResource,System.Collections.Generic.IDictionary{System.String,System.String})
   name: ApiResource(ApiResource, IDictionary<string, string>)
   href: api/Worldline.Connect.Sdk.ApiResource.html#Worldline_Connect_Sdk_ApiResource__ctor_Worldline_Connect_Sdk_ApiResource_System_Collections_Generic_IDictionary_System_String_System_String__
@@ -82,6 +70,18 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.ApiResource.InstantiateUri
   nameWithType: ApiResource.InstantiateUri
+- uid: Worldline.Connect.Sdk.ApiResource._clientMetaInfo
+  name: _clientMetaInfo
+  href: api/Worldline.Connect.Sdk.ApiResource.html#Worldline_Connect_Sdk_ApiResource__clientMetaInfo
+  commentId: F:Worldline.Connect.Sdk.ApiResource._clientMetaInfo
+  fullName: Worldline.Connect.Sdk.ApiResource._clientMetaInfo
+  nameWithType: ApiResource._clientMetaInfo
+- uid: Worldline.Connect.Sdk.ApiResource._communicator
+  name: _communicator
+  href: api/Worldline.Connect.Sdk.ApiResource.html#Worldline_Connect_Sdk_ApiResource__communicator
+  commentId: F:Worldline.Connect.Sdk.ApiResource._communicator
+  fullName: Worldline.Connect.Sdk.ApiResource._communicator
+  nameWithType: ApiResource._communicator
 - uid: Worldline.Connect.Sdk.Authentication
   name: Worldline.Connect.Sdk.Authentication
   href: api/Worldline.Connect.Sdk.Authentication.html
@@ -207,15 +207,6 @@ references:
   fullName.vb: Worldline.Connect.Sdk.BodyHandlerException.New(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   nameWithType: BodyHandlerException.BodyHandlerException(SerializationInfo, StreamingContext)
   nameWithType.vb: BodyHandlerException.New(SerializationInfo, StreamingContext)
-- uid: Worldline.Connect.Sdk.BodyHandlerException.#ctor(System.String,System.Exception)
-  name: BodyHandlerException(string, Exception)
-  href: api/Worldline.Connect.Sdk.BodyHandlerException.html#Worldline_Connect_Sdk_BodyHandlerException__ctor_System_String_System_Exception_
-  commentId: M:Worldline.Connect.Sdk.BodyHandlerException.#ctor(System.String,System.Exception)
-  name.vb: New(String, Exception)
-  fullName: Worldline.Connect.Sdk.BodyHandlerException.BodyHandlerException(string, System.Exception)
-  fullName.vb: Worldline.Connect.Sdk.BodyHandlerException.New(String, System.Exception)
-  nameWithType: BodyHandlerException.BodyHandlerException(string, Exception)
-  nameWithType.vb: BodyHandlerException.New(String, Exception)
 - uid: Worldline.Connect.Sdk.BodyHandlerException.#ctor(System.String)
   name: BodyHandlerException(string)
   href: api/Worldline.Connect.Sdk.BodyHandlerException.html#Worldline_Connect_Sdk_BodyHandlerException__ctor_System_String_
@@ -225,6 +216,15 @@ references:
   fullName.vb: Worldline.Connect.Sdk.BodyHandlerException.New(String)
   nameWithType: BodyHandlerException.BodyHandlerException(string)
   nameWithType.vb: BodyHandlerException.New(String)
+- uid: Worldline.Connect.Sdk.BodyHandlerException.#ctor(System.String,System.Exception)
+  name: BodyHandlerException(string, Exception)
+  href: api/Worldline.Connect.Sdk.BodyHandlerException.html#Worldline_Connect_Sdk_BodyHandlerException__ctor_System_String_System_Exception_
+  commentId: M:Worldline.Connect.Sdk.BodyHandlerException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Worldline.Connect.Sdk.BodyHandlerException.BodyHandlerException(string, System.Exception)
+  fullName.vb: Worldline.Connect.Sdk.BodyHandlerException.New(String, System.Exception)
+  nameWithType: BodyHandlerException.BodyHandlerException(string, Exception)
+  nameWithType.vb: BodyHandlerException.New(String, Exception)
 - uid: Worldline.Connect.Sdk.BodyHandlerException.#ctor*
   name: BodyHandlerException
   href: api/Worldline.Connect.Sdk.BodyHandlerException.html#Worldline_Connect_Sdk_BodyHandlerException__ctor_
@@ -1840,15 +1840,6 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.Communicator.Get
   nameWithType: Communicator.Get
-- uid: Worldline.Connect.Sdk.Communicator.Get``1(System.String,System.Collections.Generic.IEnumerable{Worldline.Connect.Sdk.Communication.IRequestHeader},Worldline.Connect.Sdk.Communication.AbstractParamRequest,Worldline.Connect.Sdk.CallContext)
-  name: Get<T>(string, IEnumerable<IRequestHeader>, AbstractParamRequest, CallContext)
-  href: api/Worldline.Connect.Sdk.Communicator.html#Worldline_Connect_Sdk_Communicator_Get__1_System_String_System_Collections_Generic_IEnumerable_Worldline_Connect_Sdk_Communication_IRequestHeader__Worldline_Connect_Sdk_Communication_AbstractParamRequest_Worldline_Connect_Sdk_CallContext_
-  commentId: M:Worldline.Connect.Sdk.Communicator.Get``1(System.String,System.Collections.Generic.IEnumerable{Worldline.Connect.Sdk.Communication.IRequestHeader},Worldline.Connect.Sdk.Communication.AbstractParamRequest,Worldline.Connect.Sdk.CallContext)
-  name.vb: Get(Of T)(String, IEnumerable(Of IRequestHeader), AbstractParamRequest, CallContext)
-  fullName: Worldline.Connect.Sdk.Communicator.Get<T>(string, System.Collections.Generic.IEnumerable<Worldline.Connect.Sdk.Communication.IRequestHeader>, Worldline.Connect.Sdk.Communication.AbstractParamRequest, Worldline.Connect.Sdk.CallContext)
-  fullName.vb: Worldline.Connect.Sdk.Communicator.Get(Of T)(String, System.Collections.Generic.IEnumerable(Of Worldline.Connect.Sdk.Communication.IRequestHeader), Worldline.Connect.Sdk.Communication.AbstractParamRequest, Worldline.Connect.Sdk.CallContext)
-  nameWithType: Communicator.Get<T>(string, IEnumerable<IRequestHeader>, AbstractParamRequest, CallContext)
-  nameWithType.vb: Communicator.Get(Of T)(String, IEnumerable(Of IRequestHeader), AbstractParamRequest, CallContext)
 - uid: Worldline.Connect.Sdk.Communicator.GetHeaderDateString
   name: GetHeaderDateString()
   href: api/Worldline.Connect.Sdk.Communicator.html#Worldline_Connect_Sdk_Communicator_GetHeaderDateString
@@ -1878,6 +1869,15 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.Communicator.GetIdempotenceTimestamp
   nameWithType: Communicator.GetIdempotenceTimestamp
+- uid: Worldline.Connect.Sdk.Communicator.Get``1(System.String,System.Collections.Generic.IEnumerable{Worldline.Connect.Sdk.Communication.IRequestHeader},Worldline.Connect.Sdk.Communication.AbstractParamRequest,Worldline.Connect.Sdk.CallContext)
+  name: Get<T>(string, IEnumerable<IRequestHeader>, AbstractParamRequest, CallContext)
+  href: api/Worldline.Connect.Sdk.Communicator.html#Worldline_Connect_Sdk_Communicator_Get__1_System_String_System_Collections_Generic_IEnumerable_Worldline_Connect_Sdk_Communication_IRequestHeader__Worldline_Connect_Sdk_Communication_AbstractParamRequest_Worldline_Connect_Sdk_CallContext_
+  commentId: M:Worldline.Connect.Sdk.Communicator.Get``1(System.String,System.Collections.Generic.IEnumerable{Worldline.Connect.Sdk.Communication.IRequestHeader},Worldline.Connect.Sdk.Communication.AbstractParamRequest,Worldline.Connect.Sdk.CallContext)
+  name.vb: Get(Of T)(String, IEnumerable(Of IRequestHeader), AbstractParamRequest, CallContext)
+  fullName: Worldline.Connect.Sdk.Communicator.Get<T>(string, System.Collections.Generic.IEnumerable<Worldline.Connect.Sdk.Communication.IRequestHeader>, Worldline.Connect.Sdk.Communication.AbstractParamRequest, Worldline.Connect.Sdk.CallContext)
+  fullName.vb: Worldline.Connect.Sdk.Communicator.Get(Of T)(String, System.Collections.Generic.IEnumerable(Of Worldline.Connect.Sdk.Communication.IRequestHeader), Worldline.Connect.Sdk.Communication.AbstractParamRequest, Worldline.Connect.Sdk.CallContext)
+  nameWithType: Communicator.Get<T>(string, IEnumerable<IRequestHeader>, AbstractParamRequest, CallContext)
+  nameWithType.vb: Communicator.Get(Of T)(String, IEnumerable(Of IRequestHeader), AbstractParamRequest, CallContext)
 - uid: Worldline.Connect.Sdk.Communicator.HeaderObfuscator
   name: HeaderObfuscator
   href: api/Worldline.Connect.Sdk.Communicator.html#Worldline_Connect_Sdk_Communicator_HeaderObfuscator
@@ -2555,15 +2555,6 @@ references:
   commentId: T:Worldline.Connect.Sdk.Domain.ShoppingCartExtension
   fullName: Worldline.Connect.Sdk.Domain.ShoppingCartExtension
   nameWithType: ShoppingCartExtension
-- uid: Worldline.Connect.Sdk.Domain.ShoppingCartExtension.#ctor(System.String,System.String,System.String,System.String)
-  name: ShoppingCartExtension(string, string, string, string)
-  href: api/Worldline.Connect.Sdk.Domain.ShoppingCartExtension.html#Worldline_Connect_Sdk_Domain_ShoppingCartExtension__ctor_System_String_System_String_System_String_System_String_
-  commentId: M:Worldline.Connect.Sdk.Domain.ShoppingCartExtension.#ctor(System.String,System.String,System.String,System.String)
-  name.vb: New(String, String, String, String)
-  fullName: Worldline.Connect.Sdk.Domain.ShoppingCartExtension.ShoppingCartExtension(string, string, string, string)
-  fullName.vb: Worldline.Connect.Sdk.Domain.ShoppingCartExtension.New(String, String, String, String)
-  nameWithType: ShoppingCartExtension.ShoppingCartExtension(string, string, string, string)
-  nameWithType.vb: ShoppingCartExtension.New(String, String, String, String)
 - uid: Worldline.Connect.Sdk.Domain.ShoppingCartExtension.#ctor(System.String,System.String,System.String)
   name: ShoppingCartExtension(string, string, string)
   href: api/Worldline.Connect.Sdk.Domain.ShoppingCartExtension.html#Worldline_Connect_Sdk_Domain_ShoppingCartExtension__ctor_System_String_System_String_System_String_
@@ -2573,6 +2564,15 @@ references:
   fullName.vb: Worldline.Connect.Sdk.Domain.ShoppingCartExtension.New(String, String, String)
   nameWithType: ShoppingCartExtension.ShoppingCartExtension(string, string, string)
   nameWithType.vb: ShoppingCartExtension.New(String, String, String)
+- uid: Worldline.Connect.Sdk.Domain.ShoppingCartExtension.#ctor(System.String,System.String,System.String,System.String)
+  name: ShoppingCartExtension(string, string, string, string)
+  href: api/Worldline.Connect.Sdk.Domain.ShoppingCartExtension.html#Worldline_Connect_Sdk_Domain_ShoppingCartExtension__ctor_System_String_System_String_System_String_System_String_
+  commentId: M:Worldline.Connect.Sdk.Domain.ShoppingCartExtension.#ctor(System.String,System.String,System.String,System.String)
+  name.vb: New(String, String, String, String)
+  fullName: Worldline.Connect.Sdk.Domain.ShoppingCartExtension.ShoppingCartExtension(string, string, string, string)
+  fullName.vb: Worldline.Connect.Sdk.Domain.ShoppingCartExtension.New(String, String, String, String)
+  nameWithType: ShoppingCartExtension.ShoppingCartExtension(string, string, string, string)
+  nameWithType.vb: ShoppingCartExtension.New(String, String, String, String)
 - uid: Worldline.Connect.Sdk.Domain.ShoppingCartExtension.#ctor*
   name: ShoppingCartExtension
   href: api/Worldline.Connect.Sdk.Domain.ShoppingCartExtension.html#Worldline_Connect_Sdk_Domain_ShoppingCartExtension__ctor_
@@ -3284,15 +3284,6 @@ references:
   commentId: T:Worldline.Connect.Sdk.Logging.ICommunicatorLogger
   fullName: Worldline.Connect.Sdk.Logging.ICommunicatorLogger
   nameWithType: ICommunicatorLogger
-- uid: Worldline.Connect.Sdk.Logging.ICommunicatorLogger.Log(System.String,System.Exception)
-  name: Log(string, Exception)
-  href: api/Worldline.Connect.Sdk.Logging.ICommunicatorLogger.html#Worldline_Connect_Sdk_Logging_ICommunicatorLogger_Log_System_String_System_Exception_
-  commentId: M:Worldline.Connect.Sdk.Logging.ICommunicatorLogger.Log(System.String,System.Exception)
-  name.vb: Log(String, Exception)
-  fullName: Worldline.Connect.Sdk.Logging.ICommunicatorLogger.Log(string, System.Exception)
-  fullName.vb: Worldline.Connect.Sdk.Logging.ICommunicatorLogger.Log(String, System.Exception)
-  nameWithType: ICommunicatorLogger.Log(string, Exception)
-  nameWithType.vb: ICommunicatorLogger.Log(String, Exception)
 - uid: Worldline.Connect.Sdk.Logging.ICommunicatorLogger.Log(System.String)
   name: Log(string)
   href: api/Worldline.Connect.Sdk.Logging.ICommunicatorLogger.html#Worldline_Connect_Sdk_Logging_ICommunicatorLogger_Log_System_String_
@@ -3302,6 +3293,15 @@ references:
   fullName.vb: Worldline.Connect.Sdk.Logging.ICommunicatorLogger.Log(String)
   nameWithType: ICommunicatorLogger.Log(string)
   nameWithType.vb: ICommunicatorLogger.Log(String)
+- uid: Worldline.Connect.Sdk.Logging.ICommunicatorLogger.Log(System.String,System.Exception)
+  name: Log(string, Exception)
+  href: api/Worldline.Connect.Sdk.Logging.ICommunicatorLogger.html#Worldline_Connect_Sdk_Logging_ICommunicatorLogger_Log_System_String_System_Exception_
+  commentId: M:Worldline.Connect.Sdk.Logging.ICommunicatorLogger.Log(System.String,System.Exception)
+  name.vb: Log(String, Exception)
+  fullName: Worldline.Connect.Sdk.Logging.ICommunicatorLogger.Log(string, System.Exception)
+  fullName.vb: Worldline.Connect.Sdk.Logging.ICommunicatorLogger.Log(String, System.Exception)
+  nameWithType: ICommunicatorLogger.Log(string, Exception)
+  nameWithType.vb: ICommunicatorLogger.Log(String, Exception)
 - uid: Worldline.Connect.Sdk.Logging.ICommunicatorLogger.Log*
   name: Log
   href: api/Worldline.Connect.Sdk.Logging.ICommunicatorLogger.html#Worldline_Connect_Sdk_Logging_ICommunicatorLogger_Log_
@@ -3572,15 +3572,6 @@ references:
   commentId: T:Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger
   fullName: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger
   nameWithType: NLogCommunicatorLogger
-- uid: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.#ctor(NLog.ILogger,NLog.LogLevel,NLog.LogLevel)
-  name: NLogCommunicatorLogger(ILogger, LogLevel, LogLevel)
-  href: api/Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.html#Worldline_Connect_Sdk_Logging_NLogCommunicatorLogger__ctor_NLog_ILogger_NLog_LogLevel_NLog_LogLevel_
-  commentId: M:Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.#ctor(NLog.ILogger,NLog.LogLevel,NLog.LogLevel)
-  name.vb: New(ILogger, LogLevel, LogLevel)
-  fullName: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.NLogCommunicatorLogger(NLog.ILogger, NLog.LogLevel, NLog.LogLevel)
-  fullName.vb: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.New(NLog.ILogger, NLog.LogLevel, NLog.LogLevel)
-  nameWithType: NLogCommunicatorLogger.NLogCommunicatorLogger(ILogger, LogLevel, LogLevel)
-  nameWithType.vb: NLogCommunicatorLogger.New(ILogger, LogLevel, LogLevel)
 - uid: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.#ctor(NLog.ILogger,NLog.LogLevel)
   name: NLogCommunicatorLogger(ILogger, LogLevel)
   href: api/Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.html#Worldline_Connect_Sdk_Logging_NLogCommunicatorLogger__ctor_NLog_ILogger_NLog_LogLevel_
@@ -3590,6 +3581,15 @@ references:
   fullName.vb: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.New(NLog.ILogger, NLog.LogLevel)
   nameWithType: NLogCommunicatorLogger.NLogCommunicatorLogger(ILogger, LogLevel)
   nameWithType.vb: NLogCommunicatorLogger.New(ILogger, LogLevel)
+- uid: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.#ctor(NLog.ILogger,NLog.LogLevel,NLog.LogLevel)
+  name: NLogCommunicatorLogger(ILogger, LogLevel, LogLevel)
+  href: api/Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.html#Worldline_Connect_Sdk_Logging_NLogCommunicatorLogger__ctor_NLog_ILogger_NLog_LogLevel_NLog_LogLevel_
+  commentId: M:Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.#ctor(NLog.ILogger,NLog.LogLevel,NLog.LogLevel)
+  name.vb: New(ILogger, LogLevel, LogLevel)
+  fullName: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.NLogCommunicatorLogger(NLog.ILogger, NLog.LogLevel, NLog.LogLevel)
+  fullName.vb: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.New(NLog.ILogger, NLog.LogLevel, NLog.LogLevel)
+  nameWithType: NLogCommunicatorLogger.NLogCommunicatorLogger(ILogger, LogLevel, LogLevel)
+  nameWithType.vb: NLogCommunicatorLogger.New(ILogger, LogLevel, LogLevel)
 - uid: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.#ctor*
   name: NLogCommunicatorLogger
   href: api/Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.html#Worldline_Connect_Sdk_Logging_NLogCommunicatorLogger__ctor_
@@ -3600,15 +3600,6 @@ references:
   fullName.vb: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.New
   nameWithType: NLogCommunicatorLogger.NLogCommunicatorLogger
   nameWithType.vb: NLogCommunicatorLogger.New
-- uid: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.Log(System.String,System.Exception)
-  name: Log(string, Exception)
-  href: api/Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.html#Worldline_Connect_Sdk_Logging_NLogCommunicatorLogger_Log_System_String_System_Exception_
-  commentId: M:Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.Log(System.String,System.Exception)
-  name.vb: Log(String, Exception)
-  fullName: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.Log(string, System.Exception)
-  fullName.vb: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.Log(String, System.Exception)
-  nameWithType: NLogCommunicatorLogger.Log(string, Exception)
-  nameWithType.vb: NLogCommunicatorLogger.Log(String, Exception)
 - uid: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.Log(System.String)
   name: Log(string)
   href: api/Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.html#Worldline_Connect_Sdk_Logging_NLogCommunicatorLogger_Log_System_String_
@@ -3618,6 +3609,15 @@ references:
   fullName.vb: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.Log(String)
   nameWithType: NLogCommunicatorLogger.Log(string)
   nameWithType.vb: NLogCommunicatorLogger.Log(String)
+- uid: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.Log(System.String,System.Exception)
+  name: Log(string, Exception)
+  href: api/Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.html#Worldline_Connect_Sdk_Logging_NLogCommunicatorLogger_Log_System_String_System_Exception_
+  commentId: M:Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.Log(System.String,System.Exception)
+  name.vb: Log(String, Exception)
+  fullName: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.Log(string, System.Exception)
+  fullName.vb: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.Log(String, System.Exception)
+  nameWithType: NLogCommunicatorLogger.Log(string, Exception)
+  nameWithType.vb: NLogCommunicatorLogger.Log(String, Exception)
 - uid: Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.Log*
   name: Log
   href: api/Worldline.Connect.Sdk.Logging.NLogCommunicatorLogger.html#Worldline_Connect_Sdk_Logging_NLogCommunicatorLogger_Log_
@@ -3732,15 +3732,6 @@ references:
   commentId: F:Worldline.Connect.Sdk.Logging.SystemConsoleCommunicatorLogger.Instance
   fullName: Worldline.Connect.Sdk.Logging.SystemConsoleCommunicatorLogger.Instance
   nameWithType: SystemConsoleCommunicatorLogger.Instance
-- uid: Worldline.Connect.Sdk.Logging.SystemConsoleCommunicatorLogger.Log(System.String,System.Exception)
-  name: Log(string, Exception)
-  href: api/Worldline.Connect.Sdk.Logging.SystemConsoleCommunicatorLogger.html#Worldline_Connect_Sdk_Logging_SystemConsoleCommunicatorLogger_Log_System_String_System_Exception_
-  commentId: M:Worldline.Connect.Sdk.Logging.SystemConsoleCommunicatorLogger.Log(System.String,System.Exception)
-  name.vb: Log(String, Exception)
-  fullName: Worldline.Connect.Sdk.Logging.SystemConsoleCommunicatorLogger.Log(string, System.Exception)
-  fullName.vb: Worldline.Connect.Sdk.Logging.SystemConsoleCommunicatorLogger.Log(String, System.Exception)
-  nameWithType: SystemConsoleCommunicatorLogger.Log(string, Exception)
-  nameWithType.vb: SystemConsoleCommunicatorLogger.Log(String, Exception)
 - uid: Worldline.Connect.Sdk.Logging.SystemConsoleCommunicatorLogger.Log(System.String)
   name: Log(string)
   href: api/Worldline.Connect.Sdk.Logging.SystemConsoleCommunicatorLogger.html#Worldline_Connect_Sdk_Logging_SystemConsoleCommunicatorLogger_Log_System_String_
@@ -3750,6 +3741,15 @@ references:
   fullName.vb: Worldline.Connect.Sdk.Logging.SystemConsoleCommunicatorLogger.Log(String)
   nameWithType: SystemConsoleCommunicatorLogger.Log(string)
   nameWithType.vb: SystemConsoleCommunicatorLogger.Log(String)
+- uid: Worldline.Connect.Sdk.Logging.SystemConsoleCommunicatorLogger.Log(System.String,System.Exception)
+  name: Log(string, Exception)
+  href: api/Worldline.Connect.Sdk.Logging.SystemConsoleCommunicatorLogger.html#Worldline_Connect_Sdk_Logging_SystemConsoleCommunicatorLogger_Log_System_String_System_Exception_
+  commentId: M:Worldline.Connect.Sdk.Logging.SystemConsoleCommunicatorLogger.Log(System.String,System.Exception)
+  name.vb: Log(String, Exception)
+  fullName: Worldline.Connect.Sdk.Logging.SystemConsoleCommunicatorLogger.Log(string, System.Exception)
+  fullName.vb: Worldline.Connect.Sdk.Logging.SystemConsoleCommunicatorLogger.Log(String, System.Exception)
+  nameWithType: SystemConsoleCommunicatorLogger.Log(string, Exception)
+  nameWithType.vb: SystemConsoleCommunicatorLogger.Log(String, Exception)
 - uid: Worldline.Connect.Sdk.Logging.SystemConsoleCommunicatorLogger.Log*
   name: Log
   href: api/Worldline.Connect.Sdk.Logging.SystemConsoleCommunicatorLogger.html#Worldline_Connect_Sdk_Logging_SystemConsoleCommunicatorLogger_Log_
@@ -4095,6 +4095,103 @@ references:
   commentId: N:Worldline.Connect.Sdk.V1.Domain
   fullName: Worldline.Connect.Sdk.V1.Domain
   nameWithType: Worldline.Connect.Sdk.V1.Domain
+- uid: Worldline.Connect.Sdk.V1.Domain.APIError
+  name: APIError
+  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.APIError
+  fullName: Worldline.Connect.Sdk.V1.Domain.APIError
+  nameWithType: APIError
+- uid: Worldline.Connect.Sdk.V1.Domain.APIError.Category
+  name: Category
+  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_Category
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.APIError.Category
+  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.Category
+  nameWithType: APIError.Category
+- uid: Worldline.Connect.Sdk.V1.Domain.APIError.Category*
+  name: Category
+  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_Category_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.APIError.Category
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.Category
+  nameWithType: APIError.Category
+- uid: Worldline.Connect.Sdk.V1.Domain.APIError.Code
+  name: Code
+  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_Code
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.APIError.Code
+  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.Code
+  nameWithType: APIError.Code
+- uid: Worldline.Connect.Sdk.V1.Domain.APIError.Code*
+  name: Code
+  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_Code_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.APIError.Code
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.Code
+  nameWithType: APIError.Code
+- uid: Worldline.Connect.Sdk.V1.Domain.APIError.HttpStatusCode
+  name: HttpStatusCode
+  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_HttpStatusCode
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.APIError.HttpStatusCode
+  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.HttpStatusCode
+  nameWithType: APIError.HttpStatusCode
+- uid: Worldline.Connect.Sdk.V1.Domain.APIError.HttpStatusCode*
+  name: HttpStatusCode
+  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_HttpStatusCode_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.APIError.HttpStatusCode
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.HttpStatusCode
+  nameWithType: APIError.HttpStatusCode
+- uid: Worldline.Connect.Sdk.V1.Domain.APIError.Id
+  name: Id
+  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_Id
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.APIError.Id
+  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.Id
+  nameWithType: APIError.Id
+- uid: Worldline.Connect.Sdk.V1.Domain.APIError.Id*
+  name: Id
+  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_Id_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.APIError.Id
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.Id
+  nameWithType: APIError.Id
+- uid: Worldline.Connect.Sdk.V1.Domain.APIError.Message
+  name: Message
+  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_Message
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.APIError.Message
+  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.Message
+  nameWithType: APIError.Message
+- uid: Worldline.Connect.Sdk.V1.Domain.APIError.Message*
+  name: Message
+  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_Message_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.APIError.Message
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.Message
+  nameWithType: APIError.Message
+- uid: Worldline.Connect.Sdk.V1.Domain.APIError.PropertyName
+  name: PropertyName
+  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_PropertyName
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.APIError.PropertyName
+  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.PropertyName
+  nameWithType: APIError.PropertyName
+- uid: Worldline.Connect.Sdk.V1.Domain.APIError.PropertyName*
+  name: PropertyName
+  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_PropertyName_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.APIError.PropertyName
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.PropertyName
+  nameWithType: APIError.PropertyName
+- uid: Worldline.Connect.Sdk.V1.Domain.APIError.RequestId
+  name: RequestId
+  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_RequestId
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.APIError.RequestId
+  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.RequestId
+  nameWithType: APIError.RequestId
+- uid: Worldline.Connect.Sdk.V1.Domain.APIError.RequestId*
+  name: RequestId
+  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_RequestId_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.APIError.RequestId
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.RequestId
+  nameWithType: APIError.RequestId
 - uid: Worldline.Connect.Sdk.V1.Domain.AbstractBankTransferPaymentMethodSpecificInput
   name: AbstractBankTransferPaymentMethodSpecificInput
   href: api/Worldline.Connect.Sdk.V1.Domain.AbstractBankTransferPaymentMethodSpecificInput.html
@@ -5524,19 +5621,6 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.AirlineData.IsRestrictedTicket
   nameWithType: AirlineData.IsRestrictedTicket
-- uid: Worldline.Connect.Sdk.V1.Domain.AirlineData.IssueDate
-  name: IssueDate
-  href: api/Worldline.Connect.Sdk.V1.Domain.AirlineData.html#Worldline_Connect_Sdk_V1_Domain_AirlineData_IssueDate
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.AirlineData.IssueDate
-  fullName: Worldline.Connect.Sdk.V1.Domain.AirlineData.IssueDate
-  nameWithType: AirlineData.IssueDate
-- uid: Worldline.Connect.Sdk.V1.Domain.AirlineData.IssueDate*
-  name: IssueDate
-  href: api/Worldline.Connect.Sdk.V1.Domain.AirlineData.html#Worldline_Connect_Sdk_V1_Domain_AirlineData_IssueDate_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.AirlineData.IssueDate
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.AirlineData.IssueDate
-  nameWithType: AirlineData.IssueDate
 - uid: Worldline.Connect.Sdk.V1.Domain.AirlineData.IsThirdParty
   name: IsThirdParty
   href: api/Worldline.Connect.Sdk.V1.Domain.AirlineData.html#Worldline_Connect_Sdk_V1_Domain_AirlineData_IsThirdParty
@@ -5550,6 +5634,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.AirlineData.IsThirdParty
   nameWithType: AirlineData.IsThirdParty
+- uid: Worldline.Connect.Sdk.V1.Domain.AirlineData.IssueDate
+  name: IssueDate
+  href: api/Worldline.Connect.Sdk.V1.Domain.AirlineData.html#Worldline_Connect_Sdk_V1_Domain_AirlineData_IssueDate
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.AirlineData.IssueDate
+  fullName: Worldline.Connect.Sdk.V1.Domain.AirlineData.IssueDate
+  nameWithType: AirlineData.IssueDate
+- uid: Worldline.Connect.Sdk.V1.Domain.AirlineData.IssueDate*
+  name: IssueDate
+  href: api/Worldline.Connect.Sdk.V1.Domain.AirlineData.html#Worldline_Connect_Sdk_V1_Domain_AirlineData_IssueDate_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.AirlineData.IssueDate
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.AirlineData.IssueDate
+  nameWithType: AirlineData.IssueDate
 - uid: Worldline.Connect.Sdk.V1.Domain.AirlineData.MerchantCustomerId
   name: MerchantCustomerId
   href: api/Worldline.Connect.Sdk.V1.Domain.AirlineData.html#Worldline_Connect_Sdk_V1_Domain_AirlineData_MerchantCustomerId
@@ -6133,103 +6230,6 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.AmountOfMoney.CurrencyCode
   nameWithType: AmountOfMoney.CurrencyCode
-- uid: Worldline.Connect.Sdk.V1.Domain.APIError
-  name: APIError
-  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html
-  commentId: T:Worldline.Connect.Sdk.V1.Domain.APIError
-  fullName: Worldline.Connect.Sdk.V1.Domain.APIError
-  nameWithType: APIError
-- uid: Worldline.Connect.Sdk.V1.Domain.APIError.Category
-  name: Category
-  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_Category
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.APIError.Category
-  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.Category
-  nameWithType: APIError.Category
-- uid: Worldline.Connect.Sdk.V1.Domain.APIError.Category*
-  name: Category
-  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_Category_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.APIError.Category
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.Category
-  nameWithType: APIError.Category
-- uid: Worldline.Connect.Sdk.V1.Domain.APIError.Code
-  name: Code
-  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_Code
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.APIError.Code
-  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.Code
-  nameWithType: APIError.Code
-- uid: Worldline.Connect.Sdk.V1.Domain.APIError.Code*
-  name: Code
-  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_Code_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.APIError.Code
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.Code
-  nameWithType: APIError.Code
-- uid: Worldline.Connect.Sdk.V1.Domain.APIError.HttpStatusCode
-  name: HttpStatusCode
-  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_HttpStatusCode
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.APIError.HttpStatusCode
-  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.HttpStatusCode
-  nameWithType: APIError.HttpStatusCode
-- uid: Worldline.Connect.Sdk.V1.Domain.APIError.HttpStatusCode*
-  name: HttpStatusCode
-  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_HttpStatusCode_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.APIError.HttpStatusCode
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.HttpStatusCode
-  nameWithType: APIError.HttpStatusCode
-- uid: Worldline.Connect.Sdk.V1.Domain.APIError.Id
-  name: Id
-  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_Id
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.APIError.Id
-  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.Id
-  nameWithType: APIError.Id
-- uid: Worldline.Connect.Sdk.V1.Domain.APIError.Id*
-  name: Id
-  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_Id_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.APIError.Id
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.Id
-  nameWithType: APIError.Id
-- uid: Worldline.Connect.Sdk.V1.Domain.APIError.Message
-  name: Message
-  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_Message
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.APIError.Message
-  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.Message
-  nameWithType: APIError.Message
-- uid: Worldline.Connect.Sdk.V1.Domain.APIError.Message*
-  name: Message
-  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_Message_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.APIError.Message
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.Message
-  nameWithType: APIError.Message
-- uid: Worldline.Connect.Sdk.V1.Domain.APIError.PropertyName
-  name: PropertyName
-  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_PropertyName
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.APIError.PropertyName
-  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.PropertyName
-  nameWithType: APIError.PropertyName
-- uid: Worldline.Connect.Sdk.V1.Domain.APIError.PropertyName*
-  name: PropertyName
-  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_PropertyName_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.APIError.PropertyName
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.PropertyName
-  nameWithType: APIError.PropertyName
-- uid: Worldline.Connect.Sdk.V1.Domain.APIError.RequestId
-  name: RequestId
-  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_RequestId
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.APIError.RequestId
-  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.RequestId
-  nameWithType: APIError.RequestId
-- uid: Worldline.Connect.Sdk.V1.Domain.APIError.RequestId*
-  name: RequestId
-  href: api/Worldline.Connect.Sdk.V1.Domain.APIError.html#Worldline_Connect_Sdk_V1_Domain_APIError_RequestId_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.APIError.RequestId
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.APIError.RequestId
-  nameWithType: APIError.RequestId
 - uid: Worldline.Connect.Sdk.V1.Domain.ApprovePaymentCardPaymentMethodSpecificOutput
   name: ApprovePaymentCardPaymentMethodSpecificOutput
   href: api/Worldline.Connect.Sdk.V1.Domain.ApprovePaymentCardPaymentMethodSpecificOutput.html
@@ -7536,25 +7536,6 @@ references:
   commentId: T:Worldline.Connect.Sdk.V1.Domain.CaptureResponse
   fullName: Worldline.Connect.Sdk.V1.Domain.CaptureResponse
   nameWithType: CaptureResponse
-- uid: Worldline.Connect.Sdk.V1.Domain.CapturesResponse
-  name: CapturesResponse
-  href: api/Worldline.Connect.Sdk.V1.Domain.CapturesResponse.html
-  commentId: T:Worldline.Connect.Sdk.V1.Domain.CapturesResponse
-  fullName: Worldline.Connect.Sdk.V1.Domain.CapturesResponse
-  nameWithType: CapturesResponse
-- uid: Worldline.Connect.Sdk.V1.Domain.CapturesResponse.Captures
-  name: Captures
-  href: api/Worldline.Connect.Sdk.V1.Domain.CapturesResponse.html#Worldline_Connect_Sdk_V1_Domain_CapturesResponse_Captures
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.CapturesResponse.Captures
-  fullName: Worldline.Connect.Sdk.V1.Domain.CapturesResponse.Captures
-  nameWithType: CapturesResponse.Captures
-- uid: Worldline.Connect.Sdk.V1.Domain.CapturesResponse.Captures*
-  name: Captures
-  href: api/Worldline.Connect.Sdk.V1.Domain.CapturesResponse.html#Worldline_Connect_Sdk_V1_Domain_CapturesResponse_Captures_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CapturesResponse.Captures
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.CapturesResponse.Captures
-  nameWithType: CapturesResponse.Captures
 - uid: Worldline.Connect.Sdk.V1.Domain.CaptureStatusOutput
   name: CaptureStatusOutput
   href: api/Worldline.Connect.Sdk.V1.Domain.CaptureStatusOutput.html
@@ -7639,6 +7620,25 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.CaptureStatusOutput.StatusCodeChangeDateTime
   nameWithType: CaptureStatusOutput.StatusCodeChangeDateTime
+- uid: Worldline.Connect.Sdk.V1.Domain.CapturesResponse
+  name: CapturesResponse
+  href: api/Worldline.Connect.Sdk.V1.Domain.CapturesResponse.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.CapturesResponse
+  fullName: Worldline.Connect.Sdk.V1.Domain.CapturesResponse
+  nameWithType: CapturesResponse
+- uid: Worldline.Connect.Sdk.V1.Domain.CapturesResponse.Captures
+  name: Captures
+  href: api/Worldline.Connect.Sdk.V1.Domain.CapturesResponse.html#Worldline_Connect_Sdk_V1_Domain_CapturesResponse_Captures
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CapturesResponse.Captures
+  fullName: Worldline.Connect.Sdk.V1.Domain.CapturesResponse.Captures
+  nameWithType: CapturesResponse.Captures
+- uid: Worldline.Connect.Sdk.V1.Domain.CapturesResponse.Captures*
+  name: Captures
+  href: api/Worldline.Connect.Sdk.V1.Domain.CapturesResponse.html#Worldline_Connect_Sdk_V1_Domain_CapturesResponse_Captures_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CapturesResponse.Captures
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CapturesResponse.Captures
+  nameWithType: CapturesResponse.Captures
 - uid: Worldline.Connect.Sdk.V1.Domain.Card
   name: Card
   href: api/Worldline.Connect.Sdk.V1.Domain.Card.html
@@ -7677,19 +7677,6 @@ references:
   commentId: T:Worldline.Connect.Sdk.V1.Domain.CardEssentials
   fullName: Worldline.Connect.Sdk.V1.Domain.CardEssentials
   nameWithType: CardEssentials
-- uid: Worldline.Connect.Sdk.V1.Domain.CardEssentials.CardholderName
-  name: CardholderName
-  href: api/Worldline.Connect.Sdk.V1.Domain.CardEssentials.html#Worldline_Connect_Sdk_V1_Domain_CardEssentials_CardholderName
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.CardEssentials.CardholderName
-  fullName: Worldline.Connect.Sdk.V1.Domain.CardEssentials.CardholderName
-  nameWithType: CardEssentials.CardholderName
-- uid: Worldline.Connect.Sdk.V1.Domain.CardEssentials.CardholderName*
-  name: CardholderName
-  href: api/Worldline.Connect.Sdk.V1.Domain.CardEssentials.html#Worldline_Connect_Sdk_V1_Domain_CardEssentials_CardholderName_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CardEssentials.CardholderName
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.CardEssentials.CardholderName
-  nameWithType: CardEssentials.CardholderName
 - uid: Worldline.Connect.Sdk.V1.Domain.CardEssentials.CardNumber
   name: CardNumber
   href: api/Worldline.Connect.Sdk.V1.Domain.CardEssentials.html#Worldline_Connect_Sdk_V1_Domain_CardEssentials_CardNumber
@@ -7703,6 +7690,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.CardEssentials.CardNumber
   nameWithType: CardEssentials.CardNumber
+- uid: Worldline.Connect.Sdk.V1.Domain.CardEssentials.CardholderName
+  name: CardholderName
+  href: api/Worldline.Connect.Sdk.V1.Domain.CardEssentials.html#Worldline_Connect_Sdk_V1_Domain_CardEssentials_CardholderName
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CardEssentials.CardholderName
+  fullName: Worldline.Connect.Sdk.V1.Domain.CardEssentials.CardholderName
+  nameWithType: CardEssentials.CardholderName
+- uid: Worldline.Connect.Sdk.V1.Domain.CardEssentials.CardholderName*
+  name: CardholderName
+  href: api/Worldline.Connect.Sdk.V1.Domain.CardEssentials.html#Worldline_Connect_Sdk_V1_Domain_CardEssentials_CardholderName_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CardEssentials.CardholderName
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CardEssentials.CardholderName
+  nameWithType: CardEssentials.CardholderName
 - uid: Worldline.Connect.Sdk.V1.Domain.CardEssentials.ExpiryDate
   name: ExpiryDate
   href: api/Worldline.Connect.Sdk.V1.Domain.CardEssentials.html#Worldline_Connect_Sdk_V1_Domain_CardEssentials_ExpiryDate
@@ -8599,19 +8599,6 @@ references:
   commentId: T:Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase
   fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase
   nameWithType: ClickToPaySchemeConfigurationBase
-- uid: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId
-  name: SrciDpaId
-  href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.html#Worldline_Connect_Sdk_V1_Domain_ClickToPaySchemeConfigurationBase_SrciDpaId
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId
-  fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId
-  nameWithType: ClickToPaySchemeConfigurationBase.SrciDpaId
-- uid: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId*
-  name: SrciDpaId
-  href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.html#Worldline_Connect_Sdk_V1_Domain_ClickToPaySchemeConfigurationBase_SrciDpaId_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId
-  nameWithType: ClickToPaySchemeConfigurationBase.SrciDpaId
 - uid: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrcInitiatorId
   name: SrcInitiatorId
   href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.html#Worldline_Connect_Sdk_V1_Domain_ClickToPaySchemeConfigurationBase_SrcInitiatorId
@@ -8625,6 +8612,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrcInitiatorId
   nameWithType: ClickToPaySchemeConfigurationBase.SrcInitiatorId
+- uid: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId
+  name: SrciDpaId
+  href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.html#Worldline_Connect_Sdk_V1_Domain_ClickToPaySchemeConfigurationBase_SrciDpaId
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId
+  fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId
+  nameWithType: ClickToPaySchemeConfigurationBase.SrciDpaId
+- uid: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId*
+  name: SrciDpaId
+  href: api/Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.html#Worldline_Connect_Sdk_V1_Domain_ClickToPaySchemeConfigurationBase_SrciDpaId_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.ClickToPaySchemeConfigurationBase.SrciDpaId
+  nameWithType: ClickToPaySchemeConfigurationBase.SrciDpaId
 - uid: Worldline.Connect.Sdk.V1.Domain.CompanyInformation
   name: CompanyInformation
   href: api/Worldline.Connect.Sdk.V1.Domain.CompanyInformation.html
@@ -8945,103 +8945,6 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.CreateDisputeRequest.RequestMessage
   nameWithType: CreateDisputeRequest.RequestMessage
-- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput
-  name: CreatedPaymentOutput
-  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html
-  commentId: T:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput
-  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput
-  nameWithType: CreatedPaymentOutput
-- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.DisplayedData
-  name: DisplayedData
-  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_DisplayedData
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.DisplayedData
-  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.DisplayedData
-  nameWithType: CreatedPaymentOutput.DisplayedData
-- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.DisplayedData*
-  name: DisplayedData
-  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_DisplayedData_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.DisplayedData
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.DisplayedData
-  nameWithType: CreatedPaymentOutput.DisplayedData
-- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.IsCheckedRememberMe
-  name: IsCheckedRememberMe
-  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_IsCheckedRememberMe
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.IsCheckedRememberMe
-  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.IsCheckedRememberMe
-  nameWithType: CreatedPaymentOutput.IsCheckedRememberMe
-- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.IsCheckedRememberMe*
-  name: IsCheckedRememberMe
-  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_IsCheckedRememberMe_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.IsCheckedRememberMe
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.IsCheckedRememberMe
-  nameWithType: CreatedPaymentOutput.IsCheckedRememberMe
-- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Payment
-  name: Payment
-  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_Payment
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Payment
-  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Payment
-  nameWithType: CreatedPaymentOutput.Payment
-- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Payment*
-  name: Payment
-  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_Payment_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Payment
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Payment
-  nameWithType: CreatedPaymentOutput.Payment
-- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentCreationReferences
-  name: PaymentCreationReferences
-  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_PaymentCreationReferences
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentCreationReferences
-  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentCreationReferences
-  nameWithType: CreatedPaymentOutput.PaymentCreationReferences
-- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentCreationReferences*
-  name: PaymentCreationReferences
-  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_PaymentCreationReferences_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentCreationReferences
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentCreationReferences
-  nameWithType: CreatedPaymentOutput.PaymentCreationReferences
-- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentStatusCategory
-  name: PaymentStatusCategory
-  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_PaymentStatusCategory
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentStatusCategory
-  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentStatusCategory
-  nameWithType: CreatedPaymentOutput.PaymentStatusCategory
-- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentStatusCategory*
-  name: PaymentStatusCategory
-  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_PaymentStatusCategory_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentStatusCategory
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentStatusCategory
-  nameWithType: CreatedPaymentOutput.PaymentStatusCategory
-- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.TokenizationSucceeded
-  name: TokenizationSucceeded
-  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_TokenizationSucceeded
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.TokenizationSucceeded
-  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.TokenizationSucceeded
-  nameWithType: CreatedPaymentOutput.TokenizationSucceeded
-- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.TokenizationSucceeded*
-  name: TokenizationSucceeded
-  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_TokenizationSucceeded_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.TokenizationSucceeded
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.TokenizationSucceeded
-  nameWithType: CreatedPaymentOutput.TokenizationSucceeded
-- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Tokens
-  name: Tokens
-  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_Tokens
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Tokens
-  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Tokens
-  nameWithType: CreatedPaymentOutput.Tokens
-- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Tokens*
-  name: Tokens
-  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_Tokens_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Tokens
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Tokens
-  nameWithType: CreatedPaymentOutput.Tokens
 - uid: Worldline.Connect.Sdk.V1.Domain.CreateHostedCheckoutRequest
   name: CreateHostedCheckoutRequest
   href: api/Worldline.Connect.Sdk.V1.Domain.CreateHostedCheckoutRequest.html
@@ -9938,19 +9841,6 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.Card
   nameWithType: CreateTokenRequest.Card
-- uid: Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.EncryptedCustomerInput
-  name: EncryptedCustomerInput
-  href: api/Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.html#Worldline_Connect_Sdk_V1_Domain_CreateTokenRequest_EncryptedCustomerInput
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.EncryptedCustomerInput
-  fullName: Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.EncryptedCustomerInput
-  nameWithType: CreateTokenRequest.EncryptedCustomerInput
-- uid: Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.EncryptedCustomerInput*
-  name: EncryptedCustomerInput
-  href: api/Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.html#Worldline_Connect_Sdk_V1_Domain_CreateTokenRequest_EncryptedCustomerInput_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.EncryptedCustomerInput
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.EncryptedCustomerInput
-  nameWithType: CreateTokenRequest.EncryptedCustomerInput
 - uid: Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.EWallet
   name: EWallet
   href: api/Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.html#Worldline_Connect_Sdk_V1_Domain_CreateTokenRequest_EWallet
@@ -9964,6 +9854,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.EWallet
   nameWithType: CreateTokenRequest.EWallet
+- uid: Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.EncryptedCustomerInput
+  name: EncryptedCustomerInput
+  href: api/Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.html#Worldline_Connect_Sdk_V1_Domain_CreateTokenRequest_EncryptedCustomerInput
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.EncryptedCustomerInput
+  fullName: Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.EncryptedCustomerInput
+  nameWithType: CreateTokenRequest.EncryptedCustomerInput
+- uid: Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.EncryptedCustomerInput*
+  name: EncryptedCustomerInput
+  href: api/Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.html#Worldline_Connect_Sdk_V1_Domain_CreateTokenRequest_EncryptedCustomerInput_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.EncryptedCustomerInput
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.EncryptedCustomerInput
+  nameWithType: CreateTokenRequest.EncryptedCustomerInput
 - uid: Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.NonSepaDirectDebit
   name: NonSepaDirectDebit
   href: api/Worldline.Connect.Sdk.V1.Domain.CreateTokenRequest.html#Worldline_Connect_Sdk_V1_Domain_CreateTokenRequest_NonSepaDirectDebit
@@ -10048,6 +9951,103 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.CreateTokenResponse.Token
   nameWithType: CreateTokenResponse.Token
+- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput
+  name: CreatedPaymentOutput
+  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput
+  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput
+  nameWithType: CreatedPaymentOutput
+- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.DisplayedData
+  name: DisplayedData
+  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_DisplayedData
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.DisplayedData
+  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.DisplayedData
+  nameWithType: CreatedPaymentOutput.DisplayedData
+- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.DisplayedData*
+  name: DisplayedData
+  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_DisplayedData_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.DisplayedData
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.DisplayedData
+  nameWithType: CreatedPaymentOutput.DisplayedData
+- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.IsCheckedRememberMe
+  name: IsCheckedRememberMe
+  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_IsCheckedRememberMe
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.IsCheckedRememberMe
+  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.IsCheckedRememberMe
+  nameWithType: CreatedPaymentOutput.IsCheckedRememberMe
+- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.IsCheckedRememberMe*
+  name: IsCheckedRememberMe
+  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_IsCheckedRememberMe_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.IsCheckedRememberMe
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.IsCheckedRememberMe
+  nameWithType: CreatedPaymentOutput.IsCheckedRememberMe
+- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Payment
+  name: Payment
+  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_Payment
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Payment
+  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Payment
+  nameWithType: CreatedPaymentOutput.Payment
+- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Payment*
+  name: Payment
+  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_Payment_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Payment
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Payment
+  nameWithType: CreatedPaymentOutput.Payment
+- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentCreationReferences
+  name: PaymentCreationReferences
+  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_PaymentCreationReferences
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentCreationReferences
+  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentCreationReferences
+  nameWithType: CreatedPaymentOutput.PaymentCreationReferences
+- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentCreationReferences*
+  name: PaymentCreationReferences
+  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_PaymentCreationReferences_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentCreationReferences
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentCreationReferences
+  nameWithType: CreatedPaymentOutput.PaymentCreationReferences
+- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentStatusCategory
+  name: PaymentStatusCategory
+  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_PaymentStatusCategory
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentStatusCategory
+  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentStatusCategory
+  nameWithType: CreatedPaymentOutput.PaymentStatusCategory
+- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentStatusCategory*
+  name: PaymentStatusCategory
+  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_PaymentStatusCategory_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentStatusCategory
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.PaymentStatusCategory
+  nameWithType: CreatedPaymentOutput.PaymentStatusCategory
+- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.TokenizationSucceeded
+  name: TokenizationSucceeded
+  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_TokenizationSucceeded
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.TokenizationSucceeded
+  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.TokenizationSucceeded
+  nameWithType: CreatedPaymentOutput.TokenizationSucceeded
+- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.TokenizationSucceeded*
+  name: TokenizationSucceeded
+  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_TokenizationSucceeded_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.TokenizationSucceeded
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.TokenizationSucceeded
+  nameWithType: CreatedPaymentOutput.TokenizationSucceeded
+- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Tokens
+  name: Tokens
+  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_Tokens
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Tokens
+  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Tokens
+  nameWithType: CreatedPaymentOutput.Tokens
+- uid: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Tokens*
+  name: Tokens
+  href: api/Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_CreatedPaymentOutput_Tokens_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Tokens
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.CreatedPaymentOutput.Tokens
+  nameWithType: CreatedPaymentOutput.Tokens
 - uid: Worldline.Connect.Sdk.V1.Domain.Creditor
   name: Creditor
   href: api/Worldline.Connect.Sdk.V1.Domain.Creditor.html
@@ -11964,25 +11964,6 @@ references:
   commentId: T:Worldline.Connect.Sdk.V1.Domain.DisputeResponse
   fullName: Worldline.Connect.Sdk.V1.Domain.DisputeResponse
   nameWithType: DisputeResponse
-- uid: Worldline.Connect.Sdk.V1.Domain.DisputesResponse
-  name: DisputesResponse
-  href: api/Worldline.Connect.Sdk.V1.Domain.DisputesResponse.html
-  commentId: T:Worldline.Connect.Sdk.V1.Domain.DisputesResponse
-  fullName: Worldline.Connect.Sdk.V1.Domain.DisputesResponse
-  nameWithType: DisputesResponse
-- uid: Worldline.Connect.Sdk.V1.Domain.DisputesResponse.Disputes
-  name: Disputes
-  href: api/Worldline.Connect.Sdk.V1.Domain.DisputesResponse.html#Worldline_Connect_Sdk_V1_Domain_DisputesResponse_Disputes
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.DisputesResponse.Disputes
-  fullName: Worldline.Connect.Sdk.V1.Domain.DisputesResponse.Disputes
-  nameWithType: DisputesResponse.Disputes
-- uid: Worldline.Connect.Sdk.V1.Domain.DisputesResponse.Disputes*
-  name: Disputes
-  href: api/Worldline.Connect.Sdk.V1.Domain.DisputesResponse.html#Worldline_Connect_Sdk_V1_Domain_DisputesResponse_Disputes_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.DisputesResponse.Disputes
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.DisputesResponse.Disputes
-  nameWithType: DisputesResponse.Disputes
 - uid: Worldline.Connect.Sdk.V1.Domain.DisputeStatusOutput
   name: DisputeStatusOutput
   href: api/Worldline.Connect.Sdk.V1.Domain.DisputeStatusOutput.html
@@ -12041,6 +12022,25 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.DisputeStatusOutput.StatusCodeChangeDateTime
   nameWithType: DisputeStatusOutput.StatusCodeChangeDateTime
+- uid: Worldline.Connect.Sdk.V1.Domain.DisputesResponse
+  name: DisputesResponse
+  href: api/Worldline.Connect.Sdk.V1.Domain.DisputesResponse.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.DisputesResponse
+  fullName: Worldline.Connect.Sdk.V1.Domain.DisputesResponse
+  nameWithType: DisputesResponse
+- uid: Worldline.Connect.Sdk.V1.Domain.DisputesResponse.Disputes
+  name: Disputes
+  href: api/Worldline.Connect.Sdk.V1.Domain.DisputesResponse.html#Worldline_Connect_Sdk_V1_Domain_DisputesResponse_Disputes
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.DisputesResponse.Disputes
+  fullName: Worldline.Connect.Sdk.V1.Domain.DisputesResponse.Disputes
+  nameWithType: DisputesResponse.Disputes
+- uid: Worldline.Connect.Sdk.V1.Domain.DisputesResponse.Disputes*
+  name: Disputes
+  href: api/Worldline.Connect.Sdk.V1.Domain.DisputesResponse.html#Worldline_Connect_Sdk_V1_Domain_DisputesResponse_Disputes_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.DisputesResponse.Disputes
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.DisputesResponse.Disputes
+  nameWithType: DisputesResponse.Disputes
 - uid: Worldline.Connect.Sdk.V1.Domain.EInvoicePaymentMethodSpecificInput
   name: EInvoicePaymentMethodSpecificInput
   href: api/Worldline.Connect.Sdk.V1.Domain.EInvoicePaymentMethodSpecificInput.html
@@ -13039,6 +13039,77 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.Frequency.IntervalFrequency
   nameWithType: Frequency.IntervalFrequency
+- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure
+  name: GPayThreeDSecure
+  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure
+  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure
+  nameWithType: GPayThreeDSecure
+- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeCanvasSize
+  name: ChallengeCanvasSize
+  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_ChallengeCanvasSize
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeCanvasSize
+  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeCanvasSize
+  nameWithType: GPayThreeDSecure.ChallengeCanvasSize
+- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeCanvasSize*
+  name: ChallengeCanvasSize
+  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_ChallengeCanvasSize_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeCanvasSize
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeCanvasSize
+  nameWithType: GPayThreeDSecure.ChallengeCanvasSize
+- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeIndicator
+  name: ChallengeIndicator
+  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_ChallengeIndicator
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeIndicator
+  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeIndicator
+  nameWithType: GPayThreeDSecure.ChallengeIndicator
+- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeIndicator*
+  name: ChallengeIndicator
+  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_ChallengeIndicator_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeIndicator
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeIndicator
+  nameWithType: GPayThreeDSecure.ChallengeIndicator
+- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ExemptionRequest
+  name: ExemptionRequest
+  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_ExemptionRequest
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ExemptionRequest
+  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ExemptionRequest
+  nameWithType: GPayThreeDSecure.ExemptionRequest
+- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ExemptionRequest*
+  name: ExemptionRequest
+  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_ExemptionRequest_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ExemptionRequest
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ExemptionRequest
+  nameWithType: GPayThreeDSecure.ExemptionRequest
+- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.RedirectionData
+  name: RedirectionData
+  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_RedirectionData
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.RedirectionData
+  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.RedirectionData
+  nameWithType: GPayThreeDSecure.RedirectionData
+- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.RedirectionData*
+  name: RedirectionData
+  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_RedirectionData_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.RedirectionData
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.RedirectionData
+  nameWithType: GPayThreeDSecure.RedirectionData
+- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.SkipAuthentication
+  name: SkipAuthentication
+  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_SkipAuthentication
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.SkipAuthentication
+  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.SkipAuthentication
+  nameWithType: GPayThreeDSecure.SkipAuthentication
+- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.SkipAuthentication*
+  name: SkipAuthentication
+  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_SkipAuthentication_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.SkipAuthentication
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.SkipAuthentication
+  nameWithType: GPayThreeDSecure.SkipAuthentication
 - uid: Worldline.Connect.Sdk.V1.Domain.GetCustomerDetailsRequest
   name: GetCustomerDetailsRequest
   href: api/Worldline.Connect.Sdk.V1.Domain.GetCustomerDetailsRequest.html
@@ -13515,77 +13586,6 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.GiftCardPurchase.NumberOfGiftCards
   nameWithType: GiftCardPurchase.NumberOfGiftCards
-- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure
-  name: GPayThreeDSecure
-  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html
-  commentId: T:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure
-  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure
-  nameWithType: GPayThreeDSecure
-- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeCanvasSize
-  name: ChallengeCanvasSize
-  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_ChallengeCanvasSize
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeCanvasSize
-  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeCanvasSize
-  nameWithType: GPayThreeDSecure.ChallengeCanvasSize
-- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeCanvasSize*
-  name: ChallengeCanvasSize
-  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_ChallengeCanvasSize_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeCanvasSize
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeCanvasSize
-  nameWithType: GPayThreeDSecure.ChallengeCanvasSize
-- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeIndicator
-  name: ChallengeIndicator
-  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_ChallengeIndicator
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeIndicator
-  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeIndicator
-  nameWithType: GPayThreeDSecure.ChallengeIndicator
-- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeIndicator*
-  name: ChallengeIndicator
-  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_ChallengeIndicator_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeIndicator
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ChallengeIndicator
-  nameWithType: GPayThreeDSecure.ChallengeIndicator
-- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ExemptionRequest
-  name: ExemptionRequest
-  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_ExemptionRequest
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ExemptionRequest
-  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ExemptionRequest
-  nameWithType: GPayThreeDSecure.ExemptionRequest
-- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ExemptionRequest*
-  name: ExemptionRequest
-  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_ExemptionRequest_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ExemptionRequest
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.ExemptionRequest
-  nameWithType: GPayThreeDSecure.ExemptionRequest
-- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.RedirectionData
-  name: RedirectionData
-  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_RedirectionData
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.RedirectionData
-  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.RedirectionData
-  nameWithType: GPayThreeDSecure.RedirectionData
-- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.RedirectionData*
-  name: RedirectionData
-  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_RedirectionData_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.RedirectionData
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.RedirectionData
-  nameWithType: GPayThreeDSecure.RedirectionData
-- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.SkipAuthentication
-  name: SkipAuthentication
-  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_SkipAuthentication
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.SkipAuthentication
-  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.SkipAuthentication
-  nameWithType: GPayThreeDSecure.SkipAuthentication
-- uid: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.SkipAuthentication*
-  name: SkipAuthentication
-  href: api/Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.html#Worldline_Connect_Sdk_V1_Domain_GPayThreeDSecure_SkipAuthentication_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.SkipAuthentication
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.GPayThreeDSecure.SkipAuthentication
-  nameWithType: GPayThreeDSecure.SkipAuthentication
 - uid: Worldline.Connect.Sdk.V1.Domain.HostedCheckoutSpecificInput
   name: HostedCheckoutSpecificInput
   href: api/Worldline.Connect.Sdk.V1.Domain.HostedCheckoutSpecificInput.html
@@ -17897,19 +17897,6 @@ references:
   commentId: T:Worldline.Connect.Sdk.V1.Domain.PaymentOutput
   fullName: Worldline.Connect.Sdk.V1.Domain.PaymentOutput
   nameWithType: PaymentOutput
-- uid: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountCaptured
-  name: AmountCaptured
-  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_PaymentOutput_AmountCaptured
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountCaptured
-  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountCaptured
-  nameWithType: PaymentOutput.AmountCaptured
-- uid: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountCaptured*
-  name: AmountCaptured
-  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_PaymentOutput_AmountCaptured_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountCaptured
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountCaptured
-  nameWithType: PaymentOutput.AmountCaptured
 - uid: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountCaptureRequested
   name: AmountCaptureRequested
   href: api/Worldline.Connect.Sdk.V1.Domain.PaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_PaymentOutput_AmountCaptureRequested
@@ -17923,6 +17910,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountCaptureRequested
   nameWithType: PaymentOutput.AmountCaptureRequested
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountCaptured
+  name: AmountCaptured
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_PaymentOutput_AmountCaptured
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountCaptured
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountCaptured
+  nameWithType: PaymentOutput.AmountCaptured
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountCaptured*
+  name: AmountCaptured
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_PaymentOutput_AmountCaptured_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountCaptured
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountCaptured
+  nameWithType: PaymentOutput.AmountCaptured
 - uid: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountPaid
   name: AmountPaid
   href: api/Worldline.Connect.Sdk.V1.Domain.PaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_PaymentOutput_AmountPaid
@@ -17936,19 +17936,6 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountPaid
   nameWithType: PaymentOutput.AmountPaid
-- uid: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountRefunded
-  name: AmountRefunded
-  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_PaymentOutput_AmountRefunded
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountRefunded
-  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountRefunded
-  nameWithType: PaymentOutput.AmountRefunded
-- uid: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountRefunded*
-  name: AmountRefunded
-  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_PaymentOutput_AmountRefunded_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountRefunded
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountRefunded
-  nameWithType: PaymentOutput.AmountRefunded
 - uid: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountRefundRequested
   name: AmountRefundRequested
   href: api/Worldline.Connect.Sdk.V1.Domain.PaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_PaymentOutput_AmountRefundRequested
@@ -17962,6 +17949,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountRefundRequested
   nameWithType: PaymentOutput.AmountRefundRequested
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountRefunded
+  name: AmountRefunded
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_PaymentOutput_AmountRefunded
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountRefunded
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountRefunded
+  nameWithType: PaymentOutput.AmountRefunded
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountRefunded*
+  name: AmountRefunded
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_PaymentOutput_AmountRefunded_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountRefunded
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountRefunded
+  nameWithType: PaymentOutput.AmountRefunded
 - uid: Worldline.Connect.Sdk.V1.Domain.PaymentOutput.AmountReversed
   name: AmountReversed
   href: api/Worldline.Connect.Sdk.V1.Domain.PaymentOutput.html#Worldline_Connect_Sdk_V1_Domain_PaymentOutput_AmountReversed
@@ -19923,6 +19923,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.PaymentReferences.MerchantCaptureReference
   nameWithType: PaymentReferences.MerchantCaptureReference
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentReferences.MerchantCustomerId
+  name: MerchantCustomerId
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentReferences.html#Worldline_Connect_Sdk_V1_Domain_PaymentReferences_MerchantCustomerId
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.PaymentReferences.MerchantCustomerId
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentReferences.MerchantCustomerId
+  nameWithType: PaymentReferences.MerchantCustomerId
+- uid: Worldline.Connect.Sdk.V1.Domain.PaymentReferences.MerchantCustomerId*
+  name: MerchantCustomerId
+  href: api/Worldline.Connect.Sdk.V1.Domain.PaymentReferences.html#Worldline_Connect_Sdk_V1_Domain_PaymentReferences_MerchantCustomerId_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.PaymentReferences.MerchantCustomerId
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.PaymentReferences.MerchantCustomerId
+  nameWithType: PaymentReferences.MerchantCustomerId
 - uid: Worldline.Connect.Sdk.V1.Domain.PaymentReferences.MerchantOrderId
   name: MerchantOrderId
   href: api/Worldline.Connect.Sdk.V1.Domain.PaymentReferences.html#Worldline_Connect_Sdk_V1_Domain_PaymentReferences_MerchantOrderId
@@ -20756,19 +20769,6 @@ references:
   commentId: T:Worldline.Connect.Sdk.V1.Domain.RedirectDataBase
   fullName: Worldline.Connect.Sdk.V1.Domain.RedirectDataBase
   nameWithType: RedirectDataBase
-- uid: Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.RedirectURL
-  name: RedirectURL
-  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.html#Worldline_Connect_Sdk_V1_Domain_RedirectDataBase_RedirectURL
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.RedirectURL
-  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.RedirectURL
-  nameWithType: RedirectDataBase.RedirectURL
-- uid: Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.RedirectURL*
-  name: RedirectURL
-  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.html#Worldline_Connect_Sdk_V1_Domain_RedirectDataBase_RedirectURL_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.RedirectURL
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.RedirectURL
-  nameWithType: RedirectDataBase.RedirectURL
 - uid: Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.RETURNMAC
   name: RETURNMAC
   href: api/Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.html#Worldline_Connect_Sdk_V1_Domain_RedirectDataBase_RETURNMAC
@@ -20782,38 +20782,19 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.RETURNMAC
   nameWithType: RedirectDataBase.RETURNMAC
-- uid: Worldline.Connect.Sdk.V1.Domain.RedirectionData
-  name: RedirectionData
-  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectionData.html
-  commentId: T:Worldline.Connect.Sdk.V1.Domain.RedirectionData
-  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectionData
-  nameWithType: RedirectionData
-- uid: Worldline.Connect.Sdk.V1.Domain.RedirectionData.ReturnUrl
-  name: ReturnUrl
-  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectionData.html#Worldline_Connect_Sdk_V1_Domain_RedirectionData_ReturnUrl
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.RedirectionData.ReturnUrl
-  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectionData.ReturnUrl
-  nameWithType: RedirectionData.ReturnUrl
-- uid: Worldline.Connect.Sdk.V1.Domain.RedirectionData.ReturnUrl*
-  name: ReturnUrl
-  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectionData.html#Worldline_Connect_Sdk_V1_Domain_RedirectionData_ReturnUrl_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.RedirectionData.ReturnUrl
+- uid: Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.RedirectURL
+  name: RedirectURL
+  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.html#Worldline_Connect_Sdk_V1_Domain_RedirectDataBase_RedirectURL
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.RedirectURL
+  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.RedirectURL
+  nameWithType: RedirectDataBase.RedirectURL
+- uid: Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.RedirectURL*
+  name: RedirectURL
+  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.html#Worldline_Connect_Sdk_V1_Domain_RedirectDataBase_RedirectURL_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.RedirectURL
   isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectionData.ReturnUrl
-  nameWithType: RedirectionData.ReturnUrl
-- uid: Worldline.Connect.Sdk.V1.Domain.RedirectionData.Variant
-  name: Variant
-  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectionData.html#Worldline_Connect_Sdk_V1_Domain_RedirectionData_Variant
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.RedirectionData.Variant
-  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectionData.Variant
-  nameWithType: RedirectionData.Variant
-- uid: Worldline.Connect.Sdk.V1.Domain.RedirectionData.Variant*
-  name: Variant
-  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectionData.html#Worldline_Connect_Sdk_V1_Domain_RedirectionData_Variant_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.RedirectionData.Variant
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectionData.Variant
-  nameWithType: RedirectionData.Variant
+  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectDataBase.RedirectURL
+  nameWithType: RedirectDataBase.RedirectURL
 - uid: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificInput
   name: RedirectPaymentMethodSpecificInput
   href: api/Worldline.Connect.Sdk.V1.Domain.RedirectPaymentMethodSpecificInput.html
@@ -21392,6 +21373,38 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.RedirectPaymentProduct882SpecificInput.IssuerId
   nameWithType: RedirectPaymentProduct882SpecificInput.IssuerId
+- uid: Worldline.Connect.Sdk.V1.Domain.RedirectionData
+  name: RedirectionData
+  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectionData.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.RedirectionData
+  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectionData
+  nameWithType: RedirectionData
+- uid: Worldline.Connect.Sdk.V1.Domain.RedirectionData.ReturnUrl
+  name: ReturnUrl
+  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectionData.html#Worldline_Connect_Sdk_V1_Domain_RedirectionData_ReturnUrl
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.RedirectionData.ReturnUrl
+  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectionData.ReturnUrl
+  nameWithType: RedirectionData.ReturnUrl
+- uid: Worldline.Connect.Sdk.V1.Domain.RedirectionData.ReturnUrl*
+  name: ReturnUrl
+  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectionData.html#Worldline_Connect_Sdk_V1_Domain_RedirectionData_ReturnUrl_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.RedirectionData.ReturnUrl
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectionData.ReturnUrl
+  nameWithType: RedirectionData.ReturnUrl
+- uid: Worldline.Connect.Sdk.V1.Domain.RedirectionData.Variant
+  name: Variant
+  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectionData.html#Worldline_Connect_Sdk_V1_Domain_RedirectionData_Variant
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.RedirectionData.Variant
+  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectionData.Variant
+  nameWithType: RedirectionData.Variant
+- uid: Worldline.Connect.Sdk.V1.Domain.RedirectionData.Variant*
+  name: Variant
+  href: api/Worldline.Connect.Sdk.V1.Domain.RedirectionData.html#Worldline_Connect_Sdk_V1_Domain_RedirectionData_Variant_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.RedirectionData.Variant
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.RedirectionData.Variant
+  nameWithType: RedirectionData.Variant
 - uid: Worldline.Connect.Sdk.V1.Domain.RefundBankMethodSpecificOutput
   name: RefundBankMethodSpecificOutput
   href: api/Worldline.Connect.Sdk.V1.Domain.RefundBankMethodSpecificOutput.html
@@ -21500,6 +21513,25 @@ references:
   commentId: T:Worldline.Connect.Sdk.V1.Domain.RefundEInvoiceMethodSpecificOutput
   fullName: Worldline.Connect.Sdk.V1.Domain.RefundEInvoiceMethodSpecificOutput
   nameWithType: RefundEInvoiceMethodSpecificOutput
+- uid: Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput
+  name: RefundEWalletMethodSpecificOutput
+  href: api/Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput
+  fullName: Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput
+  nameWithType: RefundEWalletMethodSpecificOutput
+- uid: Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput.PaymentProduct840SpecificOutput
+  name: PaymentProduct840SpecificOutput
+  href: api/Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_RefundEWalletMethodSpecificOutput_PaymentProduct840SpecificOutput
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput.PaymentProduct840SpecificOutput
+  fullName: Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput.PaymentProduct840SpecificOutput
+  nameWithType: RefundEWalletMethodSpecificOutput.PaymentProduct840SpecificOutput
+- uid: Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput.PaymentProduct840SpecificOutput*
+  name: PaymentProduct840SpecificOutput
+  href: api/Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_RefundEWalletMethodSpecificOutput_PaymentProduct840SpecificOutput_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput.PaymentProduct840SpecificOutput
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput.PaymentProduct840SpecificOutput
+  nameWithType: RefundEWalletMethodSpecificOutput.PaymentProduct840SpecificOutput
 - uid: Worldline.Connect.Sdk.V1.Domain.RefundErrorResponse
   name: RefundErrorResponse
   href: api/Worldline.Connect.Sdk.V1.Domain.RefundErrorResponse.html
@@ -21545,25 +21577,6 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.RefundErrorResponse.RefundResult
   nameWithType: RefundErrorResponse.RefundResult
-- uid: Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput
-  name: RefundEWalletMethodSpecificOutput
-  href: api/Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput.html
-  commentId: T:Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput
-  fullName: Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput
-  nameWithType: RefundEWalletMethodSpecificOutput
-- uid: Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput.PaymentProduct840SpecificOutput
-  name: PaymentProduct840SpecificOutput
-  href: api/Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_RefundEWalletMethodSpecificOutput_PaymentProduct840SpecificOutput
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput.PaymentProduct840SpecificOutput
-  fullName: Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput.PaymentProduct840SpecificOutput
-  nameWithType: RefundEWalletMethodSpecificOutput.PaymentProduct840SpecificOutput
-- uid: Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput.PaymentProduct840SpecificOutput*
-  name: PaymentProduct840SpecificOutput
-  href: api/Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput.html#Worldline_Connect_Sdk_V1_Domain_RefundEWalletMethodSpecificOutput_PaymentProduct840SpecificOutput_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput.PaymentProduct840SpecificOutput
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.RefundEWalletMethodSpecificOutput.PaymentProduct840SpecificOutput
-  nameWithType: RefundEWalletMethodSpecificOutput.PaymentProduct840SpecificOutput
 - uid: Worldline.Connect.Sdk.V1.Domain.RefundMethodSpecificOutput
   name: RefundMethodSpecificOutput
   href: api/Worldline.Connect.Sdk.V1.Domain.RefundMethodSpecificOutput.html
@@ -23798,25 +23811,6 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.TokenEWalletData.BillingAgreementId
   nameWithType: TokenEWalletData.BillingAgreementId
-- uid: Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest
-  name: TokenizePaymentRequest
-  href: api/Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest.html
-  commentId: T:Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest
-  fullName: Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest
-  nameWithType: TokenizePaymentRequest
-- uid: Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest.Alias
-  name: Alias
-  href: api/Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest.html#Worldline_Connect_Sdk_V1_Domain_TokenizePaymentRequest_Alias
-  commentId: P:Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest.Alias
-  fullName: Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest.Alias
-  nameWithType: TokenizePaymentRequest.Alias
-- uid: Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest.Alias*
-  name: Alias
-  href: api/Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest.html#Worldline_Connect_Sdk_V1_Domain_TokenizePaymentRequest_Alias_
-  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest.Alias
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest.Alias
-  nameWithType: TokenizePaymentRequest.Alias
 - uid: Worldline.Connect.Sdk.V1.Domain.TokenNonSepaDirectDebit
   name: TokenNonSepaDirectDebit
   href: api/Worldline.Connect.Sdk.V1.Domain.TokenNonSepaDirectDebit.html
@@ -24061,6 +24055,25 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.V1.Domain.TokenSepaDirectDebitWithoutCreditor.Mandate
   nameWithType: TokenSepaDirectDebitWithoutCreditor.Mandate
+- uid: Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest
+  name: TokenizePaymentRequest
+  href: api/Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest.html
+  commentId: T:Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest
+  fullName: Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest
+  nameWithType: TokenizePaymentRequest
+- uid: Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest.Alias
+  name: Alias
+  href: api/Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest.html#Worldline_Connect_Sdk_V1_Domain_TokenizePaymentRequest_Alias
+  commentId: P:Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest.Alias
+  fullName: Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest.Alias
+  nameWithType: TokenizePaymentRequest.Alias
+- uid: Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest.Alias*
+  name: Alias
+  href: api/Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest.html#Worldline_Connect_Sdk_V1_Domain_TokenizePaymentRequest_Alias_
+  commentId: Overload:Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest.Alias
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.V1.Domain.TokenizePaymentRequest.Alias
+  nameWithType: TokenizePaymentRequest.Alias
 - uid: Worldline.Connect.Sdk.V1.Domain.TrialInformation
   name: TrialInformation
   href: api/Worldline.Connect.Sdk.V1.Domain.TrialInformation.html
@@ -27977,6 +27990,28 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.Webhooks.ApiVersionMismatchException.SdkApiVersion
   nameWithType: ApiVersionMismatchException.SdkApiVersion
+- uid: Worldline.Connect.Sdk.Webhooks.ISecretKeyStore
+  name: ISecretKeyStore
+  href: api/Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.html
+  commentId: T:Worldline.Connect.Sdk.Webhooks.ISecretKeyStore
+  fullName: Worldline.Connect.Sdk.Webhooks.ISecretKeyStore
+  nameWithType: ISecretKeyStore
+- uid: Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.GetSecretKey(System.String)
+  name: GetSecretKey(string)
+  href: api/Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.html#Worldline_Connect_Sdk_Webhooks_ISecretKeyStore_GetSecretKey_System_String_
+  commentId: M:Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.GetSecretKey(System.String)
+  name.vb: GetSecretKey(String)
+  fullName: Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.GetSecretKey(string)
+  fullName.vb: Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.GetSecretKey(String)
+  nameWithType: ISecretKeyStore.GetSecretKey(string)
+  nameWithType.vb: ISecretKeyStore.GetSecretKey(String)
+- uid: Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.GetSecretKey*
+  name: GetSecretKey
+  href: api/Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.html#Worldline_Connect_Sdk_Webhooks_ISecretKeyStore_GetSecretKey_
+  commentId: Overload:Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.GetSecretKey
+  isSpec: "True"
+  fullName: Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.GetSecretKey
+  nameWithType: ISecretKeyStore.GetSecretKey
 - uid: Worldline.Connect.Sdk.Webhooks.InMemorySecretKeyStore
   name: InMemorySecretKeyStore
   href: api/Worldline.Connect.Sdk.Webhooks.InMemorySecretKeyStore.html
@@ -28050,28 +28085,6 @@ references:
   isSpec: "True"
   fullName: Worldline.Connect.Sdk.Webhooks.InMemorySecretKeyStore.StoreSecretKey
   nameWithType: InMemorySecretKeyStore.StoreSecretKey
-- uid: Worldline.Connect.Sdk.Webhooks.ISecretKeyStore
-  name: ISecretKeyStore
-  href: api/Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.html
-  commentId: T:Worldline.Connect.Sdk.Webhooks.ISecretKeyStore
-  fullName: Worldline.Connect.Sdk.Webhooks.ISecretKeyStore
-  nameWithType: ISecretKeyStore
-- uid: Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.GetSecretKey(System.String)
-  name: GetSecretKey(string)
-  href: api/Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.html#Worldline_Connect_Sdk_Webhooks_ISecretKeyStore_GetSecretKey_System_String_
-  commentId: M:Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.GetSecretKey(System.String)
-  name.vb: GetSecretKey(String)
-  fullName: Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.GetSecretKey(string)
-  fullName.vb: Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.GetSecretKey(String)
-  nameWithType: ISecretKeyStore.GetSecretKey(string)
-  nameWithType.vb: ISecretKeyStore.GetSecretKey(String)
-- uid: Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.GetSecretKey*
-  name: GetSecretKey
-  href: api/Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.html#Worldline_Connect_Sdk_Webhooks_ISecretKeyStore_GetSecretKey_
-  commentId: Overload:Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.GetSecretKey
-  isSpec: "True"
-  fullName: Worldline.Connect.Sdk.Webhooks.ISecretKeyStore.GetSecretKey
-  nameWithType: ISecretKeyStore.GetSecretKey
 - uid: Worldline.Connect.Sdk.Webhooks.SecretKeyNotAvailableException
   name: SecretKeyNotAvailableException
   href: api/Worldline.Connect.Sdk.Webhooks.SecretKeyNotAvailableException.html

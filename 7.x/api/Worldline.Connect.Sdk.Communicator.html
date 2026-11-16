@@ -1,16 +1,15 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
 
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class Communicator
- | Worldline Connect .NET SDK </title>
+      <title>Class Communicator | Worldline Connect .NET SDK </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class Communicator
- | Worldline Connect .NET SDK ">
+      <meta name="title" content="Class Communicator | Worldline Connect .NET SDK ">
     
+    <meta name="description" content="Used to communicate with the Worldline Global Collect platform web services.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -64,7 +63,7 @@
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
@@ -81,8 +80,7 @@
 
 
 
-  <h1 id="Worldline_Connect_Sdk_Communicator" data-uid="Worldline.Connect.Sdk.Communicator" class="text-break">Class Communicator
-</h1>
+  <h1 id="Worldline_Connect_Sdk_Communicator" data-uid="Worldline.Connect.Sdk.Communicator" class="text-break">Class Communicator</h1>
   <div class="markdown level0 summary"><p>Used to communicate with the Worldline Global Collect platform web services.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
@@ -700,6 +698,71 @@ collector can reclaim the memory that the <a class="xref" href="Worldline.Connec
       </tr>
     </tbody>
   </table>
+  <a id="Worldline_Connect_Sdk_Communicator_GetHeaderDateString_" data-uid="Worldline.Connect.Sdk.Communicator.GetHeaderDateString*"></a>
+  <h4 id="Worldline_Connect_Sdk_Communicator_GetHeaderDateString" data-uid="Worldline.Connect.Sdk.Communicator.GetHeaderDateString">GetHeaderDateString()</h4>
+  <div class="markdown level1 summary"><p>Gets the date in the preferred format for the HTTP date header (RFC1123).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static string GetHeaderDateString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>The header date string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Worldline_Connect_Sdk_Communicator_GetIdempotenceTimestamp_" data-uid="Worldline.Connect.Sdk.Communicator.GetIdempotenceTimestamp*"></a>
+  <h4 id="Worldline_Connect_Sdk_Communicator_GetIdempotenceTimestamp_System_Collections_Generic_IEnumerable_Worldline_Connect_Sdk_Communication_IResponseHeader__" data-uid="Worldline.Connect.Sdk.Communicator.GetIdempotenceTimestamp(System.Collections.Generic.IEnumerable{Worldline.Connect.Sdk.Communication.IResponseHeader})">GetIdempotenceTimestamp(IEnumerable&lt;IResponseHeader&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static long? GetIdempotenceTimestamp(IEnumerable&lt;IResponseHeader&gt; headers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Worldline.Connect.Sdk.Communication.IResponseHeader.html">IResponseHeader</a>&gt;</td>
+        <td><span class="parametername">headers</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Worldline_Connect_Sdk_Communicator_Get_" data-uid="Worldline.Connect.Sdk.Communicator.Get*"></a>
   <h4 id="Worldline_Connect_Sdk_Communicator_Get__1_System_String_System_Collections_Generic_IEnumerable_Worldline_Connect_Sdk_Communication_IRequestHeader__Worldline_Connect_Sdk_Communication_AbstractParamRequest_Worldline_Connect_Sdk_CallContext_" data-uid="Worldline.Connect.Sdk.Communicator.Get``1(System.String,System.Collections.Generic.IEnumerable{Worldline.Connect.Sdk.Communication.IRequestHeader},Worldline.Connect.Sdk.Communication.AbstractParamRequest,Worldline.Connect.Sdk.CallContext)">Get&lt;T&gt;(string, IEnumerable&lt;IRequestHeader&gt;, AbstractParamRequest, CallContext)</h4>
   <div class="markdown level1 summary"><p>Corresponds to the HTTP Get method.</p>
@@ -794,71 +857,6 @@ collector can reclaim the memory that the <a class="xref" href="Worldline.Connec
         <td><a class="xref" href="Worldline.Connect.Sdk.Communication.ResponseException.html">ResponseException</a></td>
         <td><p>when an error response was received from the Worldline Global Collect platform</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Worldline_Connect_Sdk_Communicator_GetHeaderDateString_" data-uid="Worldline.Connect.Sdk.Communicator.GetHeaderDateString*"></a>
-  <h4 id="Worldline_Connect_Sdk_Communicator_GetHeaderDateString" data-uid="Worldline.Connect.Sdk.Communicator.GetHeaderDateString">GetHeaderDateString()</h4>
-  <div class="markdown level1 summary"><p>Gets the date in the preferred format for the HTTP date header (RFC1123).</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected static string GetHeaderDateString()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><p>The header date string.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Worldline_Connect_Sdk_Communicator_GetIdempotenceTimestamp_" data-uid="Worldline.Connect.Sdk.Communicator.GetIdempotenceTimestamp*"></a>
-  <h4 id="Worldline_Connect_Sdk_Communicator_GetIdempotenceTimestamp_System_Collections_Generic_IEnumerable_Worldline_Connect_Sdk_Communication_IResponseHeader__" data-uid="Worldline.Connect.Sdk.Communicator.GetIdempotenceTimestamp(System.Collections.Generic.IEnumerable{Worldline.Connect.Sdk.Communication.IResponseHeader})">GetIdempotenceTimestamp(IEnumerable&lt;IResponseHeader&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected static long? GetIdempotenceTimestamp(IEnumerable&lt;IResponseHeader&gt; headers)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Worldline.Connect.Sdk.Communication.IResponseHeader.html">IResponseHeader</a>&gt;</td>
-        <td><span class="parametername">headers</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</td>
-        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1402,7 +1400,7 @@ collector can reclaim the memory that the <a class="xref" href="Worldline.Connec
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
