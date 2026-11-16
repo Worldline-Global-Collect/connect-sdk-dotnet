@@ -12,6 +12,11 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public string MerchantCaptureReference { get; set; }
 
         /// <summary>
+        /// Your identifier for the customer. It can be used as a search criteria in the GlobalCollect Payment Console and is also included in the GlobalCollect report files. It is used in the fraud-screening process for payments on the Ogone Payment Platform.
+        /// </summary>
+        public string MerchantCustomerId { get; set; }
+
+        /// <summary>
         /// Your order ID for this transaction that is also returned in our report files
         /// </summary>
         public long? MerchantOrderId { get; set; }

@@ -85,7 +85,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public string Name { get; set; }
 
         /// <summary>
-        /// Total number of passengers in the party. If the the property numberInParty is not present, then the number of passengers will be used on the WL Online Payment Acceptance Platform.
+        /// Total number of passengers in the party.
         /// </summary>
         public int? NumberInParty { get; set; }
 

@@ -19,7 +19,7 @@ namespace Worldline.Connect.Sdk.V1.Merchant.Payments
         public string HostedCheckoutId { get; set; }
 
         /// <summary>
-        /// Your unique transaction reference to filter on. The maximum length is 52 characters for payments that are processed by WL Online Payment Acceptance platform.
+        /// Your unique transaction reference to filter on.
         /// </summary>
         public string MerchantReference { get; set; }
 

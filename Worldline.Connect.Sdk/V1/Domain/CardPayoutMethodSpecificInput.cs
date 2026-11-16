@@ -25,7 +25,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
 
         /// <summary>
         /// ID of the token that holds previously stored card data.
-        /// <br /> If both the token and card are provided, then the card takes precedence over the token.
+        /// <br />
         /// </summary>
         public string Token { get; set; }
     }

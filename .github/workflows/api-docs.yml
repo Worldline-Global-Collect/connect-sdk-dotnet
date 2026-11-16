@@ -21,8 +21,7 @@ jobs:
         with:
           dotnet-version: '8.0'
       - name: Install docfx
-        # Versions after 2.65.1 generate broken links to parent namespaces that don't exist
-        run: dotnet tool update -g docfx --version 2.65.1
+        run: dotnet tool update -g docfx --version 2.81.0
       - name: Build API docs
         run: docfx docfx.json
         working-directory: code/documentation

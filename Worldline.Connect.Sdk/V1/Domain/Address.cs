@@ -7,7 +7,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
     public class Address
     {
         /// <summary>
-        /// Additional address information. The additionalInfo is truncated after 10 characters for payments, refunds or payouts that are processed by the WL Online Payment Acceptance platform
+        /// Additional address information.
         /// </summary>
         public string AdditionalInfo { get; set; }
 
@@ -23,7 +23,7 @@ namespace Worldline.Connect.Sdk.V1.Domain
         public string CountryCode { get; set; }
 
         /// <summary>
-        /// House number. The houseNumber is truncated after 10 characters for payments, refunds or payouts that are processed by the WL Online Payment Acceptance platform
+        /// House number.
         /// </summary>
         public string HouseNumber { get; set; }
 
@@ -39,7 +39,6 @@ namespace Worldline.Connect.Sdk.V1.Domain
         /// <list type="bullet">
         ///   <item><description>The maximum length for 3-D Secure version 2 is AN3 for payments that are processed by the GlobalCollect platform</description></item>
         ///   <item><description>The maximum length for paymentProductId 1503 (Boleto) is AN2 for payments that are processed by the GlobalCollect platform</description></item>
-        ///   <item><description>The maximum length is 3 for payments that are processed by the WL Online Payment Acceptance platform</description></item>
         /// </list>
         /// </summary>
         public string StateCode { get; set; }
